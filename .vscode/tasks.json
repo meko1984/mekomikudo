@@ -10,7 +10,7 @@
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "${workspaceFolder}\\scripts\\Test-Project.ps1"
+        "${workspaceFolder}\\scripts\\project-check.ps1"
       ],
       "group": {
         "kind": "test",

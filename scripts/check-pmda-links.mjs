@@ -5,7 +5,7 @@ import process from "node:process";
 const root = process.cwd();
 const dataDirectory = path.join(root, "data", "medications");
 const files = (await readdir(dataDirectory))
-  .filter((name) => name.endsWith("-audited.csv"))
+  .filter((name) => name.endsWith(".csv"))
   .sort();
 
 const texts = await Promise.all(

@@ -152,7 +152,7 @@ $labCsv = Join-Path $projectRoot "data\lab-values.csv"
 Test-CsvHeaders -Path $labCsv -ExpectedHeaders $expectedLabHeaders
 
 try {
-    & (Join-Path $PSScriptRoot "Update-LabsPage.ps1") -Check | Out-Null
+    & (Join-Path $PSScriptRoot "update-lab-values-page.ps1") -Check | Out-Null
 }
 catch {
     $errors.Add($_.Exception.Message)
