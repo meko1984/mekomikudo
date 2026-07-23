@@ -3,65 +3,130 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>永遠の新人看護師備忘録</title>
-  <meta name="description" content="看護学習ノート、日常医療英語、活動記録、制作物を整理する個人の学習ノート。">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>看護学生・新人看護師の学習ノート | 永遠の新人看護師備忘録</title>
+  <meta name="description" content="看護学生・新人看護師に向けて、観察項目、検査値、薬剤、看護技術、疾患、急変対応などを分かりやすく整理する看護学習ノートです。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#eef6f8">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="永遠の新人看護師備忘録">
+  <meta property="og:title" content="看護学生・新人看護師の学習ノート | 永遠の新人看護師備忘録">
+  <meta property="og:description" content="授業・実習・現場で確認したい看護の知識を、分かりやすく整理する学習ノートです。">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260723">
 </head>
 <body data-page="home">
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html"><span>永遠の新人看護師備忘録</span></a>
+      <a class="brand" href="./"><span>永遠の新人看護師備忘録</span></a>
       <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false">☰</button>
       <nav class="site-nav" aria-label="主要メニュー">
-        <a href="index.html" data-nav="home">トップ</a>
-        <a href="pages/nursing.html" data-nav="nursing">看護学習ノート</a>
-        <a href="pages/medical-english.html" data-nav="english">日常医療英語</a>
-        <a href="pages/activity.html" data-nav="activity">活動記録</a>
-        <a href="pages/works.html" data-nav="works">制作物</a>
-        <a href="pages/profile.html" data-nav="profile">プロフィール・お問い合わせ</a>
+        <a href="./" data-nav="home">トップ</a>
+        <a href="nursing/" data-nav="nursing">看護学習ノート</a>
+        <a href="nursing/labs/" data-nav="labs">検査値</a>
+        <a href="nursing/medications/" data-nav="medications">薬剤</a>
+        <a href="nursing/medications/comparisons/" data-nav="comparisons">薬剤比較</a>
+        <a href="about/" data-nav="profile">サイトについて</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <p class="eyebrow">Nursing notebook dashboard</p>
-        <h1>永遠の新人看護師備忘録</h1>
-        <p class="hero-copy">看護のこと、英語のこと、つくったもの。忘れたくない学びを、少しずつ整理していく場所です。</p>
+    <section class="hero home-hero">
+      <div class="hero-inner home-hero-layout">
+        <div class="home-hero-content">
+          <p class="eyebrow">看護学生・新人看護師のための学習ノート</p>
+          <h1>迷ったときに、<br>もう一度確認できる場所。</h1>
+          <p class="hero-copy">観察項目、検査値、薬剤、看護技術など、授業・実習・現場で気になった看護の知識を、あとから探しやすい形に整理しています。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="nursing/">看護学習ノートを見る</a>
+            <a class="button secondary" href="nursing/labs/">検査値を調べる</a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="このサイトで確認できること">
+          <p class="hero-note-title">こんなときに</p>
+          <ul class="check-list">
+            <li>実習前に観察の視点を整理したい</li>
+            <li>検査値や薬剤を確認したい</li>
+            <li>看護技術の注意点を振り返りたい</li>
+            <li>薬剤の違いや観察項目を比べたい</li>
+          </ul>
+        </aside>
       </div>
     </section>
 
-    <section class="wrap">
-      <h2 class="section-title">主要カテゴリ</h2>
-      <p class="lead">正式構成に合わせた、サイト全体の入口です。</p>
-      <div class="grid five">
-        <a class="card pad is-nursing" href="pages/nursing.html"><h3>看護学習ノート</h3><p>看護の学びをカテゴリ別に整理。</p></a>
-        <a class="card pad is-english" href="pages/medical-english.html"><h3>日常医療英語</h3><p>日常英単語と病棟フレーズ。</p></a>
-        <a class="card pad is-log" href="pages/activity.html"><h3>活動記録</h3><p>動画、投稿、開発ログ。</p></a>
-        <a class="card pad is-work" href="pages/works.html"><h3>制作物</h3><p>アプリやツールの紹介。</p></a>
-        <a class="card pad is-template" href="pages/profile.html"><h3>プロフィール・お問い合わせ</h3><p>活動紹介と連絡先の入口。</p></a>
+    <section class="wrap home-section home-first-section" aria-labelledby="first-heading">
+      <p class="section-kicker">QUICK ACCESS</p>
+      <h2 class="section-title" id="first-heading">まず確認したい3つ</h2>
+      <p class="lead">よく振り返る内容へ、すぐに移動できます。</p>
+      <div class="home-feature-grid">
+        <a class="card pad home-card home-feature-card is-lab" href="nursing/labs/">
+          <span class="card-number" aria-hidden="true">01</span>
+          <h3>検査値</h3>
+          <p>基準値と、上昇・低下時に考えられることを検索できます。</p>
+          <span class="card-link">検査値を見る <span aria-hidden="true">→</span></span>
+        </a>
+        <a class="card pad home-card home-feature-card is-medication" href="nursing/medications/">
+          <span class="card-number" aria-hidden="true">02</span>
+          <h3>薬剤</h3>
+          <p>薬効分類、作用、注意点を剤形カテゴリから確認できます。</p>
+          <span class="card-link">薬剤を調べる <span aria-hidden="true">→</span></span>
+        </a>
+        <a class="card pad home-card home-feature-card is-medication" href="nursing/medications/comparisons/">
+          <span class="card-number" aria-hidden="true">03</span>
+          <h3>薬剤の使い分け</h3>
+          <p>輸液、抗菌薬、DOAC、睡眠薬、利尿薬などの違いを比較できます。</p>
+          <span class="card-link">比較を見る <span aria-hidden="true">→</span></span>
+        </a>
       </div>
     </section>
 
-    <section class="wrap">
-      <h2 class="section-title">看護学習ノート</h2>
-      <p class="lead">看護学習ノート内のカテゴリです。DBページは必要なデータファイルだけを読み込みます。</p>
-      <div class="grid four">
-        <a class="card pad is-nursing" href="pages/assessment.html"><h3>観察</h3><p>バイタル・呼吸・循環・意識などをみる視点。</p></a>
-        <a class="card pad is-lab" href="pages/labs.html"><h3>検査値 DB</h3><p>基準値、上昇・低下時に考えること。</p></a>
-        <a class="card pad is-skill" href="pages/skills.html"><h3>看護技術 DB</h3><p>手技、分類、注意点。</p></a>
-        <a class="card pad is-disease" href="pages/diseases.html"><h3>疾患・病態 DB</h3><p>症状、検査値、関連薬剤。</p></a>
-        <a class="card pad is-medication" href="pages/medications.html"><h3>薬剤 DB</h3><p>薬効分類、作用、注意点、関連タグ。</p></a>
-        <a class="card pad is-nursing" href="pages/tests-treatments.html"><h3>検査・治療</h3><p>検査前後の観察と治療の流れ。</p></a>
-        <a class="card pad is-nursing" href="pages/infection.html"><h3>感染対策</h3><p>標準予防策、PPE、経路別予防策。</p></a>
-        <a class="card pad is-nursing" href="pages/emergency.html"><h3>急変対応</h3><p>急変時の観察、報告、初期対応。</p></a>
+    <section class="wrap home-section" aria-labelledby="nursing-heading">
+      <p class="section-kicker">NURSING NOTES</p>
+      <h2 class="section-title" id="nursing-heading">看護学習をカテゴリから探す</h2>
+      <p class="lead">知りたいテーマから、学習ノートを選んでください。</p>
+      <div class="home-topic-grid">
+        <a class="card pad home-card home-topic-card is-nursing" href="nursing/assessment/"><h3>観察</h3><p>バイタル、呼吸、循環、意識などをみる視点。（準備中）</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-lab" href="nursing/labs/"><h3>検査値</h3><p>基準値と、変化から考えられること。</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-skill" href="nursing/skills/"><h3>看護技術</h3><p>手技の流れ、分類、注意点を整理。</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-disease" href="nursing/diseases/"><h3>疾患・病態</h3><p>症状、検査、治療、看護のポイント。</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-medication" href="nursing/medications/"><h3>薬剤</h3><p>薬効分類、作用、注意点を確認。</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-nursing" href="nursing/tests-treatments/"><h3>検査・治療</h3><p>検査前後の観察と治療の流れ。（準備中）</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-nursing" href="nursing/infection/"><h3>感染対策</h3><p>標準予防策、PPE、経路別予防策。（準備中）</p><span class="card-link">詳しく見る →</span></a>
+        <a class="card pad home-card home-topic-card is-nursing" href="nursing/emergency/"><h3>急変対応</h3><p>観察、報告、初期対応の考え方。（準備中）</p><span class="card-link">詳しく見る →</span></a>
+      </div>
+      <p class="section-action"><a class="text-link" href="nursing/">看護学習ノートの一覧を見る <span aria-hidden="true">→</span></a></p>
+    </section>
+
+    <section class="wrap home-section" aria-labelledby="more-heading">
+      <p class="section-kicker">MORE NOTES</p>
+      <h2 class="section-title" id="more-heading">看護と一緒に育てる学び</h2>
+      <div class="home-link-grid">
+        <a class="home-link-panel" href="medical-english/"><span><strong>日常医療英語</strong><small>病棟で使う英単語やフレーズ（準備中）</small></span><span aria-hidden="true">→</span></a>
+        <a class="home-link-panel" href="activity/"><span><strong>活動記録</strong><small>投稿やサイト制作の記録（準備中）</small></span><span aria-hidden="true">→</span></a>
+        <a class="home-link-panel" href="works/"><span><strong>制作物</strong><small>アプリや学習ツールの紹介（準備中）</small></span><span aria-hidden="true">→</span></a>
+        <a class="home-link-panel" href="about/"><span><strong>サイトについて</strong><small>運営方針と利用上の注意</small></span><span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="wrap home-section home-about-section" aria-labelledby="about-heading">
+      <div class="home-about-panel">
+        <div>
+          <p class="section-kicker">ABOUT THIS SITE</p>
+          <h2 class="section-title" id="about-heading">学び直せる場所を、少しずつ。</h2>
+          <p>「前に習ったけれど、もう一度確認したい」。そんなときに戻ってこられるよう、看護の学びを自分の言葉で整理しています。看護学生、新人看護師、学び直したい方に役立つサイトを目指しています。</p>
+        </div>
+        <div class="home-safety-note">
+          <strong>ご利用にあたって</strong>
+          <p>掲載内容は学習用です。実際の判断や手順は、所属施設の基準、最新の添付文書、信頼できる資料を優先してください。</p>
+          <a class="text-link" href="about/">運営者・利用上の注意を見る →</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">© 永遠の新人看護師備忘録 / サンプルサイト。個人情報・職場固有手順は掲載しません。</div>
+    <div class="footer-inner">© 永遠の新人看護師備忘録 / 看護の学びを整理する個人学習サイト</div>
   </footer>
   <script src="assets/js/main.js"></script>
 </body>

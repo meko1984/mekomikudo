@@ -1,110 +1,133 @@
 # 永遠の新人看護師備忘録
 
-Notionの実データを使わずに作成している、静的Webサイトのプロトタイプです。現時点では、看護学習ノート、日常医療英語、活動記録、制作物、プロフィール・お問い合わせを整理するための土台です。
+看護学習ノート、日常医療英語、活動記録、制作物を整理する静的Webサイトです。
+HTML・CSS・JavaScriptだけで構成しており、ビルドやパッケージのインストールは不要です。
 
-## 現在のサイト構成
+## Windowsでの開発
 
-```text
-トップ
-├ 看護学習ノート
-│ ├ 観察
-│ ├ 検査値 DB
-│ ├ 看護技術 DB
-│ ├ 疾患・病態 DB
-│ ├ 薬剤 DB
-│ ├ 検査・治療
-│ ├ 感染対策
-│ └ 急変対応
-├ 日常医療英語
-├ 活動記録
-├ 制作物
-└ プロフィール・お問い合わせ
-```
+### 初回だけ行うこと
 
-## ファイル構成
+1. このフォルダをVisual Studio Codeで開きます。
+2. 推奨拡張機能として表示される **Live Server** をインストールします。
+3. `index.html` を開き、画面右下の **Go Live** を押します。
+
+通常は `http://127.0.0.1:5500/` でサイトが開きます。
+
+> 薬剤DBはCSVを `fetch()` で読み込むため、HTMLファイルを直接ダブルクリックして開くのではなく、Live Server経由で確認してください。検査値ページはCSVからHTMLを事前生成するため、直接開いた場合も一覧を確認できます。
+
+## 構成
 
 ```text
 .
-├── index.html
-├── pages/
-│   ├── nursing.html
-│   ├── assessment.html
-│   ├── labs.html
-│   ├── skills.html
-│   ├── diseases.html
-│   ├── medications.html
-│   ├── tests-treatments.html
-│   ├── infection.html
-│   ├── emergency.html
-│   ├── medical-english.html
-│   ├── activity.html
-│   ├── works.html
-│   └── profile.html
-├── data/
-│   ├── lab-values.csv
-│   ├── skills.js
-│   ├── diseases.js
-│   └── medications/
-│       ├── manifest.js
-│       ├── injections-infusions.csv
-│       ├── emergency-cart.csv
-│       ├── inhalants.csv
-│       ├── suppositories-enemas.csv
-│       ├── eye-drops.csv
-│       ├── patches.csv
-│       └── ointments.csv
-└── assets/
-    ├── css/styles.css
-    └── js/
-        ├── main.js
-        ├── labs-database.js
-        ├── medications-database.js
-        └── database.js
+├─ index.html                 トップページ（/）
+├─ nursing/                   看護学習ノート（/nursing/）
+│  ├─ index.html
+│  ├─ assessment/             観察
+│  ├─ labs/                   検査値DB
+│  ├─ skills/                 看護技術DB
+│  ├─ diseases/               疾患・病態DB
+│  ├─ medications/            薬剤DB
+│  ├─ tests-treatments/       検査・治療
+│  ├─ infection/              感染対策
+│  └─ emergency/              急変対応
+├─ medical-english/           日常医療英語
+├─ activity/                  活動記録
+├─ works/                     制作物
+├─ about/                     プロフィール・お問い合わせ
+├─ assets/
+│  ├─ css/styles.css          共通スタイル
+│  └─ js/                     共通処理・DB表示処理
+├─ data/
+│  ├─ lab-values.csv          検査値データ
+│  ├─ skills.js               看護技術データ
+│  ├─ diseases.js             疾患・病態データ
+│  └─ medications/            薬剤カテゴリ別CSV
+├─ .vscode/                   Windows/VS Code用設定
+├─ .editorconfig              文字コード・改行・インデント設定
+├─ .gitattributes             Gitの改行ルール
+└─ .gitignore                 管理対象外ファイル
 ```
 
-## 各ページの役割
+## URLとファイル名のルール
 
-- `index.html`: トップ。正式構成への入口をまとめるノート型ダッシュボード。
-- `pages/nursing.html`: 看護学習ノートのカテゴリ一覧。
-- `pages/assessment.html`: 観察。現在は準備中ページ。
-- `pages/tests-treatments.html`: 検査・治療。現在は準備中ページ。
-- `pages/infection.html`: 感染対策。現在は準備中ページ。
-- `pages/emergency.html`: 急変対応。現在は準備中ページ。
-- `pages/medical-english.html`: 日常医療英語。現在は準備中ページ。
-- `pages/activity.html`: 活動記録。現在は準備中ページ。
-- `pages/works.html`: 制作物。現在は準備中ページ。
-- `pages/profile.html`: プロフィール・お問い合わせ。プロフィール、活動リンク、お問い合わせ、注意書きの仮セクションを配置。
+- 公開ページは `カテゴリ名/index.html` とし、URL末尾を `/` に統一します。
+- ディレクトリ名は英小文字・数字・ハイフンのみを使用します。
+- 公開後のURLは原則変更しません。変更時は旧URLからリダイレクトします。
+- 内部リンクは相対URLを使い、GitHub PagesのプロジェクトURLと独自ドメインの両方に対応します。
+- 未実装機能の空ディレクトリや空ページは作りません。
 
-## DBありページ
+例：`nursing/labs/index.html` は、公開時に `/nursing/labs/` というURLになります。
 
-- `pages/labs.html`: 検査値 DB。データは `data/lab-values.csv`。表表示、検索、採血方法フィルタ、並び替え、詳細モーダルに対応。
-- `pages/skills.html`: 看護技術 DB。データは `data/skills.js`。
-- `pages/diseases.html`: 疾患・病態 DB。データは `data/diseases.js`。
-- `pages/medications.html`: 薬剤 DB。データは `data/medications/` 内の剤形カテゴリ別CSV。検索、薬効分類フィルタ、並び替え、詳細モーダルに対応。
+独自ドメイン、canonical URL、サイトマップは公開先が決まった段階で設定します。
 
-各DBページは、必要なデータファイルだけを読み込みます。すべてのページで全データを読み込まない構造です。
+## データの編集
 
-## DBなし準備中ページ
+### 検査値DB
 
-- 観察
-- 検査・治療
-- 感染対策
-- 急変対応
-- 日常医療英語
-- 活動記録
-- 制作物
+`data/lab-values.csv` をUTF-8で編集します。
 
-## データファイルの編集方法
+列は次の13項目です。
 
-検査値DBは `data/lab-values.csv` を編集します。CSVの列は `項目`, `略称`, `採血方法`, `上昇要因`, `低下要因`, `Full name`, `説明` です。表には `項目`, `略称`, `採血方法`, `上昇要因`, `低下要因` を表示し、詳細モーダルには `Full name`, `説明` を表示します。
+```text
+項目,略称,分類,参考基準値,単位,基準値出典,上昇要因,低下要因,Full name,説明,解説出典,解説出典URL,看護ポイント
+```
 
-薬剤DBは `data/medications/` 内の剤形カテゴリ別CSVを編集します。CSVの列は `薬剤一般名`, `薬剤商品名`, `効果効能`, `Tmax/hr`, `薬効分類`, `効果発現時間`, `注意点` です。表には `薬剤一般名`, `薬剤商品名`, `効果効能`, `Tmax/hr` を表示し、詳細モーダルには `薬効分類`, `効果発現時間`, `注意点` を表示します。
+項目を追加・修正した後は、次のコマンドで検査値ページのHTMLを更新します。
 
-看護技術、疾患・病態DBに項目を追加する場合は、`data/` 内の該当 `.js` ファイルにオブジェクトを追加します。
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Update-LabsPage.ps1
+```
 
-検査値DBの表描画、検索、採血方法フィルタ、並び替え、詳細モーダルは `assets/js/labs-database.js` にまとめています。薬剤DBの表描画、検索、薬効分類フィルタ、並び替え、詳細モーダルは `assets/js/medications-database.js` にまとめています。その他DBの表描画や検索処理は `assets/js/database.js` にまとめています。
+CSVが元データです。生成範囲である `LABS_STATIC_START` から `LABS_STATIC_END` の間は直接編集しません。プロジェクト検証では、CSVとHTMLが一致しているかも自動確認します。
 
-## 注意事項
+### 薬剤DB
 
-- 検査値DBは、指定された `_all.csv` をもとに、ホームページ用の列構成へ整理した `data/lab-values.csv` を使用しています。
-- 職場固有の手順、個人情報、患者情報、病院名、部署名、電子カルテ操作などは掲載しません。
+`data/medications/` 内のカテゴリ別CSVをUTF-8で編集します。
+
+```text
+薬剤一般名,薬剤商品名,効果効能,Tmax/hr,薬効分類,効果発現時間,注意点
+```
+
+カテゴリを追加するときは、CSVを作成したうえで `data/medications/manifest.js` に読み込み設定を追加します。
+
+### 看護技術・疾患DB
+
+- 看護技術：`data/skills.js`
+- 疾患・病態：`data/diseases.js`
+
+既存のオブジェクトと同じ形式で `rows` に項目を追加します。
+
+## 編集時のルール
+
+- ファイルはUTF-8で保存します。
+- HTML/CSS/JavaScriptはLF改行、PowerShellはCRLF改行を使用します。
+- 患者情報、個人情報、勤務先固有の手順は保存しません。
+- 医療情報は学習用メモとして扱い、公開前に出典・更新日・内容を確認します。
+- 薬剤の投与判断などには使用せず、添付文書・院内基準・専門職の確認を優先します。
+
+## 現在の実装状況
+
+- 検査値DB：CSVからの静的HTML生成、検索、項目名・略称・分類フィルター、並び替え、詳細表示
+- 薬剤DB：カテゴリ別CSV読込、検索、効果効能フィルター、並び替え、詳細表示
+- 看護技術DB：一覧、検索
+- 疾患・病態DB：一覧、検索
+- 観察、検査・治療、感染対策、急変対応、医療英語、活動記録、制作物：準備中
+
+## Git
+
+このWindows環境を起点とする新しいGitリポジトリです。
+
+```powershell
+git status
+git add .
+git commit -m "作業内容"
+```
+
+変更前後にLive Serverでトップページ、検査値DB、薬剤DBを確認してください。
+
+VS Codeでは `Ctrl+Shift+B` ではなく、コマンドパレットの
+`Tasks: Run Test Task` から「プロジェクトを検証」を実行できます。PowerShellから直接実行する場合は次のとおりです。
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Test-Project.ps1
+```
