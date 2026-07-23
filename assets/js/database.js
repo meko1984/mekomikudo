@@ -14,12 +14,21 @@ const badgeClassMap = {
   "安全": "tag-beige"
 };
 
+function escapeDatabaseHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll("\"", "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function renderValue(value) {
   if (Array.isArray(value)) {
     if (value.length === 0) return "";
-    return value.map((item) => `<span class="tag ${badgeClassMap[item] || "tag-blue"}">${item}</span>`).join(" ");
+    return value.map((item) => `<span class="tag ${badgeClassMap[item] || "tag-blue"}">${escapeDatabaseHtml(item)}</span>`).join(" ");
   }
-  return String(value || "");
+  return escapeDatabaseHtml(value);
 }
 
 function getSearchText(row) {
@@ -33,18 +42,18 @@ function renderDatabase() {
 
   const rows = dataset.rows || [];
   const columns = dataset.columns || [];
-  const searchId = `${mount.dataset.database || "database"}-search`;
+  const searchId = `${mount.dataset.database || "database"}-search`.replace(/[^a-zA-Z0-9_-]/g, "-");
 
   mount.innerHTML = `
     <div class="database-panel">
       <div class="database-toolbar">
-        <strong>${rows.length} ${dataset.countLabel || "項目"}</strong>
+        <strong aria-live="polite">${rows.length} ${escapeDatabaseHtml(dataset.countLabel || "項目")}</strong>
         <input id="${searchId}" type="search" placeholder="キーワードで絞り込み">
       </div>
       <div class="database-table-wrap">
         <table class="database-table">
           <thead>
-            <tr>${columns.map((column) => `<th>${column}</th>`).join("")}</tr>
+            <tr>${columns.map((column) => `<th scope="col">${escapeDatabaseHtml(column)}</th>`).join("")}</tr>
           </thead>
           <tbody></tbody>
         </table>

@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local output
+dist/
+build/
+coverage/
+*.log
