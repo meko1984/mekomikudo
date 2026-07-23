@@ -3,16 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>検査値一覧・基準値｜看護学生・新人看護師向け</title>
+  <title>検査値｜学習｜永遠の新人看護師備忘録</title>
   <meta name="description" content="看護学生・新人看護師向けの検査値一覧。血算・凝固・生化学・血液ガス90項目の参考基準値、単位、上昇・低下要因、看護で見るポイントを検索できます。">
   <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://mekomikudo.jp/nursing/labs/">
   <meta name="theme-color" content="#eef6f8">
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="../../site.webmanifest">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="永遠の新人看護師備忘録">
   <meta property="og:title" content="検査値一覧・基準値｜看護学生・新人看護師向け">
   <meta property="og:description" content="血算・凝固・生化学・血液ガス90項目の参考基準値、上昇・低下要因、看護で見るポイントを検索できます。">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="https://mekomikudo.jp/nursing/labs/">
+  <meta property="og:image" content="https://mekomikudo.jp/assets/images/og-default-v5.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="永遠の新人看護師備忘録">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../../assets/css/styles.css?v=20260723-14">
   <script type="application/ld+json">
   {
@@ -35,8 +45,35 @@
   }
   </script>
 </head>
-<body data-page="labs">
-  <header class="site-header"><div class="header-inner"><a class="brand" href="../../"><span>永遠の新人看護師備忘録</span></a><button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false">☰</button><nav class="site-nav" aria-label="主要メニュー"><a href="../../" data-nav="home">トップ</a><a href="../" data-nav="nursing">看護学習ノート</a><a href="./" data-nav="labs">検査値</a><a href="../medications/" data-nav="medications">薬剤</a><a href="../medications/comparisons/" data-nav="comparisons">薬剤比較</a><a href="../../about/" data-nav="profile">サイトについて</a></nav></div></header>
+<body data-page="labs" data-section="labs">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../../"><span>永遠の新人看護師備忘録</span></a>
+      <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="主要メニュー">
+        <a href="../../" data-nav="home">トップ</a>
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-toggle" type="button" data-nav="learning" aria-haspopup="true" aria-expanded="false" aria-controls="learning-menu">学習<span class="nav-chevron" aria-hidden="true"></span></button>
+          <div class="nav-dropdown-menu" id="learning-menu">
+            <a href="../" data-subnav="learning">学習トップ</a>
+            <a href="../assessment/" data-subnav="assessment">観察</a>
+            <a href="../labs/" data-subnav="labs">検査値</a>
+            <a href="../skills/" data-subnav="skills">看護技術</a>
+            <a href="../diseases/" data-subnav="diseases">疾患・病態</a>
+            <a href="../medications/" data-subnav="medications">薬剤</a>
+            <a href="../medications/comparisons/" data-subnav="comparisons">薬剤比較</a>
+            <a href="../tests-treatments/" data-subnav="tests-treatments">検査・治療</a>
+            <a href="../infection/" data-subnav="infection">感染対策</a>
+            <a href="../emergency/" data-subnav="emergency">急変対応</a>
+            <a href="../../medical-english/" data-subnav="medical-english">医療英語</a>
+          </div>
+        </div>
+        <a href="../../activity/" data-nav="activity">活動</a>
+        <a href="../../works/" data-nav="works">制作物</a>
+        <a href="../../about/" data-nav="profile">サイトについて</a>
+      </nav>
+    </div>
+  </header>
   <main>
     <section class="page-hero"><div class="wrap"><p class="eyebrow">Laboratory reference</p><h1 class="labs-page-title"><span>看護学生・新人看護師のための</span><span>検査値一覧</span></h1><p>血算、凝固、生化学、血液ガスを中心とした90項目から、参考基準値、単位、値が変化する主な要因と看護で見るポイントを確認できます。</p></div></section>
     <section class="wrap">
@@ -201,8 +238,8 @@
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="footer-inner">© 永遠の新人看護師備忘録</div></footer>
+  <footer class="site-footer"><div class="footer-inner"><span>© 永遠の新人看護師備忘録</span><nav class="footer-links" aria-label="公式SNS"><a href="https://x.com/mekomikudoV" target="_blank" rel="noopener noreferrer">X</a><a href="https://www.youtube.com/@mekomikudo" target="_blank" rel="noopener noreferrer">YouTube</a></nav></div></footer>
   <script src="../../assets/js/main.js"></script>
-  <script src="../../assets/js/labs-database.js?v=20260723-12"></script>
+  <script src="../../assets/js/lab-values-table.js?v=20260723-12"></script>
 </body>
 </html>

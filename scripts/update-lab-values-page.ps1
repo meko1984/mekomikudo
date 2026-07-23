@@ -125,7 +125,7 @@ $end += $endMarker.Length
 $current = $page.Substring($start, $end - $start)
 if ($Check) {
     if ($current -cne $rendered) {
-        throw "The lab HTML is out of date. Run Update-LabsPage.ps1."
+        throw "The lab HTML is out of date. Run update-lab-values-page.ps1."
     }
     Write-Host "Lab page is synchronized with CSV."
     exit 0
