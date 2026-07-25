@@ -120,3 +120,19 @@ if (currentSection) {
     }
   });
 }
+
+const xFeedEmbed = document.querySelector(".x-feed-embed");
+const xFeedFallback = document.querySelector(".x-feed-fallback");
+
+if (xFeedEmbed && xFeedFallback) {
+  window.setTimeout(() => {
+    const timelineFrame = xFeedEmbed.querySelector("iframe");
+    const frameRect = timelineFrame?.getBoundingClientRect();
+    const timelineIsVisible = Boolean(frameRect && frameRect.width > 0 && frameRect.height > 0);
+
+    if (!timelineIsVisible) {
+      xFeedEmbed.hidden = true;
+      xFeedFallback.hidden = false;
+    }
+  }, 5000);
+}
