@@ -3641,16 +3641,50 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
 }
 
 .x-feed-fallback {
-  max-width: 620px;
+  width: min(100%, 620px);
   padding: 22px;
   border: 1px solid rgba(83, 131, 195, 0.2);
   border-radius: var(--radius);
   background: rgba(255, 253, 247, 0.92);
 }
 
-.x-feed-fallback p {
-  margin: 8px 0 16px;
+.x-feed-fallback[hidden] {
+  display: none;
+}
+
+.x-feed-status {
+  margin: 0 0 16px;
   color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.x-post-preview {
+  margin-bottom: 18px;
+  padding: 18px;
+  border: 1px solid rgba(83, 131, 195, 0.18);
+  border-radius: calc(var(--radius) - 4px);
+  background: #fff;
+}
+
+.x-post-preview p {
+  margin: 0 0 12px;
+}
+
+.x-post-preview .x-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.x-post-preview a {
+  color: var(--main-darker);
+  font-weight: 800;
+}
+
+.x-feed-fallback .button {
+  margin: 0;
 }
 
 .x-feed-embed {
