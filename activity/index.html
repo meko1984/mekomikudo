@@ -3,6 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-04R2V7LVRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    if (location.hostname === 'mekomikudo.jp' || location.hostname === 'www.mekomikudo.jp') {
+      gtag('config', 'G-04R2V7LVRT');
+    }
+  </script>
   <title>活動記録｜永遠の新人看護師備忘録</title>
   <meta name="description" content="看護学習、動画、投稿、Web制作などの活動と更新履歴をまとめる活動記録。">
   <meta name="robots" content="index,follow,max-image-preview:large">
@@ -23,7 +32,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="永遠の新人看護師備忘録">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260726-1">
 </head>
 <body data-page="activity">
   <header class="site-header">
@@ -58,10 +67,9 @@
     <section class="page-hero"><div class="wrap"><p class="eyebrow">Activity log</p><h1>活動記録</h1><p>うつ病からの回復記録や、X・YouTubeでの発信、サイト制作の取り組みを紹介します。</p></div></section>
     <section class="wrap social-feed-section" aria-labelledby="x-posts-title">
       <h2 class="section-title" id="x-posts-title">Xでの発信</h2>
-      <div class="x-feed-fallback">
-        <strong>永遠の新人看護師（@mekomikudoV）</strong>
-        <p>看護の学び直し、サイト制作、YouTubeの更新などを発信しています。最近の投稿はXのプロフィールからご覧ください。</p>
-        <a class="button secondary" href="https://x.com/mekomikudoV" target="_blank" rel="noopener noreferrer">Xで最近の投稿を見る</a>
+      <p class="social-feed-note">看護の学び直し、サイト制作、YouTubeの更新などを発信しています。</p>
+      <div class="x-feed-embed">
+        <a class="twitter-timeline" data-height="640" data-dnt="true" href="https://twitter.com/mekomikudoV">永遠の新人看護師（@mekomikudoV）の投稿を表示</a>
       </div>
     </section>
     <section class="wrap social-feed-section" aria-labelledby="youtube-video-title">
@@ -93,6 +101,7 @@
     </section>
   </main>
   <footer class="site-footer"><div class="footer-inner"><span>© 永遠の新人看護師備忘録</span><nav class="footer-links" aria-label="公式SNS"><a href="https://x.com/mekomikudoV" target="_blank" rel="noopener noreferrer">X</a><a href="https://www.youtube.com/@mekomikudo" target="_blank" rel="noopener noreferrer">YouTube</a></nav></div></footer>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="../assets/js/main.js"></script>
 </body>
 </html>
