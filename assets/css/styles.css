@@ -973,6 +973,548 @@ a.card:focus-visible {
   color: var(--muted);
 }
 
+.nursing-skills-panel {
+  margin-top: 20px;
+}
+
+.nursing-skills-toolbar .database-controls {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(190px, 260px);
+  gap: 10px;
+  justify-content: stretch;
+}
+
+.nursing-skills-toolbar input,
+.nursing-skills-toolbar select {
+  width: 100%;
+}
+
+.nursing-skills-table {
+  min-width: 920px;
+  table-layout: fixed;
+}
+
+.nursing-skills-table th:first-child,
+.nursing-skills-table td:first-child {
+  width: 30%;
+}
+
+.nursing-skills-table th:first-child {
+  background: #eef4fb;
+}
+
+.nursing-skills-table th:nth-child(2),
+.nursing-skills-table td:nth-child(2) {
+  width: 29%;
+}
+
+.nursing-skills-table th:nth-child(3),
+.nursing-skills-table td:nth-child(3) {
+  width: 41%;
+}
+
+.nursing-skill-name,
+.nursing-skill-link {
+  color: var(--main-darker);
+  font-weight: 800;
+}
+
+.nursing-skill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nursing-skill-link span {
+  color: var(--muted);
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.nursing-skill-summary {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.nursing-skill-row.is-linked {
+  cursor: pointer;
+}
+
+.nursing-skill-row.is-linked:hover td,
+.nursing-skill-row.is-linked:focus td,
+.nursing-skill-row.is-linked:focus-within td {
+  background: #f4f8fb;
+}
+
+.nursing-skill-row.is-linked:focus {
+  outline: 3px solid rgba(25, 107, 122, 0.28);
+  outline-offset: -3px;
+}
+
+.nursing-skill-row.is-linked:active td {
+  background: #eaf3f6;
+}
+
+.skill-category {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 8px;
+  border: 1px solid var(--skill-category-border);
+  border-radius: 4px;
+  color: var(--skill-category-text);
+  background: var(--skill-category-bg);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.skill-category-hygiene {
+  --skill-category-bg: #eadff2;
+  --skill-category-border: #dac7e6;
+  --skill-category-text: #684c78;
+}
+
+.skill-category-nutrition {
+  --skill-category-bg: #deece1;
+  --skill-category-border: #c8dccd;
+  --skill-category-text: #446b4e;
+}
+
+.skill-category-elimination {
+  --skill-category-bg: #f6e9c8;
+  --skill-category-border: #e8d6a7;
+  --skill-category-text: #7a6227;
+}
+
+.skill-category-medication {
+  --skill-category-bg: #f1e2d9;
+  --skill-category-border: #e2c9ba;
+  --skill-category-text: #79513f;
+}
+
+.skill-category-assessment {
+  --skill-category-bg: #f2dfdf;
+  --skill-category-border: #e2c6c6;
+  --skill-category-text: #7f4d4d;
+}
+
+.skill-category-respiratory {
+  --skill-category-bg: #dce9f3;
+  --skill-category-border: #c5d8e7;
+  --skill-category-text: #426681;
+}
+
+.skill-category-wound {
+  --skill-category-bg: #f1dfe8;
+  --skill-category-border: #e3c7d5;
+  --skill-category-text: #7d4b65;
+}
+
+.skill-category-emergency {
+  --skill-category-bg: #f3dedb;
+  --skill-category-border: #e5c3be;
+  --skill-category-text: #854a43;
+}
+
+.skill-category-end-of-life,
+.skill-category-default {
+  --skill-category-bg: #e9e7e3;
+  --skill-category-border: #d8d5cf;
+  --skill-category-text: #5f5c56;
+}
+
+.skill-detail-hero .wrap {
+  padding-bottom: 22px;
+}
+
+.skill-detail-hero .breadcrumb {
+  margin-bottom: 22px;
+}
+
+.skill-detail-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.skill-reviewed {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.skill-detail-lead {
+  max-width: 900px !important;
+  text-wrap: pretty;
+}
+
+.skill-detail-wrap {
+  padding-bottom: 64px;
+}
+
+.skill-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 40px;
+  align-items: start;
+}
+
+.skill-detail-article {
+  min-width: 0;
+}
+
+.skill-detail-article section {
+  scroll-margin-top: 92px;
+}
+
+.skill-detail-article section + section {
+  margin-top: 48px;
+}
+
+.skill-detail-article h2 {
+  margin: 0 0 18px;
+  color: var(--navy);
+  font-size: clamp(23px, 3vw, 30px);
+  line-height: 1.35;
+}
+
+.skill-detail-article h3 {
+  margin: 0;
+  color: var(--main-darker);
+  font-size: 17px;
+}
+
+.skill-detail-article p,
+.skill-detail-article li {
+  color: var(--text);
+}
+
+.skill-note-block {
+  padding: 4px 0 4px 18px;
+  border-left: 3px solid #d9a9a9;
+}
+
+.skill-note-block + .skill-note-block {
+  margin-top: 22px;
+}
+
+.skill-note-block > strong {
+  color: #7f4d4d;
+}
+
+.skill-note-block ul,
+.skill-plain-list {
+  margin: 8px 0 0;
+  padding-left: 1.35em;
+}
+
+.skill-note-block li + li,
+.skill-plain-list li + li {
+  margin-top: 6px;
+}
+
+.skill-margin-note {
+  margin: 22px 0 0;
+  padding: 14px 16px;
+  border-left: 4px solid #d9a9a9;
+  background: rgba(242, 223, 223, 0.38);
+}
+
+.skill-margin-note.is-safety {
+  border-left-color: var(--main);
+  background: rgba(238, 244, 251, 0.7);
+}
+
+.skill-margin-note p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.skill-margin-note ul {
+  margin: 7px 0 0;
+  padding-left: 1.35em;
+}
+
+.skill-margin-note li + li {
+  margin-top: 4px;
+}
+
+.skill-equipment-list {
+  columns: 2;
+  gap: 32px;
+  padding-left: 1.4em;
+}
+
+.skill-equipment-list li {
+  break-inside: avoid;
+  margin-bottom: 8px;
+}
+
+.skill-small-note {
+  margin: 18px 0 0;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  color: var(--muted) !important;
+  background: var(--surface-soft);
+  font-size: 14px;
+}
+
+.skill-step-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: skill-step;
+}
+
+.skill-step-list li {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  counter-increment: skill-step;
+}
+
+.skill-step-list li::before {
+  content: counter(skill-step);
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--main);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.skill-step-list strong {
+  color: var(--main-darker);
+}
+
+.skill-step-list p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.skill-detail-table table {
+  min-width: 820px;
+}
+
+.skill-detail-table th:first-child,
+.skill-detail-table td:first-child {
+  width: 70px;
+  text-align: center;
+}
+
+.skill-knowledge-block + .skill-knowledge-block {
+  margin-top: 38px;
+}
+
+.skill-knowledge-block h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.skill-definition-list {
+  margin: 0;
+}
+
+.skill-definition-list div {
+  display: grid;
+  grid-template-columns: minmax(140px, 190px) minmax(0, 1fr);
+  gap: 18px;
+  padding: 7px 0;
+}
+
+.skill-definition-list dt {
+  color: var(--main-darker);
+  font-weight: 800;
+}
+
+.skill-definition-list dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.cvc-device-notes {
+  display: grid;
+  gap: 24px;
+}
+
+.cvc-device-note {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+  margin: 0;
+}
+
+.cvc-device-note svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.cvc-device-note svg circle,
+.cvc-device-note svg .body {
+  fill: #f5f0ec;
+  stroke: #a99c91;
+  stroke-width: 2;
+}
+
+.cvc-device-note svg .arm {
+  fill: none;
+  stroke: #a99c91;
+  stroke-linecap: round;
+  stroke-width: 9;
+}
+
+.cvc-device-note svg .vein {
+  fill: none;
+  stroke: #8fb5cf;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 5;
+}
+
+.cvc-device-note svg .heart {
+  fill: #ead0d1;
+  stroke: #b66d70;
+  stroke-width: 1.5;
+}
+
+.cvc-device-note svg .catheter {
+  fill: none;
+  stroke: #b66d70;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4;
+}
+
+.cvc-device-note svg .tunnel {
+  fill: none;
+  stroke: #c5b2a4;
+  stroke-dasharray: 3 4;
+  stroke-width: 7;
+}
+
+.cvc-device-note svg .tip,
+.cvc-device-note svg .port {
+  fill: #b66d70;
+  stroke: #8f5256;
+}
+
+.cvc-device-note h4 {
+  margin: 0;
+  color: var(--main-darker);
+  font-size: 17px;
+}
+
+.cvc-device-note ul {
+  margin: 6px 0 0;
+  padding-left: 1.3em;
+}
+
+.cvc-device-note li {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.cvc-device-note li + li {
+  margin-top: 3px;
+}
+
+.skill-related-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-related-list li + li {
+  margin-top: 4px;
+}
+
+.skill-related-list a,
+.skill-related-list li > span {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.7fr) minmax(0, 1fr);
+  gap: 8px 20px;
+  align-items: baseline;
+  padding: 9px 4px;
+}
+
+.skill-related-list a:hover {
+  background: rgba(238, 244, 251, 0.55);
+  text-decoration: none;
+}
+
+.skill-related-list strong {
+  color: var(--main-darker);
+}
+
+.skill-related-list a > span,
+.skill-related-list em {
+  color: var(--muted);
+  font-size: 14px;
+  font-style: normal;
+}
+
+.skill-related-list small {
+  justify-self: start;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #6a665f;
+  background: #e9e7e3;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.skill-related-list em {
+  grid-column: 2;
+}
+
+.skill-detail-toc {
+  position: sticky;
+  top: 86px;
+  padding: 16px;
+  border-left: 3px solid #e2c6c6;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.skill-detail-toc h2 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 16px;
+}
+
+.skill-detail-toc a {
+  display: block;
+  padding: 6px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.skill-sources ul {
+  margin: 0;
+  padding-left: 1.3em;
+}
+
+.skill-sources li + li {
+  margin-top: 10px;
+}
+
+.skill-back-link {
+  margin: 40px 0 0;
+  font-weight: 800;
+}
+
 .labs-toolbar {
   display: grid;
   grid-template-columns: 1fr;
@@ -3040,9 +3582,12 @@ th {
 .footer-links a {
   color: var(--main-darker);
   font-weight: 700;
-  text-decoration: underline;
-  text-decoration-color: rgba(28, 69, 105, 0.28);
-  text-underline-offset: 4px;
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0;
+  text-decoration: none;
 }
 
 .footer-links a,
@@ -3075,9 +3620,14 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
   background-image: url("../icons/social-youtube.svg");
 }
 
+.footer-links a::before {
+  width: 21px;
+  height: 21px;
+}
+
 .footer-links a:hover,
 .footer-links a:focus-visible {
-  text-decoration-color: currentColor;
+  background: rgba(83, 131, 195, 0.1);
 }
 
 .social-feed-section {
@@ -3101,6 +3651,25 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
 .x-feed-fallback p {
   margin: 8px 0 16px;
   color: var(--muted);
+}
+
+.x-feed-embed {
+  width: min(100%, 620px);
+  min-height: 320px;
+  overflow: hidden;
+  border: 1px solid rgba(83, 131, 195, 0.2);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.x-feed-embed > .twitter-timeline {
+  display: flex;
+  min-height: 320px;
+  padding: 22px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-darker);
+  font-weight: 800;
 }
 
 .contact-links {
@@ -3273,6 +3842,15 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
     grid-template-columns: 1fr;
   }
 
+  .nursing-skills-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .nursing-skills-toolbar .database-controls {
+    grid-template-columns: 1fr;
+  }
+
   .comparison-toc-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3346,6 +3924,21 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
     border-top: 1px dashed rgba(83, 131, 195, 0.3);
     border-left: 0;
   }
+
+  .skill-detail-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .skill-detail-toc {
+    position: static;
+    grid-row: 1;
+    columns: 2;
+  }
+
+  .skill-detail-toc h2 {
+    column-span: all;
+  }
 }
 
 @media (min-width: 901px) and (max-width: 1100px) {
@@ -3358,6 +3951,51 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
 }
 
 @media (max-width: 620px) {
+  .skill-definition-list div,
+  .skill-related-list a,
+  .skill-related-list li > span {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .skill-related-list em {
+    grid-column: 1;
+  }
+
+  .cvc-device-note {
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .skill-equipment-list {
+    columns: 1;
+  }
+
+  .skill-detail-toc {
+    columns: 1;
+  }
+
+  .nursing-skills-table {
+    min-width: 820px;
+  }
+
+  .nursing-skills-table th:first-child,
+  .nursing-skills-table td:first-child {
+    width: 170px;
+    max-width: 170px;
+    white-space: normal;
+  }
+
+  .nursing-skills-table th:nth-child(2),
+  .nursing-skills-table td:nth-child(2) {
+    width: 250px;
+  }
+
+  .nursing-skills-table th:nth-child(3),
+  .nursing-skills-table td:nth-child(3) {
+    width: 400px;
+  }
+
   .header-inner {
     padding-inline: 14px;
   }

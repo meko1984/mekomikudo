@@ -27,4 +27,13 @@
   <url>
     <loc>https://mekomikudo.jp/nursing/skills/</loc>
   </url>
-</urlset>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/blood-draw/</loc>
+  </url>
+    <url>
+      <loc>https://mekomikudo.jp/nursing/skills/central-venous-catheter/</loc>
+    </url>
+    <url>
+      <loc>https://mekomikudo.jp/nursing/skills/peripheral-iv/</loc>
+    </url>
+  </urlset>

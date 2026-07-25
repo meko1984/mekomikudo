@@ -1,5 +1,5 @@
 const MED_EMPTY_TEXT = "登録されている内容はありません";
-const MED_DATA_VERSION = "20260723-30";
+const MED_DATA_VERSION = "20260726-1";
 const MED_TABLE_COLUMNS = [
   { key: "name", label: "薬剤名" },
   { key: "effects", label: "主な効能・効果" },

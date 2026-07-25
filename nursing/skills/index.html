@@ -3,8 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-04R2V7LVRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    if (location.hostname === 'mekomikudo.jp' || location.hostname === 'www.mekomikudo.jp') {
+      gtag('config', 'G-04R2V7LVRT');
+    }
+  </script>
   <title>看護技術一覧｜看護学生・新人看護師向け｜永遠の新人看護師備忘録</title>
-  <meta name="description" content="看護学生・新人看護師向けに、看護技術の分類、経験状況、注意点、関連タグを一覧・検索できる学習ページです。">
+  <meta name="description" content="看護学生・新人看護師向けに、採血、吸引、口腔ケア、輸液管理など38の看護技術を分類別に一覧・検索できる学習ページです。">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://mekomikudo.jp/nursing/skills/">
   <meta name="theme-color" content="#eef6f8">
@@ -16,14 +25,28 @@
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="永遠の新人看護師備忘録">
   <meta property="og:title" content="看護技術一覧｜看護学生・新人看護師向け">
-  <meta property="og:description" content="看護技術の分類、経験状況、注意点、関連タグを一覧・検索できます。">
+  <meta property="og:description" content="採血、吸引、口腔ケア、輸液管理など38の看護技術を分類別に一覧・検索できます。">
   <meta property="og:url" content="https://mekomikudo.jp/nursing/skills/">
   <meta property="og:image" content="https://mekomikudo.jp/assets/images/og-default-v5.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="永遠の新人看護師備忘録">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="../../assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "看護技術一覧",
+    "description": "看護学生・新人看護師向けに、看護技術を分類別に整理した学習用一覧です。",
+    "inLanguage": "ja",
+    "isAccessibleForFree": true,
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "看護学生・新人看護師"
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260726-1">
 </head>
 <body data-page="nursing" data-section="skills">
   <header class="site-header">
@@ -54,8 +77,21 @@
       </nav>
     </div>
   </header>
-  <main><section class="page-hero"><div class="wrap"><p class="eyebrow">Database</p><h1>看護技術</h1><p>技術名、分類、実施/見守り/未経験などのステータス、注意点、関連タグを整理します。</p></div></section><section class="wrap"><div data-database="skills"></div></section></main>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>看護技術一覧</h1>
+        <p>看護技術を分類別に整理しています。技術名や分類から絞り込めます。</p>
+      </div>
+    </section>
+    <section class="wrap">
+      <p class="notice">このページは学習用です。実際の実施では、最新のガイドライン、院内手順、指導者や医療チームの指示を優先してください。</p>
+      <div data-nursing-skills></div>
+    </section>
+  </main>
   <footer class="site-footer"><div class="footer-inner"><span>© 永遠の新人看護師備忘録</span><nav class="footer-links" aria-label="公式SNS"><a href="https://x.com/mekomikudoV" target="_blank" rel="noopener noreferrer">X</a><a href="https://www.youtube.com/@mekomikudo" target="_blank" rel="noopener noreferrer">YouTube</a></nav></div></footer>
-  <script src="../../assets/js/main.js"></script><script src="../../data/nursing-skills-catalog.js"></script><script src="../../assets/js/catalog-table.js"></script>
+  <script src="../../assets/js/main.js?v=20260725-1"></script>
+  <script src="../../data/nursing-skills-catalog.js?v=20260725-3"></script>
+  <script src="../../assets/js/nursing-skills-table.js?v=20260726-1"></script>
 </body>
 </html>
