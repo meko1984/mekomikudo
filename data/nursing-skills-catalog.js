@@ -1,7 +1,7 @@
 window.NURSING_SKILLS = [
   { name: "膀胱留置カテーテル", category: "排泄援助技術", summary: "適応、挿入、管理、観察項目とリスク" },
   { name: "中心静脈カテーテル（CVC）", category: "与薬の技術", summary: "挿入目的、管理、消毒、ルート交換と観察", href: "central-venous-catheter/" },
-  { name: "洗髪", category: "清潔・衣生活援助技術", summary: "洗髪に必要な準備と実施手順" },
+  { name: "洗髪", category: "清潔・衣生活援助技術", summary: "洗髪に必要な準備と実施手順", href: "hair-washing/" },
   { name: "手浴・足浴", category: "清潔・衣生活援助技術", summary: "手浴・足浴に必要な準備と実施手順" },
   { name: "陰部洗浄", category: "清潔・衣生活援助技術", summary: "陰部洗浄に必要な準備と実施手順" },
   { name: "清拭", category: "清潔・衣生活援助技術", summary: "清拭に必要な準備と実施手順" },
@@ -17,7 +17,7 @@ window.NURSING_SKILLS = [
   { name: "心電図", category: "症状・生体機能管理技術", summary: "モニター・12誘導心電図の装着と見方" },
   { name: "透析", category: "症状・生体機能管理技術", summary: "目的、観察項目、カテーテル管理" },
   { name: "包帯法", category: "創傷管理技術", summary: "包帯法の基本と実施手順" },
-  { name: "注射", category: "与薬の技術", summary: "注射の種類、部位・角度、実施手順" },
+  { name: "注射", category: "与薬の技術", summary: "注射の種類、部位・角度、実施手順", href: "injection/" },
   { name: "ドップラー", category: "呼吸・循環を整える技術", summary: "ドップラーを用いた血流評価の目的と手順" },
   { name: "吸引", category: "呼吸・循環を整える技術", summary: "必要物品と吸引前後の観察項目" },
   { name: "口腔ケア", category: "清潔・衣生活援助技術", summary: "口腔内の観察、必要物品とケア手順" },

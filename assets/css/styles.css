@@ -4511,3 +4511,661 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
     background: #fff;
   }
 }
+
+/* Nursing skill illustrations */
+.injection-route-notes {
+  display: grid;
+  gap: 30px;
+  margin-top: 24px;
+}
+
+.injection-route-note {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.9fr) minmax(220px, 1fr);
+  gap: 26px;
+  align-items: center;
+  margin: 0;
+}
+
+.injection-route-note svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.injection-route-note svg text,
+.injection-site-note svg text {
+  fill: var(--text);
+  font-family: inherit;
+  font-size: 11px;
+}
+
+.injection-route-note svg .layer {
+  stroke: rgba(103, 92, 82, 0.4);
+  stroke-width: 1;
+}
+
+.injection-route-note svg .epidermis {
+  fill: #ead4c2;
+}
+
+.injection-route-note svg .dermis {
+  fill: #f2c7b8;
+}
+
+.injection-route-note svg .subcutis {
+  fill: #f7e6a8;
+}
+
+.injection-route-note svg .muscle {
+  fill: #dca4a7;
+}
+
+.injection-route-note svg .needle,
+.injection-route-note svg .catheter {
+  fill: none;
+  stroke: #667987;
+  stroke-linecap: round;
+  stroke-width: 3;
+}
+
+.injection-route-note svg .hub,
+.injection-route-note svg .connector {
+  fill: #d8e6ec;
+  stroke: #667987;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+
+.injection-route-note svg .target {
+  fill: #b75e63;
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+
+.injection-route-note svg .angle-guide {
+  fill: none;
+  stroke: #b75e63;
+  stroke-width: 1.5;
+}
+
+.injection-route-note svg .angle-label,
+.injection-route-note svg .iv-label {
+  fill: #9a4e53;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.injection-route-note svg .vein {
+  fill: none;
+  stroke: #79a9c8;
+  stroke-linecap: round;
+  stroke-width: 12;
+}
+
+.injection-route-note h3 {
+  margin: 0;
+}
+
+.injection-route-note ul {
+  margin: 7px 0 0;
+  padding-left: 1.3em;
+}
+
+.injection-route-note li {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.injection-route-note li + li {
+  margin-top: 3px;
+}
+
+.injection-site-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 20px 0 30px;
+}
+
+.injection-site-note {
+  margin: 0;
+}
+
+.injection-site-note svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.injection-site-note svg .skin {
+  fill: #f5f0ec;
+  stroke: #a99c91;
+  stroke-width: 2;
+}
+
+.injection-site-note svg .limb,
+.injection-site-note svg .body-line {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.injection-site-note svg .limb {
+  stroke-width: 18;
+}
+
+.injection-site-note svg .body-line {
+  stroke: #c6b9af;
+  stroke-width: 1;
+}
+
+.injection-site-note svg .site {
+  opacity: 0.78;
+  stroke-width: 1.5;
+}
+
+.injection-site-note svg .id {
+  fill: #d9a5bb;
+  stroke: #a96987;
+}
+
+.injection-site-note svg .sc {
+  fill: #e8c968;
+  stroke: #b2943e;
+}
+
+.injection-site-note svg .im {
+  fill: #ca858b;
+  stroke: #99565d;
+}
+
+.injection-site-note svg .mixed {
+  fill: #d5ac71;
+  stroke: #a77a3e;
+}
+
+.injection-site-note svg .avoid {
+  fill: #f5f0ec;
+  stroke: #b58b8b;
+  stroke-dasharray: 3 3;
+  stroke-width: 1.5;
+}
+
+.injection-site-note svg .navel {
+  fill: #9a8173;
+}
+
+.injection-site-note svg .leader {
+  fill: none;
+  stroke-width: 1.5;
+}
+
+.injection-site-note svg .id-line {
+  stroke: #a96987;
+}
+
+.injection-site-note svg .sc-line {
+  stroke: #b2943e;
+}
+
+.injection-site-note svg .im-line {
+  stroke: #99565d;
+}
+
+.injection-site-note svg .mixed-line {
+  stroke: #a77a3e;
+}
+
+.injection-site-note svg .route-text {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.injection-site-note svg .id-text {
+  fill: #9b5677;
+}
+
+.injection-site-note svg .sc-text {
+  fill: #95772d;
+}
+
+.injection-site-note svg .im-text {
+  fill: #8d4c52;
+}
+
+.injection-site-note svg .mixed-text {
+  fill: #94682f;
+}
+
+.injection-site-note svg .site-note {
+  fill: var(--muted);
+  font-size: 10px;
+}
+
+.injection-site-note figcaption {
+  margin-top: 8px;
+}
+
+.injection-site-note h4 {
+  margin: 0;
+  color: var(--main-darker);
+  font-size: 16px;
+}
+
+.injection-site-note p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.skill-procedure-figure {
+  margin: 28px 0;
+}
+
+.skill-procedure-figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.skill-procedure-figure svg text,
+.piv-insertion-step svg text {
+  fill: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.skill-procedure-figure figcaption,
+.piv-insertion-step figcaption {
+  display: grid;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+.skill-procedure-figure figcaption strong,
+.piv-insertion-step figcaption strong {
+  color: var(--main-darker);
+}
+
+.skill-procedure-figure figcaption span,
+.piv-insertion-step figcaption span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.skill-procedure-figure svg .figure-heading {
+  fill: var(--main-darker);
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.skill-procedure-figure svg .accent-label {
+  fill: #9a4e53;
+  font-weight: 800;
+}
+
+.blood-draw-procedure-visuals {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.blood-draw-procedure-figure svg .skin-layer,
+.piv-insertion-step svg .skin-layer {
+  fill: #f2c7b8;
+  stroke: #b99386;
+}
+
+.blood-draw-procedure-figure svg .subcutis-layer,
+.piv-insertion-step svg .subcutis-layer {
+  fill: #f7e6a8;
+  stroke: #c9b871;
+}
+
+.blood-draw-procedure-figure svg .vein,
+.piv-insertion-step svg .vein {
+  fill: none;
+  stroke: #79a9c8;
+  stroke-linecap: round;
+  stroke-width: 20;
+}
+
+.blood-draw-procedure-figure svg .needle,
+.piv-insertion-step svg .needle {
+  fill: none;
+  stroke: #667987;
+  stroke-linecap: round;
+  stroke-width: 4;
+}
+
+.blood-draw-procedure-figure svg .holder,
+.piv-insertion-step svg .hub {
+  fill: #d8e6ec;
+  stroke: #667987;
+  stroke-width: 2;
+}
+
+.blood-draw-procedure-figure svg .target {
+  fill: #b75e63;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.blood-draw-procedure-figure svg .angle-guide,
+.blood-draw-procedure-figure svg .height-guide,
+.blood-draw-procedure-figure svg .down-arrow {
+  fill: none;
+  stroke: #b75e63;
+  stroke-width: 2;
+}
+
+.blood-draw-procedure-figure svg .layer-label {
+  font-size: 11px;
+}
+
+.blood-draw-procedure-figure svg .vein-label {
+  fill: #477f9f;
+  font-weight: 800;
+}
+
+.blood-draw-procedure-figure svg .arm {
+  fill: none;
+  stroke: #c5a999;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.blood-draw-procedure-figure svg .tube {
+  fill: #f7f7f5;
+  stroke: #667987;
+  stroke-width: 3;
+}
+
+.blood-draw-procedure-figure svg .blood {
+  fill: #bf7377;
+}
+
+.skill-procedure-visual {
+  margin: 30px 0;
+}
+
+.skill-procedure-visual > h3 {
+  margin-bottom: 8px;
+}
+
+.piv-insertion-sequence {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 18px;
+}
+
+.piv-insertion-step {
+  margin: 0;
+}
+
+.piv-insertion-step svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.piv-insertion-step svg .catheter {
+  fill: none;
+  stroke: #b75e63;
+  stroke-linecap: round;
+  stroke-width: 8;
+}
+
+.piv-insertion-step svg .catheter.advanced {
+  stroke-width: 7;
+}
+
+.piv-insertion-step svg .blood-return {
+  fill: none;
+  stroke: #b75e63;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.piv-insertion-step svg .target {
+  fill: #b75e63;
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+
+.piv-insertion-step svg .motion-arrow {
+  fill: none;
+  stroke: #9a4e53;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.cvp-level-figure svg .bed,
+.cvp-level-figure svg .stand {
+  fill: none;
+  stroke: #87939a;
+  stroke-linecap: round;
+  stroke-width: 6;
+}
+
+.cvp-level-figure svg .patient,
+.cvp-level-figure svg .arm {
+  fill: none;
+  stroke: #a99c91;
+  stroke-linecap: round;
+  stroke-width: 15;
+}
+
+.cvp-level-figure svg .head,
+.cvp-level-figure svg .chest {
+  fill: #f5f0ec;
+  stroke: #a99c91;
+  stroke-width: 2;
+}
+
+.cvp-level-figure svg .heart {
+  fill: #ead0d1;
+  stroke: #b66d70;
+  stroke-width: 2;
+}
+
+.cvp-level-figure svg .reference-point,
+.cvp-level-figure svg .air-point {
+  fill: #b75e63;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.cvp-level-figure svg .midaxillary,
+.cvp-level-figure svg .intercostal {
+  fill: none;
+  stroke: #b75e63;
+  stroke-dasharray: 4 4;
+  stroke-width: 2;
+}
+
+.cvp-level-figure svg .level-line {
+  fill: none;
+  stroke: #5f91ad;
+  stroke-dasharray: 7 5;
+  stroke-width: 3;
+}
+
+.cvp-level-figure svg .transducer {
+  fill: #d8e6ec;
+  stroke: #667987;
+  stroke-width: 2;
+}
+
+.cvp-level-figure svg .tubing {
+  fill: none;
+  stroke: #79a9c8;
+  stroke-width: 4;
+}
+
+.cvp-level-figure svg .level-label {
+  fill: #477f9f;
+  font-weight: 800;
+}
+
+.cvp-level-mobile {
+  display: none !important;
+}
+
+.hair-washing-visuals {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.hair-washing-visuals svg text {
+  fill: var(--text);
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.hair-washing-visuals svg .bed {
+  fill: none;
+  stroke: #87939a;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.hair-washing-visuals svg .head {
+  fill: #f5f0ec;
+  stroke: #a99c91;
+  stroke-width: 2;
+}
+
+.hair-washing-visuals svg .patient,
+.hair-washing-visuals svg .leg,
+.hair-washing-visuals svg .arm {
+  fill: none;
+  stroke: #a99c91;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 14;
+}
+
+.hair-washing-visuals svg .basin {
+  fill: #dceaf0;
+  stroke: #6f94a8;
+  stroke-width: 2;
+}
+
+.hair-washing-visuals svg .neck-support {
+  fill: none;
+  stroke: #c8a66a;
+  stroke-linecap: round;
+  stroke-width: 10;
+}
+
+.hair-washing-visuals svg .water,
+.hair-washing-visuals svg .drain {
+  fill: none;
+  stroke: #72abc9;
+  stroke-linecap: round;
+  stroke-width: 4;
+}
+
+.hair-washing-visuals svg .bucket {
+  fill: #eef4f6;
+  stroke: #667987;
+  stroke-width: 3;
+}
+
+.hair-washing-visuals svg .height-arrow,
+.hair-washing-visuals svg .rinse-arrow {
+  fill: none;
+  stroke: #9a4e53;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.hair-washing-visuals svg .head-top {
+  fill: #f5f0ec;
+  stroke: #a99c91;
+  stroke-width: 2;
+}
+
+.hair-washing-visuals svg .hair {
+  fill: #8c7669;
+  stroke: #69564d;
+  stroke-width: 2;
+}
+
+.hair-washing-visuals svg .face-line {
+  fill: none;
+  stroke: #a99c91;
+  stroke-width: 2;
+}
+
+.hair-washing-visuals svg .eye-cover,
+.hair-washing-visuals svg .ear-cover {
+  fill: #f7f7f5;
+  stroke: #9c8f86;
+  stroke-width: 2;
+}
+
+@media (max-width: 620px) {
+  .injection-route-note {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .injection-route-note svg {
+    max-width: 340px;
+  }
+
+  .injection-site-notes {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .injection-site-note {
+    display: block;
+  }
+
+  .injection-site-note svg {
+    max-width: 280px;
+  }
+
+  .blood-draw-procedure-visuals {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .blood-draw-procedure-figure svg {
+    max-width: 330px;
+  }
+
+  .piv-insertion-sequence {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .piv-insertion-step {
+    max-width: 320px;
+  }
+
+  .cvp-level-desktop {
+    display: none !important;
+  }
+
+  .cvp-level-mobile {
+    display: block !important;
+    max-width: 340px;
+  }
+
+  .hair-washing-visuals {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .hair-washing-visuals svg {
+    max-width: 360px;
+  }
+}

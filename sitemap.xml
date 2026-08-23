@@ -30,10 +30,16 @@
   <url>
     <loc>https://mekomikudo.jp/nursing/skills/blood-draw/</loc>
   </url>
-    <url>
-      <loc>https://mekomikudo.jp/nursing/skills/central-venous-catheter/</loc>
-    </url>
-    <url>
-      <loc>https://mekomikudo.jp/nursing/skills/peripheral-iv/</loc>
-    </url>
-  </urlset>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/central-venous-catheter/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/peripheral-iv/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/injection/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/hair-washing/</loc>
+  </url>
+</urlset>
