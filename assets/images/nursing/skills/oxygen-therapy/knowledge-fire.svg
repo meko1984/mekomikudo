@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">酸素使用時の火気と油脂を避ける図</title>
+  <desc id="desc">酸素ボンベの近くにある炎と油の容器へ禁止線を引く。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M42 56c0-17 10-29 25-29s25 12 25 29v112c0 11-10 18-25 18s-25-7-25-18Z" fill="#59646a" stroke="#36464e" stroke-width="5"/>
+  <rect x="36" y="77" width="62" height="37" rx="6" fill="#fff" stroke="#6f9b83" stroke-width="3"/>
+  <text x="53" y="102" fill="#365b6d" font-family="Arial, sans-serif" font-size="21" font-weight="700">O₂</text>
+  <circle cx="179" cy="93" r="55" fill="#fff" stroke="#b75e63" stroke-width="6"/>
+  <path d="M157 58c22 28 24 44 8 58 18-5 32 10 25 27-7 17-26 27-42 15-19-15-9-38 4-49-7-16-5-35 5-51Z" fill="#e8a25f" stroke="#a66d37" stroke-width="3"/>
+  <path d="M140 53l78 80" stroke="#b75e63" stroke-linecap="round" stroke-width="8"/>
+  <path d="M247 88h43v62h-43Z" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M258 72h21l7 16h-35Z" fill="#dceaf0" stroke="#567789" stroke-linejoin="round" stroke-width="3"/>
+  <path d="M268 101c11 14 12 24 4 31-8 7-20 1-19-10 0-7 6-14 15-21Z" fill="#e8c85f" stroke="#8f7a3e" stroke-width="3"/>
+  <path d="M239 72l61 88" stroke="#b75e63" stroke-linecap="round" stroke-width="7"/>
+</svg>

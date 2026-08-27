@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">リザーバー付き酸素マスクの図</title>
+  <desc id="desc">顔を覆うマスクと、装着前に膨らませる酸素リザーバーバッグを表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M45 20c7-10 19-15 31-15 13 0 25 5 32 15l-6 47c-17 13-35 13-52 0Z" fill="#dceaf0" fill-opacity=".85" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M76 68v15" stroke="#567789" stroke-linecap="round" stroke-width="6"/>
+  <path d="M52 89c4-12 12-18 24-18s20 6 24 18v43c-16 13-32 13-48 0Z" fill="#eaf2f4" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M101 85c26-14 47-7 58 20M102 102c25-8 43-2 51 17" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="m151 96 10 9-12 4M143 111l11 8-11 6" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle cx="76" cy="84" r="6" fill="#6f9b83" stroke="#567789" stroke-width="2"/>
+</svg>

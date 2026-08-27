@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNCシステムのガスの流れ</title><desc id="desc">フロージェネレーターから加湿チャンバー、加温回路、鼻カニューレを経て患者へガスが届く流れ。</desc>
+  <rect width="320" height="200" rx="18" fill="#eef6f8"/>
+  <g fill="none" stroke="#6e91a3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="62" width="58" height="76" rx="9" fill="#fff"/><path d="M30 80h34M30 94h24M47 106v20"/>
+    <path d="M76 100h30"/><path d="m98 93 10 7-10 7"/>
+    <path d="M116 69h52l-6 69h-40z" fill="#d9eef0"/><path d="M125 104h34" stroke="#78b7bf"/>
+    <path d="M168 100c24 0 24-38 48-38s24 76 48 76"/>
+    <path d="M264 138h18c8 0 14-6 14-14V87"/>
+    <path d="M282 87c0-18 12-30 24-30"/><path d="M283 92c8 8 17 8 25 2"/>
+  </g>
+  <g fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+    <text x="47" y="154">流量を作る</text><text x="142" y="154">温めて湿らせる</text><text x="220" y="42">加温回路</text><text x="282" y="154">鼻へ届ける</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">加温加湿による気道保護</title><desc id="desc">温かく湿ったガスが気道を潤し、分泌物の移動を支える様子。</desc>
+  <rect width="320" height="200" rx="18" fill="#f0f8f6"/>
+  <path d="M45 101h230" stroke="#d2b290" stroke-width="26" stroke-linecap="round"/>
+  <path d="M45 101h230" stroke="#fff5e8" stroke-width="16" stroke-linecap="round"/>
+  <g fill="#66aeb8"><path d="M88 50c13 16 13 22 0 31-13-9-13-15 0-31z"/><path d="M154 38c15 19 15 26 0 36-15-10-15-17 0-36z"/><path d="M222 50c13 16 13 22 0 31-13-9-13-15 0-31z"/></g>
+  <g stroke="#7ca594" stroke-width="4" stroke-linecap="round"><path d="M79 120v22M97 120v22M145 120v22M163 120v22M213 120v22M231 120v22"/></g>
+  <path d="M63 151h195" stroke="#5f8f7d" stroke-width="4"/><path d="m250 143 12 8-12 8" fill="none" stroke="#5f8f7d" stroke-width="4"/>
+  <text x="160" y="181" text-anchor="middle" fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="14" font-weight="800">乾燥を抑え、分泌物を運ぶ</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">パルスオキシメータ測定へ影響する要因</title>
+  <desc id="desc">体動、手指の冷え、爪、皮膚色の違いを、センサー周囲の四つの記号で表す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M121 89c32-16 65-17 99-1v51h-99Z" fill="#f2c7b8" stroke="#8d6f66" stroke-width="4"/>
+  <rect x="127" y="58" width="52" height="57" rx="10" fill="#dceaf0" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M179 84h24" stroke="#567789" stroke-linecap="round" stroke-width="5"/>
+  <path d="M82 49c-12 9-12 26 0 35M96 43c-12 12-12 35 0 47" fill="none" stroke="#b75e63" stroke-linecap="round" stroke-width="4"/>
+  <path d="M252 45c12 18 13 31 4 39-9 8-22 1-21-11 0-8 7-17 17-28Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M64 131c12-16 28-16 40 0-12 16-28 16-40 0Z" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M73 131h23" stroke="#b75e63" stroke-linecap="round" stroke-width="5"/>
+  <g stroke="#8d6f66" stroke-width="3"><circle cx="244" cy="145" r="13" fill="#f4d6c8"/><circle cx="272" cy="145" r="13" fill="#c89172"/><circle cx="300" cy="145" r="13" fill="#754a38"/></g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">正しいカニューレサイズの比較</title><desc id="desc">鼻を下から見た二つの拡大図。左は細いプロングの周囲に隙間があり、右は太いプロングが鼻孔を塞いでいる。</desc>
+  <rect width="320" height="200" rx="18" fill="#f7f9f8"/>
+  <g transform="translate(20 22)">
+    <rect width="130" height="145" rx="14" fill="#edf7f5"/>
+    <path d="M25 28c14-15 66-15 80 0 12 13 14 42 2 62-12 19-28 27-42 27s-30-8-42-27c-12-20-10-49 2-62z" fill="#f0c9b8" stroke="#9b766a" stroke-width="2.5"/>
+    <ellipse cx="43" cy="68" rx="19" ry="15" fill="#875e57"/><ellipse cx="87" cy="68" rx="19" ry="15" fill="#875e57"/>
+    <ellipse cx="43" cy="70" rx="8" ry="12" fill="#8fc5cd" stroke="#4d8793" stroke-width="2"/><ellipse cx="87" cy="70" rx="8" ry="12" fill="#8fc5cd" stroke="#4d8793" stroke-width="2"/>
+    <path d="M43 82v24M87 82v24M43 106c0 17 44 17 44 0" fill="none" stroke="#69a9b8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="111" cy="20" r="13" fill="#65a181"/><path d="m104 20 5 5 9-11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(170 22)">
+    <rect width="130" height="145" rx="14" fill="#fff1ee"/>
+    <path d="M25 28c14-15 66-15 80 0 12 13 14 42 2 62-12 19-28 27-42 27s-30-8-42-27c-12-20-10-49 2-62z" fill="#f0c9b8" stroke="#9b766a" stroke-width="2.5"/>
+    <ellipse cx="43" cy="68" rx="19" ry="15" fill="#875e57"/><ellipse cx="87" cy="68" rx="19" ry="15" fill="#875e57"/>
+    <ellipse cx="43" cy="70" rx="18" ry="15" fill="#c97a79" stroke="#a45052" stroke-width="2"/><ellipse cx="87" cy="70" rx="18" ry="15" fill="#c97a79" stroke="#a45052" stroke-width="2"/>
+    <path d="M43 84v22M87 84v22M43 106c0 17 44 17 44 0" fill="none" stroke="#c97a79" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="111" cy="20" r="13" fill="#be6263"/><path d="m104 13 14 14M118 13l-14 14" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="12" font-weight="800" text-anchor="middle">
+    <text x="85" y="187">隙間がある</text><text x="235" y="187">鼻孔を塞いでいる</text>
+  </g>
+</svg>

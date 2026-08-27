@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">加湿チャンバーと回路の組み立て</title><desc id="desc">水バッグ、加湿チャンバー、加温回路を正しい順序で接続する。</desc>
+  <rect width="320" height="200" rx="18" fill="#f0f8f6"/>
+  <path d="M47 30h54l-5 68H52z" fill="#dff2f3" stroke="#69a5b1" stroke-width="3"/><path d="M74 98v32" stroke="#69a5b1" stroke-width="4"/>
+  <path d="M112 78h69l-7 74h-55z" fill="#d7eef0" stroke="#69a5b1" stroke-width="3"/><path d="M123 116h47" stroke="#66aeb8" stroke-width="3"/>
+  <path d="M181 110c31 0 28-48 61-48s28 70 48 70" fill="none" stroke="#6d91a2" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="12" font-weight="800" text-anchor="middle"><text x="74" y="174">指定水</text><text x="146" y="174">チャンバー</text><text x="248" y="174">加温回路</text></g>
+  <path d="m99 124 11 7-11 7M178 103l10 7-10 7" fill="none" stroke="#4f8067" stroke-width="4"/>
+</svg>

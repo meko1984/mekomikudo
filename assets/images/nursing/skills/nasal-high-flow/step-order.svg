@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNCの指示確認</title><desc id="desc">流量、FiO2、温度、目標SpO2、再評価条件を指示書で照合する。</desc>
+  <rect width="320" height="200" rx="18" fill="#f5f9fa"/>
+  <rect x="72" y="23" width="176" height="154" rx="10" fill="#fff" stroke="#7896a5" stroke-width="3"/><rect x="125" y="13" width="70" height="24" rx="7" fill="#dce9ee" stroke="#7896a5" stroke-width="3"/>
+  <g fill="none" stroke="#65a08a" stroke-width="4" stroke-linecap="round"><path d="m94 62 7 7 13-16M94 94l7 7 13-16M94 126l7 7 13-16"/></g>
+  <g stroke="#9aacb4" stroke-width="4" stroke-linecap="round"><path d="M129 62h87M129 94h72M129 126h91M94 151h122"/></g>
+  <text x="160" y="190" text-anchor="middle" fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="13" font-weight="800">3設定＋目標＋再評価</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">肺胞から血液へ酸素が移る図</title>
+  <desc id="desc">肺胞のまわりを走る毛細血管へ酸素が移動する様子を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M94 26v39M94 51 66 72M94 51l28 21" fill="none" stroke="#567789" stroke-linecap="round" stroke-width="7"/>
+  <circle cx="55" cy="87" r="24" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <circle cx="91" cy="91" r="27" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <circle cx="132" cy="88" r="25" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M31 117c31 20 108 19 140-4" fill="none" stroke="#b75e63" stroke-linecap="round" stroke-width="8"/>
+  <g fill="#6f9b83"><circle cx="52" cy="72" r="5"/><circle cx="83" cy="75" r="5"/><circle cx="126" cy="70" r="5"/></g>
+  <path d="m52 80 3 20m29-18 4 22m38-27-3 24" stroke="#6f9b83" stroke-linecap="round" stroke-width="3"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNC中の呼吸観察</title><desc id="desc">患者の胸郭運動、呼吸数、努力呼吸、意識と疲労を観察する。</desc>
+  <rect width="320" height="200" rx="18" fill="#f7f8f6"/>
+  <circle cx="110" cy="48" r="24" fill="#efd2c3" stroke="#9a8175" stroke-width="3"/><path d="M110 73c-45 0-58 42-56 82h112c2-40-11-82-56-82z" fill="#dceaf0" stroke="#6f8c9a" stroke-width="3"/>
+  <path d="M88 96c-21 18-20 49 1 58M132 96c21 18 20 49-1 58" fill="none" stroke="#c47975" stroke-width="5"/>
+  <path d="M73 124h74" stroke="#79a8b6" stroke-width="3" stroke-dasharray="7 6"/>
+  <g fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="13" font-weight="800"><text x="192" y="65">呼吸数</text><text x="192" y="94">胸郭運動</text><text x="192" y="123">努力呼吸</text><text x="192" y="152">意識・疲労</text></g>
+  <g fill="#79a8b6"><circle cx="181" cy="60" r="5"/><circle cx="181" cy="89" r="5"/><circle cx="181" cy="118" r="5"/><circle cx="181" cy="147" r="5"/></g>
+</svg>

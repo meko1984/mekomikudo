@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">酸素化と換気の観察</title><desc id="desc">SpO2、FiO2、呼吸数、血液ガスを一緒に見て推移を評価する。</desc>
+  <rect width="320" height="200" rx="18" fill="#eef6f8"/>
+  <rect x="28" y="38" width="130" height="104" rx="12" fill="#263f4a"/>
+  <path d="M40 104h20l10-35 14 59 14-42 10 18h36" fill="none" stroke="#78d3bd" stroke-width="4"/>
+  <text x="93" y="61" text-anchor="middle" fill="#fff" font-family="Yu Gothic, sans-serif" font-size="14">SpO₂</text><text x="93" y="98" text-anchor="middle" fill="#fff" font-family="Yu Gothic, sans-serif" font-size="25" font-weight="800">94–98</text>
+  <g font-family="Yu Gothic, sans-serif" font-weight="800" text-anchor="middle"><circle cx="213" cy="64" r="31" fill="#e8f3ec" stroke="#75a88b" stroke-width="3"/><text x="213" y="59" fill="#315f70" font-size="13">FiO₂</text><text x="213" y="77" fill="#4f8067" font-size="15">設定</text><circle cx="274" cy="128" r="31" fill="#fff0df" stroke="#cf9767" stroke-width="3"/><text x="274" y="123" fill="#315f70" font-size="13">血液</text><text x="274" y="141" fill="#a56d43" font-size="15">ガス</text></g>
+  <path d="M169 128h59" stroke="#668b9b" stroke-width="4"/><text x="160" y="178" text-anchor="middle" fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="14" font-weight="800">値ではなく推移を比べる</text>
+</svg>

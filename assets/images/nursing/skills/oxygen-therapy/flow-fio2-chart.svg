@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">酸素流量と吸入酸素濃度の比較チャート</title>
+  <desc id="chart-desc">成人の通常酸素療法で使う鼻カニューレ、シンプル酸素マスク、ベンチュリーマスク、非再呼吸式リザーバー付き酸素マスクについて、0から15リットル毎分の共通軸上で代表流量と吸入酸素濃度を比較する。濃度は目安で、呼吸状態や製品により変わる。</desc>
+  <defs>
+    <linearGradient id="variable-band" x1="0" x2="1">
+      <stop offset="0" stop-color="#d8edf5"/>
+      <stop offset="1" stop-color="#e2f1e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="690" rx="24" fill="#fbfdfd"/>
+  <text x="34" y="38" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="19" font-weight="700">成人・通常酸素療法の代表的な目安</text>
+  <text x="600" y="38" text-anchor="middle" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">酸素流量（L/分）</text>
+
+  <!-- Common flow scale -->
+  <g fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" text-anchor="middle">
+    <text x="260" y="75">0</text><text x="305" y="75">1</text><text x="351" y="75">2</text><text x="396" y="75">3</text>
+    <text x="441" y="75">4</text><text x="487" y="75">5</text><text x="532" y="75">6</text><text x="577" y="75">7</text>
+    <text x="623" y="75">8</text><text x="668" y="75">9</text><text x="713" y="75">10</text><text x="759" y="75">11</text>
+    <text x="804" y="75">12</text><text x="849" y="75">13</text><text x="895" y="75">14</text><text x="940" y="75">15</text>
+  </g>
+  <path d="M260 94H940" fill="none" stroke="#9db3bd" stroke-linecap="round" stroke-width="3"/>
+  <g stroke="#9db3bd" stroke-width="2">
+    <path d="M260 84v20M305 86v16M351 86v16M396 86v16M441 86v16M487 84v20M532 86v16M577 86v16M623 86v16M668 86v16M713 84v20M759 86v16M804 86v16M849 86v16M895 86v16M940 84v20"/>
+  </g>
+  <g stroke="#dce7eb" stroke-width="2">
+    <path d="M260 104v496M487 104v496M713 104v496M940 104v496"/>
+  </g>
+
+  <!-- Nasal cannula -->
+  <g>
+    <rect x="24" y="110" width="952" height="110" rx="18" fill="#f2f8fa"/>
+    <rect x="24" y="110" width="7" height="110" rx="3.5" fill="#78abc1"/>
+    <g transform="translate(42 130) scale(.58)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M27 6c25 0 45 20 45 45S52 96 27 96" stroke="#8d6f66" stroke-width="5"/>
+      <path d="M47 43c7 5 14 5 21 0M51 41V30M64 41V30" stroke="#5d8fa6" stroke-width="5"/>
+      <path d="M47 47C23 62 20 88 38 111M68 47c18 16 20 39 7 64" stroke="#5d8fa6" stroke-width="5"/>
+    </g>
+    <text x="100" y="154" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">鼻カニューレ</text>
+    <text x="100" y="183" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="17">低流量</text>
+    <rect x="305" y="137" width="227" height="48" rx="24" fill="url(#variable-band)" stroke="#6f9b83" stroke-dasharray="8 6" stroke-width="3"/>
+    <circle cx="305" cy="161" r="6" fill="#5d8fa6"/><circle cx="532" cy="161" r="6" fill="#6f9b83"/>
+    <text x="419" y="168" text-anchor="middle" fill="#315f4a" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">FiO₂ 約24〜40%</text>
+    <text x="305" y="208" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="17">1〜6 L/分｜呼吸数・一回換気量・口呼吸で変動</text>
+  </g>
+
+  <!-- Simple mask -->
+  <g>
+    <rect x="24" y="230" width="952" height="110" rx="18" fill="#f8faf9"/>
+    <rect x="24" y="230" width="7" height="110" rx="3.5" fill="#91b39d"/>
+    <g transform="translate(41 246) scale(.62)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="43" cy="44" r="39" fill="#f2c7b8" stroke="#8d6f66" stroke-width="5"/>
+      <path d="M22 40c14-13 31-13 44 0l-5 38c-11 8-23 8-34 0Z" fill="#dceef6" stroke="#5d8fa6" stroke-width="5"/>
+      <path d="M22 48H5M66 48h17M44 81v31" stroke="#5d8fa6" stroke-width="5"/>
+    </g>
+    <text x="100" y="269" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">シンプル</text>
+    <text x="100" y="297" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">酸素マスク</text>
+    <rect x="487" y="257" width="226" height="48" rx="24" fill="url(#variable-band)" stroke="#6f9b83" stroke-dasharray="8 6" stroke-width="3"/>
+    <circle cx="487" cy="281" r="6" fill="#5d8fa6"/><circle cx="713" cy="281" r="6" fill="#6f9b83"/>
+    <text x="600" y="288" text-anchor="middle" fill="#315f4a" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">FiO₂ 約35〜60%</text>
+    <text x="487" y="328" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">5〜10 L/分｜5 L/分未満にしない／密着・呼吸で変動</text>
+  </g>
+
+  <!-- Venturi mask -->
+  <g>
+    <rect x="24" y="350" width="952" height="125" rx="18" fill="#f2f8fa"/>
+    <rect x="24" y="350" width="7" height="125" rx="3.5" fill="#7d9cc9"/>
+    <g transform="translate(42 365) scale(.6)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="43" cy="42" r="37" fill="#f2c7b8" stroke="#8d6f66" stroke-width="5"/>
+      <path d="M23 39c13-12 28-12 41 0l-5 35c-10 8-21 8-31 0Z" fill="#e7eef9" stroke="#657fa9" stroke-width="5"/>
+      <path d="M43 76v17" stroke="#657fa9" stroke-width="5"/>
+      <path d="M33 94h20v20H33z" fill="#f0b65b" stroke="#9a7338" stroke-width="4"/>
+    </g>
+    <text x="100" y="389" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">ベンチュリー</text>
+    <text x="100" y="417" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">マスク</text>
+    <rect x="280" y="374" width="190" height="48" rx="24" fill="#dceef6" stroke="#78abc1" stroke-width="2"/>
+    <text x="375" y="405" text-anchor="middle" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" font-weight="800">製品指定流量</text>
+    <text x="497" y="369" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">設定FiO₂</text>
+    <g fill="#e2f1e8" stroke="#78a58a" stroke-width="2">
+      <rect x="495" y="379" width="62" height="40" rx="14"/><rect x="563" y="379" width="62" height="40" rx="14"/>
+      <rect x="631" y="379" width="62" height="40" rx="14"/><rect x="699" y="379" width="62" height="40" rx="14"/>
+      <rect x="767" y="379" width="62" height="40" rx="14"/><rect x="835" y="379" width="62" height="40" rx="14"/>
+    </g>
+    <g fill="#315f4a" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="19" font-weight="800" text-anchor="middle">
+      <text x="526" y="406">24%</text><text x="594" y="406">28%</text><text x="662" y="406">31%</text>
+      <text x="730" y="406">35%</text><text x="798" y="406">40%</text><text x="866" y="406">60%</text>
+    </g>
+    <text x="280" y="448" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">アダプター表示の流量を使用</text>
+    <text x="280" y="469" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">流量を増やすと総流量は増えるが、設定濃度は変わらない</text>
+  </g>
+
+  <!-- Reservoir mask -->
+  <g>
+    <rect x="24" y="485" width="952" height="115" rx="18" fill="#f8faf9"/>
+    <rect x="24" y="485" width="7" height="115" rx="3.5" fill="#d79a77"/>
+    <g transform="translate(43 499) scale(.56)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="43" cy="38" r="34" fill="#f2c7b8" stroke="#8d6f66" stroke-width="5"/>
+      <path d="M24 36c12-11 27-11 39 0l-5 32c-9 7-20 7-29 0Z" fill="#dceef6" stroke="#5d8fa6" stroke-width="5"/>
+      <path d="M43 70v16" stroke="#5d8fa6" stroke-width="5"/>
+      <path d="M28 88c0-8 7-14 15-14s15 6 15 14v35c0 9-7 16-15 16s-15-7-15-16Z" fill="#e9f3ee" stroke="#6f9b83" stroke-width="5"/>
+    </g>
+    <text x="100" y="525" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="21" font-weight="800">リザーバー付き</text>
+    <text x="100" y="553" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="21" font-weight="800">酸素マスク</text>
+    <rect x="713" y="512" width="227" height="48" rx="24" fill="url(#variable-band)" stroke="#6f9b83" stroke-dasharray="8 6" stroke-width="3"/>
+    <circle cx="713" cy="536" r="6" fill="#5d8fa6"/><circle cx="940" cy="536" r="6" fill="#6f9b83"/>
+    <text x="827" y="543" text-anchor="middle" fill="#315f4a" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">FiO₂ 約60〜80%</text>
+    <text x="827" y="580" text-anchor="middle" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">10〜15 L/分｜非再呼吸式の例</text>
+    <text x="827" y="598" text-anchor="middle" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="15">バッグ・弁・密着・呼吸で濃度が変わる</text>
+  </g>
+
+  <!-- Legend -->
+  <rect x="24" y="615" width="952" height="58" rx="18" fill="#fffdf8"/>
+  <rect x="42" y="630" width="55" height="18" rx="9" fill="url(#variable-band)" stroke="#6f9b83" stroke-dasharray="6 4" stroke-width="2"/>
+  <text x="108" y="645" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">幅のある帯＝呼吸・密着・製品などでFiO₂が変動</text>
+  <rect x="516" y="630" width="55" height="18" rx="7" fill="#e2f1e8" stroke="#78a58a" stroke-width="2"/>
+  <text x="582" y="645" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">独立した値＝ベンチュリーの設定濃度</text>
+  <circle cx="44" cy="661" r="7" fill="#d79a77"/>
+  <text x="60" y="667" fill="#70543e" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="17" font-weight="700">目安値。医師の指示・製品表示・目標SpO₂を優先</text>
+</svg>

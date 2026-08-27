@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">浮子式酸素流量計の読み方</title>
+  <desc id="desc">流量計の浮子の中央と目盛り線を同じ高さに合わせる。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M76 18h48l-9 104H85Z" fill="#fff" stroke="#567789" stroke-linejoin="round" stroke-width="4"/>
+  <g stroke="#8ba0aa" stroke-width="2"><path d="M84 34h13M84 50h20M84 66h13M82 82h22M82 98h13M81 114h20"/></g>
+  <circle cx="100" cy="82" r="10" fill="#6f9b83" stroke="#365b6d" stroke-width="3"/>
+  <path d="M48 82h42M110 82h42" stroke="#b75e63" stroke-linecap="round" stroke-dasharray="5 5" stroke-width="3"/>
+  <path d="m55 73-10 9 10 9M145 73l10 9-10 9" fill="none" stroke="#b75e63" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle cx="100" cy="132" r="9" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+</svg>

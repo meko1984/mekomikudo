@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">代表的な目標SpO2範囲</title>
+  <desc id="desc">多くの成人の94から98パーセントと、高二酸化炭素血症リスクの88から92パーセントを二本の帯で示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M36 56h248M36 137h248" stroke="#d9e3e8" stroke-linecap="round" stroke-width="18"/>
+  <path d="M190 56h62M98 137h62" stroke="#6f9b83" stroke-linecap="round" stroke-width="18"/>
+  <g fill="#365b6d" font-family="system-ui, sans-serif" font-weight="700">
+    <text x="36" y="31" font-size="15">多くの成人</text><text x="194" y="91" font-size="25">94–98%</text>
+    <text x="36" y="112" font-size="14">CO₂貯留リスク</text><text x="100" y="174" font-size="25">88–92%</text>
+  </g>
+  <path d="m255 42 12 14-12 14M163 123l12 14-12 14" fill="none" stroke="#567789" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

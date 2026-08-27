@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">意識状態と頭痛を観察する図</title>
+  <desc id="desc">患者の表情、開眼、傾眠、頭部症状を確認する様子を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="78" cy="70" r="38" fill="#f2c7b8" stroke="#8d6f66" stroke-width="4"/>
+  <path d="M59 65h12M85 65h12" stroke="#365b6d" stroke-linecap="round" stroke-width="4"/>
+  <path d="M68 86c8 6 15 6 23 0" fill="none" stroke="#8d6f66" stroke-linecap="round" stroke-width="3"/>
+  <path d="M77 28c-5-12-1-20 8-24M99 34c8-8 10-17 4-26M54 37c-9-7-12-16-7-25" fill="none" stroke="#b75e63" stroke-linecap="round" stroke-width="4"/>
+  <path d="M128 46h24l-16 21h24l-29 32 9-25h-24Z" fill="#e8c85f" stroke="#9a813a" stroke-linejoin="round" stroke-width="3"/>
+  <path d="M36 135c7-24 21-35 42-35s35 11 43 35" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+</svg>

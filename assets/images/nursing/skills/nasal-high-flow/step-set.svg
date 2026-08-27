@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNCの3設定の照合</title><desc id="desc">機器画面の流量、FiO2、温度を指示と一つずつ照合する。</desc>
+  <rect width="320" height="200" rx="18" fill="#f4f8fa"/>
+  <rect x="34" y="28" width="252" height="133" rx="14" fill="#fff" stroke="#718e9d" stroke-width="3"/>
+  <g font-family="Yu Gothic, sans-serif" text-anchor="middle" font-weight="800"><rect x="49" y="48" width="68" height="72" rx="9" fill="#e4f0f4"/><text x="83" y="70" fill="#315f70" font-size="12">流量</text><text x="83" y="100" fill="#47778a" font-size="23">40</text><rect x="126" y="48" width="68" height="72" rx="9" fill="#e7f2ea"/><text x="160" y="70" fill="#315f70" font-size="12">FiO₂</text><text x="160" y="100" fill="#4f8067" font-size="23">0.40</text><rect x="203" y="48" width="68" height="72" rx="9" fill="#fff0df"/><text x="237" y="70" fill="#315f70" font-size="12">温度</text><text x="237" y="100" fill="#ad7144" font-size="23">37</text><text x="160" y="145" fill="#315f70" font-size="13">指示と1項目ずつ照合</text></g>
+  <text x="160" y="188" text-anchor="middle" fill="#667987" font-family="Yu Gothic, sans-serif" font-size="12">表示値は例。固定開始値ではない</text>
+</svg>

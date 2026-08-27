@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">搬送に安全余裕をもたせる図</title>
+  <desc id="desc">ボンベ付き車椅子、時計、搬送経路、残量ゲージの余裕を表す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="61" cy="58" r="22" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M39 128V82h44l15 50H53" fill="#c9dfe8" stroke="#567789" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="66" cy="145" r="28" fill="none" stroke="#567789" stroke-width="5"/>
+  <circle cx="111" cy="137" r="13" fill="none" stroke="#567789" stroke-width="4"/>
+  <path d="M24 130h106M95 82h27l12 46" fill="none" stroke="#567789" stroke-linecap="round" stroke-width="5"/>
+  <rect x="20" y="90" width="21" height="53" rx="8" fill="#59646a" stroke="#36464e" stroke-width="3"/>
+  <circle cx="184" cy="71" r="35" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M184 49v22l16 9" fill="none" stroke="#365b6d" stroke-linecap="round" stroke-width="4"/>
+  <path d="M143 143h79" stroke="#6f9b83" stroke-linecap="round" stroke-width="5"/>
+  <path d="m211 134 12 9-12 9" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M250 54h43v107h-43Z" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M256 130h31v24h-31Z" fill="#b75e63" opacity=".75"/>
+  <path d="M256 88h31v42h-31Z" fill="#e8c85f" opacity=".8"/>
+  <path d="M256 61h31v27h-31Z" fill="#6f9b83" opacity=".8"/>
+</svg>

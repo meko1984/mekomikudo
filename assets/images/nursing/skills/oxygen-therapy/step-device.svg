@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">酸素デバイス固有の準備をする図</title>
+  <desc id="desc">鼻カニューレ、ベンチュリーアダプター、膨らませたリザーバーバッグを並べる。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M32 82c19 18 39 18 58 0M47 81V62M76 81V62M32 85c-14 28-7 54 13 72M90 85c14 28 7 54-13 72" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="5"/>
+  <path d="M136 43h48l-8 43h-32Z" fill="#dceaf0" stroke="#5d8fa6" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M160 86v17" stroke="#567789" stroke-linecap="round" stroke-width="6"/>
+  <path d="M139 104h42l10 31h-62Z" fill="#e8c85f" stroke="#8f7a3e" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M108 120h21M212 120h-21" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="M235 66c5-15 16-23 31-23s26 8 31 23v78c-20 17-41 17-62 0Z" fill="#eaf2f4" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M266 43V23" stroke="#567789" stroke-linecap="round" stroke-width="6"/>
+  <circle cx="266" cy="46" r="7" fill="#6f9b83" stroke="#567789" stroke-width="2"/>
+  <path d="M224 28c21 5 33 12 38 24" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="m252 43 11 10 4-14" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">中央配管と医療用酸素ボンベ</title>
+  <desc id="desc">壁の酸素アウトレットと、固定されたラベル付き酸素ボンベを並べる。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <rect x="24" y="32" width="66" height="58" rx="9" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <circle cx="57" cy="61" r="15" fill="#dceaf0" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M57 48v26M44 61h26" stroke="#6f9b83" stroke-linecap="round" stroke-width="3"/>
+  <path d="M57 91v40" stroke="#5d8fa6" stroke-linecap="round" stroke-width="5"/>
+  <path d="M122 37c0-12 7-20 17-20s17 8 17 20v88c0 8-7 14-17 14s-17-6-17-14Z" fill="#59646a" stroke="#36464e" stroke-width="4"/>
+  <rect x="119" y="53" width="40" height="27" rx="5" fill="#fff" stroke="#6f9b83" stroke-width="3"/>
+  <text x="129" y="72" fill="#365b6d" font-family="Arial, sans-serif" font-size="16" font-weight="700">O₂</text>
+  <path d="M108 87h62" stroke="#b75e63" stroke-linecap="round" stroke-width="5"/>
+</svg>

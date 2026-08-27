@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">パルスオキシメータと皮膚保護材</title>
+  <desc id="desc">指先のパルスオキシメータ、耳の保護パッド、加湿器を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <rect x="19" y="42" width="66" height="65" rx="10" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <text x="31" y="70" fill="#365b6d" font-family="Arial, sans-serif" font-size="11" font-weight="700">SpO₂</text>
+  <text x="45" y="95" fill="#6f9b83" font-family="Arial, sans-serif" font-size="26" font-weight="700">96</text>
+  <path d="M111 40c24-9 41 1 45 24 2 13-4 24-16 31-10 6-19 2-20-8 0-10 8-12 15-17 8-5 6-17-4-20" fill="#f2c7b8" stroke="#8d6f66" stroke-width="4"/>
+  <rect x="106" y="55" width="17" height="43" rx="8" fill="#fff" stroke="#6f9b83" stroke-width="3"/>
+  <path d="M170 46v62M158 47h24M158 107h24" stroke="#5d8fa6" stroke-linecap="round" stroke-width="4"/>
+  <path d="M160 94c7-8 14-8 21 0v12h-21Z" fill="#dceaf0" stroke="#567789" stroke-width="2"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">通常酸素療法からHFNCとNPPVへ分かれる図</title>
+  <desc id="desc">通常酸素で目標を保てない場合の呼吸補助として、太い鼻カニューレのHFNCと密着マスクのNPPVを概要表示する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="54" cy="93" r="28" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M37 96c11 8 23 8 34 0M42 94V83M65 94V83" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="3"/>
+  <path d="M72 95h40M112 95l32-48M112 95l32 48" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="5"/>
+  <path d="m135 38 10 8-12 5M134 136l11 8-12 5" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle cx="199" cy="50" r="31" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M178 54c14 10 28 10 42 0M184 52V38M213 52V38" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="5"/>
+  <path d="M224 41c18-10 35-7 51 7" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="7"/>
+  <g fill="#5d8fa6"><circle cx="246" cy="31" r="4"/><circle cx="260" cy="22" r="5"/></g>
+  <circle cx="199" cy="146" r="31" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M176 137c6-13 13-20 23-20s18 7 24 20l-5 30c-13 9-26 9-39 0Z" fill="#dceaf0" fill-opacity=".9" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M226 141h49M226 156h49" stroke="#6f9b83" stroke-linecap="round" stroke-width="5"/>
+  <path d="m264 133 11 8-11 8M264 148l11 8-11 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <text x="232" y="72" fill="#365b6d" font-family="Arial, sans-serif" font-size="16" font-weight="700">HFNC</text>
+  <text x="232" y="184" fill="#365b6d" font-family="Arial, sans-serif" font-size="16" font-weight="700">NPPV</text>
+</svg>

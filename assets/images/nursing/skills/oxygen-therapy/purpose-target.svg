@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">酸素を目標範囲へ調整する図</title>
+  <desc id="desc">目盛りの中央にある目標帯へ針を合わせる様子を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M38 102a62 62 0 0 1 124 0" fill="none" stroke="#dce5e9" stroke-width="16"/>
+  <path d="M70 53a62 62 0 0 1 61 0" fill="none" stroke="#8fc4a3" stroke-linecap="round" stroke-width="16"/>
+  <path d="M100 101 124 58" stroke="#b75e63" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="100" cy="101" r="9" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M42 111h116" stroke="#567789" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="100" cy="126" r="7" fill="#6f9b83"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">SpO2と患者評価を合わせる図</title>
+  <desc id="desc">パルスオキシメータの数値だけでなく、呼吸、意識、循環、血液ガスを同時に確認する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="29" y="52" width="104" height="85" rx="12" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M45 103h19l9-24 15 43 10-28 9 9h11" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <text x="51" y="79" fill="#365b6d" font-family="Arial, sans-serif" font-size="20" font-weight="700">SpO₂</text>
+  <circle cx="218" cy="60" r="25" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M176 159c5-48 18-72 42-72s37 24 42 72" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <path d="M159 88h29M248 88h30M218 107v-20" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="158" cy="88" r="13" fill="#fff" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="m154 88 4 4 7-9" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="279" cy="88" r="13" fill="#fff" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M272 88h14" stroke="#b75e63" stroke-linecap="round" stroke-width="3"/>
+</svg>

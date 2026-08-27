@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">酸素流量計とチューブを接続する図</title>
+  <desc id="desc">壁の酸素口、流量計、チューブ、患者側先端を順に接続し、酸素流出を確認する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="24" y="32" width="64" height="55" rx="9" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <circle cx="56" cy="59" r="14" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M56 47v24M44 59h24" stroke="#6f9b83" stroke-linecap="round" stroke-width="3"/>
+  <path d="M88 60h37" stroke="#567789" stroke-linecap="round" stroke-width="6"/>
+  <path d="M126 26h48l-8 98h-32Z" fill="#fff" stroke="#567789" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="150" cy="77" r="9" fill="#6f9b83" stroke="#365b6d" stroke-width="3"/>
+  <path d="M150 124v20c0 20 41 12 58 18 15 5 28 10 54 6" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
+  <g fill="#6f9b83"><circle cx="273" cy="160" r="6"/><circle cx="291" cy="150" r="5"/><circle cx="300" cy="169" r="4"/></g>
+  <path d="M132 47h12M132 61h18M131 75h12M130 89h18M129 103h12" stroke="#8ba0aa" stroke-width="2"/>
+</svg>

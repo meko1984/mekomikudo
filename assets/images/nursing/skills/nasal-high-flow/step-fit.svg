@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">鼻孔に隙間を残したHFNCカニューレ装着</title><desc id="desc">鼻を下から見た拡大図。左右のプロングは鼻孔より細く、周囲に空気が通る隙間を残している。</desc>
+  <rect width="320" height="200" rx="18" fill="#f5faf9"/>
+  <path d="M76 32c21-18 147-18 168 0 15 14 25 45 14 76-13 38-49 57-98 57s-85-19-98-57c-11-31-1-62 14-76z" fill="#f0c9b8" stroke="#9b766a" stroke-width="3"/>
+  <path d="M160 38c-9 24-9 48 0 71" fill="none" stroke="#c09180" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="116" cy="91" rx="31" ry="24" fill="#875e57"/>
+  <ellipse cx="204" cy="91" rx="31" ry="24" fill="#875e57"/>
+  <ellipse cx="116" cy="94" rx="15" ry="20" fill="#8fc5cd" stroke="#4d8793" stroke-width="3"/>
+  <ellipse cx="204" cy="94" rx="15" ry="20" fill="#8fc5cd" stroke="#4d8793" stroke-width="3"/>
+  <path d="M116 113v31M204 113v31M116 144c0 25 88 25 88 0" fill="none" stroke="#69a9b8" stroke-width="10" stroke-linecap="round"/>
+  <g fill="none" stroke="#4f8067" stroke-width="3" stroke-linecap="round">
+    <path d="M81 91h14M137 91h14M169 91h14M225 91h14"/>
+    <path d="m89 85 7 6-7 6M143 85l-7 6 7 6M177 85l7 6-7 6M231 85l-7 6 7 6"/>
+  </g>
+  <path d="M160 113v36" stroke="#b77665" stroke-width="3" stroke-dasharray="5 5"/>
+  <circle cx="160" cy="106" r="5" fill="#b77665"/>
+  <path d="M65 177h190" stroke="#8eaaa8" stroke-width="2"/>
+  <g fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="12" font-weight="800" text-anchor="middle">
+    <text x="112" y="193">周囲に隙間</text><text x="208" y="193">鼻中隔を圧迫しない</text>
+  </g>
+</svg>

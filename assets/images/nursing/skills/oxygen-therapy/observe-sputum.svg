@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">咳と喀痰を観察する図</title>
+  <desc id="desc">咳をする患者と透明な喀痰容器を並べ、量や性状の観察を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="54" cy="48" r="22" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M24 133c4-41 13-63 30-63s27 22 31 63" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <path d="M78 49c12-8 20-4 25 5M82 63c14-4 21 1 24 10" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="M119 58h51l-6 70h-39Z" fill="#fff" stroke="#567789" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M125 99h39l-3 25h-33Z" fill="#c7d9a5" opacity=".8"/>
+  <path d="M121 58h47" stroke="#5d8fa6" stroke-linecap="round" stroke-width="7"/>
+  <path d="M137 73h19M137 85h19" stroke="#8ba0aa" stroke-width="2"/>
+</svg>

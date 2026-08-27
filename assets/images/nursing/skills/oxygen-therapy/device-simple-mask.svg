@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">シンプル酸素マスクの図</title>
+  <desc id="desc">鼻と口を覆うマスク、側孔、酸素チューブを表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="91" cy="61" r="43" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M57 59c7-18 18-28 34-28s28 10 35 28l-8 43c-19 13-37 13-55 0Z" fill="#dceaf0" fill-opacity=".84" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M62 70c19 10 39 10 58 0" fill="none" stroke="#567789" stroke-width="3"/>
+  <g fill="#fff" stroke="#5d8fa6" stroke-width="2"><circle cx="68" cy="79" r="5"/><circle cx="114" cy="79" r="5"/></g>
+  <path d="M91 103v37" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
+  <path d="M138 62h30M138 77h24" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="m159 54 10 8-10 8M153 69l10 8-10 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

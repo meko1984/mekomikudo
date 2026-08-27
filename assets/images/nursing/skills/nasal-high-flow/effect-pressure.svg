@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNCの動的な陽圧</title><desc id="desc">流量、呼吸、口の開閉、カニューレの適合で圧が変動し、固定圧ではないことを示す。</desc>
+  <rect width="320" height="200" rx="18" fill="#f4f7fb"/>
+  <path d="M34 144h252M47 144V44" stroke="#93a7b4" stroke-width="3"/>
+  <path d="M48 129c22-5 27-47 50-48s27 52 52 50 29-71 55-69 26 46 70 43" fill="none" stroke="#6d93b0" stroke-width="5"/>
+  <path d="M48 101h228" stroke="#ca8b69" stroke-width="3" stroke-dasharray="8 7"/>
+  <text x="56" y="36" fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="13" font-weight="800">気道内圧</text><text x="281" y="163" text-anchor="end" fill="#667987" font-family="Yu Gothic, sans-serif" font-size="12">呼吸の時間</text>
+  <text x="166" y="93" text-anchor="middle" fill="#a36748" font-family="Yu Gothic, sans-serif" font-size="12">CPAPの固定圧ではない</text>
+  <text x="160" y="185" text-anchor="middle" fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="14" font-weight="800">呼吸ごとに変わる圧</text>
+</svg>

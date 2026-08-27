@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">本人、酸素指示、目標範囲を照合する図</title>
+  <desc id="desc">患者の識別バンドと、デバイス、流量、目標SpO2が書かれた指示を確認する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="76" cy="68" r="29" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M32 170c4-49 19-74 44-74s40 25 44 74" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <rect x="35" y="130" width="45" height="14" rx="6" fill="#fff" stroke="#5d8fa6" stroke-width="3"/>
+  <rect x="159" y="27" width="120" height="144" rx="10" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <rect x="190" y="16" width="58" height="23" rx="7" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+  <path d="m176 64 8 8 14-17M176 98l8 8 14-17M176 132l8 8 14-17" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M208 66h52M208 100h52M208 134h38" stroke="#8ba0aa" stroke-linecap="round" stroke-width="4"/>
+  <text x="216" y="159" fill="#365b6d" font-family="Arial, sans-serif" font-size="14" font-weight="700">SpO₂</text>
+</svg>

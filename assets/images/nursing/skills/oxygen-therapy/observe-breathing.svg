@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">呼吸状態を観察する図</title>
+  <desc id="desc">胸郭の動きと呼吸回数、努力呼吸を観察する様子を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="78" cy="40" r="22" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M43 133c3-42 16-68 35-68s33 26 36 68" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <path d="M64 85c-15 9-17 30-4 38M92 85c15 9 17 30 4 38" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="4"/>
+  <path d="M130 44c18 8 18 25 0 33M143 35c28 13 28 38 0 51" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="155" cy="111" r="20" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M155 97v14l10 6" fill="none" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
+</svg>

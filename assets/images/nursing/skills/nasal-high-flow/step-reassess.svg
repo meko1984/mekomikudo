@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNC導入後の早期再評価</title><desc id="desc">導入前と導入後の呼吸数、努力呼吸、SpO2、FiO2、意識を比較する。</desc>
+  <rect width="320" height="200" rx="18" fill="#f1f8f5"/>
+  <g font-family="Yu Gothic, sans-serif" text-anchor="middle"><rect x="25" y="35" width="103" height="115" rx="12" fill="#fff" stroke="#87a3ae" stroke-width="3"/><text x="76" y="59" fill="#667987" font-size="13" font-weight="800">導入前</text><path d="M43 111h17l8-25 11 39 12-31 9 17h12" fill="none" stroke="#c67870" stroke-width="4"/><rect x="192" y="35" width="103" height="115" rx="12" fill="#fff" stroke="#6ea288" stroke-width="3"/><text x="243" y="59" fill="#4f8067" font-size="13" font-weight="800">導入後</text><path d="M210 111h17l8-12 11 20 12-16 9 8h12" fill="none" stroke="#63a487" stroke-width="4"/><path d="M142 92h35" stroke="#668b9b" stroke-width="5"/><path d="m169 83 13 9-13 9" fill="none" stroke="#668b9b" stroke-width="5"/><text x="160" y="181" fill="#315f70" font-size="14" font-weight="800">反応を時間で比べる</text></g>
+</svg>

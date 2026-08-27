@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">酸素ボンベ残量の概算式</title>
+  <desc id="desc">内容積、圧力、換算係数10を掛けて残量リットルを求める流れを表す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="19" y="58" width="65" height="78" rx="9" fill="#59646a" stroke="#36464e" stroke-width="4"/>
+  <rect x="27" y="84" width="49" height="28" rx="4" fill="#fff" stroke="#6f9b83" stroke-width="2"/>
+  <text x="34" y="104" fill="#365b6d" font-family="Arial, sans-serif" font-size="15" font-weight="700">V 3.4</text>
+  <text x="93" y="105" fill="#567789" font-family="Arial, sans-serif" font-size="30" font-weight="700">×</text>
+  <circle cx="139" cy="97" r="34" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M139 98 156 75" stroke="#b75e63" stroke-linecap="round" stroke-width="4"/>
+  <text x="116" y="124" fill="#365b6d" font-family="Arial, sans-serif" font-size="12" font-weight="700">10 MPa</text>
+  <text x="181" y="105" fill="#567789" font-family="Arial, sans-serif" font-size="30" font-weight="700">×10</text>
+  <path d="M235 97h22" stroke="#567789" stroke-linecap="round" stroke-width="5"/>
+  <path d="M235 109h22" stroke="#567789" stroke-linecap="round" stroke-width="5"/>
+  <path d="M272 47c20 18 29 36 28 56-1 24-14 39-37 48-20-17-28-34-27-55 1-22 13-39 36-49Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="4"/>
+  <text x="247" y="105" fill="#365b6d" font-family="Arial, sans-serif" font-size="19" font-weight="700">340 L</text>
+  <path d="M38 163h244" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="m272 155 11 8-11 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

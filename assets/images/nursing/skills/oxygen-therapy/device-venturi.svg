@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">ベンチュリーマスクの図</title>
+  <desc id="desc">マスク下の濃度調節アダプターと、左右から入る空気を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M55 26c8-12 24-18 38-18s30 6 38 18l-7 52c-20 15-42 15-62 0Z" fill="#dceaf0" fill-opacity=".85" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M93 79v16" stroke="#567789" stroke-linecap="round" stroke-width="6"/>
+  <path d="M73 96h40l10 26H63Z" fill="#e8c85f" stroke="#8f7a3e" stroke-linejoin="round" stroke-width="3"/>
+  <path d="M93 122v22" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
+  <path d="M39 109h27M147 109h-27" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+  <path d="m56 101 10 8-10 8M130 101l-10 8 10 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <g fill="#fff" stroke="#5d8fa6" stroke-width="2"><circle cx="67" cy="54" r="5"/><circle cx="119" cy="54" r="5"/></g>
+</svg>

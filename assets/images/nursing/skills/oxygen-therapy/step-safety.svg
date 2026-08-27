@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">火気、ガス名、ボンベ固定を確認する図</title>
+  <desc id="desc">火気禁止マーク、酸素ラベル、固定ベルト付きボンベを並べる。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="73" cy="84" r="46" fill="#fff" stroke="#b75e63" stroke-width="6"/>
+  <path d="M73 48c16 20 18 31 6 42 13-3 22 8 17 21-5 12-19 20-30 11-14-11-7-28 2-36-5-11-3-25 5-38Z" fill="#e8a25f" stroke="#a66d37" stroke-width="3"/>
+  <path d="M41 51l64 66" stroke="#b75e63" stroke-linecap="round" stroke-width="7"/>
+  <path d="M172 46c0-16 9-27 23-27s23 11 23 27v119c0 10-10 17-23 17s-23-7-23-17Z" fill="#59646a" stroke="#36464e" stroke-width="5"/>
+  <rect x="167" y="70" width="56" height="36" rx="6" fill="#fff" stroke="#6f9b83" stroke-width="3"/>
+  <text x="183" y="95" fill="#365b6d" font-family="Arial, sans-serif" font-size="21" font-weight="700">O₂</text>
+  <path d="M145 118h103" stroke="#b75e63" stroke-linecap="round" stroke-width="7"/>
+  <path d="M246 30v142" stroke="#87939a" stroke-linecap="round" stroke-width="6"/>
+  <path d="m258 60 22-15M258 102l22-15M258 144l22-15" stroke="#87939a" stroke-linecap="round" stroke-width="4"/>
+</svg>

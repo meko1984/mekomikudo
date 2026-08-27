@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">酸素投与後の反応を再評価し記録する図</title>
+  <desc id="desc">患者、SpO2の推移、時計、記録用紙を組み合わせる。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="67" cy="63" r="27" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M28 169c4-50 16-78 39-78s35 28 39 78" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <path d="M52 68c10 8 21 8 31 0M57 66V55M78 66V55" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="3"/>
+  <rect x="130" y="30" width="88" height="86" rx="10" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M143 93h14l8-24 13 39 11-28 8 13h8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <text x="145" y="57" fill="#365b6d" font-family="Arial, sans-serif" font-size="14" font-weight="700">SpO₂</text>
+  <circle cx="258" cy="64" r="27" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M258 47v18l13 8" fill="none" stroke="#365b6d" stroke-linecap="round" stroke-width="4"/>
+  <rect x="145" y="132" width="132" height="48" rx="7" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="m157 151 6 6 11-14M184 151h75M157 169l6 6 11-14M184 169h57" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

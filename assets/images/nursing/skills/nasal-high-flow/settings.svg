@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">HFNCの3つの設定</title><desc id="desc">流量、吸入酸素濃度、温度を別々に設定し、患者の反応で調整することを示す。</desc>
+  <rect width="320" height="200" rx="18" fill="#f5f9fa"/>
+  <g font-family="Yu Gothic, sans-serif" text-anchor="middle">
+    <g transform="translate(62 94)"><circle r="42" fill="#e6f1f5" stroke="#6e99aa" stroke-width="3"/><path d="M0 0-15-25" stroke="#47778a" stroke-width="5" stroke-linecap="round"/><circle r="6" fill="#47778a"/><text y="-54" fill="#315f70" font-size="15" font-weight="800">流量</text><text y="66" fill="#667987" font-size="12">L/分</text></g>
+    <g transform="translate(160 94)"><circle r="42" fill="#e8f3ec" stroke="#72a78a" stroke-width="3"/><path d="M0 0 20-21" stroke="#4f8067" stroke-width="5" stroke-linecap="round"/><circle r="6" fill="#4f8067"/><text y="-54" fill="#315f70" font-size="15" font-weight="800">FiO₂</text><text y="66" fill="#667987" font-size="12">21〜100%</text></g>
+    <g transform="translate(258 94)"><circle r="42" fill="#fff0df" stroke="#d49a65" stroke-width="3"/><path d="M0 0 0-28" stroke="#b87843" stroke-width="5" stroke-linecap="round"/><circle r="6" fill="#b87843"/><text y="-54" fill="#315f70" font-size="15" font-weight="800">温度</text><text y="66" fill="#667987" font-size="12">℃</text></g>
+    <text x="160" y="187" fill="#315f70" font-size="13" font-weight="800">3つを別々に照合</text>
+  </g>
+</svg>

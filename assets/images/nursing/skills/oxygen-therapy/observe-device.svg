@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">酸素デバイスと皮膚を確認する図</title>
+  <desc id="desc">鼻カニューレ、耳の接触部、チューブ、流量計の接続をたどる。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="59" cy="51" r="28" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M43 53c10 8 21 8 31 0M49 51v-8M68 51v-8" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="3"/>
+  <path d="M43 55c-11 12-11 32 2 45M74 55c12 11 13 32 1 48" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="3"/>
+  <path d="M77 103c39 11 52 4 57-18" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="4"/>
+  <rect x="130" y="26" width="35" height="66" rx="15" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <circle cx="147.5" cy="65" r="6" fill="#6f9b83" stroke="#567789" stroke-width="2"/>
+  <path d="M147 19v8M147 92v16" stroke="#567789" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="84" cy="53" r="9" fill="none" stroke="#b75e63" stroke-width="3"/>
+</svg>

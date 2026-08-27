@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">上気道の死腔洗い流し</title><desc id="desc">鼻咽頭に残った呼気ガスが高流量の新しいガスで洗い流される様子。</desc>
+  <rect width="320" height="200" rx="18" fill="#eef6f8"/>
+  <path d="M95 44c42-24 93 5 91 48-1 26-18 34-9 64" fill="none" stroke="#9a8175" stroke-width="9" stroke-linecap="round"/>
+  <path d="M91 72c24 4 40 17 49 38" fill="none" stroke="#78a9bd" stroke-width="14" stroke-linecap="round"/>
+  <g fill="none" stroke-linecap="round" stroke-width="5"><path d="M35 63h56" stroke="#5ba2b4"/><path d="m82 54 12 9-12 9" stroke="#5ba2b4"/><path d="M146 113c34 0 51-14 74-34" stroke="#cb806f" stroke-dasharray="7 8"/><path d="m212 76 12 0-3 12" stroke="#cb806f"/></g>
+  <g font-family="Yu Gothic, sans-serif" font-size="14" font-weight="800"><text x="24" y="42" fill="#3f7e90">新しいガス</text><text x="194" y="56" fill="#a05d50">呼気ガスを外へ</text><text x="160" y="181" text-anchor="middle" fill="#315f70">再吸入を減らす</text></g>
+</svg>
