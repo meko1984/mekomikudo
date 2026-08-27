@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">抜去物品を準備する図</title>
+  <desc id="desc">シリンジ、手袋、防水シート、清拭物品、廃棄物袋を並べる。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="29" y="38" width="262" height="132" rx="12" fill="#fff" stroke="#7aa4bd" stroke-dasharray="8 6" stroke-width="4"/>
+  <path d="M52 114 116 50" stroke="#567789" stroke-linecap="round" stroke-width="15"/>
+  <path d="M59 107 109 57" stroke="#dceaf0" stroke-linecap="round" stroke-width="8"/>
+  <path d="m109 44 20 20M45 102l20 20M38 115l20 20" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
+  <path d="M160 62c-10 9-9 31-3 45 7-1 11-6 14-12 4 9 10 13 17 13 8-22 3-43-6-48-5 2-9 6-11 12-3-7-7-10-11-10Z" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+  <rect x="214" y="59" width="53" height="45" rx="6" fill="#edf5f8" stroke="#5d8fa6" stroke-width="3"/>
+  <circle cx="168" cy="139" r="12" fill="#fff" stroke="#8ba0aa" stroke-width="3"/>
+  <path d="M215 125h48l-5 33h-38Z" fill="#e7f1ec" stroke="#6f9b83" stroke-width="3"/>
+</svg>

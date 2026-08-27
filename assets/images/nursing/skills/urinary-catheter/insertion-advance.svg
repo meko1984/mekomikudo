@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">カテーテルを尿道に沿ってやさしく進める図</title>
+  <desc id="desc">膀胱まで続く尿道の曲線に沿ってカテーテルを進め、無理な押し込みを禁止する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M185 27c-24 13-32 46-17 69 10 14 28 21 45 21s35-7 45-21c15-23 7-56-17-69-11 8-17 11-28 11s-17-3-28-11Z" fill="#f6ddad" stroke="#567789" stroke-width="4"/>
+  <path d="M213 116c-3 24-19 31-43 31H72" fill="none" stroke="#d8b7aa" stroke-linecap="round" stroke-width="14"/>
+  <path d="M72 147h98c24 0 40-7 43-31" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="5"/>
+  <path d="m126 138 13 9-13 9" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="64" cy="77" r="26" fill="#fff" stroke="#b75e63" stroke-width="4"/>
+  <path d="M48 77h32" stroke="#b75e63" stroke-linecap="round" stroke-width="6"/>
+  <path d="M80 51 48 103" stroke="#b75e63" stroke-linecap="round" stroke-width="4"/>
+  <path d="M227 54c7 0 12 5 12 12s-5 12-12 12" fill="none" stroke="#d18b74" stroke-linecap="round" stroke-width="3"/>
+</svg>

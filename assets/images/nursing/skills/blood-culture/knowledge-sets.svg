@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>別部位から採る2セットと好気用・嫌気用ボトル</title>
+  <style>.a{fill:none;stroke:#c5a999;stroke-width:22;stroke-linecap:round}.p{fill:#b75e63;stroke:#fff;stroke-width:3}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.c1{fill:#7aa4bd}.c2{fill:#9a8173}.d{fill:none;stroke:#5383a6;stroke-width:3;stroke-dasharray:6 5}</style>
+  <path class="a" d="M18 50c54-19 102-12 139 8"/><circle class="p" cx="82" cy="42" r="7"/>
+  <path class="a" d="M163 50c54-19 102-12 139 8"/><circle class="p" cx="229" cy="42" r="7"/>
+  <path class="d" d="M82 53v36m147-36v36"/>
+  <g transform="translate(38 85)"><path class="b" d="M10 24h43l5 78H5z"/><rect class="c1" x="14" y="7" width="35" height="21" rx="4"/><path class="b" d="M70 24h43l5 78H65z"/><rect class="c2" x="74" y="7" width="35" height="21" rx="4"/></g>
+  <g transform="translate(185 85)"><path class="b" d="M10 24h43l5 78H5z"/><rect class="c1" x="14" y="7" width="35" height="21" rx="4"/><path class="b" d="M70 24h43l5 78H65z"/><rect class="c2" x="74" y="7" width="35" height="21" rx="4"/></g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">排尿チューブの屈曲とバッグ位置を観察する図</title>
+  <desc id="desc">膀胱から採尿バッグへ向かうチューブと、途中の折れ曲がりを拡大して示す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M38 25c-12 7-16 23-8 35 5 7 13 10 21 10s16-3 21-10c8-12 4-28-8-35-5 4-8 5-13 5s-8-1-13-5Z" fill="#f6ddad" stroke="#567789" stroke-width="2.5"/>
+  <path d="M51 69v17c0 12 22 3 22 16s-19 6-19 18h59" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="72" cy="101" r="17" fill="none" stroke="#b75e63" stroke-width="3"/>
+  <path d="m60 89 24 24M84 89l-24 24" stroke="#b75e63" stroke-linecap="round" stroke-width="3"/>
+  <rect x="113" y="94" width="48" height="42" rx="5" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M118 119h38v12h-38Z" fill="#e8c85f" opacity=".75"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">説明とプライバシー</title><desc id="desc">患者へ説明し、カーテンを閉め、露出範囲を小さくする図。</desc><rect width="320" height="200" rx="20" fill="#f3f9fa"/>
+  <path d="M30 30v140M95 30v140M30 48h65" stroke="#65969d" stroke-width="5"/><path d="M43 48c0 28 39 28 39 56s-39 28-39 56" fill="#dff1f3" stroke="#65969d" stroke-width="3"/>
+  <circle cx="155" cy="68" r="24" fill="#f2c9b8"/><path d="M120 161v-51c0-20 70-20 70 0v51" fill="#9fc7cc"/><rect x="110" y="128" width="90" height="33" rx="8" fill="#fff" stroke="#65969d" stroke-width="3"/>
+  <path d="M210 45h75v56h-53l-18 15 4-15h-8Z" fill="#fff" stroke="#d18473" stroke-width="3"/><path d="M226 65h43M226 80h32" stroke="#d18473" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>薬剤感受性を治療へつなげるイメージ</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.m{fill:#b75e63}.d{fill:#eef5f7;stroke:#5383a6;stroke-width:3}.a{fill:none;stroke:#5383a6;stroke-width:3;stroke-linecap:round}</style>
+  <circle class="d" cx="51" cy="72" r="32"/><circle class="m" cx="44" cy="67" r="7"/><circle class="m" cx="59" cy="80" r="5"/><path class="o" d="M44 67l-8-8m8 8l8-7m7 20l8 6"/>
+  <path class="a" d="M88 72h24m-9-9l9 9-9 9"/>
+  <g transform="rotate(-35 141 58)"><rect x="119" y="48" width="45" height="20" rx="10" fill="#f2dede" stroke="#667987" stroke-width="3"/><path d="M141 49v18" stroke="#667987" stroke-width="3"/></g>
+  <path class="a" d="M136 88v22h35"/>
+  <circle cx="171" cy="110" r="18" fill="#7da695"/><path d="M162 110l6 6 12-14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</svg>

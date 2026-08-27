@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">創部保護と苦痛緩和の図</title>
+  <desc id="desc">患者を包む盾、会陰部の保護、穏やかな表情を示す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M100 19 151 38v36c0 31-22 48-51 58-29-10-51-27-51-58V38Z" fill="#e7f1ec" stroke="#6f9b83" stroke-width="3"/>
+  <circle cx="100" cy="58" r="17" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2"/>
+  <path d="M74 108c2-24 13-34 26-34s24 10 26 34" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
+  <path d="M92 58c2 2 4 3 8 3s6-1 8-3" fill="none" stroke="#8d6f66" stroke-linecap="round" stroke-width="2"/>
+  <path d="M133 78c9-11 24 1 0 20-24-19-9-31 0-20Z" fill="#d98f8f"/>
+</svg>

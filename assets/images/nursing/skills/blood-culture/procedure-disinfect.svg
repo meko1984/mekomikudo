@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>血液培養ボトルの栓と皮膚を消毒して乾燥させる</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.s{fill:#dceaf0;stroke:#5383a6;stroke-width:3}.a{fill:none;stroke:#5383a6;stroke-width:4;stroke-linecap:round}.r{fill:none;stroke:#b75e63;stroke-width:4;stroke-linecap:round}</style>
+  <path class="b" d="M28 65h67l6 101H22z"/><rect x="34" y="43" width="55" height="27" rx="5" fill="#7aa4bd" stroke="#667987" stroke-width="3"/>
+  <path class="o" d="M72 26l42 34"/><circle class="s" cx="116" cy="62" r="13"/>
+  <path d="M182 134q58-37 118 0v36H182z" fill="#f2c7b8" stroke="#b99386" stroke-width="3"/>
+  <path class="a" d="M203 136q38-20 75 0"/><path class="r" d="M219 112l-5-20m25 15V84m23 28l6-20"/>
+  <circle cx="240" cy="139" r="43" fill="none" stroke="#b75e63" stroke-width="3"/><path d="M210 108l60 61" stroke="#b75e63" stroke-width="3"/>
+  <path class="o" d="M126 102h34m-12-11l12 11-12 11"/>
+</svg>

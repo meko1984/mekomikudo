@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">皮膚保護と環境調整</title><desc id="desc">皮膚保護剤を薄く使用し、パッド、衣類、体位、記録を整える図。</desc><rect width="320" height="200" rx="20" fill="#faf7fb"/>
+  <path d="M81 30 126 48v39c0 36-21 58-45 71-24-13-45-35-45-71V48Z" fill="#f3e8f6" stroke="#9b74aa" stroke-width="4"/><path d="m59 88 15 15 30-38" fill="none" stroke="#d77f70" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M159 43h50v82h-50z" fill="#fff" stroke="#5c9097" stroke-width="4"/><path d="M169 58h30M169 73h30M169 88h20" stroke="#8db7bc" stroke-width="4" stroke-linecap="round"/><path d="M242 62c29 17 40 48 30 77" fill="none" stroke="#668fa4" stroke-width="15" stroke-linecap="round"/><path d="M242 62c-11 12-17 25-18 40M272 139c-13 8-29 12-47 9" fill="none" stroke="#f1c6b5" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="184" cy="151" r="24" fill="#e4f1f3" stroke="#5c9097" stroke-width="4"/><path d="M184 137v16l11 7" fill="none" stroke="#5c9097" stroke-width="4" stroke-linecap="round"/>
+</svg>

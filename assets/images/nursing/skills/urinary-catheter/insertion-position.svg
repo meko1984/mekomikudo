@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">プライバシーを守り体位を整える図</title>
+  <desc id="desc">カーテンで囲ったベッド上で患者の体位を整え、防水シートを敷く。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M22 24h276M39 24v151M281 24v151" stroke="#567789" stroke-linecap="round" stroke-width="5"/>
+  <path d="M42 29h49v119H42ZM94 29h49v119H94ZM177 29h49v119h-49ZM229 29h49v119h-49Z" fill="#e9f1f4" stroke="#7aa4bd" stroke-width="2"/>
+  <path d="M145 106h31" stroke="#b5c7cf" stroke-dasharray="5 5" stroke-width="3"/>
+  <path d="M76 142h169v18H76Z" fill="#dce9ee" stroke="#567789" stroke-width="3"/>
+  <circle cx="121" cy="116" r="18" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2"/>
+  <path d="M140 121h79c11 0 19 8 22 21H138Z" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
+  <rect x="167" y="132" width="57" height="8" rx="4" fill="#7aa4bd" opacity=".7"/>
+  <path d="M82 160v18M238 160v18" stroke="#567789" stroke-width="4"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>皮膚常在菌がボトルへ混入するコンタミネーション</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.s{fill:#f2c7b8;stroke:#b99386;stroke-width:3}.m{fill:#b75e63}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.a{fill:none;stroke:#5383a6;stroke-width:4;stroke-linecap:round}</style>
+  <path class="s" d="M15 112q62-38 124 0v51H15z"/><circle class="m" cx="49" cy="104" r="7"/><circle class="m" cx="83" cy="91" r="6"/><circle class="m" cx="113" cy="105" r="7"/>
+  <path class="o" d="M49 104l-8-8m42-5l6-9m24 23l8-8"/>
+  <path class="a" d="M137 96c34-32 61-31 80-9"/><path class="o" d="M207 77l10 10-11 10"/>
+  <path class="b" d="M236 58h56l6 110h-68z"/><rect x="241" y="37" width="46" height="26" rx="5" fill="#7aa4bd" stroke="#667987" stroke-width="3"/>
+  <circle class="m" cx="260" cy="118" r="7"/><circle class="m" cx="278" cy="137" r="6"/>
+  <circle cx="189" cy="147" r="23" fill="none" stroke="#b75e63" stroke-width="4"/><path d="M173 131l32 32" stroke="#b75e63" stroke-width="4"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">強い汚れを先に除く</title><desc id="desc">清拭材を一方向に使い、汚れた面を折り込んで再使用しない図。</desc><rect width="320" height="200" rx="20" fill="#f7faf8"/>
+  <ellipse cx="130" cy="105" rx="78" ry="58" fill="#f2d2c4" stroke="#b98777" stroke-width="4"/><path d="M80 100c35 22 69 22 103 0" fill="none" stroke="#9d6e61" stroke-width="4"/><circle cx="135" cy="117" r="17" fill="#a9815d" opacity=".85"/>
+  <path d="M169 75h92v67h-92z" fill="#fff" stroke="#5d959b" stroke-width="4"/><path d="m169 75 46 34 46-34M215 109v33" fill="none" stroke="#9bc6ca" stroke-width="3"/>
+  <path d="M239 58c-28-16-55-12-75 4" fill="none" stroke="#d77f70" stroke-width="6" stroke-linecap="round"/><path d="m172 49-13 14 18 7" fill="none" stroke="#d77f70" stroke-width="5"/>
+  <circle cx="270" cy="160" r="18" fill="#fff0ed" stroke="#d77f70" stroke-width="3"/><path d="m261 151 18 18m0-18-18 18" stroke="#d77f70" stroke-width="4" stroke-linecap="round"/>
+</svg>

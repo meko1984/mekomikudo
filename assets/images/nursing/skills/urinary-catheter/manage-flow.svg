@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">膀胱から採尿バッグまで尿を下り勾配で流す図</title>
+  <desc id="desc">膀胱、屈曲のないチューブ、膀胱より低く床から離した採尿バッグを示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M61 27c-20 11-27 39-14 58 8 12 22 18 36 18s28-6 36-18c13-19 6-47-14-58-9 7-14 9-22 9s-13-2-22-9Z" fill="#f6ddad" stroke="#567789" stroke-width="4"/>
+  <path d="M83 102c0 20 7 29 31 29h61c23 0 31 10 31 28" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="7"/>
+  <path d="m119 123 12 8-12 8M165 123l12 8-12 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <rect x="199" y="123" width="72" height="62" rx="8" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M206 159h58v19h-58Z" fill="#e8c85f" opacity=".75"/>
+  <path d="M282 118v67" stroke="#8ba0aa" stroke-dasharray="7 5" stroke-width="3"/>
+  <path d="m274 174 8 11 8-11" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M35 187h261" stroke="#c7d4d9" stroke-width="4"/>
+  <path d="M228 187h65" stroke="#b75e63" stroke-dasharray="6 5" stroke-width="3"/>
+</svg>

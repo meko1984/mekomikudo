@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>止血、ラベル表示、記録、搬送を行う</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#c5a999;stroke-width:24;stroke-linecap:round}.g{fill:#fff;stroke:#87939a;stroke-width:2}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.r{fill:#b75e63}</style>
+  <path class="a" d="M12 76c49-20 90-13 127 5"/><rect class="g" x="66" y="57" width="45" height="38" rx="4"/><path class="o" d="M66 76h45M88 57v38"/>
+  <path class="b" d="M169 55h43l5 78h-53z"/><rect x="173" y="39" width="35" height="20" rx="4" fill="#7aa4bd" stroke="#667987" stroke-width="3"/><rect class="g" x="173" y="79" width="35" height="29" rx="3"/><path class="o" d="M180 88h21m-21 8h16"/>
+  <rect class="b" x="235" y="36" width="69" height="105" rx="8"/><path class="o" d="M249 58h42m-42 16h42m-42 16h30M249 118l8 8 17-20"/>
+  <path class="o" d="M140 104h20m61 0h16"/><circle class="r" cx="150" cy="104" r="5"/><circle class="r" cx="229" cy="104" r="5"/>
+  <path d="M166 157h109" stroke="#5383a6" stroke-width="4" stroke-linecap="round"/><path d="M265 148l10 9-10 9" fill="none" stroke="#5383a6" stroke-width="4"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">呼気に合わせてカテーテルをやさしく抜く図</title>
+  <desc id="desc">力を抜いた患者、呼気、ゆっくり引き抜く方向と、抵抗時に止まる印を示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="76" cy="61" r="28" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M35 177c3-54 17-82 41-82s38 28 41 82" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <path d="M95 58c19-7 34-4 45 7M102 73c17-3 31 1 40 9" fill="none" stroke="#7aa4bd" stroke-linecap="round" stroke-width="4"/>
+  <path d="M271 133c-52 0-84-2-132-23" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <path d="m244 121 15 12-15 12" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="251" cy="55" r="27" fill="#fff" stroke="#b75e63" stroke-width="4"/>
+  <path d="M234 55h34" stroke="#b75e63" stroke-linecap="round" stroke-width="6"/>
+  <path d="M269 31 233 79" stroke="#b75e63" stroke-linecap="round" stroke-width="4"/>
+  <path d="M150 133c-15 12-19 25-18 42" fill="none" stroke="#8d6f66" stroke-linecap="round" stroke-width="6"/>
+</svg>

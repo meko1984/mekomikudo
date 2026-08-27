@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>抗菌薬投与と血液培養採取の時刻確認</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.c{fill:#eef5f7;stroke:#5383a6;stroke-width:3}.a{fill:none;stroke:#5383a6;stroke-width:4;stroke-linecap:round}.r{fill:#b75e63}</style>
+  <circle class="c" cx="62" cy="74" r="42"/><path class="o" d="M62 43v33l21 12"/><circle class="r" cx="62" cy="75" r="5"/>
+  <g transform="rotate(-35 139 53)"><rect x="117" y="43" width="44" height="20" rx="10" fill="#f2dede" stroke="#667987" stroke-width="3"/><path d="M139 44v18" stroke="#667987" stroke-width="3"/></g>
+  <path class="a" d="M107 102h64"/><path class="o" d="M122 94v16m30-16v16"/><circle class="r" cx="122" cy="102" r="5"/><circle class="r" cx="152" cy="102" r="5"/>
+</svg>

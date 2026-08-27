@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" role="img" aria-labelledby="title desc">
+  <title id="title">陰部洗浄の物品配置</title><desc id="desc">清潔な物品を上、使用後の物品を下に分けたスマートフォン用の配置図。</desc>
+  <rect width="320" height="440" rx="22" fill="#f6fbfc"/>
+  <g font-family="Arial,'Noto Sans JP',sans-serif"><rect x="22" y="22" width="276" height="242" rx="20" fill="#e5f5f6" stroke="#5e9ca3" stroke-width="3"/><text x="42" y="57" font-size="20" font-weight="700" fill="#285d63">清潔な物品</text>
+    <g transform="translate(47 82)" stroke="#4f8890" stroke-width="4" fill="#fff"><path d="M0 75h62L55 25H7Z"/><path d="M18 25V10h27v15"/><path d="M78 28h62v47H78z"/><path d="m88 40 20 20 23-28" fill="none"/><circle cx="177" cy="52" r="25"/><path d="M177 27v50M152 52h50"/></g>
+    <g fill="#326c73" font-size="14" text-anchor="middle"><text x="78" y="181">湯・ボトル</text><text x="157" y="181">清拭材</text><text x="224" y="181">タオル</text></g><rect x="50" y="203" width="220" height="39" rx="11" fill="#fff"/><text x="160" y="228" text-anchor="middle" font-size="15" fill="#326c73">交換物品・保護剤は必要時</text>
+    <path d="M42 285h236" stroke="#9db9bc" stroke-width="3" stroke-dasharray="7 7"/>
+    <rect x="22" y="306" width="276" height="112" rx="20" fill="#fff0ed" stroke="#d78474" stroke-width="3"/><text x="42" y="341" font-size="20" font-weight="700" fill="#81483d">使用後</text><path d="M200 341h62l-8 55h-46Z" fill="#fff" stroke="#d78474" stroke-width="3"/><path d="M213 341v-12h36v12M219 357h31M219 371h31M219 385h23" fill="none" stroke="#d78474" stroke-width="3" stroke-linecap="round"/><text x="65" y="384" font-size="16" fill="#81483d">廃棄物袋へ</text></g>
+</svg>

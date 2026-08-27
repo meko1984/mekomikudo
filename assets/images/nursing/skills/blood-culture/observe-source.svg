@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>感染が疑われる部位とカテーテル挿入部の観察</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#c5a999;stroke-width:25;stroke-linecap:round}.r{fill:#e8a3a5;stroke:#b75e63;stroke-width:3}.t{fill:none;stroke:#79a9c8;stroke-width:5;stroke-linecap:round}</style>
+  <path class="a" d="M19 85c48-22 103-8 164 22"/>
+  <circle class="r" cx="92" cy="81" r="19" opacity=".75"/><circle cx="92" cy="81" r="6" fill="#b75e63"/>
+  <path class="t" d="M92 81c25 1 39 18 58 31"/><rect x="144" y="104" width="27" height="15" rx="4" fill="#d8e6ec" stroke="#667987" stroke-width="2"/>
+  <circle class="r" cx="145" cy="47" r="22" opacity=".35"/><path class="o" d="M145 34v26m-13-13h26"/><path d="M125 62l-19 12" class="o"/>
+</svg>

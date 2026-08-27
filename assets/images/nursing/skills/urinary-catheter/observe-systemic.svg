@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">発熱と全身状態を観察する図</title>
+  <desc id="desc">患者、体温計、脈拍波形で感染徴候と全身状態を表す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="69" cy="56" r="21" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2.5"/>
+  <path d="M37 126c3-32 15-48 32-48s29 16 32 48" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
+  <rect x="123" y="29" width="14" height="67" rx="7" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <circle cx="130" cy="102" r="13" fill="#d98f8f" stroke="#b75e63" stroke-width="2"/>
+  <path d="M130 87V47" stroke="#b75e63" stroke-linecap="round" stroke-width="5"/>
+  <path d="M111 120h16l7-14 9 25 8-16h25" fill="none" stroke="#6f9b83" stroke-linejoin="round" stroke-width="3"/>
+</svg>

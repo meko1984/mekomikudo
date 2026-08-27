@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">採尿バッグを清潔な容器へ排液する図</title>
+  <desc id="desc">手袋をした手が排液口を操作し、先端を容器に触れさせず尿を量る。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M57 19h112l11 18v84H46V37Z" fill="#fff" stroke="#567789" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M53 82h120v32H53Z" fill="#e8c85f" opacity=".73"/>
+  <path d="M113 121v22" stroke="#5d8fa6" stroke-width="8"/>
+  <path d="M95 143h36" stroke="#365b6d" stroke-linecap="round" stroke-width="7"/>
+  <path d="M113 148v19" stroke="#e8c85f" stroke-linecap="round" stroke-width="6"/>
+  <path d="M69 164h93l-8 25H77Z" fill="#edf5f8" stroke="#567789" stroke-width="3"/>
+  <path d="M84 174h62" stroke="#e8c85f" stroke-width="7"/>
+  <path d="M206 78c18-17 42-10 48 8-18 7-35 22-44 39-20-7-24-29-4-47Z" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+  <path d="m227 117-18 26M245 106l-17 37" stroke="#567789" stroke-linecap="round" stroke-width="9"/>
+  <path d="M171 139h22" stroke="#b75e63" stroke-dasharray="5 4" stroke-width="3"/>
+  <path d="M182 129v20" stroke="#b75e63" stroke-width="3"/>
+</svg>

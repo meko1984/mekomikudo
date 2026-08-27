@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>翼状針、ホルダー、駆血帯</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#79a9c8;stroke-width:5;stroke-linecap:round}.w{fill:#d8e6ec;stroke:#667987;stroke-width:3}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}</style>
+  <path class="t" d="M16 93c42-49 85-44 115-14"/><path class="o" d="M14 92l-9 9"/><path class="w" d="M42 70l22-12-3 23zm7 4l22 8-17 15z"/>
+  <rect class="b" x="122" y="53" width="58" height="52" rx="9"/><path class="o" d="M180 65h14v28h-14"/>
+  <path d="M28 124c41 13 87 11 137-2" fill="none" stroke="#b75e63" stroke-width="9" stroke-linecap="round"/>
+</svg>

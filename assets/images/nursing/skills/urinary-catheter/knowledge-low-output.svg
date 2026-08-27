@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">尿が出ないときの確認順序</title>
+  <desc id="desc">患者、チューブ、採尿バッグを左から右へ順番に確認する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="59" cy="65" r="23" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M26 153c3-44 14-66 33-66s30 22 33 66" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
+  <circle cx="137" cy="100" r="31" fill="#fff" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M112 99c14-18 25 18 40 0 8-9 15-5 21 1" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="7"/>
+  <rect x="214" y="55" width="69" height="96" rx="8" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M220 118h57v27h-57Z" fill="#e8c85f" opacity=".5"/>
+  <path d="M258 70h18M258 85h18M258 100h18M258 115h18" stroke="#8ba0aa" stroke-width="2.5"/>
+  <path d="M97 100h15M174 100h30" stroke="#6f9b83" stroke-linecap="round" stroke-width="5"/>
+  <path d="m105 92 9 8-9 8M196 92l9 8-9 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="155" cy="40" r="21" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="m170 55 20 20" stroke="#567789" stroke-linecap="round" stroke-width="7"/>
+  <path d="M148 40h14M155 33v14" stroke="#b75e63" stroke-linecap="round" stroke-width="3"/>
+</svg>

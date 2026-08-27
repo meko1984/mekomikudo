@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>末梢血とカテーテル血を同時採取して採取源を区別する</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#c5a999;stroke-width:22;stroke-linecap:round}.t{fill:none;stroke:#79a9c8;stroke-width:5;stroke-linecap:round}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.r{fill:#b75e63}.d{fill:none;stroke:#5383a6;stroke-width:3;stroke-dasharray:6 5}</style>
+  <path class="a" d="M15 55c49-22 93-14 126 3"/><circle class="r" cx="77" cy="47" r="7"/><path class="d" d="M77 58v49"/>
+  <path class="a" d="M173 55c49-22 93-14 130 3"/><path class="t" d="M230 48c20 4 29 16 46 25"/><rect x="267" y="67" width="29" height="16" rx="4" fill="#d8e6ec" stroke="#667987" stroke-width="2"/><path class="d" d="M230 58v49"/>
+  <path class="b" d="M51 112h50l5 70H46z"/><rect x="55" y="95" width="42" height="21" rx="4" fill="#7aa4bd" stroke="#667987" stroke-width="3"/>
+  <path class="b" d="M207 112h50l5 70h-60z"/><rect x="211" y="95" width="42" height="21" rx="4" fill="#9a8173" stroke="#667987" stroke-width="3"/>
+  <circle cx="155" cy="139" r="29" fill="#fff" stroke="#5383a6" stroke-width="3"/><path class="o" d="M155 119v21l13 9"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">尿道口と固定部の皮膚を観察する図</title>
+  <desc id="desc">皮膚を通るカテーテルと、発赤を拡大する虫眼鏡を示す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <rect x="27" y="49" width="105" height="52" rx="24" fill="#f2c7b8" stroke="#b99386" stroke-width="3"/>
+  <path d="M35 75h110" stroke="#5d8fa6" stroke-linecap="round" stroke-width="7"/>
+  <ellipse cx="82" cy="75" rx="18" ry="13" fill="#e8a49a" opacity=".75"/>
+  <circle cx="126" cy="71" r="25" fill="#fff" fill-opacity=".72" stroke="#567789" stroke-width="4"/>
+  <path d="m144 89 24 24" stroke="#567789" stroke-linecap="round" stroke-width="7"/>
+  <circle cx="119" cy="67" r="6" fill="#b75e63"/>
+  <path d="M53 42v66" stroke="#6f9b83" stroke-dasharray="5 4" stroke-width="3"/>
+</svg>

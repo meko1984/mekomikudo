@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">陰部洗浄時の観察</title><desc id="desc">皮膚、粘膜、排泄物、症状、留置物の五つを観察する図。</desc>
+  <rect width="320" height="200" rx="20" fill="#f5fafb"/>
+  <g transform="translate(35 28)" fill="none" stroke="#568e95" stroke-width="4" stroke-linecap="round"><path d="M56 8c-16 21-25 45-25 70v49M104 8c16 21 25 45 25 70v49M31 82h98M80 22v108"/><ellipse cx="80" cy="86" rx="27" ry="35" fill="#dff3f5"/><circle cx="72" cy="76" r="6" fill="#e08372" stroke="none"/><circle cx="91" cy="94" r="7" fill="#e5ad56" stroke="none"/></g>
+  <g font-family="Arial,'Noto Sans JP',sans-serif" font-size="14" font-weight="700" fill="#355c61"><text x="190" y="43">皮膚・粘膜</text><text x="190" y="72">尿・便・分泌物</text><text x="190" y="101">痛み・かゆみ</text><text x="190" y="130">左右差・範囲</text><text x="190" y="159">留置物・固定部</text></g>
+  <g fill="#e08372"><circle cx="174" cy="38" r="5"/><circle cx="174" cy="67" r="5"/><circle cx="174" cy="96" r="5"/><circle cx="174" cy="125" r="5"/><circle cx="174" cy="154" r="5"/></g>
+</svg>

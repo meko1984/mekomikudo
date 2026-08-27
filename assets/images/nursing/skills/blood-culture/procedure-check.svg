@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>指示、患者、血液培養ボトルを照合する</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.p{fill:#fff;stroke:#667987;stroke-width:3}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.r{fill:#b75e63}.a{fill:none;stroke:#5383a6;stroke-width:3}</style>
+  <path class="p" d="M20 24h84v132H20z"/><path class="o" d="M36 49h50M36 68h50M36 87h35M36 120l9 9 18-22"/>
+  <circle cx="157" cy="60" r="25" fill="#f5f0ec" stroke="#a99c91" stroke-width="3"/><path d="M117 151c4-48 18-69 40-69s36 21 40 69z" fill="#f5f0ec" stroke="#a99c91" stroke-width="3"/>
+  <rect x="129" y="105" width="56" height="26" rx="5" fill="#eef5f7" stroke="#5383a6" stroke-width="3"/>
+  <path class="b" d="M230 64h34l4 77q1 13-11 13h-20q-12 0-11-13z"/><rect x="233" y="49" width="29" height="19" rx="4" fill="#7aa4bd" stroke="#667987" stroke-width="3"/>
+  <path class="b" d="M278 64h25l4 77q1 13-10 13h-14q-10 0-9-13z"/><rect x="280" y="49" width="21" height="19" rx="4" fill="#9a8173" stroke="#667987" stroke-width="3"/>
+  <path class="a" d="M104 99h22m69 0h25"/><circle class="r" cx="115" cy="99" r="5"/><circle class="r" cx="208" cy="99" r="5"/>
+</svg>

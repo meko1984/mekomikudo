@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">下腹部痛と膀胱刺激症状を観察する図</title>
+  <desc id="desc">下腹部を押さえる患者と痛みの波紋を示す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <circle cx="100" cy="34" r="18" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2"/>
+  <path d="M70 123c3-49 12-67 30-67s27 18 30 67" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
+  <ellipse cx="100" cy="94" rx="18" ry="14" fill="#f1c0b3" stroke="#b75e63" stroke-width="3"/>
+  <path d="M82 91c-17-3-24 4-28 17M118 91c17-3 24 4 28 17" fill="none" stroke="#8d6f66" stroke-linecap="round" stroke-width="6"/>
+  <path d="M75 80c-11 3-18 11-21 22M125 80c11 3 18 11 21 22" fill="none" stroke="#d18b74" stroke-linecap="round" stroke-width="2.5"/>
+</svg>

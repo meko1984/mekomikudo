@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">尿流出後に膀胱内でバルーンを膨らませる図</title>
+  <desc id="desc">カテーテル先端とバルーンが膀胱内にあり、表示量の膨張液をシリンジから注入する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M82 27c-24 13-32 46-17 69 10 14 28 21 45 21s35-7 45-21c15-23 7-56-17-69-11 8-17 11-28 11S93 35 82 27Z" fill="#f6ddad" stroke="#567789" stroke-width="4"/>
+  <path d="M110 181V83" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <ellipse cx="110" cy="91" rx="24" ry="16" fill="#dceaf0" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M83 74c10 7 43 7 54 0" fill="none" stroke="#e8c85f" stroke-linecap="round" stroke-width="9" opacity=".8"/>
+  <path d="M183 150 250 83" stroke="#567789" stroke-linecap="round" stroke-width="16"/>
+  <path d="M190 143 243 90" stroke="#dceaf0" stroke-linecap="round" stroke-width="9"/>
+  <path d="m243 76 20 20M176 140l20 20M169 153l20 20" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
+  <rect x="220" y="122" width="53" height="31" rx="6" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <text x="246.5" y="143" text-anchor="middle" fill="#365b6d" font-family="Arial, sans-serif" font-size="15" font-weight="700">mL</text>
+  <path d="m181 53 10 10 20-25" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+</svg>

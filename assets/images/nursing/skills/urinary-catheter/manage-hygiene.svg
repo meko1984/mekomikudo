@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">留置中の通常の衛生ケアを行う図</title>
+  <desc id="desc">流水と清拭布で尿道口周囲を清潔にし、消毒薬の反復使用をしないことを示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="34" y="79" width="159" height="62" rx="28" fill="#f2c7b8" stroke="#b99386" stroke-width="4"/>
+  <path d="M43 110h184" stroke="#5d8fa6" stroke-linecap="round" stroke-width="9"/>
+  <ellipse cx="119" cy="110" rx="20" ry="15" fill="#e8a49a" opacity=".65"/>
+  <path d="M92 48c12 16 18 27 18 38a18 18 0 1 1-36 0c0-11 6-22 18-38ZM142 38c10 13 15 22 15 31a15 15 0 1 1-30 0c0-9 5-18 15-31Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M143 125c18-14 38-9 49 7-14 16-35 25-58 23-4-12 0-22 9-30Z" fill="#fff" stroke="#7aa4bd" stroke-width="3"/>
+  <rect x="237" y="51" width="46" height="77" rx="8" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M247 51V38h26v13" fill="none" stroke="#567789" stroke-width="3"/>
+  <circle cx="260" cy="91" r="35" fill="none" stroke="#b75e63" stroke-width="4"/>
+  <path d="m236 67 48 48" stroke="#b75e63" stroke-linecap="round" stroke-width="5"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">膀胱留置カテーテルの主な合併症</title>
+  <desc id="desc">中央のカテーテルから、感染、尿道損傷、閉塞、尿漏れへ枝分かれする。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M103 100h114" stroke="#5d8fa6" stroke-linecap="round" stroke-width="17"/>
+  <ellipse cx="160" cy="100" rx="25" ry="17" fill="#dceaf0" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M160 82V52M160 118v30M135 94l-35-24M185 94l35-24" stroke="#8ba0aa" stroke-linecap="round" stroke-width="3"/>
+  <g fill="#d98f8f" stroke="#b75e63" stroke-width="2.5">
+    <circle cx="160" cy="35" r="5"/><circle cx="147" cy="42" r="4"/><circle cx="173" cy="44" r="4"/><circle cx="153" cy="25" r="3"/>
+  </g>
+  <path d="M68 44 96 78 78 81l13 28-39-41 18-2Z" fill="#f0b39d" stroke="#b75e63" stroke-linejoin="round" stroke-width="3"/>
+  <circle cx="244" cy="61" r="22" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M228 61h32" stroke="#b75e63" stroke-linecap="round" stroke-width="7"/>
+  <path d="M160 148c14 19 20 29 20 37a20 20 0 1 1-40 0c0-8 6-18 20-37Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M245 119c14 18 20 29 20 39a20 20 0 1 1-40 0c0-10 6-21 20-39Z" fill="#e8c85f" opacity=".8" stroke="#a48b3d" stroke-width="3"/>
+  <path d="M76 126c10-12 29 1 0 24-29-23-10-36 0-24Z" fill="#d98f8f"/>
+</svg>

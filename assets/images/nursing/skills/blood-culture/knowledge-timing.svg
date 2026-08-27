@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>可能なら抗菌薬投与前に血液培養を採取する時間軸</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#5383a6;stroke-width:5;stroke-linecap:round}.b{fill:#eef5f7;stroke:#667987;stroke-width:3}.r{fill:#b75e63}</style>
+  <path class="a" d="M28 112h261"/><path class="o" d="M279 101l12 11-12 11"/>
+  <circle class="r" cx="109" cy="112" r="8"/><circle class="r" cx="222" cy="112" r="8"/>
+  <path class="b" d="M78 51h48l5 53H73z"/><rect x="83" y="34" width="38" height="21" rx="4" fill="#7aa4bd" stroke="#667987" stroke-width="3"/>
+  <g transform="rotate(-35 225 61)"><rect x="201" y="49" width="49" height="23" rx="11" fill="#f2dede" stroke="#667987" stroke-width="3"/><path d="M225 50v21" stroke="#667987" stroke-width="3"/></g>
+  <path class="o" d="M109 120v28m113-28v28"/><path d="M38 153h47" stroke="#7da695" stroke-width="6" stroke-linecap="round"/><path d="M76 144l10 9-10 9" fill="none" stroke="#7da695" stroke-width="5"/>
+</svg>

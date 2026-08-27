@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">女性の洗浄方向</title><desc id="desc">尿道口側から外側へ一方向に洗い、肛門を最後にする順序図。</desc><rect width="320" height="200" rx="20" fill="#f9f6fa"/>
+  <path d="M91 26c-24 35-38 71-38 119M229 26c24 35 38 71 38 119" fill="none" stroke="#9f7e98" stroke-width="12" stroke-linecap="round"/><path d="M160 39c-28 34-38 73-19 110M160 39c28 34 38 73 19 110" fill="none" stroke="#e2b7c7" stroke-width="15" stroke-linecap="round"/><circle cx="160" cy="81" r="8" fill="#5b9198"/><circle cx="160" cy="151" r="10" fill="#8a6a60"/>
+  <g fill="none" stroke="#d77f70" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M147 87c-29 16-41 38-43 59"/><path d="m96 134 8 14 14-9"/><path d="M173 87c29 16 41 38 43 59"/><path d="m202 139 14 9 8-14"/><path d="M160 96v35"/><path d="m150 120 10 13 10-13"/></g>
+  <g font-family="Arial,'Noto Sans JP',sans-serif" font-weight="700"><circle cx="130" cy="58" r="14" fill="#5b9198"/><text x="130" y="63" text-anchor="middle" font-size="14" fill="#fff">1</text><circle cx="205" cy="116" r="14" fill="#d77f70"/><text x="205" y="121" text-anchor="middle" font-size="14" fill="#fff">2</text><circle cx="188" cy="166" r="14" fill="#8a6a60"/><text x="188" y="171" text-anchor="middle" font-size="14" fill="#fff">3</text></g>
+</svg>

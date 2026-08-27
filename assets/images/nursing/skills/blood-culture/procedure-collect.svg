@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>翼状針で好気用から嫌気用へ規定量を採取する</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#79a9c8;stroke-width:5;stroke-linecap:round}.b{stroke:#667987;stroke-width:3}.l{fill:none;stroke:#b75e63;stroke-width:3;stroke-dasharray:5 4}.a{fill:none;stroke:#5383a6;stroke-width:3}</style>
+  <path class="t" d="M12 81c54-52 95-38 125-4"/><path class="o" d="M17 79L7 90"/><path d="M51 58l27-12-6 25zm8 3l25 11-21 13z" fill="#d8e6ec" stroke="#667987" stroke-width="3"/>
+  <path class="a" d="M130 78h38m-11-11l11 11-11 11"/>
+  <g transform="translate(164 25)"><path class="b" fill="#edf5f8" d="M16 31h55l6 119H10z"/><rect class="b" fill="#7aa4bd" x="20" y="10" width="47" height="26" rx="5"/><path class="l" d="M15 104h57"/></g>
+  <path class="a" d="M242 99h22m-9-9l9 9-9 9"/>
+  <g transform="translate(255 25) scale(.82)"><path class="b" fill="#f5f0ec" d="M16 31h55l6 119H10z"/><rect class="b" fill="#9a8173" x="20" y="10" width="47" height="26" rx="5"/><path class="l" d="M15 104h57"/></g>
+</svg>

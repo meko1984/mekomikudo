@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">すすぎと乾燥</title><desc id="desc">洗浄剤を流し、タオルで皮膚をこすらず押さえて乾かす図。</desc><rect width="320" height="200" rx="20" fill="#f3fafb"/>
+  <path d="M70 35c-19 26-30 39-30 57a30 30 0 0 0 60 0c0-18-11-31-30-57Z" fill="#bde8ee" stroke="#4f929b" stroke-width="4"/><path d="M30 138c30-21 70-21 100 0v31H30Z" fill="#f0c8b7" stroke="#ad7e6f" stroke-width="4"/>
+  <rect x="158" y="44" width="122" height="96" rx="12" fill="#fff" stroke="#668fa4" stroke-width="4"/><path d="M174 60c25 20 65 20 90 0M174 124c25-20 65-20 90 0" fill="none" stroke="#b5ccda" stroke-width="4"/><path d="M219 151v-44m-15 15 15-15 15 15" fill="none" stroke="#d77f70" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M138 26v148" stroke="#a9c4c7" stroke-width="3" stroke-dasharray="7 7"/>
+</svg>

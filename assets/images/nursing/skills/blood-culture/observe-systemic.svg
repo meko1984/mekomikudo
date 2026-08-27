@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>発熱、悪寒、呼吸循環など全身状態の観察</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.p{fill:#f5f0ec;stroke:#a99c91;stroke-width:3}.r{fill:#b75e63}.b{fill:#eef5f7;stroke:#5383a6;stroke-width:3}</style>
+  <circle class="p" cx="82" cy="42" r="20"/><path class="p" d="M51 123c3-42 14-62 31-62s29 20 32 62z"/>
+  <path class="o" d="M49 74l-12-8m13 20l-15 2m80-14l12-8m-13 21l15 2"/>
+  <rect class="b" x="132" y="30" width="17" height="68" rx="8"/><circle class="r" cx="140.5" cy="99" r="13"/><path d="M141 88V52" stroke="#b75e63" stroke-width="6" stroke-linecap="round"/>
+  <path class="o" d="M19 125h25l7-13 10 24 10-20 8 9h43"/>
+  <path d="M73 84c6-10 19-3 9 10-10-13-15-2-9-10z" fill="#d99295"/>
+</svg>

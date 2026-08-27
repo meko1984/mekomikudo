@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>検査指示、患者識別ラベル、個人防護具</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.p{fill:#fff;stroke:#667987;stroke-width:3}.b{fill:#eef5f7;stroke:#5383a6;stroke-width:3}.r{fill:#b75e63}</style>
+  <path class="p" d="M18 21h78v108H18z"/><path class="o" d="M32 43h48M32 60h48M32 77h34M32 105l8 8 16-19"/>
+  <rect class="b" x="112" y="25" width="68" height="43" rx="7"/><circle cx="129" cy="46" r="9" fill="#f2c7b8"/><path class="o" d="M145 40h24m-24 13h18"/>
+  <path class="b" d="M121 88c11-13 37-13 48 0l-5 40h-38z"/><path class="o" d="M130 88l-8-12m38 12l8-12"/><circle class="r" cx="145" cy="105" r="7"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>血液培養陽性報告から患者評価、共有、記録までの流れ</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.n{fill:#eef5f7;stroke:#5383a6;stroke-width:3}.r{fill:#b75e63}.a{fill:none;stroke:#5383a6;stroke-width:3;stroke-linecap:round}</style>
+  <rect class="n" x="15" y="62" width="54" height="68" rx="9"/><path class="o" d="M30 78h25m-25 13h25m-25 13h16"/><circle class="r" cx="57" cy="116" r="5"/>
+  <path class="a" d="M71 96h28m-9-9l9 9-9 9"/>
+  <circle cx="129" cy="73" r="20" fill="#f5f0ec" stroke="#a99c91" stroke-width="3"/><path d="M99 135c4-32 14-47 30-47s26 15 30 47z" fill="#f5f0ec" stroke="#a99c91" stroke-width="3"/><path class="o" d="M108 119h14l5-11 8 21 7-14h13"/>
+  <path class="a" d="M160 96h28m-9-9l9 9-9 9"/>
+  <path class="n" d="M210 50h61v51c0 16-14 28-31 28s-30-12-30-28z"/><path class="o" d="M226 72h31m-31 15h23"/><path d="M229 130l-8 20 25-17" fill="#eef5f7" stroke="#5383a6" stroke-width="3"/>
+  <path class="a" d="M271 96h28m-9-9l9 9-9 9"/>
+  <path class="o" d="M283 132v36h-82"/><path class="n" d="M144 149h57v35h-57z"/><path class="o" d="M154 161h37m-37 10h28"/>
+</svg>

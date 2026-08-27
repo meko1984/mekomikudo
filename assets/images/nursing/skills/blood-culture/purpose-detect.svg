@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>血流中の微生物を見つけるイメージ</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.v{fill:none;stroke:#c98b8e;stroke-width:28;stroke-linecap:round}.m{fill:#b75e63}.l{fill:#eef5f7;stroke:#5383a6;stroke-width:4}</style>
+  <path class="v" d="M18 91c44-27 91-27 164 0"/>
+  <circle class="m" cx="55" cy="84" r="6"/><circle class="m" cx="94" cy="77" r="5"/><circle class="m" cx="131" cy="84" r="6"/>
+  <g class="o"><path d="M50 84l-8-8m8 8l8-7m37 0l-6-8m6 8l8-5m28 12l-6-9m6 9l9-4"/></g>
+  <circle class="l" cx="118" cy="62" r="35"/>
+  <path class="o" d="M143 87l25 25"/>
+  <circle class="m" cx="108" cy="57" r="7"/><circle class="m" cx="128" cy="70" r="5"/>
+  <path class="o" d="M108 57l-9-7m9 7l7-8m13 21l8 6"/>
+</svg>

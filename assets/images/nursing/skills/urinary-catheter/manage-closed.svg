@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">閉鎖式排尿回路を保つ図</title>
+  <desc id="desc">カテーテルとチューブの接続部を盾で守り、外さないことを示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M27 103h103M190 103h103" stroke="#5d8fa6" stroke-linecap="round" stroke-width="18"/>
+  <path d="M118 81h84v44h-84Z" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M145 83v40M175 83v40" stroke="#8ba0aa" stroke-width="3"/>
+  <path d="M160 25 219 47v42c0 36-25 56-59 68-34-12-59-32-59-68V47Z" fill="#e7f1ec" fill-opacity=".82" stroke="#6f9b83" stroke-width="4"/>
+  <path d="m136 86 18 18 33-43" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M63 47c10-12 29 1 0 24-29-23-10-36 0-24Z" fill="#d98f8f" opacity=".8"/>
+</svg>

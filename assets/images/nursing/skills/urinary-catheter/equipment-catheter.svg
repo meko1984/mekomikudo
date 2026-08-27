@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title desc">
+  <title id="title">二腔式膀胱留置カテーテルの構造図</title>
+  <desc id="desc">先端の側孔、収縮したバルーン、排尿ルーメン、バルーン注入口を示す。</desc>
+  <rect width="240" height="180" rx="20" fill="#f7fbfc"/>
+  <path d="M26 58c74 0 105 9 146 39" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="17"/>
+  <path d="M26 58c74 0 105 9 146 39" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="3"/>
+  <ellipse cx="50" cy="58" rx="5" ry="9" fill="#365b6d"/>
+  <path d="M76 47c12-8 24-7 33 3-8 13-21 17-34 8Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M171 97c17 11 20 24 29 38M171 97c10 2 24 2 37-3" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="15"/>
+  <path d="M171 97c17 11 20 24 29 38M171 97c10 2 24 2 37-3" fill="none" stroke="#365b6d" stroke-linecap="round" stroke-width="2.5"/>
+  <circle cx="205" cy="139" r="8" fill="#edf5f8" stroke="#567789" stroke-width="2"/>
+  <path d="M54 114h130" stroke="#8ba0aa" stroke-dasharray="5 4" stroke-width="2"/>
+  <path d="M57 106v16M181 106v16" stroke="#8ba0aa" stroke-width="2"/>
+</svg>

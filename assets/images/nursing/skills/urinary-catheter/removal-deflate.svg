@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">バルーン膨張液を戻して完全に収縮させる図</title>
+  <desc id="desc">カテーテルのバルーンが小さくなり、シリンジに膨張液が戻る。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M42 35c-23 12-30 42-16 63 9 13 24 19 39 19s30-6 39-19c14-21 7-51-16-63-9 7-14 9-23 9s-14-2-23-9Z" fill="#f6ddad" stroke="#567789" stroke-width="4"/>
+  <path d="M65 176V88" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <ellipse cx="65" cy="92" rx="13" ry="8" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M132 143 222 53" stroke="#567789" stroke-linecap="round" stroke-width="18"/>
+  <path d="M140 135 214 61" stroke="#dceaf0" stroke-linecap="round" stroke-width="10"/>
+  <path d="m214 43 22 22M124 136l22 22M116 149l22 22" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
+  <path d="M118 93h71" stroke="#6f9b83" stroke-linecap="round" stroke-width="5"/>
+  <path d="m130 82-12 11 12 11" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <rect x="229" y="93" width="55" height="38" rx="6" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M238 118h37" stroke="#7aa4bd" stroke-linecap="round" stroke-width="7"/>
+</svg>

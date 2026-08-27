@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">固定間隔の交換や予防的処置をルーチンにしない図</title>
+  <desc id="desc">カレンダー、膀胱洗浄用シリンジ、抗菌薬を斜線で消し、臨床的理由と製品表示を確認する。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="27" y="48" width="77" height="78" rx="7" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <path d="M27 70h77M45 38v22M85 38v22" stroke="#567789" stroke-linecap="round" stroke-width="4"/>
+  <path d="M43 87h13M70 87h13M43 106h13M70 106h13" stroke="#8ba0aa" stroke-width="4"/>
+  <path d="M132 117 192 57" stroke="#567789" stroke-linecap="round" stroke-width="15"/>
+  <path d="M139 110 185 64" stroke="#dceaf0" stroke-linecap="round" stroke-width="8"/>
+  <path d="m185 51 20 20M124 110l20 20" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
+  <path d="M224 59c15-16 39-12 49 4s4 38-14 48l-35-52Z" fill="#e7f1ec" stroke="#6f9b83" stroke-width="4"/>
+  <path d="M224 59 259 111" stroke="#6f9b83" stroke-width="3"/>
+  <circle cx="159" cy="98" r="72" fill="none" stroke="#b75e63" stroke-width="5"/>
+  <path d="m109 47 101 102" stroke="#b75e63" stroke-linecap="round" stroke-width="6"/>
+  <path d="M230 151h57" stroke="#6f9b83" stroke-linecap="round" stroke-width="6"/>
+  <path d="m276 141 11 10-11 10" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M235 142v-26h45v26" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="m247 129 7 7 13-17" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 500" role="img" aria-labelledby="title desc">
+  <title id="title">陰部洗浄の4つの役割</title><desc id="desc">洗浄、観察、乾燥、皮膚保護を上から順につないだスマートフォン用の図。</desc>
+  <rect width="320" height="500" rx="22" fill="#f6fbfc"/>
+  <g font-family="Arial,'Noto Sans JP',sans-serif" font-size="18" font-weight="700" fill="#315d63">
+    <g transform="translate(30 25)"><rect width="260" height="90" rx="20" fill="#dff3f5" stroke="#4f9299" stroke-width="3"/><path d="M55 19C42 37 36 46 36 57a19 19 0 0 0 38 0c0-11-6-20-19-38Z" fill="#fff" stroke="#4f9299" stroke-width="3"/><path d="m46 59 7 7 14-17" fill="none" stroke="#e08372" stroke-width="4"/><text x="95" y="60">汚れを落とす</text></g>
+    <path d="M160 116v24m-9-9 9 10 9-10" fill="none" stroke="#86b9be" stroke-width="5"/>
+    <g transform="translate(30 143)"><rect width="260" height="90" rx="20" fill="#fff2df" stroke="#d99b4e" stroke-width="3"/><circle cx="53" cy="44" r="20" fill="#fff" stroke="#d99b4e" stroke-width="4"/><path d="m68 59 14 14" stroke="#d99b4e" stroke-width="6"/><circle cx="49" cy="40" r="5" fill="#e08372"/><text x="95" y="52">皮膚を観察</text></g>
+    <path d="M160 234v24m-9-9 9 10 9-10" fill="none" stroke="#86b9be" stroke-width="5"/>
+    <g transform="translate(30 261)"><rect width="260" height="90" rx="20" fill="#e8f0ff" stroke="#6689bd" stroke-width="3"/><path d="M30 32h52v32H30z" fill="#fff" stroke="#6689bd" stroke-width="3"/><path d="M39 38c11 9 25 9 34 0M39 58c11-9 25-9 34 0" fill="none" stroke="#b9cbed" stroke-width="3"/><text x="95" y="52">水分を残さない</text></g>
+    <path d="M160 352v24m-9-9 9 10 9-10" fill="none" stroke="#86b9be" stroke-width="5"/>
+    <g transform="translate(30 379)"><rect width="260" height="90" rx="20" fill="#f4eaf8" stroke="#9a73ad" stroke-width="3"/><path d="M56 18 80 28v20c0 18-11 30-24 38-13-8-24-20-24-38V28Z" fill="#fff" stroke="#9a73ad" stroke-width="3"/><path d="m44 49 8 8 16-20" fill="none" stroke="#e08372" stroke-width="4"/><text x="95" y="52">皮膚を守る</text></g>
+  </g>
+</svg>

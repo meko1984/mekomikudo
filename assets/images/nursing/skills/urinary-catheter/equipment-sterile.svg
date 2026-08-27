@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">無菌操作に使う物品の図</title>
+  <desc id="desc">滅菌手袋、ドレープ、綿球、セッシを無菌野に並べる。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <rect x="24" y="24" width="152" height="102" rx="9" fill="#fff" stroke="#7aa4bd" stroke-dasharray="6 4" stroke-width="3"/>
+  <path d="M54 54c-8 7-7 25-2 36 5-1 9-5 11-9 3 7 8 11 14 11 6-18 2-35-5-39-4 1-7 5-9 9-2-5-5-8-9-8Z" fill="#dceaf0" stroke="#567789" stroke-width="2"/>
+  <path d="M101 49h49v42h-49Z" fill="#edf5f8" stroke="#5d8fa6" stroke-width="2"/>
+  <circle cx="116" cy="108" r="8" fill="#fff" stroke="#8ba0aa" stroke-width="2"/>
+  <circle cx="137" cy="108" r="8" fill="#fff" stroke="#8ba0aa" stroke-width="2"/>
+  <path d="m85 110 48-45M91 116l48-45" stroke="#87939a" stroke-linecap="round" stroke-width="3"/>
+  <path d="m28 34 10-10M162 126l14-14" stroke="#6f9b83" stroke-width="3"/>
+</svg>

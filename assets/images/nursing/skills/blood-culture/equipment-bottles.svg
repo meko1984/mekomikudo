@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180">
+  <title>好気用、嫌気用、小児用の血液培養ボトル</title>
+  <style>.b{stroke:#667987;stroke-width:3}.l{fill:none;stroke:#b75e63;stroke-width:3;stroke-dasharray:5 4}.m{fill:#fff;stroke:#87939a;stroke-width:2}</style>
+  <g transform="translate(16 18)"><path class="b" fill="#edf5f8" d="M17 30h55l6 104c1 16-8 22-20 22H31c-12 0-21-6-20-22z"/><rect class="b" fill="#7aa4bd" x="21" y="11" width="47" height="24" rx="5"/><rect class="m" x="23" y="68" width="43" height="43" rx="3"/><path class="l" d="M17 115h58"/></g>
+  <g transform="translate(87 18)"><path class="b" fill="#f5f0ec" d="M17 30h55l6 104c1 16-8 22-20 22H31c-12 0-21-6-20-22z"/><rect class="b" fill="#9a8173" x="21" y="11" width="47" height="24" rx="5"/><rect class="m" x="23" y="68" width="43" height="43" rx="3"/><path class="l" d="M17 115h58"/></g>
+  <g transform="translate(166 48) scale(.78)"><path class="b" fill="#eef5ef" d="M17 30h55l6 104c1 16-8 22-20 22H31c-12 0-21-6-20-22z"/><rect class="b" fill="#7da695" x="21" y="11" width="47" height="24" rx="5"/><rect class="m" x="23" y="68" width="43" height="43" rx="3"/><path class="l" d="M17 115h58"/></g>
+</svg>

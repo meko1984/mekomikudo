@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">バルーン膨張液とシリンジの図</title>
+  <desc id="desc">シリンジ、滅菌水の滴、カテーテルのバルーン注入口と容量表示を示す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M28 100 92 36" stroke="#567789" stroke-linecap="round" stroke-width="14"/>
+  <path d="M35 93 85 43" stroke="#dceaf0" stroke-linecap="round" stroke-width="8"/>
+  <path d="m85 31 18 18M21 88l18 18M16 103l18 18" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
+  <path d="M123 31c13 17 19 28 19 39a19 19 0 1 1-38 0c0-11 6-22 19-39Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M107 117h62" stroke="#5d8fa6" stroke-linecap="round" stroke-width="12"/>
+  <circle cx="112" cy="117" r="8" fill="#fff" stroke="#365b6d" stroke-width="2"/>
+  <rect x="134" y="103" width="34" height="21" rx="4" fill="#fff" stroke="#567789" stroke-width="2"/>
+  <text x="151" y="118" text-anchor="middle" fill="#365b6d" font-family="Arial, sans-serif" font-size="11" font-weight="700">mL</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <title>消毒した皮膚へ触れずに末梢静脈を穿刺する</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#c5a999;stroke-width:38;stroke-linecap:round}.v{fill:none;stroke:#79a9c8;stroke-width:15;stroke-linecap:round}.r{fill:#b75e63}.z{fill:#eef5f7;stroke:#5383a6;stroke-width:3}</style>
+  <path class="a" d="M30 119c77-30 165-28 261 17"/><path class="v" d="M61 117c62-18 131-11 203 13"/>
+  <ellipse class="z" cx="154" cy="112" rx="44" ry="30" opacity=".55"/><circle class="r" cx="154" cy="112" r="7"/>
+  <path class="o" d="M246 52L164 105"/><path d="M250 49l35-22" stroke="#667987" stroke-width="9" stroke-linecap="round"/><path d="M158 104l-17 4" stroke="#b75e63" stroke-width="3"/>
+  <path d="M98 56c-12 15-15 31-8 48m-10-38l18-13m-5 50l-12 13" fill="none" stroke="#b75e63" stroke-width="3" stroke-linecap="round"/>
+  <path class="o" d="M111 36h57m-10-10l10 10-10 10"/>
+</svg>

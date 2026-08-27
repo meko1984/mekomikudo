@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">挿入前の適応と本人確認</title>
+  <desc id="desc">患者、識別バンド、指示書、アレルギーと注意点の確認を表す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <circle cx="86" cy="71" r="29" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>
+  <path d="M42 171c4-48 19-72 44-72s40 24 44 72" fill="#c9dfe8" stroke="#567789" stroke-width="4"/>
+  <rect x="42" y="134" width="42" height="13" rx="6" fill="#fff" stroke="#5d8fa6" stroke-width="3"/>
+  <circle cx="75" cy="140.5" r="4" fill="#6f9b83"/>
+  <rect x="168" y="31" width="103" height="137" rx="9" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <rect x="196" y="20" width="47" height="23" rx="7" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+  <path d="m184 70 8 8 14-17M184 102l8 8 14-17M184 134l8 8 14-17" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M217 72h36M217 104h36M217 136h36" stroke="#8ba0aa" stroke-linecap="round" stroke-width="4"/>
+</svg>

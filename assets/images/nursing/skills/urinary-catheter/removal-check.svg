@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">抜去指示と尿量を確認する図</title>
+  <desc id="desc">指示書の確認、採尿バッグの目盛り、不要になったカテーテルの抜去判断を示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="32" y="27" width="112" height="147" rx="9" fill="#fff" stroke="#567789" stroke-width="4"/>
+  <rect x="62" y="17" width="52" height="24" rx="7" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+  <path d="m51 75 11 11 24-31M51 119l11 11 24-31" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M95 77h31M95 121h31" stroke="#8ba0aa" stroke-linecap="round" stroke-width="4"/>
+  <path d="M184 44h84l9 15v106h-102V59Z" fill="#fff" stroke="#567789" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M181 126h90v33h-90Z" fill="#e8c85f" opacity=".74"/>
+  <path d="M244 62h25M244 78h25M244 94h25M244 110h25M244 126h25" stroke="#8ba0aa" stroke-width="2.5"/>
+  <path d="M225 44V25" stroke="#5d8fa6" stroke-linecap="round" stroke-width="7"/>
+</svg>

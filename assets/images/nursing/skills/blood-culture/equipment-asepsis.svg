@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <title>消毒綿、手袋、ガーゼ、廃棄容器</title>
+  <style>.o{fill:none;stroke:#667987;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.p{fill:#eef5f7;stroke:#5383a6;stroke-width:3}.g{fill:#fff;stroke:#87939a;stroke-width:2}.r{fill:#f2dede;stroke:#b75e63;stroke-width:3}</style>
+  <rect class="p" x="18" y="26" width="52" height="48" rx="7"/><circle cx="44" cy="50" r="14" fill="#dceaf0" stroke="#5383a6" stroke-width="2"/>
+  <path class="g" d="M91 25c12 4 18 14 19 29l6-22c2-7 11-5 10 3l-2 20 8-17c3-6 11-2 8 5l-8 24c-5 15-15 21-30 20-17-2-26-14-22-26z"/>
+  <rect class="g" x="22" y="95" width="52" height="38" rx="3"/><path class="o" d="M22 114h52M48 95v38"/>
+  <path class="r" d="M143 82h39l8 50h-55z"/><path class="o" d="M140 82h46m-34-13h22m-11 0v13"/>
+</svg>

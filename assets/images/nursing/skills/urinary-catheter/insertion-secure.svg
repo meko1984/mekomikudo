@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">カテーテルを固定しバッグを膀胱より低くする図</title>
+  <desc id="desc">ベッド上の患者、牽引しない固定具、下り勾配のチューブ、床から離した採尿バッグを示す。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <path d="M24 99h202v20H24Z" fill="#dce9ee" stroke="#567789" stroke-width="3"/>
+  <circle cx="73" cy="71" r="21" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2.5"/>
+  <path d="M95 78h97c14 0 25 8 30 21H92Z" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
+  <rect x="144" y="91" width="36" height="14" rx="6" fill="#fff" stroke="#6f9b83" stroke-width="3"/>
+  <path d="M164 103c1 29 23 27 45 34 14 5 21 13 23 27" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
+  <rect x="224" y="130" width="59" height="55" rx="7" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M230 161h47v18h-47Z" fill="#e8c85f" opacity=".75"/>
+  <path d="M35 119v58M212 119v58" stroke="#567789" stroke-width="5"/>
+  <path d="M292 129v56" stroke="#8ba0aa" stroke-dasharray="6 5" stroke-width="3"/>
+  <path d="m285 177 7 8 7-8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

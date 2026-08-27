@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title desc">
+  <title id="title">閉鎖式採尿バッグの構造図</title>
+  <desc id="desc">排尿チューブ、採尿ポート、目盛り付きバッグ、排液口を示す。</desc>
+  <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
+  <path d="M100 19v25" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
+  <circle cx="100" cy="34" r="6" fill="#fff" stroke="#365b6d" stroke-width="2"/>
+  <path d="M53 44h94l9 16v66H44V60Z" fill="#fff" stroke="#567789" stroke-linejoin="round" stroke-width="3"/>
+  <path d="M49 93h102v28H49Z" fill="#e8c85f" opacity=".72"/>
+  <path d="M122 59h25M122 72h25M122 85h25M122 98h25" stroke="#8ba0aa" stroke-width="2"/>
+  <path d="M100 126v13" stroke="#5d8fa6" stroke-width="6"/>
+  <path d="M89 139h22" stroke="#365b6d" stroke-linecap="round" stroke-width="5"/>
+  <path d="M57 55h22" stroke="#6f9b83" stroke-linecap="round" stroke-width="5"/>
+</svg>

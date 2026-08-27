@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">無菌野を作る図</title>
+  <desc id="desc">滅菌ドレープ上にカテーテル、手袋、綿球、潤滑剤を無菌的に並べる。</desc>
+  <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
+  <rect x="37" y="31" width="246" height="139" rx="12" fill="#fff" stroke="#7aa4bd" stroke-dasharray="8 6" stroke-width="4"/>
+  <path d="M67 66c-12 10-11 37-3 54 8-2 13-7 17-14 5 10 12 16 21 16 9-27 3-52-8-58-6 2-11 8-14 14-3-8-8-12-13-12Z" fill="#dceaf0" stroke="#567789" stroke-width="3"/>
+  <path d="M128 73c54 0 67 12 99 35" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <path d="M227 108c12 5 20 12 28 23M227 108c9 1 17 1 27-3" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="151" cy="133" r="12" fill="#fff" stroke="#8ba0aa" stroke-width="3"/>
+  <circle cx="183" cy="133" r="12" fill="#fff" stroke="#8ba0aa" stroke-width="3"/>
+  <rect x="219" y="52" width="42" height="29" rx="6" fill="#edf5f8" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M48 41h25M247 160h25" stroke="#6f9b83" stroke-linecap="round" stroke-width="4"/>
+</svg>
