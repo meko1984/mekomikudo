@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" role="img" aria-labelledby="t d">
+  <title id="t">エンゼルケアで大切にすること</title>
+  <desc id="d">本人の尊厳を中心に家族、希望、安全、連携を結ぶ</desc>
+  <rect width="880" height="320" rx="28" fill="#f5f3f0"/>
+  <text x="40" y="45" fill="#57534d" font-family="sans-serif" font-size="24" font-weight="700">その人らしさを中心に考える</text>
+  <g fill="none" stroke="#c5bfb5" stroke-width="5">
+    <path d="M378 157 232 130"/>
+    <path d="M502 157 648 130"/>
+    <path d="M382 205 232 239"/>
+    <path d="M498 205 648 239"/>
+  </g>
+  <g fill="#fff" stroke="#a69e92" stroke-width="3">
+    <circle cx="188" cy="122" r="50"/>
+    <circle cx="692" cy="122" r="50"/>
+    <circle cx="188" cy="249" r="50"/>
+    <circle cx="692" cy="249" r="50"/>
+  </g>
+  <circle cx="440" cy="181" r="67" fill="#fff" stroke="#817a70" stroke-width="4"/>
+  <g font-family="sans-serif" text-anchor="middle" font-weight="700">
+    <text x="440" y="174" fill="#57534d" font-size="21">本人の尊厳</text>
+    <text x="440" y="199" fill="#7a7369" font-size="15">その人らしさ</text>
+    <text x="188" y="117" fill="#655f58" font-size="16">家族の時間</text>
+    <text x="188" y="138" fill="#7a7369" font-size="12">悲嘆への支援</text>
+    <text x="692" y="117" fill="#655f58" font-size="16">希望の確認</text>
+    <text x="692" y="138" fill="#7a7369" font-size="12">文化・宗教</text>
+    <text x="188" y="244" fill="#655f58" font-size="16">安全</text>
+    <text x="188" y="265" fill="#7a7369" font-size="12">感染・身体</text>
+    <text x="692" y="244" fill="#655f58" font-size="16">チーム連携</text>
+    <text x="692" y="265" fill="#7a7369" font-size="12">確認・記録</text>
+  </g>
+</svg>

@@ -31,6 +31,24 @@
     <loc>https://mekomikudo.jp/nursing/skills/blood-draw/</loc>
   </url>
   <url>
+    <loc>https://mekomikudo.jp/nursing/skills/specimen-collection/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/suction/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/inhalation/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/postmortem-care/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/chest-drain/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/pericardial-drainage/</loc>
+  </url>
+  <url>
     <loc>https://mekomikudo.jp/nursing/skills/central-venous-catheter/</loc>
   </url>
   <url>
@@ -67,6 +85,15 @@
     <loc>https://mekomikudo.jp/nursing/skills/dialysis/</loc>
   </url>
   <url>
+    <loc>https://mekomikudo.jp/nursing/skills/fluid-balance/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/gastric-tube/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/blood-transfusion/</loc>
+  </url>
+  <url>
     <loc>https://mekomikudo.jp/nursing/skills/oxygen-therapy/</loc>
   </url>
   <url>
@@ -74,5 +101,11 @@
   </url>
   <url>
     <loc>https://mekomikudo.jp/nursing/skills/nppv/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/doppler/</loc>
+  </url>
+  <url>
+    <loc>https://mekomikudo.jp/nursing/skills/enteral-nutrition/</loc>
   </url>
 </urlset>
