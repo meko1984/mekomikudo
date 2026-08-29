@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img" aria-labelledby="t d">
+  <title id="t">胸部誘導V1からV6の位置</title><desc id="d">胸部正面図にV1からV6の解剖学的位置と配置順を示す。</desc>
+  <rect width="880" height="520" rx="24" fill="#f4fafb"/>
+  <g font-family="system-ui,'Noto Sans JP',sans-serif" fill="#173b47">
+    <text x="440" y="42" text-anchor="middle" font-size="22" font-weight="700">V1・V2・V4を決めてから、V3・V5・V6</text>
+    <g transform="translate(50 60)">
+      <path d="M185 12c-43 5-86 22-111 48-24 24-34 62-34 107v241h365V167c0-45-10-83-34-107-25-26-68-43-111-48-11 18-64 18-75 0z" fill="#fff" stroke="#9ab4bc" stroke-width="3"/>
+      <path d="M210 38v332" stroke="#c8d8dc" stroke-width="3"/>
+      <g stroke="#d8e4e7" stroke-width="2" fill="none"><path d="M80 88c83 20 177 20 260 0"/><path d="M70 124c90 22 190 22 280 0"/><path d="M62 160c95 24 201 24 296 0"/><path d="M56 196c101 25 207 25 308 0"/><path d="M52 232c105 26 211 26 316 0"/></g>
+      <path d="M210 78v168" stroke="#8aa4ac" stroke-width="6" stroke-linecap="round"/>
+      <g stroke="#fff" stroke-width="3"><circle cx="188" cy="160" r="17" fill="#4e91a4"/><circle cx="232" cy="160" r="17" fill="#4e91a4"/><circle cx="265" cy="212" r="17" fill="#8a70b3"/><circle cx="302" cy="246" r="17" fill="#b36a77"/><circle cx="346" cy="246" r="17" fill="#ce8247"/><circle cx="390" cy="246" r="17" fill="#4f9b75"/></g>
+      <g fill="#fff" text-anchor="middle" font-size="13" font-weight="700"><text x="188" y="165">V1</text><text x="232" y="165">V2</text><text x="265" y="217">V3</text><text x="302" y="251">V4</text><text x="346" y="251">V5</text><text x="390" y="251">V6</text></g><path d="M302 246h88" stroke="#b36a77" stroke-width="2" stroke-dasharray="5 4"/>
+    </g>
+    <g transform="translate(500 78)">
+      <rect width="330" height="374" rx="20" fill="#fff" stroke="#9ab4bc" stroke-width="2"/><text x="24" y="42" font-size="18" font-weight="700">位置を言葉で確認</text>
+      <g font-size="15"><text x="26" y="86" font-weight="700" fill="#397888">V1</text><text x="68" y="86">第4肋間・胸骨右縁</text><text x="26" y="126" font-weight="700" fill="#397888">V2</text><text x="68" y="126">第4肋間・胸骨左縁</text><text x="26" y="166" font-weight="700" fill="#9c5361">V4</text><text x="68" y="166">第5肋間・左鎖骨中線</text><text x="26" y="206" font-weight="700" fill="#6f5b9d">V3</text><text x="68" y="206">V2とV4の中間</text><text x="26" y="246" font-weight="700" fill="#a6612d">V5</text><text x="68" y="246">V4と同じ高さ・前腋窩線</text><text x="26" y="286" font-weight="700" fill="#337758">V6</text><text x="68" y="286">V4と同じ高さ・中腋窩線</text></g>
+      <rect x="22" y="316" width="286" height="40" rx="12" fill="#fff0f0"/><text x="165" y="341" text-anchor="middle" font-size="14" font-weight="700" fill="#a34848">V1・V2を高く貼らない</text>
+    </g>
+  </g>
+</svg>

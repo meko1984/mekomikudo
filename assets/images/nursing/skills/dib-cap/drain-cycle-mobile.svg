@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 580" role="img" aria-labelledby="title desc">
+  <title id="title">DIBキャップから排尿する流れ</title><desc id="desc">確認、開放、観察、閉鎖と清拭、記録を縦に示す</desc>
+  <defs><style>.n{font:700 18px system-ui,sans-serif;fill:#fff}.h{font:700 18px system-ui,sans-serif;fill:#173b47}.t{font:600 15px system-ui,sans-serif;fill:#49636c}</style></defs>
+  <rect width="360" height="580" rx="22" fill="#f3f8fa"/>
+  <path d="M70 95v408" fill="none" stroke="#d67b55" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(0 25)"><circle cx="70" cy="40" r="25" fill="#47879a"/><text x="70" y="47" class="n" text-anchor="middle">1</text><rect x="112" y="6" width="218" height="68" rx="16" fill="#fff" stroke="#74a2b0" stroke-width="2"/><text x="130" y="34" class="h">時刻と症状</text><text x="130" y="57" class="t">尿意・膨満・痛み</text></g>
+  <g transform="translate(0 128)"><circle cx="70" cy="40" r="25" fill="#47879a"/><text x="70" y="47" class="n" text-anchor="middle">2</text><rect x="112" y="6" width="218" height="68" rx="16" fill="#fff" stroke="#74a2b0" stroke-width="2"/><text x="130" y="34" class="h">開いて排尿</text><text x="130" y="57" class="t">下へ向け、自然に流す</text></g>
+  <g transform="translate(0 231)"><circle cx="70" cy="40" r="25" fill="#47879a"/><text x="70" y="47" class="n" text-anchor="middle">3</text><rect x="112" y="6" width="218" height="68" rx="16" fill="#fff" stroke="#74a2b0" stroke-width="2"/><text x="130" y="34" class="h">流れと尿</text><text x="130" y="57" class="t">量・色・混濁・血液</text></g>
+  <g transform="translate(0 334)"><circle cx="70" cy="40" r="25" fill="#47879a"/><text x="70" y="47" class="n" text-anchor="middle">4</text><rect x="112" y="6" width="218" height="68" rx="16" fill="#fff" stroke="#74a2b0" stroke-width="2"/><text x="130" y="34" class="h">閉鎖・清拭</text><text x="130" y="57" class="t">異物と漏れを確認</text></g>
+  <g transform="translate(0 437)"><circle cx="70" cy="40" r="25" fill="#47879a"/><text x="70" y="47" class="n" text-anchor="middle">5</text><rect x="112" y="6" width="218" height="68" rx="16" fill="#fff" stroke="#74a2b0" stroke-width="2"/><text x="130" y="34" class="h">再評価・記録</text><text x="130" y="57" class="t">次回時刻まで決める</text></g>
+</svg>

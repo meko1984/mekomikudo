@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">DIBキャップの仕組み</title><desc id="desc">膀胱からDIBキャップまでつながり、閉じて蓄尿し、開いて排尿する流れ</desc>
+  <defs><style>.t{font:700 20px system-ui,sans-serif;fill:#173b47}.s{font:600 16px system-ui,sans-serif;fill:#385966}.n{font:700 17px system-ui,sans-serif;fill:#fff}.arrow{fill:none;stroke:#d67b55;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}</style><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#d67b55"/></marker></defs>
+  <rect width="360" height="520" rx="22" fill="#f3f8fa"/>
+  <path d="M139 35c-51 15-59 80-23 111 20 17 52 16 70-4 31-36 20-98-18-108-9-3-20-2-29 1z" fill="#f4a8a8" stroke="#b95d68" stroke-width="3"/><text x="151" y="96" class="t" text-anchor="middle">膀胱</text>
+  <path d="M151 153v57" fill="none" stroke="#47879a" stroke-width="8" stroke-linecap="round"/>
+  <rect x="72" y="210" width="216" height="84" rx="21" fill="#fff" stroke="#47879a" stroke-width="3"/><circle cx="116" cy="252" r="24" fill="#47879a"/><path d="M108 252l7 7 12-15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><text x="202" y="247" class="t" text-anchor="middle">DIBキャップ</text><text x="202" y="271" class="s" text-anchor="middle">開閉して流れを管理</text>
+  <path class="arrow" marker-end="url(#a)" d="M180 306v43"/>
+  <rect x="34" y="362" width="292" height="65" rx="16" fill="#e7f4ef" stroke="#4c9176" stroke-width="2"/><circle cx="74" cy="394" r="22" fill="#4c9176"/><text x="74" y="400" class="n" text-anchor="middle">閉</text><text x="195" y="389" class="t" text-anchor="middle">膀胱にためる</text><text x="195" y="412" class="s" text-anchor="middle">決めた時刻まで観察</text>
+  <path class="arrow" marker-end="url(#a)" d="M180 438v36"/><text x="180" y="505" class="t" text-anchor="middle">開いて排尿</text>
+</svg>

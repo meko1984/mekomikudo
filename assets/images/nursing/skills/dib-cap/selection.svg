@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" role="img" aria-labelledby="title desc">
+  <title id="title">DIBキャップ使用前の評価</title><desc id="desc">膀胱と腎機能、操作能力、排尿計画、支援体制を確認して使用可否を判断する図</desc>
+  <defs><style>.h{font:700 21px system-ui,sans-serif;fill:#173b47}.t{font:600 17px system-ui,sans-serif;fill:#385966}.w{font:700 19px system-ui,sans-serif;fill:#fff}.line{stroke:#74a2b0;stroke-width:3;fill:none}</style></defs>
+  <rect width="880" height="370" rx="24" fill="#f3f8fa"/>
+  <circle cx="440" cy="185" r="74" fill="#47879a"/><text x="440" y="179" class="w" text-anchor="middle">安全にためて</text><text x="440" y="204" class="w" text-anchor="middle">確実に出せる？</text>
+  <path class="line" d="M374 150L280 94M506 150l94-56M374 220l-94 56M506 220l94 56"/>
+  <rect x="42" y="36" width="250" height="108" rx="18" fill="#fff" stroke="#6ca38c" stroke-width="3"/><text x="167" y="73" class="h" text-anchor="middle">膀胱・腎機能</text><text x="167" y="101" class="t" text-anchor="middle">容量・内圧・逆流</text><text x="167" y="124" class="t" text-anchor="middle">腎機能・閉塞リスク</text>
+  <rect x="588" y="36" width="250" height="108" rx="18" fill="#fff" stroke="#6ca38c" stroke-width="3"/><text x="713" y="73" class="h" text-anchor="middle">操作できる</text><text x="713" y="101" class="t" text-anchor="middle">認知・視力・手指機能</text><text x="713" y="124" class="t" text-anchor="middle">姿勢・移動・理解</text>
+  <rect x="42" y="226" width="250" height="108" rx="18" fill="#fff" stroke="#d59a63" stroke-width="3"/><text x="167" y="263" class="h" text-anchor="middle">排尿計画</text><text x="167" y="291" class="t" text-anchor="middle">時刻・量・尿意</text><text x="167" y="314" class="t" text-anchor="middle">夜間・利尿薬・飲水</text>
+  <rect x="588" y="226" width="250" height="108" rx="18" fill="#fff" stroke="#d59a63" stroke-width="3"/><text x="713" y="263" class="h" text-anchor="middle">支援体制</text><text x="713" y="291" class="t" text-anchor="middle">介助者・緊急連絡</text><text x="713" y="314" class="t" text-anchor="middle">バッグへの切り替え</text>
+</svg>

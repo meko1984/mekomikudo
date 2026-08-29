@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" role="img" aria-labelledby="title desc">
+  <title id="title">DIBキャップの仕組み</title><desc id="desc">膀胱、留置カテーテル、DIBキャップがつながり、閉鎖中は蓄尿し、開放時に排尿する流れ</desc>
+  <defs><style>.t{font:700 22px system-ui,sans-serif;fill:#173b47}.s{font:600 17px system-ui,sans-serif;fill:#385966}.n{font:700 18px system-ui,sans-serif;fill:#fff}.line{fill:none;stroke:#47879a;stroke-width:8;stroke-linecap:round}.arrow{fill:none;stroke:#d67b55;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}</style><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#d67b55"/></marker></defs>
+  <rect width="880" height="320" rx="24" fill="#f3f8fa"/>
+  <path d="M104 56c-46 18-56 78-22 115 18 19 50 22 70 4 38-35 31-103-10-121-12-5-25-5-38 2z" fill="#f4a8a8" stroke="#b95d68" stroke-width="3"/>
+  <text x="112" y="121" class="t" text-anchor="middle">膀胱</text>
+  <path class="line" d="M113 182v44c0 20 20 20 45 20h106"/>
+  <rect x="264" y="208" width="168" height="76" rx="20" fill="#fff" stroke="#47879a" stroke-width="3"/>
+  <circle cx="300" cy="246" r="23" fill="#47879a"/><path d="M293 246l6 6 11-14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="366" y="241" class="t" text-anchor="middle">DIB</text><text x="366" y="264" class="s" text-anchor="middle">キャップ</text>
+  <path class="arrow" marker-end="url(#a)" d="M448 246h118"/>
+  <path d="M605 205h112v80H605z" fill="#fff" stroke="#d67b55" stroke-width="3"/><path d="M620 223h82M620 243h82M620 263h60" stroke="#efc2ae" stroke-width="5" stroke-linecap="round"/>
+  <text x="661" y="191" class="t" text-anchor="middle">排尿</text>
+  <rect x="500" y="38" width="324" height="92" rx="18" fill="#e7f4ef" stroke="#4c9176" stroke-width="2"/><circle cx="542" cy="84" r="24" fill="#4c9176"/><text x="542" y="91" class="n" text-anchor="middle">閉</text><text x="586" y="76" class="t">膀胱にためる</text><text x="586" y="103" class="s">決めた時刻まで観察</text>
+</svg>
