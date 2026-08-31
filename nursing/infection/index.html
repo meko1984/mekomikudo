@@ -4,16 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-04R2V7LVRT"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    if (location.hostname === 'mekomikudo.jp' || location.hostname === 'www.mekomikudo.jp') {
-      gtag('config', 'G-04R2V7LVRT');
-    }
-  </script>
-  <title>感染対策｜永遠の新人看護師備忘録</title>
-  <meta name="description" content="標準予防策、経路別予防策、PPE、手指衛生、環境整備などの感染対策を整理する看護学習ページ。">
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());if(location.hostname==='mekomikudo.jp'||location.hostname==='www.mekomikudo.jp'){gtag('config','G-04R2V7LVRT')}</script>
+  <title>基本の感染対策｜永遠の新人看護師備忘録</title>
+  <meta name="description" content="看護学生・新人看護師向けに、標準予防策、感染経路別予防策、手指衛生、個人防護具、感染性廃棄物の基本を図で整理した学習ノート。">
   <meta name="robots" content="noindex,follow">
   <link rel="canonical" href="https://mekomikudo.jp/nursing/infection/">
   <meta name="theme-color" content="#eef6f8">
@@ -21,7 +14,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="../../site.webmanifest">
-  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260726-1">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260831-1">
+  <link rel="stylesheet" href="./infection.css?v=20260831-2">
 </head>
 <body data-page="nursing" data-section="infection">
   <header class="site-header">
@@ -33,28 +27,110 @@
         <div class="nav-dropdown">
           <button class="nav-dropdown-toggle" type="button" data-nav="learning" aria-haspopup="true" aria-expanded="false" aria-controls="learning-menu">学習<span class="nav-chevron" aria-hidden="true"></span></button>
           <div class="nav-dropdown-menu" id="learning-menu">
-            <a href="../" data-subnav="learning">学習トップ</a>
-            <a href="../assessment/" data-subnav="assessment">観察</a>
-            <a href="../labs/" data-subnav="labs">検査値</a>
-            <a href="../skills/" data-subnav="skills">看護技術</a>
-            <a href="../diseases/" data-subnav="diseases">疾患・病態</a>
-            <a href="../medications/" data-subnav="medications">薬剤</a>
-            <a href="../medications/comparisons/" data-subnav="comparisons">薬剤比較</a>
-            <a href="../tests-treatments/" data-subnav="tests-treatments">検査・治療</a>
-            <a href="../infection/" data-subnav="infection">感染対策</a>
-            <a href="../emergency/" data-subnav="emergency">急変対応</a>
-            <a href="../../medical-english/" data-subnav="medical-english">医療英語</a>
+            <a href="../" data-subnav="learning">学習トップ</a><a href="../assessment/" data-subnav="assessment">観察</a><a href="../labs/" data-subnav="labs">検査値</a><a href="../skills/" data-subnav="skills">看護技術</a><a href="../diseases/" data-subnav="diseases">疾患・病態</a><a href="../medications/" data-subnav="medications">薬剤</a><a href="../medications/comparisons/" data-subnav="comparisons">薬剤比較</a><a href="../tests-treatments/" data-subnav="tests-treatments">検査・治療</a><a href="../infection/" data-subnav="infection">感染対策</a><a href="../emergency/" data-subnav="emergency">急変対応</a><a href="../../medical-english/" data-subnav="medical-english">医療英語</a>
           </div>
         </div>
-        <a href="../../activity/" data-nav="activity">活動</a>
-        <a href="../../works/" data-nav="works">制作物</a>
-        <a href="../../about/" data-nav="profile">サイトについて</a>
+        <a href="../../activity/" data-nav="activity">活動</a><a href="../../works/" data-nav="works">制作物</a><a href="../../about/" data-nav="profile">サイトについて</a>
       </nav>
     </div>
   </header>
+
   <main>
-    <section class="page-hero"><div class="wrap"><p class="eyebrow">Infection control</p><h1>感染対策</h1><p>このページでは、標準予防策、経路別予防策、PPE、手指衛生、環境整備などの感染対策メモを整理していく予定です。現在準備中です。</p></div></section>
+    <section class="page-hero skill-detail-hero"><div class="wrap">
+      <nav class="breadcrumb" aria-label="パンくずリスト"><a href="../../">トップ</a><span aria-hidden="true">›</span><a href="../">学習</a><span aria-hidden="true">›</span><span aria-current="page">感染対策</span></nav>
+      <div class="skill-detail-meta"><span class="skill-category infection-category">感染予防</span><span class="skill-reviewed">内容・リンク確認：2026年8月31日</span></div>
+      <h1>基本の感染対策</h1>
+      <p class="skill-detail-lead">感染経路を想像し、手指衛生・個人防護具・環境整備を組み合わせるための学習ノート。</p>
+    </div></section>
+
+    <section class="wrap skill-detail-wrap">
+      <p class="notice">このページは、新人看護師が学んだ内容を自分なりに整理した学習記録。実際のケアや判断では、患者の状態、所属施設のマニュアル、感染管理担当者の指示を優先する。</p>
+      <div class="skill-detail-layout">
+        <article class="skill-detail-article infection-article">
+          <section id="precautions">
+            <h2>標準予防策と感染経路別予防策</h2>
+            <div class="infection-layers" aria-label="標準予防策を土台に、必要な場合は感染経路別予防策を追加する">
+              <div class="infection-layer infection-layer-added"><span>必要な場合に追加する</span><strong>感染経路別予防策</strong><ul><li>接触</li><li>飛沫</li><li>空気</li></ul></div>
+              <div class="infection-layer infection-layer-base"><span>すべての患者・すべてのケアの土台</span><strong>標準予防策</strong></div>
+            </div>
+            <p>標準予防策は、感染症が判明している患者だけに行うものではない。血液・体液などを感染の可能性があるものとして扱い、ケアの内容と曝露の可能性に応じて対策を選ぶ。</p>
+
+            <div class="infection-route-grid">
+              <div><h3>接触感染</h3><p class="infection-route-summary">患者や周囲の物品に触れて運ばれる</p><p class="infection-example-heading">代表的な例</p><ul class="infection-example-list"><li>MRSAなどの薬剤耐性菌</li><li>ノロウイルス感染症</li><li>クロストリディオイデス・ディフィシル感染症</li><li>疥癬</li></ul><p class="infection-route-action"><strong>主な対策</strong><span>手指衛生、手袋・ガウン、患者周囲の環境整備</span></p></div>
+              <div><h3>飛沫感染</h3><p class="infection-route-summary">咳や会話などのしぶきで届く</p><p class="infection-example-heading">代表的な例</p><ul class="infection-example-list"><li>インフルエンザ</li><li>百日咳</li><li>流行性耳下腺炎・風疹</li><li>髄膜炎菌感染症</li></ul><p class="infection-route-action"><strong>主な対策</strong><span>サージカルマスク、必要に応じた目の防護、患者配置</span></p></div>
+              <div><h3>空気感染</h3><p class="infection-route-summary">細かな粒子が空気中を漂う</p><p class="infection-example-heading">代表的な例</p><ul class="infection-example-list"><li>肺結核・喉頭結核</li><li>麻疹</li><li>水痘</li><li>播種性帯状疱疹</li></ul><p class="infection-route-action"><strong>主な対策</strong><span>N95等の呼吸用防護具、適切な換気・病室管理</span></p></div>
+            </div>
+            <p class="skill-small-note">感染経路別予防策は、標準予防策の代わりではなく追加して行う。診断確定前でも感染症が疑われる段階から開始する場合がある。水痘・播種性帯状疱疹では空気予防策と接触予防策を併用するなど、複数の経路へ対策が必要な感染症もある。適用・解除は施設の手順を確認する。</p>
+          </section>
+
+          <section id="hand-hygiene">
+            <h2>手指衛生</h2>
+            <div class="infection-choice-grid">
+              <div><p class="infection-choice-label">流水と石けん</p><h3>目に見える汚れがある</h3><ul><li>血液・体液などで汚れている</li><li>トイレのあと</li><li>施設が流水手洗いを指定する場面</li></ul><p class="infection-choice-result">汚れと微生物を洗い流す</p></div>
+              <div><p class="infection-choice-label">アルコール擦式消毒</p><h3>目に見える汚れがない</h3><ul><li>多くの臨床場面で第一選択</li><li>必要量を手全体に広げる</li><li>乾くまで擦り込む</li></ul><p class="infection-choice-result">短時間で多くの微生物を減らす</p></div>
+            </div>
+            <aside class="skill-margin-note is-safety"><strong>方法を変える場面</strong><p>集団発生時や芽胞をつくる微生物などでは対応が変わることがある。施設の感染対策手順を確認する。</p></aside>
+
+            <div class="infection-subsection">
+              <h3>見落としやすい場所</h3>
+              <ul class="infection-chip-list"><li>指先・爪</li><li>親指</li><li>指の間</li><li>手の甲</li><li>手首</li></ul>
+            </div>
+
+            <div class="infection-subsection">
+              <h3>手指衛生の5つのタイミング</h3>
+              <ol class="infection-timing-list"><li><strong>患者に触れる前</strong></li><li><strong>清潔・無菌操作の前</strong></li><li><strong>体液に曝露した可能性のあと</strong></li><li><strong>患者に触れたあと</strong></li><li><strong>患者周囲に触れたあと</strong></li></ol>
+            </div>
+          </section>
+
+          <section id="ppe">
+            <h2>個人防護具</h2>
+            <div class="skill-note-block"><strong>予想される曝露から選ぶ</strong><ul><li>手に触れる可能性がある：手袋</li><li>衣服や皮膚が汚染される可能性がある：ガウン</li><li>鼻や口へ飛散する可能性がある：マスク・呼吸用防護具</li><li>目へ飛散する可能性がある：ゴーグル・フェイスシールド</li></ul></div>
+
+            <div class="infection-ppe-grid">
+              <div><h3>着ける順番</h3><ol><li>手指衛生</li><li>ガウン</li><li>マスク・N95等</li><li>目の防護</li><li>手袋</li></ol></div>
+              <div><h3>外す順番</h3><ol><li>手袋</li><li>ガウン</li><li>手指衛生</li><li>目の防護</li><li>マスク・N95等</li><li>手指衛生</li></ol></div>
+            </div>
+            <p class="skill-small-note">外側は汚染している前提で、手袋の外側やガウンの前面・袖に素手で触れない。外す順番や場所は、防護具の種類と施設手順によって異なる。</p>
+          </section>
+
+          <section id="waste">
+            <h2>感染性廃棄物の分類</h2>
+            <p>感染性廃棄物は、形状に合う容器へ使用場所で分ける。以下は環境省マニュアルのバイオハザード表示色。実際の容器と分別は施設の表示を確認する。</p>
+            <div class="infection-waste-grid">
+              <div><div class="infection-biohazard infection-biohazard-red" aria-label="赤色のバイオハザードマーク"><span aria-hidden="true">&#x2623;&#xFE0E;</span><strong>赤</strong></div><h3>液状・泥状</h3><p>血液など、液状または泥状のもの</p></div>
+              <div><div class="infection-biohazard infection-biohazard-orange" aria-label="橙色のバイオハザードマーク"><span aria-hidden="true">&#x2623;&#xFE0E;</span><strong>橙</strong></div><h3>固形状</h3><p>血液が付着したガーゼなど</p></div>
+              <div><div class="infection-biohazard infection-biohazard-yellow" aria-label="黄色のバイオハザードマーク"><span aria-hidden="true">&#x2623;&#xFE0E;</span><strong>黄</strong></div><h3>鋭利なもの</h3><p>注射針など、貫通のおそれがあるもの</p></div>
+            </div>
+            <ul class="infection-waste-rules"><li><strong>使用場所ですぐ廃棄</strong><span>持ち歩く距離を増やさない</span></li><li><strong>押し込まない</strong><span>満杯になる前に容器を交換</span></li><li><strong>迷ったら確認</strong><span>施設の分別表を確認</span></li></ul>
+          </section>
+
+          <section id="details" class="infection-coming">
+            <div><h2>詳しい感染対策</h2><p>疾患別の対応、詳しい手順、根拠の整理は、別サイト「ICG」にまとめる予定。</p></div>
+            <span aria-disabled="true">ICGは準備中</span>
+          </section>
+
+          <section id="sources" class="skill-sources">
+            <h2>出典</h2>
+            <ul>
+              <li><a href="https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/supplemental-materials/infection-prevention/who-ipc-aide-memoire-standard-precautions.pdf" target="_blank" rel="noopener noreferrer">WHO：感染予防・管理のための標準予防策</a></li>
+              <li><a href="https://www.mhlw.go.jp/content/001301258.pdf" target="_blank" rel="noopener noreferrer">厚生労働省：標準予防策・感染経路別予防策に関する資料</a></li>
+              <li><a href="https://cdn.who.int/media/docs/default-source/integrated-health-services-(ihs)/infection-prevention-control/your-5-moments-for-hand-hygiene-poster.pdf" target="_blank" rel="noopener noreferrer">WHO：手指衛生の5つのタイミング</a></li>
+              <li><a href="https://www.cdc.gov/clean-hands/hcp/clinical-safety/" target="_blank" rel="noopener noreferrer">CDC：医療従事者の手指衛生</a></li>
+              <li><a href="https://stacks.cdc.gov/view/cdc/46594" target="_blank" rel="noopener noreferrer">CDC：個人防護具の着脱順序</a></li>
+              <li><a href="https://www.env.go.jp/recycle/misc/guideline/kansen-manual.pdf" target="_blank" rel="noopener noreferrer">環境省：廃棄物処理法に基づく感染性廃棄物処理マニュアル</a></li>
+            </ul>
+            <p class="skill-small-note">学習用の整理。実際の感染対策は、所属施設の最新版マニュアルと感染管理担当者の指示を優先する。</p>
+          </section>
+        </article>
+
+        <aside class="skill-detail-toc" aria-labelledby="infection-toc-title">
+          <h2 id="infection-toc-title">このページの内容</h2>
+          <a href="#precautions">予防策</a><a href="#hand-hygiene">手指衛生</a><a href="#ppe">個人防護具</a><a href="#waste">感染性廃棄物</a><a href="#details">詳しい感染対策</a><a href="#sources">出典</a>
+        </aside>
+      </div>
+    </section>
   </main>
+
   <footer class="site-footer"><div class="footer-inner"><span>© 永遠の新人看護師備忘録</span><nav class="footer-links" aria-label="公式SNS"><a href="https://x.com/mekomikudoV" target="_blank" rel="noopener noreferrer">X</a><a href="https://www.youtube.com/@mekomikudo" target="_blank" rel="noopener noreferrer">YouTube</a></nav></div></footer>
   <script src="../../assets/js/main.js"></script>
 </body>

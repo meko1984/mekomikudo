@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400" role="img" aria-labelledby="title desc">
+  <title id="title">循環と浮腫の観察位置</title>
+  <desc id="desc">橈骨動脈は手首の親指側、足背動脈は足の甲で確認し、下腿の浮腫と臥床時の仙骨部浮腫を別の位置で示す。</desc>
+  <rect width="420" height="400" rx="24" fill="#f7fafc"/>
+  <g fill="#e8f0f5" stroke="#668ca5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6">
+    <circle cx="188" cy="42" r="20"/>
+    <path d="M154 78q34-20 68 0l15 112-19 6-2 75 18 86-30 1-16-69-16 69-30-1 18-86-2-75-19-6Z"/>
+    <path d="M157 91 113 219M219 91l44 128" fill="none" stroke-width="17"/>
+    <path d="M142 357q17-5 34 1l-7 13h-37zM204 358q17-6 34-1l10 14h-37z"/>
+  </g>
+  <g fill="#d97770" stroke="#fff" stroke-width="2.4">
+    <circle cx="115" cy="214" r="6"/><circle cx="261" cy="214" r="6"/>
+    <circle cx="153" cy="364" r="6"/><circle cx="225" cy="364" r="6"/>
+  </g>
+  <g fill="#f2c38f" fill-opacity=".82" stroke="#fff" stroke-width="2">
+    <ellipse cx="165" cy="326" rx="11" ry="24"/><ellipse cx="211" cy="326" rx="11" ry="24"/>
+  </g>
+  <g transform="translate(310 77)">
+    <rect width="91" height="146" rx="14" fill="#f1f6f8" stroke="#d3e2e5"/>
+    <circle cx="46" cy="27" r="13" fill="#e8f0f5" stroke="#668ca5" stroke-width="2"/>
+    <path d="M24 56q22-13 44 0l8 49-13 5v23H29v-23l-13-5Z" fill="#e8f0f5" stroke="#668ca5" stroke-linejoin="round" stroke-width="2"/>
+    <ellipse cx="46" cy="108" rx="12" ry="8" fill="#f2c38f" stroke="#fff" stroke-width="2"/>
+    <text x="46" y="19" text-anchor="middle" fill="#365d64" font-family="Arial,'Noto Sans JP',sans-serif" font-size="10" font-weight="700">背面</text>
+    <text x="46" y="142" text-anchor="middle" fill="#876544" font-family="Arial,'Noto Sans JP',sans-serif" font-size="10" font-weight="700">仙骨部</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-width="2">
+    <path d="M114 208 54 168" stroke="#d97770"/><path d="M153 365 74 355" stroke="#d97770"/>
+    <path d="M164 321 67 286" stroke="#c1915e"/>
+  </g>
+  <g font-family="Arial,'Noto Sans JP',sans-serif" font-size="12" fill="#365d64">
+    <text x="22" y="158">橈骨動脈</text><text x="18" y="276">下腿の浮腫</text><text x="18" y="376">足背動脈</text>
+  </g>
+  <g font-family="Arial,'Noto Sans JP',sans-serif" font-size="12" font-weight="700" fill="#668ca5"><text x="188" y="390" text-anchor="middle">手首・下腿・足背を左右で比べる</text></g>
+</svg>

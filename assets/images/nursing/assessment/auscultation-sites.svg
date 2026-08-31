@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" role="img" aria-labelledby="title desc">
+  <title id="title">呼吸音の聴診位置</title>
+  <desc id="desc">胸郭内の肺の大きさに合わせ、前胸部と背部の左右同じ高さを交互に聴診する位置を示す。</desc>
+  <rect width="420" height="340" rx="24" fill="#f5fafb"/>
+  <g fill="#e4f1f3" stroke="#5c9097" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6">
+    <circle cx="112" cy="39" r="18"/>
+    <path d="M75 77Q112 58 149 77l17 84-15 8v126H73V169l-15-8Z"/>
+    <circle cx="308" cy="39" r="18"/>
+    <path d="M271 77q37-19 74 0l17 84-15 8v126h-78V169l-15-8Z"/>
+  </g>
+  <g fill="none" stroke="#9dbbc0" stroke-linecap="round" stroke-width="2">
+    <path d="M83 86q29 14 58 0M112 80v116"/>
+    <path d="M279 86q29 14 58 0M308 80v139"/>
+    <path d="M286 101q15 18 0 41M330 101q-15 18 0 41" opacity=".7"/>
+  </g>
+  <g fill="#fff" stroke="#78aeb4" stroke-width="2">
+    <path d="M108 91C91 94 83 112 84 143c1 34 10 55 23 55 7 0 10-7 10-16V92Z"/>
+    <path d="M119 92v91c0 9 3 15 10 15 13 0 22-21 23-55 1-31-7-49-24-52Z"/>
+    <path d="M304 91c-17 3-25 22-24 57 1 39 10 66 23 66 7 0 10-8 10-18V92Z"/>
+    <path d="M315 92v104c0 10 3 18 10 18 13 0 22-27 23-66 1-35-7-54-24-57Z"/>
+  </g>
+  <g fill="#df8278" stroke="#fff" stroke-width="2.4">
+    <circle cx="100" cy="109" r="5.5"/><circle cx="132" cy="109" r="5.5"/>
+    <circle cx="94" cy="139" r="5.5"/><circle cx="138" cy="139" r="5.5"/>
+    <circle cx="95" cy="169" r="5.5"/><circle cx="137" cy="169" r="5.5"/>
+    <circle cx="292" cy="107" r="5.5"/><circle cx="324" cy="107" r="5.5"/>
+    <circle cx="286" cy="141" r="5.5"/><circle cx="330" cy="141" r="5.5"/>
+    <circle cx="286" cy="176" r="5.5"/><circle cx="330" cy="176" r="5.5"/>
+    <circle cx="292" cy="207" r="5.5"/><circle cx="324" cy="207" r="5.5"/>
+  </g>
+  <path d="M178 143h64m-12-10 13 10-13 10" fill="none" stroke="#a7bec1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+  <g font-family="Arial,'Noto Sans JP',sans-serif" text-anchor="middle">
+    <g fill="#365d64" font-size="15" font-weight="700"><text x="112" y="320">前面</text><text x="308" y="320">背面</text></g>
+    <g fill="#74898d" font-size="11"><text x="112" y="216">肺底部まで</text><text x="308" y="233">背面はより下方まで</text></g>
+  </g>
+</svg>

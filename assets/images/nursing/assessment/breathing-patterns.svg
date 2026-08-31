@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 410" role="img" aria-labelledby="title desc">
+  <title id="title">呼吸様式の波形比較</title>
+  <desc id="desc">整、頻呼吸、徐呼吸、クスマウル呼吸、チェーン・ストークス呼吸、不規則呼吸を、時間に沿った呼吸の深さで比較する。</desc>
+  <rect width="920" height="410" rx="24" fill="#f7fbfc"/>
+  <g font-family="Arial,'Noto Sans JP',sans-serif">
+    <g fill="#365d64" font-size="17" font-weight="700">
+      <text x="28" y="50">整</text><text x="28" y="112">頻呼吸</text><text x="28" y="174">徐呼吸</text><text x="28" y="236">クスマウル</text><text x="28" y="298">チェーン・ストークス</text><text x="28" y="360">不規則</text>
+    </g>
+    <g stroke="#d8e5e7" stroke-width="2"><path d="M205 44H890M205 106H890M205 168H890M205 230H890M205 292H890M205 354H890"/></g>
+    <g fill="none" stroke="#4d9299" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+      <path d="M205 44q18-25 36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0t36 0"/>
+      <path d="M205 106q9-16 18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0t18 0"/>
+      <path d="M205 168q43-22 86 0t86 0t86 0t86 0t86 0t86 0t86 0t86 0"/>
+      <path d="M205 230q26-43 52 0t52 0t52 0t52 0t52 0t52 0t52 0t52 0t52 0t52 0t52 0t52 0t52 0"/>
+      <path d="M205 292q18-9 36 0q18-19 36 0q18-31 36 0q18-43 36 0q18-31 36 0q18-19 36 0q18-9 36 0h72q18-9 36 0q18-19 36 0q18-31 36 0q18-43 36 0q18-31 36 0q18-19 36 0q18-9 36 0h35"/>
+      <path d="M205 354q13-27 29 0h35q7-10 15 0q23-38 46 0h17q11-16 22 0h54q18-29 36 0q8-12 16 0h31q29-42 58 0h67q10-17 20 0q17-24 34 0h21q7-10 14 0h46q24-36 48 0h70"/>
+    </g>
+    <text x="890" y="396" text-anchor="end" fill="#6f7f82" font-size="13">時間 →</text>
+  </g>
+</svg>

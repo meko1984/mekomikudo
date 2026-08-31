@@ -6,14 +6,12 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-04R2V7LVRT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){window.dataLayer.push(arguments);}
     gtag('js', new Date());
-    if (location.hostname === 'mekomikudo.jp' || location.hostname === 'www.mekomikudo.jp') {
-      gtag('config', 'G-04R2V7LVRT');
-    }
+    if (location.hostname === 'mekomikudo.jp' || location.hostname === 'www.mekomikudo.jp') gtag('config', 'G-04R2V7LVRT');
   </script>
   <title>観察｜永遠の新人看護師備忘録</title>
-  <meta name="description" content="バイタルサイン、呼吸、循環、意識、疼痛など、看護師が日々の観察で確認したい視点を整理します。">
+  <meta name="description" content="基本的なバイタルサインから、呼吸様式・呼吸音、循環、浮腫、尿量、CVP、意識レベルまで、観察の視点を短く整理した学習ノート。">
   <meta name="robots" content="noindex,follow">
   <link rel="canonical" href="https://mekomikudo.jp/nursing/assessment/">
   <meta name="theme-color" content="#eef6f8">
@@ -21,7 +19,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="../../site.webmanifest">
-  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260726-1">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260831-1">
 </head>
 <body data-page="nursing" data-section="assessment">
   <header class="site-header">
@@ -33,27 +31,82 @@
         <div class="nav-dropdown">
           <button class="nav-dropdown-toggle" type="button" data-nav="learning" aria-haspopup="true" aria-expanded="false" aria-controls="learning-menu">学習<span class="nav-chevron" aria-hidden="true"></span></button>
           <div class="nav-dropdown-menu" id="learning-menu">
-            <a href="../" data-subnav="learning">学習トップ</a>
-            <a href="../assessment/" data-subnav="assessment">観察</a>
-            <a href="../labs/" data-subnav="labs">検査値</a>
-            <a href="../skills/" data-subnav="skills">看護技術</a>
-            <a href="../diseases/" data-subnav="diseases">疾患・病態</a>
-            <a href="../medications/" data-subnav="medications">薬剤</a>
-            <a href="../medications/comparisons/" data-subnav="comparisons">薬剤比較</a>
-            <a href="../tests-treatments/" data-subnav="tests-treatments">検査・治療</a>
-            <a href="../infection/" data-subnav="infection">感染対策</a>
-            <a href="../emergency/" data-subnav="emergency">急変対応</a>
-            <a href="../../medical-english/" data-subnav="medical-english">医療英語</a>
+            <a href="../" data-subnav="learning">学習トップ</a><a href="../assessment/" data-subnav="assessment">観察</a><a href="../labs/" data-subnav="labs">検査値</a><a href="../skills/" data-subnav="skills">看護技術</a><a href="../diseases/" data-subnav="diseases">疾患・病態</a><a href="../medications/" data-subnav="medications">薬剤</a><a href="../medications/comparisons/" data-subnav="comparisons">薬剤比較</a><a href="../tests-treatments/" data-subnav="tests-treatments">検査・治療</a><a href="../infection/" data-subnav="infection">感染対策</a><a href="../emergency/" data-subnav="emergency">急変対応</a><a href="../../medical-english/" data-subnav="medical-english">医療英語</a>
           </div>
         </div>
-        <a href="../../activity/" data-nav="activity">活動</a>
-        <a href="../../works/" data-nav="works">制作物</a>
-        <a href="../../about/" data-nav="profile">サイトについて</a>
+        <a href="../../activity/" data-nav="activity">活動</a><a href="../../works/" data-nav="works">制作物</a><a href="../../about/" data-nav="profile">サイトについて</a>
       </nav>
     </div>
   </header>
+
   <main>
-    <section class="page-hero"><div class="wrap"><p class="eyebrow">Assessment</p><h1>観察</h1><p>このページでは、バイタルサイン、呼吸、循環、意識、疼痛など、看護師が日々の観察で確認したいポイントを整理していく予定です。現在準備中です。</p></div></section>
+    <section class="page-hero skill-detail-hero assessment-hero"><div class="wrap">
+      <nav class="breadcrumb" aria-label="パンくずリスト"><a href="../../">トップ</a><span aria-hidden="true">›</span><a href="../">学習</a><span aria-hidden="true">›</span><span aria-current="page">観察</span></nav>
+      <div class="skill-detail-meta"><span class="skill-category skill-category-assessment">症状・生体機能</span><span class="skill-reviewed">内容・リンク確認：2026年8月31日</span></div>
+      <h1>観察</h1><p class="skill-detail-lead">測る前に見る。数値は、いつもとの違いで読む。呼吸・循環・意識・体温をひと続きで確認する。</p>
+    </div></section>
+
+    <section class="wrap skill-detail-wrap"><div class="skill-detail-layout">
+      <article class="skill-detail-article assessment-article">
+        <section id="start">
+          <h2>最初に見る</h2>
+          <ol class="assessment-first-look" aria-label="観察の流れ">
+            <li><span>見る</span><small>表情・姿勢・皮膚色</small></li><li><span>聞く</span><small>会話・呼吸音・訴え</small></li><li><span>触れる</span><small>脈・冷感・発汗</small></li><li><span>測る</span><small>呼吸・脈拍・血圧・SpO₂・体温</small></li><li><span>比べる</span><small>普段・前回・対応後</small></li>
+          </ol>
+          <div class="skill-note-block assessment-safety-note"><strong>急な変化</strong><ul><li>全部測り終える前でも応援要請</li><li>生命に関わる異常から対応</li><li>対応後はもう一度評価</li></ul></div>
+        </section>
+
+        <section id="vital-signs">
+          <h2>基本のバイタルサイン</h2>
+          <div class="assessment-vital-grid">
+            <a href="#breathing"><span class="assessment-vital-letter">B</span><strong>呼吸</strong><small>呼吸数・SpO₂</small></a><a href="#circulation"><span class="assessment-vital-letter">C</span><strong>循環</strong><small>脈拍・血圧</small></a><a href="#consciousness"><span class="assessment-vital-letter">D</span><strong>意識</strong><small>JCS・GCS</small></a><a href="#temperature"><span class="assessment-vital-letter">E</span><strong>体温</strong><small>測定値・全身状態</small></a>
+          </div>
+          <ul class="assessment-compare-list"><li><strong>現在</strong><span>いまの値・症状</span></li><li><strong>基準</strong><span>その人の普段</span></li><li><strong>経過</strong><span>前回からの変化</span></li><li><strong>条件</strong><span>体位・活動・酸素・薬剤</span></li></ul>
+          <p class="skill-small-note">成人の一般的な観察を中心に整理。目標値・報告基準・測定間隔は、指示と院内手順を優先する。</p>
+        </section>
+
+        <section id="breathing">
+          <div class="assessment-section-heading"><span aria-hidden="true">B</span><div><p>Breathing</p><h2>呼吸をみる</h2></div></div>
+          <div class="assessment-check-grid">
+            <div><h3>見た目</h3><ul><li>会話できるか</li><li>楽な姿勢か</li><li>胸郭の左右差</li><li>口唇色・顔色</li></ul></div><div><h3>呼吸数</h3><ul><li>1分間の回数</li><li>深さ・リズム</li><li>安静時か</li><li>前回値との差</li></ul></div><div><h3>努力呼吸</h3><ul><li>肩呼吸</li><li>補助呼吸筋</li><li>陥没呼吸</li><li>鼻翼呼吸</li></ul></div><div><h3>一緒にみる</h3><ul><li>SpO₂</li><li>咳・痰</li><li>意識</li><li>酸素デバイス・流量</li></ul></div>
+          </div>
+          <div class="assessment-subsection" id="breathing-patterns"><h3>呼吸様式</h3><figure class="assessment-figure assessment-figure-wide"><img src="../../assets/images/nursing/assessment/breathing-patterns.svg" width="920" height="410" alt="整、頻呼吸、徐呼吸、クスマウル呼吸、チェーン・ストークス呼吸、不規則呼吸の波形を比較した図"><figcaption>速さ・深さ・規則性・無呼吸の有無</figcaption></figure><ul class="assessment-term-list"><li><strong>頻呼吸</strong><span>速い</span></li><li><strong>徐呼吸</strong><span>遅い</span></li><li><strong>クスマウル呼吸</strong><span>深く大きい</span></li><li><strong>チェーン・ストークス呼吸</strong><span>増減と無呼吸を反復</span></li><li><strong>不規則呼吸</strong><span>間隔・深さが不ぞろい</span></li></ul></div>
+          <div class="assessment-subsection" id="breath-sounds"><h3>呼吸音</h3><div class="assessment-visual-split"><figure class="assessment-figure"><img src="../../assets/images/nursing/assessment/auscultation-sites.svg" width="420" height="340" alt="前胸部と背部の呼吸音を左右同じ高さで比べる聴診位置の図"><figcaption>前・背部を左右で比較</figcaption></figure><div><ul class="assessment-tight-list"><li>衣服を避ける</li><li>一か所ずつ左右を比較</li><li>吸気・呼気を確認</li><li>弱い・聞こえない部位</li><li>咳の前後で変わるか</li></ul><dl class="assessment-sound-list"><div><dt>fine crackles</dt><dd>細かい断続音</dd></div><div><dt>coarse crackles</dt><dd>粗い断続音</dd></div><div><dt>wheezes</dt><dd>高い連続音</dd></div><div><dt>rhonchi</dt><dd>低い連続音</dd></div><div><dt>stridor</dt><dd>上気道の狭窄音</dd></div></dl></div></div><p class="skill-small-note">音だけで原因を決めない。呼吸状態・痰・咳・SpO₂と合わせる。</p></div>
+          <div class="assessment-subsection" id="spo2"><h3>SpO₂</h3><ul class="assessment-chip-list"><li>値</li><li>波形・脈拍表示</li><li>末梢冷感</li><li>体動</li><li>装着部位</li><li>酸素投与</li><li>目標値</li><li>経時変化</li></ul><div class="skill-margin-note is-safety"><strong>数値だけで安心しない</strong><br>呼吸数、努力呼吸、会話、意識も確認。酸素は処方された目標範囲へ調整する。</div></div>
+          <div class="assessment-related-inline" aria-label="呼吸に関連する看護技術"><h3>関連する看護技術</h3><div><a href="../skills/oxygen-therapy/">酸素療法</a><a href="../skills/nasal-high-flow/">ネーザルハイフロー</a><a href="../skills/nppv/">NPPV</a><a href="../skills/mechanical-ventilation/">人工呼吸器</a><a href="../skills/suction/">吸引</a><a href="../skills/inhalation/">吸入</a><a href="../skills/chest-drain/">胸腔ドレーン</a></div></div>
+        </section>
+
+        <section id="circulation">
+          <div class="assessment-section-heading"><span aria-hidden="true">C</span><div><p>Circulation</p><h2>循環と水分バランスをみる</h2></div></div>
+          <div class="assessment-check-grid"><div><h3>脈拍</h3><ul><li>回数</li><li>リズム</li><li>強さ</li><li>左右差</li></ul></div><div><h3>血圧</h3><ul><li>普段・前回値</li><li>体位・測定部位</li><li>カフサイズ</li><li>症状との一致</li></ul></div><div><h3>末梢循環</h3><ul><li>皮膚色</li><li>冷感・発汗</li><li>毛細血管再充満</li><li>末梢動脈</li></ul></div><div><h3>症状</h3><ul><li>胸痛・動悸</li><li>めまい</li><li>呼吸困難</li><li>意識変化</li></ul></div></div>
+          <div class="assessment-visual-split assessment-circulation-visual"><figure class="assessment-figure"><img src="../../assets/images/nursing/assessment/circulation-check.svg" width="420" height="400" alt="橈骨動脈、足背動脈、手足の冷感、下腿と仙骨部の浮腫を確認する位置の図"><figcaption>脈・皮膚・浮腫を左右で比較</figcaption></figure><div class="assessment-subsection" id="edema"><h3>浮腫</h3><ul class="assessment-tight-list"><li>部位・範囲</li><li>左右差</li><li>圧痕の有無</li><li>発赤・熱感・疼痛</li><li>体重変化</li><li>尿量</li><li>呼吸困難</li></ul><p class="skill-small-note">浮腫だけで原因を決めない。心・腎・肝機能、静脈還流、栄養、薬剤も確認。</p></div></div>
+          <div class="assessment-two-column"><div class="assessment-subsection" id="balance"><h3>尿量・IN-OUT</h3><ul class="assessment-tight-list"><li>時間尿量・1日量</li><li>尿の色・混濁・血液</li><li>飲水・輸液</li><li>排液・便・嘔吐</li><li>体重・浮腫</li></ul></div><div class="assessment-subsection" id="cvp"><h3>CVP</h3><ul class="assessment-tight-list"><li>値・波形・推移</li><li>体位・ゼロ点</li><li>呼吸・胸腔内圧</li><li>陽圧換気の有無</li><li>血圧・尿量・浮腫</li></ul><p class="skill-small-note">単独で循環血液量や輸液反応性を決めない。</p></div></div>
+          <div class="assessment-related-inline" aria-label="循環に関連する看護技術"><h3>関連する看護技術</h3><div><a href="../skills/ecg/">心電図</a><a href="../skills/arterial-line/">動脈ライン</a><a href="../skills/central-venous-catheter/">中心静脈カテーテル</a><a href="../skills/doppler/">ドップラー</a><a href="../skills/fluid-balance/">IN-OUTバランス</a><a href="../skills/infusion-management/">輸液管理</a><a href="../skills/dialysis/">透析</a></div></div>
+        </section>
+
+        <section id="consciousness">
+          <div class="assessment-section-heading"><span aria-hidden="true">D</span><div><p>Disability</p><h2>意識・神経をみる</h2></div></div>
+          <div class="assessment-check-grid assessment-neuro-grid"><div><h3>まず確認</h3><ul><li>呼びかけへの反応</li><li>会話</li><li>見当識</li><li>普段との違い</li></ul></div><div><h3>JCS</h3><ul><li>0：清明</li><li>I：刺激なしで覚醒</li><li>II：刺激で覚醒</li><li>III：刺激でも覚醒しない</li></ul></div><div><h3>GCS</h3><ul><li>E：開眼</li><li>V：言語反応</li><li>M：運動反応</li><li>合計＋内訳</li></ul></div><div><h3>瞳孔・神経</h3><ul><li>瞳孔径・左右差</li><li>対光反射</li><li>麻痺・感覚</li><li>構音・痙攣</li></ul></div></div>
+          <p class="skill-small-note">言語・聴力・挿管・鎮静・既往による評価の難しさも記録。急な意識変化では、呼吸・循環・血糖も同時に確認する。</p>
+        </section>
+
+        <section id="temperature">
+          <div class="assessment-section-heading"><span aria-hidden="true">E</span><div><p>Exposure</p><h2>体温と全身状態をみる</h2></div></div>
+          <div class="assessment-check-grid"><div><h3>体温</h3><ul><li>値・測定部位</li><li>測定方法・時刻</li><li>前回値</li><li>解熱・保温後</li></ul></div><div><h3>熱・冷え</h3><ul><li>悪寒・戦慄</li><li>発汗</li><li>熱感・冷感</li><li>室温・寝具</li></ul></div><div><h3>皮膚</h3><ul><li>色・発赤</li><li>発疹・出血</li><li>傷・圧迫</li><li>乾燥・湿潤</li></ul></div><div><h3>苦痛</h3><ul><li>疼痛部位</li><li>程度・性質</li><li>増悪・軽減</li><li>対応後の変化</li></ul></div></div>
+          <p class="skill-small-note">必要な範囲を観察。羞恥心に配慮し、熱を逃がしすぎない。</p>
+        </section>
+
+        <section id="abcde"><h2>急な変化はABCDE</h2><ol class="assessment-abcde-list"><li><strong>A</strong><span><b>気道</b><small>発声・閉塞音・異物</small></span></li><li><strong>B</strong><span><b>呼吸</b><small>呼吸数・胸郭・SpO₂・呼吸音</small></span></li><li><strong>C</strong><span><b>循環</b><small>脈拍・血圧・皮膚・出血</small></span></li><li><strong>D</strong><span><b>意識</b><small>反応・瞳孔・血糖・麻痺</small></span></li><li><strong>E</strong><span><b>全身</b><small>体温・皮膚・外傷・疼痛</small></span></li></ol><div class="assessment-action-line"><span>異常を見つける</span><span>応援を呼ぶ</span><span>対応する</span><span>再評価する</span></div></section>
+
+        <section id="record"><h2>報告・記録</h2><ul class="assessment-record-grid"><li><strong>いつ</strong><span>測定・発症時刻</span></li><li><strong>どこで</strong><span>体位・活動・処置中</span></li><li><strong>何が</strong><span>値・症状・所見</span></li><li><strong>どれくらい</strong><span>普段・前回との差</span></li><li><strong>何をした</strong><span>対応・報告先</span></li><li><strong>その後</strong><span>再測定・反応</span></li></ul></section>
+
+        <section id="related"><h2>関連する看護技術</h2><ul class="skill-related-list"><li><a href="../skills/oxygen-therapy/"><strong>酸素療法</strong><span>デバイス、流量、目標SpO₂</span></a></li><li><a href="../skills/mechanical-ventilation/"><strong>人工呼吸器</strong><span>設定・実測値、アラーム、回路管理</span></a></li><li><a href="../skills/ecg/"><strong>心電図</strong><span>モニター装着、誘導、波形</span></a></li><li><a href="../skills/arterial-line/"><strong>動脈ライン</strong><span>観血的血圧、波形、回路管理</span></a></li><li><a href="../skills/central-venous-catheter/"><strong>中心静脈カテーテル</strong><span>挿入部、固定、ルート管理</span></a></li><li><a href="../skills/fluid-balance/"><strong>IN-OUTバランス</strong><span>摂取・排出、体重、浮腫</span></a></li></ul></section>
+
+        <section id="sources" class="skill-sources"><h2>出典</h2><ul><li><a href="https://www.nice.org.uk/guidance/CG50/chapter/recommendations" target="_blank" rel="noopener noreferrer">NICE：Acutely ill adults in hospital</a></li><li><a href="https://www.rcp.ac.uk/resources/national-early-warning-score-news-2/" target="_blank" rel="noopener noreferrer">Royal College of Physicians：NEWS2</a></li><li><a href="https://www.resus.org.uk/library/abcde-approach" target="_blank" rel="noopener noreferrer">Resuscitation Council UK：The ABCDE Approach</a></li><li><a href="https://www.brit-thoracic.org.uk/clinical-resources/guidelines/emergency-oxygen/" target="_blank" rel="noopener noreferrer">British Thoracic Society：酸素療法ガイドライン</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK593192/" target="_blank" rel="noopener noreferrer">Open RN Nursing Skills：呼吸器の観察</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK596723/" target="_blank" rel="noopener noreferrer">Open RN Nursing Skills：循環器・末梢血管の観察</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/26647442/" target="_blank" rel="noopener noreferrer">European Respiratory Society Task Force：呼吸音の用語</a></li><li><a href="https://www.jstage.jst.go.jp/article/scs1973/3/0/3_61/_article/-char/ja/" target="_blank" rel="noopener noreferrer">太田富雄ほか：急性期意識障害の新しいGradingとその表現法</a></li><li><a href="https://www.glasgowcomascale.org/" target="_blank" rel="noopener noreferrer">Glasgow Coma Scale：Structured Approach</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/18628220/" target="_blank" rel="noopener noreferrer">Marikほか：CVPと輸液反応性の系統的レビュー</a></li></ul><p class="skill-small-note">学習用の整理。実際の評価・報告・対応は、患者ごとの指示、院内基準、使用機器の手順を優先する。</p></section>
+      </article>
+
+      <aside class="skill-detail-toc" aria-labelledby="assessment-toc-title"><h2 id="assessment-toc-title">このページの内容</h2><a href="#start">最初に見る</a><a href="#vital-signs">基本のバイタル</a><a href="#breathing">呼吸</a><a href="#circulation">循環・水分</a><a href="#consciousness">意識・神経</a><a href="#temperature">体温・全身</a><a href="#abcde">ABCDE</a><a href="#record">報告・記録</a><a href="#related">関連技術</a><a href="#sources">出典</a></aside>
+    </div></section>
   </main>
   <footer class="site-footer"><div class="footer-inner"><span>© 永遠の新人看護師備忘録</span><nav class="footer-links" aria-label="公式SNS"><a href="https://x.com/mekomikudoV" target="_blank" rel="noopener noreferrer">X</a><a href="https://www.youtube.com/@mekomikudo" target="_blank" rel="noopener noreferrer">YouTube</a></nav></div></footer>
   <script src="../../assets/js/main.js"></script>
