@@ -6419,7 +6419,19 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
-.work-card:hover {
+.work-card-link,
+.work-card-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.work-card-link:focus-visible {
+  outline: 3px solid #5383c3;
+  outline-offset: 4px;
+}
+
+.work-card-link:hover,
+.work-card-link:focus-visible {
   border-color: rgba(83, 131, 195, 0.38);
   box-shadow: 0 14px 30px rgba(44, 69, 102, 0.11);
   transform: translateY(-2px);
@@ -6442,6 +6454,64 @@ a.button[href*="youtube.com/@mekomikudo"]::before {
 .work-card-thumbnail:hover {
   color: inherit;
   text-decoration: none;
+}
+
+.work-card-thumbnail:has(.work-cover-image) {
+  display: grid;
+  place-items: center;
+  background: #f5f7f1;
+}
+
+.work-cover-image {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+}
+
+.work-card-thumbnail.work-thumbnail-icon {
+  display: grid;
+  place-items: center;
+}
+
+.work-thumbnail-icon > img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 28px;
+}
+
+.work-title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.work-title-with-icon > img {
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+
+.product-cover-image,
+.work-screen-figure > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.work-screen-figure {
+  margin: 0;
+}
+
+.work-screen-figure > img {
+  border: 1px solid #dce6ed;
+  border-radius: 14px;
+}
+
+.work-screen-figure figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: .9rem;
 }
 
 .kangocanvas-placeholder {
