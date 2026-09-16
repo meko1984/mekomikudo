@@ -458,6 +458,16 @@ function setupLabsDatabase(mount) {
     rows = rawRows.map(normalizeLabRow);
     setFilterOptions();
     draw();
+    const requested = new URLSearchParams(window.location.search).get("lab");
+    if (requested) {
+      const key = normalizeForSearch(requested);
+      const match = rows.find(row => normalizeForSearch(row.abbreviation) === key || normalizeForSearch(row.item) === key);
+      if (match) {
+        const tr = tbody.querySelector(`[data-row-id="${CSS.escape(match.id)}"]`);
+        if (tr) tr.scrollIntoView({ block: "center" });
+        openModal(match);
+      }
+    }
   }
 
   try {

@@ -1,0 +1,150 @@
+/* Shared system colors for the catalog, disease headings, and diagrams. */
+[data-system="respiratory"] { --system-color: #216598; --system-soft: #eaf4fc; }
+[data-system="cardiovascular"] { --system-color: #98476c; --system-soft: #faedf3; }
+[data-system="digestive"] { --system-color: #92551f; --system-soft: #fff2e5; }
+[data-system="renal"] { --system-color: #236d59; --system-soft: #eaf7f0; }
+[data-system="endocrine"] { --system-color: #79539a; --system-soft: #f4edf9; }
+[data-system="neurological"] { --system-color: #4e589c; --system-soft: #eff0fc; }
+[data-system="orthopedic"] { --system-color: #756023; --system-soft: #f9f4e3; }
+[data-system="skin"] { --system-color: #9a4e3b; --system-soft: #fff0eb; }
+[data-system="mental"] { --system-color: #586740; --system-soft: #f1f6e9; }
+[data-system="emergency"] { --system-color: #9b3949; --system-soft: #fceef0; }
+.disease-catalog { margin-block: 24px 56px; }
+.disease-catalog-intro { max-width: 70ch; line-height: 1.8; }
+.disease-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin-block: 24px; }
+.disease-controls label { display: grid; gap: 6px; font-weight: 700; }
+.disease-controls input, .disease-controls select { min-height: 44px; border: 1px solid #8499a6; border-radius: 8px; padding: 9px 12px; background: white; color: #213743; font: inherit; }
+.disease-controls input { width: min(360px, 100%); }
+.disease-count { margin: 0; padding-block: 10px; }
+.disease-table-scroll { overflow-x: visible; border: 1px solid #d8e2e8; border-radius: 12px; }
+.disease-table { width: 100%; table-layout: fixed; border-collapse: collapse; background: white; font-size: clamp(.78rem, 1.08vw, .94rem); }
+.disease-table .col-name { width: 19%; }
+.disease-table .col-region { width: 11%; }
+.disease-table .col-symptoms { width: 18%; }
+.disease-table .col-up, .disease-table .col-down { width: 14%; }
+.disease-table .col-drugs { width: 24%; }
+.disease-table th, .disease-table td { text-align: left; vertical-align: top; padding: 11px 7px; border-bottom: 1px solid #d8e2e8; line-height: 1.5; overflow-wrap: anywhere; }
+.disease-table thead { background: #edf3f6; }
+.disease-table tbody th { color: #17252d; }
+.disease-table tbody th a { color: #17252d; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.disease-table td .disease-tag { white-space: normal; overflow-wrap: anywhere; }
+.disease-table tbody tr:last-child > * { border-bottom: 0; }
+.disease-tag, .concept-label { display: inline-block; white-space: nowrap; border: 0; border-radius: 5px; padding: 3px 6px; margin: 1px 0; color: #17252d; background: var(--chip-bg, #f3f6f7); font-size: .88em; }
+.disease-tag[data-system] { --chip-border: var(--system-color); --chip-bg: var(--system-soft); }
+[data-category="breathing"], [data-category="blood-gas"], [data-category="respiratory-drug"] { --chip-border:#62a7d3; --chip-bg:#e8f5fd; }
+[data-category="circulation"], [data-category="cardiac-lab"], [data-category="cardiovascular-drug"] { --chip-border:#c76b91; --chip-bg:#faeaf1; }
+[data-category="neurologic"], [data-category="neurologic-drug"] { --chip-border:#7c83c8; --chip-bg:#eeeeff; }
+[data-category="pain"], [data-category="analgesic"] { --chip-border:#d18a3d; --chip-bg:#fff1df; }
+[data-category="digestive"], [data-category="liver-lab"], [data-category="digestive-drug"] { --chip-border:#bf7938; --chip-bg:#fff0df; }
+[data-category="urinary"], [data-category="renal-lab"], [data-category="urologic-drug"] { --chip-border:#4a9b82; --chip-bg:#e7f6f0; }
+[data-category="skin"], [data-category="skin-drug"] { --chip-border:#ce7963; --chip-bg:#ffede8; }
+[data-category="mobility"] { --chip-border:#a08943; --chip-bg:#f8f1d9; }
+[data-category="infection"], [data-category="inflammation"], [data-category="anti-infective"] { --chip-border:#cf6874; --chip-bg:#fdecef; }
+[data-category="metabolic"], [data-category="glucose-lab"], [data-category="metabolic-drug"] { --chip-border:#9670b7; --chip-bg:#f3ebfa; }
+[data-category="electrolyte"], [data-category="fluid-drug"] { --chip-border:#558eb4; --chip-bg:#e9f3f9; }
+[data-category="hematology"], [data-category="coagulation"], [data-category="antithrombotic"] { --chip-border:#a65c75; --chip-bg:#f8e9ee; }
+[data-category="immune-drug"] { --chip-border:#788c4d; --chip-bg:#eff5e5; }
+[data-category="hemostatic-drug"] { --chip-bg:#f2e3da; }
+[data-category="pde5-drug"] { --chip-bg:#e1edf5; }
+[data-category="sgc-drug"] { --chip-bg:#e4f1e8; }
+[data-category="endothelin-drug"] { --chip-bg:#f1e3f3; }
+[data-category="prostacyclin-drug"] { --chip-bg:#f8e5db; }
+[data-category="activin-drug"] { --chip-bg:#ebe7d5; }
+[data-category="enzyme-lab"] { --chip-bg:#eee7dc; }
+[data-category="pancreatic-lab"] { --chip-bg:#fae5dc; }
+[data-category="nutrient-lab"] { --chip-bg:#f1eedb; }
+[data-category="osmolality-lab"] { --chip-bg:#dfeff0; }
+[data-category="lipid-lab"] { --chip-bg:#eeead6; }
+[data-category="endocrine-lab"] { --chip-bg:#e9e2f3; }
+[data-category="imaging-lab"] { --chip-bg:#e6eef6; }
+[data-category="microbiology-lab"] { --chip-bg:#e9f1dd; }
+[data-category="general"], [data-category="general-lab"], [data-category="general-drug"] { --chip-border:#8999a1; --chip-bg:#f0f3f4; }
+#disease-scroll-hint { display: none; }
+.disease-color-legend { margin: 18px 0; border: 1px solid #d8e2e8; border-radius: 10px; background: #fff; }
+.disease-color-legend summary { cursor: pointer; padding: 11px 14px; font-weight: 700; }
+.disease-color-legend > div { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; padding: 8px 14px; border-top: 1px solid #e2e8eb; }
+.disease-color-legend > div strong { min-width: 3em; }
+.disease-color-legend > div span { border: 0; border-radius: 5px; padding: 3px 7px; color: #17252d; background: var(--chip-bg); font-size: .82rem; }
+.disease-empty { text-align: center; padding: 32px; }
+.disease-provisional { padding: 16px 20px; border-left: 4px solid #94702c; background: #fff8e9; line-height: 1.8; }
+.disease-section { border-top: 3px solid var(--system-color); margin-block: 32px; padding-block: 16px; }
+.disease-section h2 { color: var(--system-color); }
+.disease-heading { color: #17252d; }
+.disease-figure { background: var(--system-soft); border-radius: 16px; padding: 24px; }
+.disease-detail { max-width: 1100px; padding-block: 32px 56px; }
+.disease-summary { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.disease-summary > div { background: var(--system-soft); border-left: 3px solid var(--system-color); padding: 12px 16px; }
+.disease-summary dt { color: var(--system-color); font-weight: 700; }
+.disease-summary dd { margin: 6px 0 0; }
+.disease-toc { display: flex; flex-wrap: wrap; gap: 12px; padding-block: 20px; }
+.disease-toc a { color: var(--system-color); border: 1px solid currentColor; border-radius: 8px; padding: 10px 14px; }
+.disease-figure svg, .disease-figure img { display: block; max-width: 100%; height: auto; margin-inline: auto; }
+.disease-figure figcaption { margin-top: 16px; line-height: 1.8; }
+.disease-section { scroll-margin-top: 90px; }
+.disease-detail-hero { padding-top: 20px; }
+.disease-heading { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.5; overflow-wrap: anywhere; }
+.disease-lead { font-size: 1.1rem; line-height: 1.9; }
+.disease-lab-note, .section-guide { color: #4c626c; font-size: .93rem; line-height: 1.8; }
+.disease-summary .disease-tag { white-space: normal; }
+.disease-mechanism { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: center; margin: 20px 0; padding: 24px; border-radius: 18px; background: var(--system-soft); }
+.anatomy-panel { color: var(--system-color); background: white; border-radius: 16px; padding: 12px; }
+.anatomy-panel svg { display: block; width: 100%; max-width: 430px; height: auto; margin: auto; }
+.disease-mechanism figcaption { grid-column: 1 / -1; line-height: 1.8; font-size: .95rem; }
+.mechanism-chain { list-style: none; margin: 0; padding: 0; display: grid; gap: 32px; }
+.mechanism-chain li { position: relative; display: flex; gap: 12px; align-items: center; background: white; border: 1px solid var(--system-color); padding: 16px; border-radius: 12px; line-height: 1.6; }
+.mechanism-chain li:not(:last-child)::after { content: '↓'; position: absolute; bottom: -30px; left: 50%; color: var(--system-color); font-size: 24px; }
+.step-number { display: grid; place-items: center; min-width: 28px; height: 28px; border-radius: 50%; background: var(--system-color); color: white; font-weight: 700; }
+.observation-links, .treatment-links { list-style: none; padding: 0; display: grid; gap: 12px; }
+.observation-links li, .treatment-links li { display: grid; grid-template-columns: minmax(0, 1fr) 28px minmax(0, 2fr); gap: 12px; align-items: center; padding: 20px; border-bottom: 1px solid #d2dfe6; background: var(--system-soft); border-radius: 8px; line-height: 1.7; }
+.map-arrow, .treatment-target { color: var(--system-color); font-weight: 700; }
+.disease-keypoint { padding: 18px 22px; border-left: 4px solid var(--system-color); line-height: 1.85; background: #fff; }
+.disease-related { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
+.disease-related li { border: 1px solid #d6e1e7; border-radius: 10px; padding: 16px; display: grid; gap: 8px; background: white; }
+.disease-related a { color: var(--system-color); font-weight: 700; }
+.disease-related small { color: #50616d; }
+.disease-back { display: inline-block; padding: 14px 22px; margin-top: 16px; background: var(--system-soft); color: var(--system-color); border-radius: 10px; }
+.practice-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.practice-card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 1px 5px #21374314; min-width: 0; }
+.practice-card h3 { font-size: 1.12rem; margin: 0 0 14px; color: #17252d; }
+.practice-card p, .practice-card dd { font-size: .94rem; line-height: 1.75; overflow-wrap: anywhere; }
+.practice-card svg { display: block; width: 100%; height: auto; }
+.practice-fields { margin: 0; }
+.practice-fields > div { padding: 10px 0; border-top: 1px solid #e9eef1; }
+.practice-fields dt { font-weight: 700; font-size: .84rem; color: #465763; }
+.practice-fields dd { margin: 5px 0 0; }
+.practice-chain { list-style: none; padding: 0; display: grid; gap: 15px; }
+.practice-chain li { position: relative; padding: 9px 12px; background: #edf4f8; border-radius: 6px; font-size: .94rem; }
+.practice-chain li+li::before { content: '↓'; position: absolute; top:-20px; left:50%; }
+.practice-watch { padding: 12px; background:#fff5df; border-radius:6px; }
+.judgment-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.judgment-0 { background:#edf5ee; }.judgment-1 { background:#fff5df; }.judgment-2 { background:#fcebed; }
+@media(max-width:760px) { .practice-grid,.judgment-grid { grid-template-columns:1fr; } .practice-card { padding:16px; } }
+@media (max-width: 680px) { .disease-mechanism { grid-template-columns: 1fr; padding: 14px; gap: 20px; } .anatomy-panel { padding: 4px; } .disease-related { grid-template-columns: 1fr; } .observation-links li, .treatment-links li { grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1.5fr); padding: 13px; gap: 8px; } }
+@media (max-width: 760px) { #disease-scroll-hint { display: block; } .disease-table-scroll { overflow-x: auto; } .disease-table { min-width: 920px; font-size: .88rem; } }
+.disease-heading small { display: block; font-size: .6em; margin-block: 12px; }
+.disease-observation-map, .disease-treatment-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.disease-observation-map > div, .disease-treatment-map > div { display: grid; gap: 10px; padding: 20px; border: 2px solid var(--system-color); border-radius: 14px; background: white; text-align: center; }
+.disease-observation-map strong, .disease-treatment-map strong { color: var(--system-color); font-size: 1.15rem; }
+.disease-treatment-map b { color: var(--system-color); font-size: 2rem; }
+@media (max-width: 600px) { .disease-observation-map, .disease-treatment-map { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .disease-summary { grid-template-columns: 1fr; } .disease-figure { margin-inline: 0; padding: 16px; } }
+.disease-controls :focus-visible, .disease-table-scroll:focus-visible { outline: 3px solid #216598; outline-offset: 3px; }
+@media (max-width: 600px) { .disease-controls { align-items: stretch; flex-direction: column; } .disease-controls input { width: 100%; box-sizing: border-box; } }
+
+/* Clinical headings may contain several findings; keep them within the card. */
+.practice-card .disease-tag { white-space: normal; overflow-wrap: anywhere; max-width: 100%; box-sizing: border-box; }
+
+.practice-report-list { padding-inline-start: 1.25rem; margin: 0; font-size: .94rem; line-height: 1.75; overflow-wrap: anywhere; }
+.practice-report-list li + li { margin-top: .65rem; }
+
+.diagram-expand { display:block; margin:8px 0 16px; padding:10px 16px; background:#e8f1f7; color:#17252d; border:0; border-radius:8px; cursor:pointer; font:inherit; }
+.diagram-expand:focus-visible,.diagram-dialog button:focus-visible,.diagram-dialog-scroll:focus-visible { outline:3px solid #216598; outline-offset:3px; }
+.diagram-dialog { width:min(940px,calc(100vw - 24px)); max-width:calc(100vw - 24px); max-height:90dvh; box-sizing:border-box; padding:16px; border:0; border-radius:12px; color:#17252d; background:white; }
+.diagram-dialog::backdrop { background:rgb(15 25 35 / .65); }
+.diagram-dialog header { display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.diagram-dialog h2 { margin:0; font-size:1.15rem; }
+.diagram-dialog button { flex-shrink:0; padding:10px 16px; font:inherit; color:#17252d; background:#e8f1f7; border:0; border-radius:8px; cursor:pointer; }
+.diagram-dialog p { font-size:.9rem; }
+.diagram-dialog-scroll { overflow:auto; max-height:65dvh; overscroll-behavior:contain; }
+.diagram-dialog-scroll svg { display:block; width:100%; min-width:700px; max-width:none; height:auto; }
+body.diagram-dialog-open { overflow:hidden; }

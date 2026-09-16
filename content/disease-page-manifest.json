@@ -1,0 +1,557 @@
+[
+  {
+    "sourceName": "CKD（慢性腎臓病）",
+    "name": "CKD（慢性腎臓病）",
+    "slug": "ckd",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "filter",
+    "reference": "https://www.nhs.uk/conditions/kidney-disease/"
+  },
+  {
+    "sourceName": "COPD（慢性閉塞性肺疾患）",
+    "name": "COPD（慢性閉塞性肺疾患）",
+    "slug": "copd",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "airway",
+    "reference": "https://www.jrs.or.jp/citizen/disease/b/b-01.html"
+  },
+  {
+    "sourceName": "HHS（非ケトン性高浸透圧昏睡）",
+    "name": "HHS（高浸透圧高血糖状態）",
+    "slug": "hhs",
+    "systems": [
+      "内分泌代謝",
+      "救急"
+    ],
+    "diagram": "osmotic",
+    "reference": "https://www.diabetes.org.uk/about-diabetes/looking-after-diabetes/complications/hyperosmolar-hyperglycaemic-state"
+  },
+  {
+    "sourceName": "IAD（失禁関連皮膚炎）",
+    "name": "IAD（失禁関連皮膚炎）",
+    "slug": "iad",
+    "systems": [
+      "皮膚・熱傷"
+    ],
+    "diagram": "skin",
+    "reference": "https://www.royaldevon.nhs.uk/media/wwbclbpo/incontinence-associated-dermatitis-iad-protocol.pdf"
+  },
+  {
+    "sourceName": "SAH(クモ膜下出血)",
+    "name": "SAH（くも膜下出血）",
+    "slug": "sah",
+    "systems": [
+      "脳神経"
+    ],
+    "diagram": "brain-bleed",
+    "reference": "https://www.nhs.uk/conditions/subarachnoid-haemorrhage/"
+  },
+  {
+    "sourceName": "SSS（洞不全症候群）",
+    "name": "SSS（洞不全症候群）",
+    "slug": "sick-sinus",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "rhythm",
+    "reference": "https://www.nhlbi.nih.gov/health/conduction-disorders"
+  },
+  {
+    "sourceName": "ショック",
+    "name": "ショック",
+    "slug": "shock",
+    "systems": [
+      "救急"
+    ],
+    "diagram": "perfusion",
+    "reference": "https://medlineplus.gov/shock.html"
+  },
+  {
+    "sourceName": "ダンピング症候群",
+    "name": "ダンピング症候群",
+    "slug": "dumping",
+    "systems": [
+      "消化器"
+    ],
+    "diagram": "transit",
+    "reference": "https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome"
+  },
+  {
+    "sourceName": "ネフローゼ症候群",
+    "name": "ネフローゼ症候群",
+    "slug": "nephrotic",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "leak",
+    "reference": "https://www.niddk.nih.gov/health-information/kidney-disease/nephrotic-syndrome-adults"
+  },
+  {
+    "sourceName": "リフィーディング症候群",
+    "name": "リフィーディング症候群",
+    "slug": "refeeding",
+    "systems": [
+      "救急",
+      "消化器"
+    ],
+    "diagram": "shift",
+    "reference": "https://www.uhbw.nhs.uk/assets/1/23-639_refeedingsyndromeguideline-4_redacted.pdf"
+  },
+  {
+    "sourceName": "圧迫骨折",
+    "name": "圧迫骨折",
+    "slug": "vertebral-fracture",
+    "systems": [
+      "整形"
+    ],
+    "diagram": "compression",
+    "reference": "https://www.joa.or.jp/public/sick/condition/vertebral_compression_fracture.html"
+  },
+  {
+    "sourceName": "横紋筋融解症",
+    "name": "横紋筋融解症",
+    "slug": "rhabdomyolysis",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "rupture",
+    "reference": "https://www.cdc.gov/niosh/rhabdo/treatment/index.html"
+  },
+  {
+    "sourceName": "下垂体機能低下症",
+    "name": "下垂体機能低下症",
+    "slug": "hypopituitarism",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "diagram": "signal",
+    "reference": "https://www.endocrine.org/clinical-practice-guidelines/hormone-replacement-in-hypopituitarism"
+  },
+  {
+    "sourceName": "感染",
+    "name": "感染",
+    "slug": "infection",
+    "systems": [
+      "救急"
+    ],
+    "diagram": "invasion",
+    "reference": "https://www.cdc.gov/infection-control/about/index.html"
+  },
+  {
+    "sourceName": "肝不全・肝障害・肝硬変",
+    "name": "肝不全・肝障害・肝硬変",
+    "slug": "liver-disease",
+    "systems": [
+      "消化器"
+    ],
+    "diagram": "liver",
+    "reference": "https://www.nhs.uk/conditions/cirrhosis/"
+  },
+  {
+    "sourceName": "気管支喘息",
+    "name": "気管支喘息",
+    "slug": "asthma",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "airway",
+    "reference": "https://www.nhs.uk/conditions/asthma/"
+  },
+  {
+    "sourceName": "気胸",
+    "name": "気胸",
+    "slug": "pneumothorax",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "pleura",
+    "reference": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/spontaneous-primary-pneumothorax/"
+  },
+  {
+    "sourceName": "急性腎障害（AKI）",
+    "name": "急性腎障害（AKI）",
+    "slug": "aki",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "filter",
+    "reference": "https://www.nhs.uk/conditions/acute-kidney-injury/"
+  },
+  {
+    "sourceName": "呼吸不全",
+    "name": "呼吸不全",
+    "slug": "respiratory-failure",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "exchange",
+    "reference": "https://www.nhlbi.nih.gov/health/respiratory-failure"
+  },
+  {
+    "sourceName": "硬膜下血腫（慢性/急性）",
+    "name": "硬膜下血腫（慢性/急性）",
+    "slug": "subdural-hematoma",
+    "systems": [
+      "脳神経"
+    ],
+    "diagram": "brain-compress",
+    "reference": "https://www.nhs.uk/conditions/subdural-haematoma/"
+  },
+  {
+    "sourceName": "高血圧症",
+    "name": "高血圧症",
+    "slug": "hypertension",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "pressure",
+    "reference": "https://www.nhs.uk/conditions/high-blood-pressure-hypertension/"
+  },
+  {
+    "sourceName": "高二酸化炭素血症",
+    "name": "高二酸化炭素血症",
+    "slug": "hypercapnia",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "exchange",
+    "reference": "https://www.nhlbi.nih.gov/health/respiratory-failure"
+  },
+  {
+    "sourceName": "骨軟化症",
+    "name": "骨軟化症",
+    "slug": "osteomalacia",
+    "systems": [
+      "整形"
+    ],
+    "diagram": "mineral",
+    "reference": "https://www.nhs.uk/conditions/rickets-and-osteomalacia/"
+  },
+  {
+    "sourceName": "心タンポナーデ/心膜液貯留",
+    "name": "心タンポナーデ/心膜液貯留",
+    "slug": "tamponade",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "compress-heart",
+    "reference": "https://medlineplus.gov/ency/article/000194.htm"
+  },
+  {
+    "sourceName": "心筋梗塞",
+    "name": "心筋梗塞",
+    "slug": "myocardial-infarction",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "occlusion",
+    "reference": "https://www.nhs.uk/conditions/heart-attack/"
+  },
+  {
+    "sourceName": "心不全",
+    "name": "心不全",
+    "slug": "heart-failure",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "pump",
+    "reference": "https://www.nhs.uk/conditions/heart-failure/"
+  },
+  {
+    "sourceName": "腎盂腎炎",
+    "name": "腎盂腎炎",
+    "slug": "pyelonephritis",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "ascending",
+    "reference": "https://www.nhs.uk/conditions/kidney-infection/"
+  },
+  {
+    "sourceName": "正常圧水頭症/NPH",
+    "name": "正常圧水頭症/NPH",
+    "slug": "nph",
+    "systems": [
+      "脳神経"
+    ],
+    "diagram": "ventricle",
+    "reference": "https://www.nhs.uk/conditions/hydrocephalus/"
+  },
+  {
+    "sourceName": "静脈炎",
+    "name": "静脈炎",
+    "slug": "phlebitis",
+    "systems": [
+      "救急"
+    ],
+    "diagram": "vessel-inflamed",
+    "reference": "https://www.nhs.uk/conditions/phlebitis/"
+  },
+  {
+    "sourceName": "静脈血栓塞栓症（VTE）/DVT",
+    "name": "静脈血栓塞栓症（VTE）/DVT",
+    "slug": "dvt",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "venous-clot",
+    "reference": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/"
+  },
+  {
+    "sourceName": "前立腺肥大",
+    "name": "前立腺肥大症",
+    "slug": "bph",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "outlet",
+    "reference": "https://www.nhs.uk/conditions/enlarged-prostate/"
+  },
+  {
+    "sourceName": "大腿骨頸部骨折",
+    "name": "大腿骨頸部骨折",
+    "slug": "femoral-neck-fracture",
+    "systems": [
+      "整形"
+    ],
+    "diagram": "fracture",
+    "reference": "https://www.nhs.uk/conditions/broken-hip/"
+  },
+  {
+    "sourceName": "大動脈解離",
+    "name": "大動脈解離",
+    "slug": "aortic-dissection",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "dissection",
+    "reference": "https://www.ncvc.go.jp/hospital/pub/knowledge/disease/aortic-aneurysm_dissection/"
+  },
+  {
+    "sourceName": "低栄養",
+    "name": "低栄養",
+    "slug": "malnutrition",
+    "systems": [
+      "救急"
+    ],
+    "diagram": "depletion",
+    "reference": "https://www.nhs.uk/conditions/malnutrition/"
+  },
+  {
+    "sourceName": "電解質異常",
+    "name": "電解質異常",
+    "slug": "electrolytes",
+    "systems": [
+      "内分泌代謝",
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "balance",
+    "reference": "https://medlineplus.gov/fluidandelectrolytebalance.html"
+  },
+  {
+    "sourceName": "糖尿病",
+    "name": "糖尿病",
+    "slug": "diabetes",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "diagram": "glucose",
+    "reference": "https://www.nhs.uk/conditions/diabetes/"
+  },
+  {
+    "sourceName": "尿路感染症",
+    "name": "尿路感染症",
+    "slug": "uti",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "ascending",
+    "reference": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/"
+  },
+  {
+    "sourceName": "認知症",
+    "name": "認知症",
+    "slug": "dementia",
+    "systems": [
+      "精神"
+    ],
+    "diagram": "network",
+    "reference": "https://www.nhs.uk/conditions/dementia/symptoms/"
+  },
+  {
+    "sourceName": "脳梗塞",
+    "name": "脳梗塞",
+    "slug": "ischemic-stroke",
+    "systems": [
+      "脳神経"
+    ],
+    "diagram": "occlusion",
+    "reference": "https://www.nhs.uk/conditions/stroke/treatment/"
+  },
+  {
+    "sourceName": "脳出血",
+    "name": "脳出血",
+    "slug": "intracerebral-hemorrhage",
+    "systems": [
+      "脳神経"
+    ],
+    "diagram": "brain-bleed",
+    "reference": "https://www.nhs.uk/conditions/stroke/treatment/"
+  },
+  {
+    "sourceName": "脳浮腫/脳ヘルニア",
+    "name": "脳浮腫/脳ヘルニア",
+    "slug": "cerebral-edema",
+    "systems": [
+      "脳神経"
+    ],
+    "diagram": "brain-compress",
+    "reference": "https://www.neurocriticalcare.org/Portals/0/Docs/Resources/Cook2020_Article_GuidelinesForTheAcuteTreatment.pdf"
+  },
+  {
+    "sourceName": "廃用症候群",
+    "name": "廃用症候群",
+    "slug": "disuse",
+    "systems": [
+      "救急"
+    ],
+    "diagram": "depletion",
+    "reference": "https://www.uhsussex.nhs.uk/resources/how-and-why-to-stay-active-in-hospital/"
+  },
+  {
+    "sourceName": "敗血症",
+    "name": "敗血症",
+    "slug": "sepsis",
+    "systems": [
+      "救急"
+    ],
+    "diagram": "perfusion",
+    "reference": "https://www.nhs.uk/conditions/sepsis/"
+  },
+  {
+    "sourceName": "肺炎",
+    "name": "肺炎",
+    "slug": "pneumonia",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "alveolar-fill",
+    "reference": "https://www.nhs.uk/conditions/pneumonia/"
+  },
+  {
+    "sourceName": "肺気腫",
+    "name": "肺気腫",
+    "slug": "emphysema",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "alveoli",
+    "reference": "https://www.jrs.or.jp/citizen/disease/b/b-01.html"
+  },
+  {
+    "sourceName": "肺血栓塞栓症（PTE/PE）",
+    "name": "肺血栓塞栓症（PTE/PE）",
+    "slug": "pulmonary-embolism",
+    "systems": [
+      "呼吸器"
+    ],
+    "diagram": "occlusion",
+    "reference": "https://www.nhs.uk/conditions/pulmonary-embolism/"
+  },
+  {
+    "sourceName": "肺高血圧症",
+    "name": "肺高血圧症",
+    "slug": "pulmonary-hypertension",
+    "systems": [
+      "呼吸器",
+      "循環器"
+    ],
+    "diagram": "pressure",
+    "reference": "https://www.nhs.uk/conditions/pulmonary-hypertension/"
+  },
+  {
+    "sourceName": "肺水腫",
+    "name": "肺水腫",
+    "slug": "pulmonary-edema",
+    "systems": [
+      "呼吸器",
+      "循環器"
+    ],
+    "diagram": "alveolar-fill",
+    "reference": "https://medlineplus.gov/ency/article/000140.htm"
+  },
+  {
+    "sourceName": "不整脈/心房細動",
+    "name": "不整脈／心房細動",
+    "slug": "atrial-fibrillation",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "rhythm",
+    "reference": "https://www.nhs.uk/conditions/atrial-fibrillation/"
+  },
+  {
+    "sourceName": "閉塞性動脈硬化症（ASO）",
+    "name": "閉塞性動脈硬化症（ASO）",
+    "slug": "aso",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "occlusion",
+    "reference": "https://www.nhs.uk/conditions/peripheral-arterial-disease-pad/"
+  },
+  {
+    "sourceName": "弁膜症",
+    "name": "弁膜症",
+    "slug": "valvular-disease",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "valve",
+    "reference": "https://www.nhs.uk/conditions/heart-valve-disease/"
+  },
+  {
+    "sourceName": "蜂窩織炎",
+    "name": "蜂窩織炎",
+    "slug": "cellulitis",
+    "systems": [
+      "皮膚・熱傷"
+    ],
+    "diagram": "skin",
+    "reference": "https://www.nhs.uk/conditions/cellulitis/"
+  },
+  {
+    "sourceName": "慢性腎不全",
+    "name": "慢性腎不全",
+    "slug": "chronic-renal-failure",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "diagram": "filter",
+    "reference": "https://www.nhs.uk/conditions/kidney-disease/"
+  },
+  {
+    "sourceName": "膵炎",
+    "name": "膵炎",
+    "slug": "pancreatitis",
+    "systems": [
+      "消化器"
+    ],
+    "diagram": "inflammation",
+    "reference": "https://www.nhs.uk/conditions/acute-pancreatitis/"
+  },
+  {
+    "sourceName": "褥瘡/スキンテア",
+    "name": "褥瘡/スキンテア",
+    "slug": "pressure-injury",
+    "systems": [
+      "皮膚・熱傷"
+    ],
+    "diagram": "skin-pressure",
+    "reference": "https://www.nhs.uk/conditions/pressure-sores/"
+  }
+]

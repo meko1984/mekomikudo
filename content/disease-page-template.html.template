@@ -1,0 +1,65 @@
+<!--
+  疾患詳細ページの設計用テンプレート。実ページは scripts/build-diseases.py で生成する。
+  nursing/diseases/<slug>/index.html に展開する際に、共通ヘッダー・フッター、
+  ../../.. を基準にしたCSS/JS、canonical、ページ固有のtitle/descriptionを設定する。
+  SYSTEMは assets/css/diseases.css の data-system とそろえる。
+  元のNotion本文と現行の根拠資料を確認し、すべての {{...}} を置換する。
+  図は独自に作成し、図内の文字・矢印もスマートフォンで確認する。
+-->
+<main id="main-content" data-system="{{SYSTEM}}">
+  <div class="wrap disease-detail">
+    <nav aria-label="パンくず"><a href="../">疾患・病態</a> / {{DISEASE_NAME}}</nav>
+    <header>
+      <p><span class="disease-tag">{{SYSTEM_NAME}}</span></p>
+      <h1 class="disease-heading">{{DISEASE_NAME}}</h1>
+      <p>{{ONE_SENTENCE_SUMMARY}}</p>
+      <dl class="disease-summary">
+        <div><dt>主な症状</dt><dd>{{SYMPTOMS}}</dd></div>
+        <div><dt>検査値UP</dt><dd>{{LABS_UP_WITH_CONDITIONS}}</dd></div>
+        <div><dt>検査値DOWN</dt><dd>{{LABS_DOWN_WITH_CONDITIONS}}</dd></div>
+        <div><dt>代表的な薬</dt><dd>{{REPRESENTATIVE_MEDICINES}}</dd></div>
+      </dl>
+    </header>
+    <nav class="disease-toc" aria-label="このページの内容">
+      <a href="#observations">症状／観察項目</a>
+      <a href="#mechanism">病態生理</a>
+      <a href="#treatment">治療</a>
+      <a href="#related">関連リンク</a>
+      <a href="#references">参考文献</a>
+    </nav>
+    <section id="observations" class="disease-section">
+      <h2>症状／観察項目</h2>
+      <figure class="disease-figure">
+        {{OBSERVATION_ILLUSTRATION_WITH_ACCESSIBLE_DESCRIPTION}}
+        <figcaption>{{SHORT_OBSERVATION_CAPTION}}</figcaption>
+      </figure>
+      <p>{{IMPORTANT_OBSERVATION_CONTEXT}}</p>
+    </section>
+    <section id="mechanism" class="disease-section">
+      <h2>病態生理</h2>
+      <figure class="disease-figure">
+        {{ORIGINAL_MECHANISM_DIAGRAM_WITH_ACCESSIBLE_DESCRIPTION}}
+        <figcaption>{{SHORT_CAUSE_TO_SYMPTOM_CAPTION}}</figcaption>
+      </figure>
+    </section>
+    <section id="treatment" class="disease-section">
+      <h2>治療</h2>
+      <figure class="disease-figure">
+        {{TREATMENT_TARGET_DIAGRAM_WITH_ACCESSIBLE_DESCRIPTION}}
+        <figcaption>{{SHORT_TREATMENT_CAPTION}}</figcaption>
+      </figure>
+      <p>{{STANDARD_TREATMENT_AND_APPLICABILITY}}</p>
+    </section>
+    <section id="related" class="disease-section">
+      <h2>関連リンク</h2>
+      <ul class="disease-related">{{VERIFIED_MEDICINE_SKILL_AND_DISEASE_LINKS}}</ul>
+    </section>
+    <section id="references" class="disease-section">
+      <h2>参考文献</h2>
+      <ol>{{REFERENCES_WITH_TITLE_ORGANIZATION_EDITION_URL_AND_RELEVANT_SECTION}}</ol>
+      <p>内容確認日：<time datetime="{{REVIEW_DATE_ISO}}">{{REVIEW_DATE}}</time></p>
+    </section>
+    <p>学習用の概念図です。実際の判断は患者の状態、最新の資料、所属施設の手順に基づいて行います。</p>
+    <a href="../">疾患・病態の一覧に戻る</a>
+  </div>
+</main>

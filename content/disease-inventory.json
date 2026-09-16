@@ -1,0 +1,447 @@
+[
+  {
+    "name": "CKD（慢性腎臓病）",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "COPD（慢性閉塞性肺疾患）",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "HHS（非ケトン性高浸透圧昏睡）",
+    "systems": [
+      "内分泌代謝",
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "IAD（失禁関連皮膚炎）",
+    "systems": [
+      "皮膚・熱傷"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "SAH(クモ膜下出血)",
+    "systems": [
+      "脳神経"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "SSS（洞不全症候群）",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "ショック",
+    "systems": [
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "ダンピング症候群",
+    "systems": [
+      "消化器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "ネフローゼ症候群",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "リフィーディング症候群",
+    "systems": [
+      "救急",
+      "消化器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "圧迫骨折",
+    "systems": [
+      "整形"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "横紋筋融解症",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "下垂体機能低下症",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "感染",
+    "systems": [
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "肝不全・肝障害・肝硬変",
+    "systems": [
+      "消化器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "気管支喘息",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "気胸",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "急性腎障害（AKI）",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "呼吸不全",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "硬膜下血腫（慢性/急性）",
+    "systems": [
+      "脳神経"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "高血圧症",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "高二酸化炭素血症",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "骨軟化症",
+    "systems": [
+      "整形"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "心タンポナーデ/心膜液貯留",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "心筋梗塞",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "心不全",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "腎盂腎炎",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "正常圧水頭症/NPH",
+    "systems": [
+      "脳神経"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "静脈炎",
+    "systems": [
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "静脈血栓塞栓症（VTE）/DVT",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "前立腺肥大",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "大腿骨頸部骨折",
+    "systems": [
+      "整形"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "大動脈解離",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "低栄養",
+    "systems": [
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "電解質異常",
+    "systems": [
+      "内分泌代謝",
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "糖尿病",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "尿路感染症",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "認知症",
+    "systems": [
+      "精神"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "脳梗塞",
+    "systems": [
+      "脳神経"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "脳出血",
+    "systems": [
+      "脳神経"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "脳浮腫/脳ヘルニア",
+    "systems": [
+      "脳神経"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "廃用症候群",
+    "systems": [
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "敗血症",
+    "systems": [
+      "救急"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "肺炎",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "肺気腫",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "肺血栓塞栓症（PTE/PE）",
+    "systems": [
+      "呼吸器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "肺高血圧症",
+    "systems": [
+      "呼吸器",
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "肺水腫",
+    "systems": [
+      "呼吸器",
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "不整脈/心房細動",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "閉塞性動脈硬化症（ASO）",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "弁膜症",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "蜂窩織炎",
+    "systems": [
+      "皮膚・熱傷"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "慢性腎不全",
+    "systems": [
+      "腎・泌尿・生殖器（男性）"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "膵炎",
+    "systems": [
+      "消化器"
+    ],
+    "sourceCount": 2,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "褥瘡/スキンテア",
+    "systems": [
+      "皮膚・熱傷"
+    ],
+    "sourceCount": 1,
+    "status": "implemented-source-checked"
+  }
+]
