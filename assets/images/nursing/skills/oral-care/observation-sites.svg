@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 520" role="img" aria-labelledby="title desc">
+<title id="title">口腔ケアで確認する部位</title><desc id="desc">開口した口を正面から見た模式図。上段は口唇、歯と歯肉、口蓋、頬粘膜、舌。下段は舌を持ち上げて見える口腔底を区別する。</desc>
+<rect width="390" height="520" rx="18" fill="#f1f7f8"/>
+<g font-family="sans-serif" fill="#304b5b"><text x="22" y="31" font-size="18" font-weight="bold">口腔内の観察部位</text><text x="22" y="60" font-size="14">① 開口して前から見た模式図</text></g>
+<g stroke="#b47c75" stroke-width="3">
+<ellipse cx="132" cy="165" rx="96" ry="91" fill="#e9b1b5"/>
+<ellipse cx="132" cy="165" rx="79" ry="72" fill="#754d53"/>
+<path d="M76 124Q132 94 188 124L188 146Q132 119 76 146Z" fill="#f6d9d5"/>
+<path d="M68 115Q132 77 196 115L193 131Q132 101 71 131Z" fill="#fffdf4"/>
+<path d="M71 152Q58 178 71 202L84 204L86 148Z" fill="#f6d9d5"/>
+<path d="M190 151Q207 178 191 204L181 203L178 148Z" fill="#f6d9d5"/>
+<path d="M84 225Q132 248 181 225Q187 175 132 176Q80 175 84 225Z" fill="#df999d"/>
+<path d="M132 188v34" fill="none" stroke="#bd737c" stroke-width="2"/>
+<ellipse cx="132" cy="388" rx="96" ry="64" fill="#e9b1b5"/>
+<path d="M56 370Q132 324 208 370L202 404Q132 441 64 404Z" fill="#754d53"/>
+<path d="M74 404Q132 431 192 404L184 420Q132 445 83 420Z" fill="#a9d2df" stroke="#59899c"/>
+<path d="M108 401Q91 350 118 344Q157 334 163 358L159 401Q132 413 108 401Z" fill="#e9b1b5"/>
+<path d="M132 405v20" fill="none"/>
+</g>
+<g fill="none" stroke="#476c7a" stroke-width="2">
+<path d="M188 111H245V91H266"/><path d="M157 139H238V137H266"/><path d="M194 180H247V184H266"/><path d="M159 210H237V229H266"/><path d="M173 247H246V274H266"/><path d="M177 417H241V410H266"/>
+</g>
+<g font-family="sans-serif" fill="#304b5b" font-size="15"><text x="272" y="96">歯・歯肉</text><text x="272" y="142">口蓋</text><text x="272" y="189">頬粘膜</text><text x="272" y="234">舌の上面</text><text x="272" y="279">口唇</text><text x="22" y="313" font-size="14">② 舌を持ち上げて見た模式図</text><text x="272" y="415">口腔底</text><text x="272" y="440" font-size="13">舌の下の床</text><text x="22" y="481" font-size="13">色は部位の区別。清掃器具の深さは示さない。</text><text x="22" y="505" font-size="13">痛みや抵抗があるときは無理に開口しない。</text></g>
+</svg>

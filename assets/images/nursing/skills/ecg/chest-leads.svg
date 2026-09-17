@@ -9,7 +9,7 @@
       <g stroke="#d8e4e7" stroke-width="2" fill="none"><path d="M80 88c83 20 177 20 260 0"/><path d="M70 124c90 22 190 22 280 0"/><path d="M62 160c95 24 201 24 296 0"/><path d="M56 196c101 25 207 25 308 0"/><path d="M52 232c105 26 211 26 316 0"/></g>
       <path d="M210 78v168" stroke="#8aa4ac" stroke-width="6" stroke-linecap="round"/>
       <g stroke="#fff" stroke-width="3"><circle cx="188" cy="160" r="17" fill="#4e91a4"/><circle cx="232" cy="160" r="17" fill="#4e91a4"/><circle cx="265" cy="212" r="17" fill="#8a70b3"/><circle cx="302" cy="246" r="17" fill="#b36a77"/><circle cx="346" cy="246" r="17" fill="#ce8247"/><circle cx="390" cy="246" r="17" fill="#4f9b75"/></g>
-      <g fill="#fff" text-anchor="middle" font-size="13" font-weight="700"><text x="188" y="165">V1</text><text x="232" y="165">V2</text><text x="265" y="217">V3</text><text x="302" y="251">V4</text><text x="346" y="251">V5</text><text x="390" y="251">V6</text></g><path d="M302 246h88" stroke="#b36a77" stroke-width="2" stroke-dasharray="5 4"/>
+      <g fill="#fff" text-anchor="middle" font-size="13" font-weight="700"><text x="188" y="165">V1</text><text x="232" y="165">V2</text><text x="265" y="217">V3</text><text x="302" y="251">V4</text><text x="346" y="251">V5</text><text x="390" y="251">V6</text></g>
     </g>
     <g transform="translate(500 78)">
       <rect width="330" height="374" rx="20" fill="#fff" stroke="#9ab4bc" stroke-width="2"/><text x="24" y="42" font-size="18" font-weight="700">位置を言葉で確認</text>

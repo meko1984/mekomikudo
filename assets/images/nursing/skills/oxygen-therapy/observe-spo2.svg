@@ -3,7 +3,7 @@
   <desc id="desc">指先のセンサーとモニターの数値、脈波を一緒に確認する。</desc>
   <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
   <rect x="77" y="25" width="92" height="92" rx="12" fill="#fff" stroke="#567789" stroke-width="4"/>
-  <text x="93" y="57" fill="#365b6d" font-family="Arial, sans-serif" font-size="15" font-weight="700">SpO₂</text>
+  <text x="93" y="45" fill="#365b6d" font-family="Arial, sans-serif" font-size="15" font-weight="700">SpO₂</text>
   <text x="115" y="87" fill="#6f9b83" font-family="Arial, sans-serif" font-size="30" font-weight="700">96</text>
   <path d="M90 102h14l6-13 10 23 8-18 6 8h22" fill="none" stroke="#b75e63" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
   <path d="M27 83c17-8 35-7 51 4v30H27Z" fill="#f2c7b8" stroke="#8d6f66" stroke-width="3"/>

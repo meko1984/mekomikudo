@@ -21,7 +21,7 @@
       <path d="M47 43c7 5 14 5 21 0M51 41V30M64 41V30" stroke="#5d8fa6" stroke-width="5"/>
       <path d="M47 47C23 62 20 88 38 111M68 47c18 16 20 39 7 64" stroke="#5d8fa6" stroke-width="5"/>
     </g>
-    <text x="32" y="151" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">酸素流量（L/分）</text>
+    <text x="32" y="145" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">酸素流量（L/分）</text>
     <path d="M40 179H380" stroke="#9db3bd" stroke-linecap="round" stroke-width="3"/>
     <g stroke="#9db3bd" stroke-width="2">
       <path d="M40 171v16M63 174v10M85 174v10M108 174v10M131 174v10M153 171v16M176 174v10M199 174v10M221 174v10M244 174v10M267 171v16M289 174v10M312 174v10M335 174v10M357 174v10M380 171v16"/>
@@ -47,7 +47,7 @@
       <path d="M22 40c14-13 31-13 44 0l-5 38c-11 8-23 8-34 0Z" fill="#dceef6" stroke="#5d8fa6" stroke-width="5"/>
       <path d="M22 48H5M66 48h17M44 81v31" stroke="#5d8fa6" stroke-width="5"/>
     </g>
-    <text x="32" y="411" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">酸素流量（L/分）</text>
+    <text x="32" y="405" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">酸素流量（L/分）</text>
     <path d="M40 439H380" stroke="#9db3bd" stroke-linecap="round" stroke-width="3"/>
     <g stroke="#9db3bd" stroke-width="2">
       <path d="M40 431v16M63 434v10M85 434v10M108 434v10M131 434v10M153 431v16M176 434v10M199 434v10M221 434v10M244 434v10M267 431v16M289 434v10M312 434v10M335 434v10M357 434v10M380 431v16"/>
@@ -103,7 +103,7 @@
       <path d="M43 70v16" stroke="#5d8fa6" stroke-width="5"/>
       <path d="M28 88c0-8 7-14 15-14s15 6 15 14v35c0 9-7 16-15 16s-15-7-15-16Z" fill="#e9f3ee" stroke="#6f9b83" stroke-width="5"/>
     </g>
-    <text x="32" y="966" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">酸素流量（L/分）</text>
+    <text x="32" y="960" fill="#507384" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">酸素流量（L/分）</text>
     <path d="M40 994H380" stroke="#9db3bd" stroke-linecap="round" stroke-width="3"/>
     <g stroke="#9db3bd" stroke-width="2">
       <path d="M40 986v16M63 989v10M85 989v10M108 989v10M131 989v10M153 986v16M176 989v10M199 989v10M221 989v10M244 989v10M267 986v16M289 989v10M312 989v10M335 989v10M357 989v10M380 986v16"/>

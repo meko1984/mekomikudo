@@ -11,7 +11,7 @@
   <path d="M68 44 96 78 78 81l13 28-39-41 18-2Z" fill="#f0b39d" stroke="#b75e63" stroke-linejoin="round" stroke-width="3"/>
   <circle cx="244" cy="61" r="22" fill="#fff" stroke="#567789" stroke-width="4"/>
   <path d="M228 61h32" stroke="#b75e63" stroke-linecap="round" stroke-width="7"/>
-  <path d="M160 148c14 19 20 29 20 37a20 20 0 1 1-40 0c0-8 6-18 20-37Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M160 133c14 19 20 29 20 37a20 20 0 1 1-40 0c0-8 6-18 20-37Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
   <path d="M245 119c14 18 20 29 20 39a20 20 0 1 1-40 0c0-10 6-21 20-39Z" fill="#e8c85f" opacity=".8" stroke="#a48b3d" stroke-width="3"/>
   <path d="M76 126c10-12 29 1 0 24-29-23-10-36 0-24Z" fill="#d98f8f"/>
 </svg>

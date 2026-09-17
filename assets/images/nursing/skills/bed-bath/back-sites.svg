@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 450" role="img" aria-labelledby="title desc">
+<title id="title">背面：骨突出部の観察</title><desc id="desc">背面から見た後頭部、肩甲部、肘、仙骨部、踵の位置。</desc>
+<style>text{font-family:"Noto Sans JP","Yu Gothic",sans-serif;font-size:16px;fill:#304b5b}.small{font-size:13px}.body{fill:#f1e4da;stroke:#b59a88;stroke-width:2}.site{fill:#c46e62;stroke:none}.fold{fill:none;stroke:#c46e62;stroke-width:4;stroke-linecap:round}.leader{fill:none;stroke:#7c919b;stroke-width:1.5}</style>
+<rect width="390" height="450" rx="9" fill="#f8fbfc"/><text x="18" y="30">背面：骨突出部の観察</text>
+<circle class="body" cx="195" cy="75" r="28"/><path class="body" d="M180 103 V114 L154 126 L139 204 L120 270 Q116 280 126 284 Q136 287 141 274 L159 213 L164 174 V267 L158 327 L160 401 L181 401 L186 333 L195 291 L204 333 L209 401 L230 401 L232 327 L226 267 V174 L231 213 L249 274 Q254 287 264 284 Q274 280 270 270 L251 204 L236 126 L210 114 V103 Z"/>
+<circle class="site" cx="195" cy="75" r="8"/><circle class="site" cx="179" cy="149" r="7"/><circle class="site" cx="211" cy="149" r="7"/><circle class="site" cx="145" cy="205" r="7"/><circle class="site" cx="195" cy="267" r="8"/><circle class="site" cx="171" cy="397" r="7"/><circle class="site" cx="220" cy="397" r="7"/>
+<path class="leader" d="M203 75 H265"/><text x="272" y="80">後頭部</text>
+<path class="leader" d="M218 149 H265"/><text x="272" y="154">肩甲部</text>
+<path class="leader" d="M138 205 H73"/><text x="24" y="210">肘</text>
+<path class="leader" d="M203 267 H265"/><text x="272" y="272">仙骨部</text>
+<path class="leader" d="M227 397 H283 V377"/><text x="286" y="364">踵</text>
+<text class="small" x="20" y="430">骨突出部だけでなく全身の皮膚を見る。</text>
+</svg>

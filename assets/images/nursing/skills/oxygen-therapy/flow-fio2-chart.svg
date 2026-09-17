@@ -53,8 +53,8 @@
       <path d="M22 40c14-13 31-13 44 0l-5 38c-11 8-23 8-34 0Z" fill="#dceef6" stroke="#5d8fa6" stroke-width="5"/>
       <path d="M22 48H5M66 48h17M44 81v31" stroke="#5d8fa6" stroke-width="5"/>
     </g>
-    <text x="100" y="269" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">シンプル</text>
-    <text x="100" y="297" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">酸素マスク</text>
+    <text x="100" y="264" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">シンプル</text>
+    <text x="100" y="300" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">酸素マスク</text>
     <rect x="487" y="257" width="226" height="48" rx="24" fill="url(#variable-band)" stroke="#6f9b83" stroke-dasharray="8 6" stroke-width="3"/>
     <circle cx="487" cy="281" r="6" fill="#5d8fa6"/><circle cx="713" cy="281" r="6" fill="#6f9b83"/>
     <text x="600" y="288" text-anchor="middle" fill="#315f4a" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">FiO₂ 約35〜60%</text>
@@ -71,8 +71,8 @@
       <path d="M43 76v17" stroke="#657fa9" stroke-width="5"/>
       <path d="M33 94h20v20H33z" fill="#f0b65b" stroke="#9a7338" stroke-width="4"/>
     </g>
-    <text x="100" y="389" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">ベンチュリー</text>
-    <text x="100" y="417" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">マスク</text>
+    <text x="100" y="384" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">ベンチュリー</text>
+    <text x="100" y="420" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="800">マスク</text>
     <rect x="280" y="374" width="190" height="48" rx="24" fill="#dceef6" stroke="#78abc1" stroke-width="2"/>
     <text x="375" y="405" text-anchor="middle" fill="#284f63" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" font-weight="800">製品指定流量</text>
     <text x="497" y="369" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16" font-weight="700">設定FiO₂</text>
@@ -104,7 +104,7 @@
     <rect x="713" y="512" width="227" height="48" rx="24" fill="url(#variable-band)" stroke="#6f9b83" stroke-dasharray="8 6" stroke-width="3"/>
     <circle cx="713" cy="536" r="6" fill="#5d8fa6"/><circle cx="940" cy="536" r="6" fill="#6f9b83"/>
     <text x="827" y="543" text-anchor="middle" fill="#315f4a" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="23" font-weight="800">FiO₂ 約60〜80%</text>
-    <text x="827" y="580" text-anchor="middle" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">10〜15 L/分｜非再呼吸式の例</text>
+    <text x="827" y="573" text-anchor="middle" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">10〜15 L/分｜非再呼吸式の例</text>
     <text x="827" y="598" text-anchor="middle" fill="#607680" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="15">バッグ・弁・密着・呼吸で濃度が変わる</text>
   </g>
 

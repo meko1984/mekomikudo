@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 450" role="img" aria-labelledby="title desc">
+  <title id="title">吸入で確認する顔と気道の部位</title>
+  <desc id="desc">正面から見た鼻、口、気管、左右に分かれる気管支と肺の位置。マスクは鼻と口を覆い、マウスピースは口唇で密閉する。薬剤の沈着量や到達部位を示す図ではない。</desc>
+  <rect width="390" height="450" rx="18" fill="#f2f8f8"/>
+  <g font-family="sans-serif" fill="#304f59">
+    <text x="195" y="30" text-anchor="middle" font-size="17" font-weight="700">顔・気道の位置を確認</text>
+    <path d="M149 155C126 129 123 86 143 66C161 44 223 44 242 66C262 87 259 129 240 155L231 185L279 203C312 231 319 301 319 355H71C71 301 78 231 111 203L159 185Z" fill="#fff" stroke="#9db7bd" stroke-width="2"/>
+    <path d="M156 90h14M219 90h14" stroke="#526c75" stroke-width="3" stroke-linecap="round"/>
+    <path d="M193 96l-8 24h20" fill="none" stroke="#526c75" stroke-width="2"/>
+    <path d="M179 141h32" stroke="#526c75" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="195" cy="128" rx="39" ry="34" fill="#d3e9ee" fill-opacity=".45" stroke="#599cad" stroke-width="2" stroke-dasharray="5 4"/>
+    <path d="M181 211C149 213 106 245 104 310C102 341 127 347 166 334L181 279Z M209 211C241 213 284 245 286 310C288 341 263 347 224 334L209 279Z" fill="#e1eef1" stroke="#96b6bf" stroke-width="2"/>
+    <path d="M195 183V256M195 256l-38 35M195 256l38 35M157 291l-16 25M157 291l12 23M233 291l-12 23M233 291l16 25" fill="none" stroke="#5599a6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="none" stroke="#6c8790" stroke-width="1.5"><path d="M189 117H98L81 105"/><path d="M180 141H98L81 163"/><path d="M202 211H272L292 198"/><path d="M229 287H290L307 278"/></g>
+    <g font-size="15" font-weight="700"><text x="51" y="108">鼻</text><text x="51" y="174">口</text><text x="292" y="195">気管</text><text x="307" y="273">気管支</text></g>
+    <text x="195" y="378" text-anchor="middle" font-size="14">マスク：鼻と口を覆う</text>
+    <text x="195" y="402" text-anchor="middle" font-size="14">マウスピース：口唇で密閉</text>
+    <text x="195" y="429" text-anchor="middle" font-size="12">位置の模式図。薬剤の沈着・到達量は示さない。</text>
+  </g>
+</svg>

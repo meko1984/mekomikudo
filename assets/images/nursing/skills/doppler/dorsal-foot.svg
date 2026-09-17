@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 450" role="img" aria-labelledby="t d">
+<title id="t">足背動脈と長母趾伸筋腱の位置関係</title><desc id="d">右足を足背側から見た模式図。母趾側が内側で、足背動脈の確認領域は長母趾伸筋腱の外側にある。</desc>
+<style>.h{font:700 18px sans-serif;fill:#243f46}.s{font:14px sans-serif;fill:#48636a}.b{font:700 15px sans-serif;fill:#243f46}</style>
+<rect width="390" height="450" rx="18" fill="#edf7f7"/><text class="h" x="195" y="32" text-anchor="middle">足背動脈の目印</text><text class="s" x="195" y="59" text-anchor="middle">右足・足背側から見る</text>
+<text class="s" x="24" y="90">内側（母趾側）</text><text class="s" x="251" y="90">外側</text>
+<path d="M123 310L114 267C105 232 93 199 85 174L80 139Q79 116 94 114Q107 113 110 137L112 113Q113 95 125 100Q134 103 133 125L137 113Q141 104 151 113L155 129Q164 113 175 128L182 145Q193 130 200 145Q212 179 204 204L177 272L176 310Z" fill="#f2d5c5" stroke="#9c7665" stroke-width="2"/>
+<path d="M147 308Q137 225 96 137" fill="none" stroke="#ac8647" stroke-width="5"/>
+<path d="M168 308Q169 249 145 197L137 176" fill="none" stroke="#b35368" stroke-width="6"/><circle cx="145" cy="197" r="9" fill="#b35368"/>
+<path d="M154 197H228" fill="none" stroke="#48636a" stroke-width="1.5"/><text class="b" x="238" y="202">確認領域</text>
+<path d="M28 350H50" stroke="#ac8647" stroke-width="5"/><text class="s" x="61" y="355">長母趾伸筋腱</text><path d="M28 378H50" stroke="#b35368" stroke-width="6"/><text class="s" x="61" y="383">足背動脈（腱の外側付近）</text>
+<text class="s" x="24" y="418">走行・位置には個人差がある。</text>
+</svg>

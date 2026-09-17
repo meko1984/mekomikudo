@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 550" role="img" aria-labelledby="t d">
+<title id="t">主な唾液腺の位置</title><desc id="d">左向きの頭部模式図。耳下腺は耳の前下方、顎下腺は下顎の下、舌下腺は舌の下の口腔底にある。左右に一対ずつあるうち片側を示す。圧迫位置やマッサージ手順を示す図ではない。</desc>
+<rect width="390" height="550" rx="20" fill="#f2f7f8"/>
+<g font-family="sans-serif" fill="#304b5b">
+<text x="195" y="32" text-anchor="middle" font-size="21" font-weight="700">主な唾液腺の位置</text>
+<text x="195" y="58" text-anchor="middle" font-size="14">左向き・片側の模式図</text>
+<path d="M265 282V227Q299 186 288 125Q280 76 224 76Q177 77 157 114L145 152L126 177L149 184L147 199L156 210L155 227Q163 249 204 249L205 282" fill="#f8e6dc" stroke="#8b7870" stroke-width="3" stroke-linejoin="round"/>
+<path d="M149 202H191Q213 197 226 207Q214 225 159 221" fill="#e7a9a9" stroke="#ac6d74" stroke-width="2"/>
+<path d="M161 237Q194 246 225 233L250 179" fill="none" stroke="#927c73" stroke-width="4"/>
+<ellipse cx="259" cy="156" rx="13" ry="22" fill="#f3d8cb" stroke="#8b7870" stroke-width="2"/>
+<path d="M237 153Q225 157 224 178Q224 202 236 213Q248 203 248 181Q248 163 237 153" fill="#b6d9e0" stroke="#39758a" stroke-width="2"/>
+<ellipse cx="206" cy="255" rx="20" ry="12" fill="#e8c493" stroke="#926a37" stroke-width="2"/>
+<ellipse cx="184" cy="230" rx="20" ry="6" fill="#b9d6b4" stroke="#527b4d" stroke-width="2"/>
+<g fill="none" stroke="#607c87" stroke-width="2"><path d="M242 185H307"/><path d="M186 256H105"/><path d="M171 230H105"/></g>
+<g fill="#fff" stroke="#607c87" stroke-width="2"><circle cx="323" cy="185" r="14"/><circle cx="89" cy="256" r="14"/><circle cx="89" cy="230" r="11"/></g>
+<g text-anchor="middle" font-size="16" font-weight="700"><text x="323" y="191">1</text><text x="89" y="262">2</text><text x="89" y="235" font-size="14">3</text></g>
+<text x="32" y="327" font-size="19" font-weight="700">1　耳下腺</text><text x="32" y="353" font-size="17">耳の前下方</text>
+<text x="32" y="391" font-size="19" font-weight="700">2　顎下腺</text><text x="32" y="417" font-size="17">下顎の下</text>
+<text x="32" y="455" font-size="19" font-weight="700">3　舌下腺</text><text x="32" y="481" font-size="17">舌の下・口腔底</text>
+<text x="195" y="525" text-anchor="middle" font-size="14">大きさ・深さ・圧迫の方法を示す図ではない</text>
+</g></svg>

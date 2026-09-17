@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="430" viewBox="0 0 390 430" role="img" aria-labelledby="title desc">
+  <title id="title">洗髪で確認する頭部の部位</title>
+  <desc id="desc">顔が左を向いた頭部の側面図。額の生え際、耳の後ろ、後頭部を引き出し線で示す。洗髪体位や湯を流す方向を示す図ではない。</desc>
+  <rect width="390" height="430" rx="18" fill="#f0f6f8"/>
+  <g font-family="system-ui, 'Noto Sans JP', sans-serif" fill="#304b5b">
+    <text x="195" y="32" text-anchor="middle" font-size="18" font-weight="700">すすぎ・観察で確認する部位</text>
+    <text x="195" y="61" text-anchor="middle" font-size="13">頭部の側面（顔は左側）</text>
+    <path d="M119 155 C111 130 127 96 166 88 C224 72 273 109 278 159 C284 192 271 217 254 231 L247 282 L188 282 L181 249 C156 251 138 239 133 215 L111 212 L117 200 L96 195 L113 171 Z" fill="#f3d8c6" stroke="#9f7b6a" stroke-width="2.5"/>
+    <path d="M119 155 C108 126 127 96 166 88 C224 72 273 109 278 159 C283 190 271 211 254 231 L237 224 L228 171 C217 145 191 139 165 145 L148 128 Z" fill="#a39282" stroke="#7e7065" stroke-width="2.5"/>
+    <path d="M196 174 C181 155 174 182 184 203 C195 215 205 190 196 174 Z" fill="#f3d8c6" stroke="#9f7b6a" stroke-width="2"/>
+    <path d="M186 179 Q198 182 187 196 M116 168 L131 166" fill="none" stroke="#9f7b6a" stroke-width="2"/>
+    <g fill="#699eb7" stroke="#fff" stroke-width="2"><circle cx="130" cy="143" r="6"/><circle cx="211" cy="197" r="6"/><circle cx="271" cy="173" r="6"/></g>
+    <g fill="none" stroke="#4d788c" stroke-width="1.5"><path d="M130 143 L89 114 H39"/><path d="M271 173 L305 136 H322"/><path d="M211 197 L284 260 H310"/></g>
+    <text x="31" y="105" font-size="16" font-weight="700">生え際</text>
+    <text x="311" y="123" text-anchor="middle" font-size="16" font-weight="700">後頭部</text>
+    <text x="306" y="282" text-anchor="middle" font-size="16" font-weight="700">耳の後ろ</text>
+    <text x="195" y="336" text-anchor="middle" font-size="14">髪を分け、頭皮の状態も確認する</text>
+    <text x="195" y="371" text-anchor="middle" font-size="13">部位の位置を示す模式図</text>
+    <text x="195" y="397" text-anchor="middle" font-size="13">洗髪体位・湯を流す方向は示していない</text>
+  </g>
+</svg>

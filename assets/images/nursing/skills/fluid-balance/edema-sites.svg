@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="450" viewBox="0 0 390 450" role="img" aria-labelledby="title desc">
+  <title id="title">浮腫を観察する下腿・足首・仙骨部</title>
+  <desc id="desc">下腿を正面から、仙骨部を背面から示す局所図。青色は観察する部位の例で、浮腫の広がりや重症度を示すものではない。</desc>
+  <rect width="390" height="450" rx="18" fill="#edf5ff"/>
+  <g font-family="system-ui, 'Noto Sans JP', sans-serif" fill="#304b5b">
+    <text x="195" y="32" font-size="18" font-weight="700" text-anchor="middle">浮腫をみる部位の例</text>
+    <text x="195" y="64" font-size="14" text-anchor="middle">下腿・足首（正面）</text>
+    <path d="M108 86 Q92 122 112 178 L112 201 L91 220 Q103 235 147 224 L144 182 Q157 126 145 86" fill="#fff" stroke="#91a7b4" stroke-width="2.5"/>
+    <path d="M218 86 Q203 126 219 182 L216 224 Q258 235 271 220 L250 201 L250 178 Q268 122 253 86" fill="#fff" stroke="#91a7b4" stroke-width="2.5"/>
+    <path d="M116 131 L119 199 Q129 205 140 199 L137 131 Z M224 131 L225 199 Q237 205 246 199 L246 131 Z" fill="#b8dcf2"/>
+    <g stroke="#6c8595" stroke-width="1.5" fill="none"><path d="M126 151 L77 130 H53"/><path d="M236 195 L282 189 H300"/></g>
+    <text x="27" y="124" font-size="15" font-weight="700">下腿</text>
+    <text x="306" y="194" font-size="15" font-weight="700">足首</text>
+    <text x="195" y="267" font-size="14" text-anchor="middle">仙骨部（背面）</text>
+    <path d="M117 281 Q131 306 117 324 Q96 352 114 379 L161 379 Q181 365 202 379 L249 379 Q269 352 248 324 Q235 306 248 281" fill="#fff" stroke="#91a7b4" stroke-width="2.5"/>
+    <path d="M182 287 L182 314" stroke="#c4ced4" stroke-width="3"/>
+    <path d="M166 314 Q182 308 198 314 L182 344 Z" fill="#b8dcf2" stroke="#72a5c6" stroke-width="1.5"/>
+    <path d="M196 322 L273 307 H293" fill="none" stroke="#6c8595" stroke-width="1.5"/>
+    <text x="300" y="312" font-size="15" font-weight="700">仙骨部</text>
+    <text x="195" y="411" font-size="13" text-anchor="middle">青色は観察部位の例を示す</text>
+    <text x="195" y="434" font-size="13" text-anchor="middle">部位だけで体液過剰や原因を決めない</text>
+  </g>
+</svg>

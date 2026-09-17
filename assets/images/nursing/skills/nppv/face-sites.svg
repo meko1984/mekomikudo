@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 420" role="img" aria-labelledby="title desc">
+<title id="title">NPPVのマスク装着前後に確認する部位</title>
+<desc id="desc">顔の正面図で鼻根、頬、口角、顎、耳の位置を示す。機器の接触範囲は示していない。</desc>
+<rect width="390" height="420" rx="16" fill="#f2f8f6"/>
+<g font-family="sans-serif" fill="#304b5b">
+<text x="22" y="34" font-size="17" font-weight="bold">顔の正面：圧迫と皮膚の確認</text>
+<ellipse cx="130" cy="191" rx="81" ry="124" fill="#f1d0c0" stroke="#946f65" stroke-width="3"/>
+<ellipse cx="43" cy="189" rx="13" ry="25" fill="#f1d0c0" stroke="#946f65" stroke-width="3"/>
+<ellipse cx="217" cy="189" rx="13" ry="25" fill="#f1d0c0" stroke="#946f65" stroke-width="3"/>
+<path d="M82 158h25m46 0h25M129 163l-10 50q10 8 21 0M98 250q32 13 64 0" fill="none" stroke="#946f65" stroke-width="3" stroke-linecap="round"/>
+<g fill="#75b4c1" opacity=".7"><ellipse cx="130" cy="163" rx="8" ry="15"/><ellipse cx="179" cy="213" rx="12" ry="18"/><circle cx="165" cy="249" r="8"/><ellipse cx="130" cy="296" rx="18" ry="9"/><ellipse cx="218" cy="189" rx="8" ry="17"/></g>
+<g fill="none" stroke="#557c86" stroke-width="2"><path d="M138 160h101V98h27"/><path d="M227 182h39"/><path d="M191 215h48v19h27"/><path d="M173 249h51v34h42"/><path d="M148 296h56v37h62"/></g>
+<g font-size="16"><text x="275" y="103">鼻根</text><text x="275" y="187">耳</text><text x="275" y="239">頬</text><text x="275" y="288">口角</text><text x="275" y="338">顎</text></g>
+<text x="22" y="381" font-size="13">色は部位の区別。障害の発生位置を示さない。</text>
+<text x="22" y="403" font-size="13">接触範囲はマスクの形式・サイズで異なる。</text>
+</g></svg>

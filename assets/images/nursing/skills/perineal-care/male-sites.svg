@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 460" role="img" aria-labelledby="t d">
+  <title id="t">男性の外陰部の部位</title>
+  <desc id="d">陰茎、亀頭、その先端の尿道口、陰嚢と鼠径部を示す簡略図。陰茎を上方へ持ち上げた状態で示し、包皮は省略。実際の形態や洗浄時の体位は指定しない。</desc>
+  <rect width="390" height="460" rx="18" fill="#f7fafc"/>
+  <g font-family="sans-serif" fill="#294f63" font-size="17">
+    <text x="195" y="32" text-anchor="middle" font-size="20" font-weight="700">男性の外陰部</text>
+    <text x="195" y="63" text-anchor="middle" font-size="14">陰茎を上方へ持ち上げた模式図</text>
+    <path d="M95 91Q121 129 147 144M295 91Q269 129 243 144" fill="none" stroke="#c8a29b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M166 247Q145 240 141 281Q140 315 165 325Q185 333 195 320Q205 333 225 325Q250 315 249 281Q245 240 224 247Z" fill="#edc6b8" stroke="#aa7a70" stroke-width="3"/>
+    <path d="M171 255V141Q195 130 219 141V255Q195 273 171 255Z" fill="#f3d6c7" stroke="#aa7a70" stroke-width="3"/>
+    <path d="M168 145Q167 98 195 96Q223 98 222 145Q195 165 168 145Z" fill="#dfa7a5" stroke="#aa7a70" stroke-width="3"/>
+    <path d="M195 102V115" stroke="#3f8495" stroke-width="4" stroke-linecap="round"/>
+    <path d="M195 274V320" stroke="#c1998e" stroke-width="2"/>
+    <g fill="none" stroke="#738f98" stroke-width="1.5"><path d="M202 108H274"/><path d="M104 143H162"/><path d="M104 201H165"/><path d="M254 283H274"/><path d="M104 99H120L131 128"/></g>
+    <text x="284" y="113">尿道口</text><text x="26" y="148">亀頭</text>
+    <text x="26" y="206">陰茎</text><text x="284" y="288">陰嚢</text>
+    <text x="26" y="104">鼠径部</text>
+    <text x="195" y="374" text-anchor="middle" font-size="14">包皮は省略。亀頭を覆う皮膚を包皮という。</text>
+    <text x="195" y="410" text-anchor="middle" font-size="14">形態には個人差がある。</text>
+    <text x="195" y="443" text-anchor="middle" font-size="14">洗浄時の体位や手の動きを指定する図ではない。</text>
+  </g>
+</svg>

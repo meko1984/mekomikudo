@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 460" role="img" aria-labelledby="t d">
+  <title id="t">女性の外陰部の位置関係</title>
+  <desc id="d">前方から後方へ陰核、尿道口、膣口、肛門が並ぶ。大陰唇と小陰唇を示す簡略図。個人差があり、実際の大きさや洗浄方向は示さない。</desc>
+  <rect width="390" height="460" rx="18" fill="#f7fafc"/>
+  <g font-family="sans-serif" fill="#294f63" font-size="17">
+    <text x="195" y="32" text-anchor="middle" font-size="20" font-weight="700">女性の外陰部</text>
+    <text x="195" y="64" text-anchor="middle" font-size="14">前方（恥骨側）</text>
+    <path d="M177 91C132 115 127 257 173 303M213 91C258 115 263 257 217 303" fill="none" stroke="#e0adab" stroke-width="23" stroke-linecap="round"/>
+    <path d="M187 112C161 148 161 247 187 281M203 112C229 148 229 247 203 281" fill="none" stroke="#c67f91" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="195" cy="119" rx="9" ry="7" fill="#b86f87"/>
+    <circle cx="195" cy="171" r="6" fill="#3f8495"/>
+    <ellipse cx="195" cy="231" rx="15" ry="23" fill="#fff" stroke="#b86f87" stroke-width="3"/>
+    <circle cx="195" cy="337" r="12" fill="#8a6a60"/>
+    <g fill="none" stroke="#738f98" stroke-width="1.5"><path d="M104 119H183"/><path d="M202 171H276"/><path d="M104 231H177"/><path d="M104 285H151L156 253"/><path d="M222 221L263 263H276"/><path d="M209 337H276"/></g>
+    <text x="26" y="124">陰核</text><text x="284" y="176">尿道口</text>
+    <text x="26" y="236">膣口</text><text x="26" y="290">大陰唇</text>
+    <text x="284" y="268">小陰唇</text><text x="284" y="342">肛門</text>
+    <text x="195" y="382" text-anchor="middle" font-size="14">後方（肛門側）</text>
+    <text x="195" y="418" text-anchor="middle" font-size="14">位置関係の模式図。形態には個人差がある。</text>
+    <text x="195" y="443" text-anchor="middle" font-size="14">尿道口と膣口は別の開口部。</text>
+  </g>
+</svg>

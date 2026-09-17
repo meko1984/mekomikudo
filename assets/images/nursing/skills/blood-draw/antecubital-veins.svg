@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 640" role="img" aria-labelledby="title desc">
+  <title id="title">肘窩の表在静脈</title>
+  <desc id="desc">肘の前面を示す模式図。親指側の橈側皮静脈と小指側の尺側皮静脈を肘正中皮静脈が結ぶ走行の一例。実際の走行には個人差があり、穿刺位置を指定する図ではない。</desc>
+  <rect width="390" height="640" rx="16" fill="#f3f8fa"/>
+  <g font-family="sans-serif" fill="#263f4b">
+    <text x="20" y="32" font-size="21" font-weight="700">肘窩の表在静脈</text>
+    <text x="20" y="60" font-size="15">肘の前面・走行の一例</text>
+    <text x="26" y="96" font-size="16">親指側</text>
+    <text x="292" y="96" font-size="16">小指側</text>
+    <path d="M106 114 Q94 182 109 242 Q122 266 108 298 L124 424 Q194 438 264 424 L280 298 Q266 266 281 242 Q296 182 284 114" fill="#f9e8db" stroke="#bd9580" stroke-width="2"/>
+    <path d="M110 270 Q194 287 278 270" fill="none" stroke="#d3ae97" stroke-width="2"/>
+    <g fill="none" stroke="#367ca8" stroke-width="8" stroke-linecap="round">
+      <path d="M143 412 Q130 326 142 275 Q151 207 132 129"/>
+      <path d="M245 412 Q260 326 247 275 Q238 207 259 129"/>
+      <path d="M139 311 Q190 288 246 243"/>
+    </g>
+    <g fill="none" stroke="#536c7a" stroke-width="1.5">
+      <path d="M138 348 L59 348 L59 463"/>
+      <path d="M196 279 L196 495"/>
+      <path d="M252 347 L330 347 L330 527"/>
+    </g>
+    <g font-size="17" font-weight="700">
+      <text x="22" y="487">橈側皮静脈</text>
+      <text x="135" y="519">肘正中皮静脈</text>
+      <text x="263" y="551">尺側皮静脈</text>
+    </g>
+    <text x="20" y="583" font-size="16">走行・深さ・神経との位置関係には</text>
+    <text x="20" y="607" font-size="16">個人差がある。</text>
+    <text x="20" y="631" font-size="16">この図だけで穿刺位置を決めない。</text>
+  </g>
+</svg>

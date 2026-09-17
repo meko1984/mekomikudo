@@ -1,9 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
-  <title id="title">鼻と皮膚の観察</title><desc id="desc">鼻中隔、鼻翼、耳、頬の接触部に発赤や圧迫がないか確認する。</desc>
-  <rect width="320" height="200" rx="18" fill="#fff7f4"/>
-  <circle cx="132" cy="87" r="57" fill="#f0d1c1" stroke="#9a8175" stroke-width="3"/><path d="M103 75c8-8 18-8 26 0M150 75c8-8 18-8 26 0" fill="none" stroke="#715c55" stroke-width="3"/><path d="M140 86c-4 14-3 22 7 24" fill="none" stroke="#9a8175" stroke-width="3"/><path d="M118 119c15 9 31 9 46 0" fill="none" stroke="#a46f66" stroke-width="3"/>
-  <path d="M118 99V77M157 99V77M118 99c0 17 39 17 39 0" fill="none" stroke="#69a9b8" stroke-width="8" stroke-linecap="round"/>
-  <g fill="#d47272"><circle cx="137" cy="98" r="8"/><circle cx="79" cy="99" r="8"/><circle cx="185" cy="99" r="8"/></g>
-  <g fill="#315f70" font-family="Yu Gothic, sans-serif" font-size="13" font-weight="800"><text x="235" y="65">鼻中隔</text><text x="235" y="94">鼻翼</text><text x="235" y="123">耳・頬</text><text x="235" y="152">痛み・発赤</text></g>
-  <path d="M185 99h36M145 98l76-34M79 99 221 123" fill="none" stroke="#c48a7d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 440" role="img" aria-labelledby="title desc">
+<title id="title">NHFで観察する顔と鼻の部位</title><desc id="desc">上段は顔の耳と頬。下段は鼻孔付近の模式断面で中央の鼻中隔と外側の鼻翼を区別する。器具の挿入位置や深さは指定しない。</desc>
+<rect width="390" height="440" rx="18" fill="#fff7f4"/>
+<g font-family="sans-serif" fill="#304b5b"><text x="22" y="32" font-size="18" font-weight="700">顔と鼻の観察部位</text><text x="22" y="57" font-size="13">正面から見た顔</text></g>
+<g fill="#f0d1c1" stroke="#9a8175" stroke-width="2"><ellipse cx="39" cy="127" rx="12" ry="22"/><ellipse cx="192" cy="127" rx="12" ry="22"/><ellipse cx="115" cy="133" rx="70" ry="75"/></g>
+<g fill="none" stroke="#84665a" stroke-width="2" stroke-linecap="round"><path d="M79 110h13 M137 110h13 M114 125l-5 24h14 M96 172Q115 182 134 172"/></g>
+<g fill="#d9eaf0"><ellipse cx="65" cy="147" rx="13" ry="17"/><ellipse cx="165" cy="147" rx="13" ry="17"/></g>
+<g fill="none" stroke="#476c7a" stroke-width="2" stroke-linejoin="round"><path d="M194 125H239V94H266 M166 150H266"/></g>
+<g font-family="sans-serif" fill="#304b5b" font-size="17" font-weight="700"><text x="273" y="99">耳</text><text x="273" y="155">頬</text></g>
+<text x="22" y="244" font-family="sans-serif" fill="#304b5b" font-size="13">鼻孔付近の模式断面（位置の区別）</text>
+<path d="M65 320Q62 293 88 292Q103 267 126 267Q151 267 168 292Q194 294 191 320Q181 346 152 338L126 343L101 338Q75 347 65 320Z" fill="#f0d1c1" stroke="#9a8175" stroke-width="2"/>
+<ellipse cx="96" cy="315" rx="22" ry="14" fill="#685653"/><ellipse cx="158" cy="315" rx="22" ry="14" fill="#685653"/>
+<path d="M125 280L126 336" stroke="#ce9d83" stroke-width="10" stroke-linecap="round"/><path d="M182 294Q201 316 181 337" fill="none" stroke="#81aabb" stroke-width="7"/>
+<g fill="none" stroke="#476c7a" stroke-width="2" stroke-linejoin="round"><path d="M129 290H220V276H265 M191 321H236V349H265"/></g>
+<g font-family="sans-serif" fill="#304b5b" font-size="17" font-weight="700"><text x="270" y="281">鼻中隔</text><text x="270" y="354">鼻翼</text></g>
+<g font-family="sans-serif" fill="#304b5b" font-size="13"><text x="22" y="394">色は位置の区別。発赤や損傷を示さない。</text><text x="22" y="417">カニューレの挿入位置・深さは指定しない。</text></g>
 </svg>

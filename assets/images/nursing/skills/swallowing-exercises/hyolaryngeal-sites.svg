@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 560" role="img" aria-labelledby="t d">
+  <title id="t">舌骨・喉頭と嚥下を支える部位</title>
+  <desc id="d">側方から見た簡略図。下顎と舌の下に舌骨上筋群、その下に舌骨と喉頭を示す。咽頭から食道へ続き、喉頭から気管へ続く。食道は気管より後方。筋群は範囲のみを示し、個々の筋の走行や動作は示さない。</desc>
+  <rect width="390" height="560" rx="18" fill="#f7fafc"/>
+  <g font-family="sans-serif" fill="#294f63" font-size="17">
+    <text x="195" y="32" text-anchor="middle" font-size="19" font-weight="700">舌骨・喉頭と周囲の部位</text>
+    <text x="72" y="73" text-anchor="middle" font-size="14">前方</text>
+    <text x="319" y="73" text-anchor="middle" font-size="14">後方</text>
+    <path d="M143 130Q156 97 187 114Q211 127 208 155H147Z" fill="#e6b8b9" stroke="#b17b86" stroke-width="2"/>
+    <path d="M125 151Q134 181 184 178L206 157" fill="none" stroke="#cba46e" stroke-width="9" stroke-linecap="round"/>
+    <path d="M140 187L191 186L193 234L171 239Z" fill="#d4e9dd" stroke="#64a285" stroke-width="2"/>
+    <path d="M164 248Q180 253 197 245" fill="none" stroke="#cba46e" stroke-width="9" stroke-linecap="round"/>
+    <path d="M216 116Q232 145 227 212L223 274Q242 310 242 346V433" fill="none" stroke="#c496a5" stroke-width="17" stroke-linecap="round"/>
+    <path d="M215 278Q195 300 177 291" fill="none" stroke="#6a9daf" stroke-width="12" stroke-linecap="round"/>
+    <path d="M155 288Q173 274 198 286L199 332Q174 344 154 331Z" fill="#c5e3ed" stroke="#6a9daf" stroke-width="3"/>
+    <path d="M175 340V433" stroke="#6a9daf" stroke-width="19" stroke-linecap="round"/>
+    <g fill="none" stroke="#738f98" stroke-width="1.5"><path d="M92 129H140"/><path d="M92 164H123"/><path d="M101 207H148"/><path d="M92 249H160"/><path d="M235 173H271"/><path d="M204 309H271"/><path d="M92 387H162"/><path d="M254 387H271"/></g>
+    <text x="20" y="134">舌</text><text x="20" y="169">下顎</text>
+    <text x="20" y="211" font-size="14">舌骨上筋群</text><text x="20" y="254">舌骨</text>
+    <text x="283" y="178">咽頭</text><text x="283" y="314">喉頭</text>
+    <text x="20" y="392">気管</text><text x="283" y="392">食道</text>
+    <text x="195" y="476" text-anchor="middle" font-size="14">側方から見た位置関係の模式図。</text>
+    <text x="195" y="504" text-anchor="middle" font-size="14">緑色は舌骨上筋群のおおまかな範囲。</text>
+    <text x="195" y="532" text-anchor="middle" font-size="14">個々の筋の走行や訓練動作は示していない。</text>
+  </g>
+</svg>

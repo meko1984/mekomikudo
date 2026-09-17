@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="450" viewBox="0 0 390 450" role="img" aria-labelledby="title desc">
+  <title id="title">直腸・肛門管・肛門括約筋の位置関係</title>
+  <desc id="desc">直腸の下に肛門管が続き、肛門管を囲む括約筋と体外への開口である肛門を示す模式図。挿入深度や器具の経路は示さない。</desc>
+  <rect width="390" height="450" rx="12" fill="#f1f7f9"/>
+  <g font-family="sans-serif" fill="#304b5b">
+    <text x="22" y="32" font-size="19" font-weight="700">直腸から体外への出口</text>
+    <text x="22" y="57" font-size="13">部位の位置関係を示す模式図</text>
+    <path d="M104 83 C85 130 83 172 97 205 C107 230 121 240 124 270 L124 329 L154 329 L154 270 C157 240 171 230 181 205 C195 172 193 130 174 83" fill="#f6ddd4" stroke="#b17c6c" stroke-width="3"/>
+    <path d="M119 84 C100 139 107 184 125 223 C131 239 134 255 134 273 L134 329 M159 84 C178 139 171 184 153 223 C147 239 144 255 144 273 L144 329" fill="none" stroke="#d5aa9b" stroke-width="3"/>
+    <rect x="111" y="270" width="15" height="52" rx="7" fill="#baa7d0" stroke="#816997" stroke-width="2"/>
+    <rect x="152" y="270" width="15" height="52" rx="7" fill="#baa7d0" stroke="#816997" stroke-width="2"/>
+    <g fill="none" stroke="#678894" stroke-width="1.5">
+      <path d="M179 167 H219"/><path d="M139 280 L202 251 H219"/><path d="M168 295 H219"/><path d="M139 330 V351 H219"/>
+    </g>
+    <g font-size="16" font-weight="700">
+      <text x="228" y="172">直腸</text><text x="228" y="256">肛門管</text><text x="228" y="300">肛門括約筋</text><text x="228" y="356">肛門</text>
+    </g>
+    <text x="228" y="193" font-size="12">大腸の末端部分</text>
+    <text x="228" y="321" font-size="12">肛門管を囲む筋肉</text>
+    <text x="228" y="377" font-size="12">体外への開口</text>
+    <text x="22" y="416" font-size="13">実際の形・長さ・角度には個人差がある。</text>
+    <text x="22" y="438" font-size="13">挿入の深さ・方向を指定する図ではない。</text>
+  </g>
+</svg>

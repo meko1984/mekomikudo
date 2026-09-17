@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="690" viewBox="0 0 390 690" role="img" aria-labelledby="title desc">
+  <title id="title">上肢の血流確認で使う部位の目印</title>
+  <desc id="desc">手掌側から見た局所の模式図。肘窩では上腕二頭筋腱の内側に上腕動脈、手関節では母指側に橈骨動脈、小指側に尺骨動脈の確認領域がある。左右を特定せず、位置の目安を示す。穿刺位置や血管の全走行を示すものではない。</desc>
+  <rect width="390" height="690" rx="12" fill="#f4f8fa"/>
+  <g font-family="'Yu Gothic','Meiryo',sans-serif" fill="#2e4857">
+    <text x="20" y="38" font-size="22" font-weight="700">上肢：血流確認の目印</text>
+    <text x="20" y="65" font-size="15" fill="#607581">手掌側から見た局所の模式図</text>
+    <rect x="16" y="88" width="358" height="236" rx="8" fill="#fff"/>
+    <text x="28" y="119" font-size="19" font-weight="700">肘窩</text>
+    <path d="M147 136 Q188 126 231 136 L239 250 Q194 264 135 250 Z" fill="#f2ded2" stroke="#bfa899" stroke-width="2"/>
+    <path d="M142 201 Q187 211 235 201" fill="none" stroke="#bfa899" stroke-width="2"/>
+    <path d="M177 142 V232" stroke="#bbb9ae" stroke-width="9" stroke-linecap="round"/>
+    <path d="M219 149 V222" stroke="#b35368" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="219" cy="185" r="10" fill="#b35368" stroke="#fff" stroke-width="2"/>
+    <path d="M130 176 H150 L172 159 M231 185 H242" fill="none" stroke="#607d8b" stroke-width="1.5"/>
+    <text x="27" y="171" font-size="16">上腕二頭筋腱</text>
+    <text x="245" y="191" font-size="17">上腕動脈</text>
+    <text x="28" y="291" font-size="17">上腕二頭筋腱の内側を目印にする</text>
+    <rect x="16" y="344" width="358" height="292" rx="8" fill="#fff"/>
+    <text x="28" y="376" font-size="19" font-weight="700">手関節</text>
+    <text x="27" y="411" font-size="16">母指側</text>
+    <text x="289" y="411" font-size="16">小指側</text>
+    <path d="M136 414 L143 481 Q139 500 111 505 L85 525 Q76 535 86 545 Q96 550 119 536 L137 527 Q133 560 142 582 H247 Q252 554 246 529 L235 480 L243 414" fill="#f2ded2" stroke="#bfa899" stroke-width="2"/>
+    <path d="M146 490 Q190 500 238 490" fill="none" stroke="#bfa899" stroke-width="2"/>
+    <path d="M148 447 V492 M230 447 V492" stroke="#b35368" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="148" cy="479" r="10" fill="#b35368" stroke="#fff" stroke-width="2"/>
+    <circle cx="230" cy="479" r="10" fill="#b35368" stroke="#fff" stroke-width="2"/>
+    <path d="M135 479 H101 V595 H89 M243 479 H278 V595 H289" fill="none" stroke="#607d8b" stroke-width="1.5"/>
+    <text x="28" y="620" font-size="18">橈骨動脈</text>
+    <text x="254" y="620" font-size="18">尺骨動脈</text>
+    <text x="20" y="665" font-size="15">位置の目安。穿刺位置・全走行は示さない</text>
+  </g>
+</svg>

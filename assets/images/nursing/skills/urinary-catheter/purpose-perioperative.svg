@@ -6,7 +6,7 @@
   <path d="M34 106v22M147 106v22" stroke="#567789" stroke-width="4"/>
   <circle cx="58" cy="72" r="15" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2"/>
   <path d="M74 77h57c10 0 18 7 20 16H72Z" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
-  <path d="M122 91c0 16 7 18 22 18h15" fill="none" stroke="#5d8fa6" stroke-width="4"/>
+  <path d="M122 91Q122 100 144 100H159" fill="none" stroke="#5d8fa6" stroke-width="4"/>
   <rect x="154" y="100" width="27" height="32" rx="4" fill="#fff" stroke="#567789" stroke-width="2.5"/>
   <path d="M158 120h19v8h-19Z" fill="#e8c85f"/>
   <path d="M33 29v47M23 29h20M39 29v18" stroke="#6f9b83" stroke-linecap="round" stroke-width="3"/>

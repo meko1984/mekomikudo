@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 650" role="img" aria-labelledby="t d">
+<title id="t">吸引の基本手順</title><desc id="d">必要性評価、準備、陰圧をかけず挿入、短時間の吸引、回復確認と再評価。悪化時は直ちに中止する。</desc>
+<rect width="390" height="650" rx="20" fill="#f2f8f8"/>
+<g font-family="sans-serif" fill="#315f5d">
+<text x="22" y="35" font-size="19" font-weight="700">必要性から回復確認まで</text>
+<g fill="#fff"><rect x="24" y="58" width="342" height="86" rx="12"/><rect x="24" y="162" width="342" height="86" rx="12"/><rect x="24" y="266" width="342" height="86" rx="12"/><rect x="24" y="370" width="342" height="86" rx="12"/><rect x="24" y="474" width="342" height="86" rx="12"/></g>
+<g font-size="21" font-weight="700"><text x="43" y="95">1　必要性を評価</text><text x="43" y="199">2　物品・圧・酸素化の準備</text><text x="43" y="303">3　陰圧をかけずに挿入</text><text x="43" y="407">4　抜きながら短時間吸引</text><text x="43" y="511">5　回復を確かめて再評価</text></g>
+<g font-size="16"><text x="43" y="125">患者に説明し、処置前の状態を確認</text><text x="43" y="229">部位・方式に合う清潔操作</text><text x="43" y="333">患者ごとの規定長・抵抗があれば中止</text><text x="43" y="437">人工気道の最大15秒は上限</text><text x="43" y="541">再吸引は回復後、必要な場合だけ</text></g>
+<g stroke="#8db9b5" stroke-width="3" fill="none"><path d="M195 148v9m-5-5 5 5 5-5"/><path d="M195 252v9m-5-5 5 5 5-5"/><path d="M195 356v9m-5-5 5 5 5-5"/><path d="M195 460v9m-5-5 5 5 5-5"/></g>
+<text x="195" y="599" text-anchor="middle" font-size="19" font-weight="700" fill="#b14f49">悪化したら直ちに中止する</text>
+<text x="195" y="628" text-anchor="middle" font-size="16">口腔・鼻腔の時間は個別の指示・手順</text>
+</g></svg>

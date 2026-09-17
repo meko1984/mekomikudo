@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 460" role="img" aria-labelledby="t d">
+<title id="t">吸引圧・深さ・時間の考え方</title><desc id="d">圧は必要最小限、深さは個別の規定長、時間は短く、人工気道では最大15秒。深い吸引を日常的に行わない。</desc>
+<rect width="390" height="460" rx="20" fill="#f3f8f8"/>
+<g font-family="sans-serif" fill="#264e55" text-anchor="middle">
+<text x="195" y="36" font-size="19" font-weight="700">圧・深さ・時間を分けて考える</text>
+<rect x="24" y="57" width="342" height="99" rx="12" fill="#fff"/>
+<text x="67" y="111" font-size="20" font-weight="700">圧</text>
+<text x="233" y="99" font-size="23" font-weight="700">必要最小限</text>
+<text x="233" y="132" font-size="16">指示・器具に合う上限を守る</text>
+<rect x="24" y="169" width="342" height="99" rx="12" fill="#fff"/>
+<text x="67" y="223" font-size="20" font-weight="700">深さ</text>
+<text x="233" y="211" font-size="23" font-weight="700">個別の規定長</text>
+<text x="233" y="244" font-size="16">固定の長さで押し込まない</text>
+<rect x="24" y="281" width="342" height="99" rx="12" fill="#fff"/>
+<text x="67" y="335" font-size="20" font-weight="700">時間</text>
+<text x="233" y="323" font-size="23" font-weight="700">短時間で終了</text>
+<text x="233" y="356" font-size="16">人工気道は最大15秒</text>
+<text x="195" y="412" font-size="17" fill="#a24b47">悪化したら直ちに中止</text>
+<text x="195" y="443" font-size="16" fill="#a24b47">深い吸引を日常的に行わない</text>
+</g></svg>

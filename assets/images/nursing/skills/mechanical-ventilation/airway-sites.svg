@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 440" role="img" aria-labelledby="title desc">
+  <title id="title">気管チューブと気道の位置関係</title>
+  <desc id="desc">頸部から胸部を前から見た模式図。気管の内側に気管チューブとカフがあり、その下で気管が左右の気管支へ分かれ、肺へ続く。喉頭、口からの経路、挿入深さは省略する。</desc>
+  <rect width="390" height="440" rx="18" fill="#f1f7f8"/>
+  <g font-family="sans-serif" fill="#304b5b">
+    <text x="22" y="32" font-size="18" font-weight="700">気管チューブと気道</text>
+    <text x="22" y="57" font-size="13">頸部～胸部を前から見た模式図</text>
+  </g>
+  <path d="M102 216 C64 219 36 267 41 330 Q62 365 117 342 L119 238Z" fill="#f0ccca" stroke="#b78180" stroke-width="2"/>
+  <path d="M174 216 C212 223 242 270 236 330 Q215 365 164 339 L161 243Z" fill="#f0ccca" stroke="#b78180" stroke-width="2"/>
+  <path d="M127 92 L127 239 Q122 255 93 276 L78 306 M151 92 L151 239 Q159 256 185 278 L201 305" fill="none" stroke="#729ead" stroke-width="4" stroke-linecap="round"/>
+  <path d="M139 94 L139 238 M139 238 L89 291 M139 238 L190 292" fill="none" stroke="#c7e1e8" stroke-width="17" stroke-linejoin="round"/>
+  <g stroke="#729ead" stroke-width="2"><path d="M129 111H149 M129 128H149 M129 145H149 M129 162H149 M129 212H149 M129 229H149"/></g>
+  <rect x="128" y="176" width="22" height="27" rx="8" fill="#edc375" stroke="#af8641" stroke-width="2"/>
+  <path d="M137 80 L137 218" fill="none" stroke="#467a8d" stroke-width="10"/>
+  <path d="M137 80 L137 218" fill="none" stroke="#fff" stroke-width="4"/>
+  <g fill="none" stroke="#476c7a" stroke-width="2" stroke-linejoin="round">
+    <path d="M141 100H183V83H220"/>
+    <path d="M152 141H220"/>
+    <path d="M152 189H220"/>
+    <path d="M177 278H245V246H267"/>
+    <path d="M214 322H267"/>
+  </g>
+  <g font-family="sans-serif" fill="#304b5b" font-size="15" font-weight="700">
+    <text x="225" y="88">気管チューブ</text>
+    <text x="225" y="146">気管</text>
+    <text x="225" y="194">カフ</text>
+    <text x="272" y="251">気管支</text>
+    <text x="272" y="327">肺</text>
+  </g>
+  <g font-family="sans-serif" fill="#304b5b" font-size="13">
+    <text x="22" y="393">口からの経路・喉頭・実際の寸法は省略。</text>
+    <text x="22" y="417">挿入深さ・適正位置の判定には使わない。</text>
+  </g>
+</svg>

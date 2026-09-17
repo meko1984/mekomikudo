@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 460" role="img" aria-labelledby="title desc">
+  <title id="title">鼻腔・口蓋・口腔・咽頭の位置関係</title>
+  <desc id="desc">前方を左、後方を右とした部分断面の模式図。鼻腔の下に口腔があり、前方の硬口蓋と後方の軟口蓋で隔てられる。口腔内に舌があり、両腔の後方には咽頭が続く。挿入経路や深さを示さない。</desc>
+  <rect width="390" height="460" rx="18" fill="#f5f8fa"/>
+  <g font-family="sans-serif" fill="#304f5d">
+    <text x="22" y="35" font-size="19" font-weight="700">鼻腔と口腔を隔てる口蓋</text>
+    <text x="22" y="64" font-size="15">側方から見た部分断面・模式図</text>
+    <text x="35" y="100" font-size="15">前方（鼻・口）</text>
+    <text x="268" y="100" font-size="15">後方</text>
+  </g>
+  <!-- Air spaces are continuous posteriorly; no catheter or insertion arrow. -->
+  <path d="M65 191 L91 148 Q143 119 219 128 L261 128 L261 354 L238 354 L238 306 Q215 281 182 280 L76 280 L76 232 L88 210 L65 210 Z" fill="#e1eff3"/>
+  <path d="M65 191 L91 148 Q143 119 219 128 L261 128 L261 354 M238 354 L238 306 Q215 281 182 280 L76 280 M76 232 L88 210 L65 210" fill="none" stroke="#5d8794" stroke-width="3"/>
+  <path d="M88 205 H199" stroke="#b69b66" stroke-width="12" stroke-linecap="round"/>
+  <path d="M199 205 Q218 209 225 234" fill="none" stroke="#cf8a93" stroke-width="10" stroke-linecap="round"/>
+  <path d="M88 279 Q124 264 173 271 Q215 276 236 306 L230 326 L111 318 Z" fill="#e7a5af" stroke="#aa6a77" stroke-width="2"/>
+  <g stroke="#607985" stroke-width="1.5" fill="none">
+    <path d="M207 147 H278"/>
+    <path d="M180 198 L210 180 H278"/>
+    <path d="M169 211 L194 226 H278"/>
+    <path d="M225 230 L248 262 H278"/>
+    <path d="M250 322 H278"/>
+  </g>
+  <g font-family="sans-serif" fill="#304f5d" font-size="17" font-weight="700">
+    <text x="286" y="153">鼻腔</text>
+    <text x="286" y="187">鼻腔底</text>
+    <text x="286" y="233">硬口蓋</text>
+    <text x="286" y="269">軟口蓋</text>
+    <text x="286" y="329">咽頭</text>
+    <text x="124" y="250">口腔</text>
+    <text x="148" y="305">舌</text>
+  </g>
+  <g font-family="sans-serif" fill="#516975" font-size="15">
+    <text x="22" y="397">鼻甲介・歯・喉頭などは省略</text>
+    <text x="22" y="426">挿入角度・深さ・到達範囲を示す図ではない</text>
+  </g>
+</svg>

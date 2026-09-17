@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 420" role="img" aria-labelledby="t d">
+  <title id="t">膀胱スキャンで確認する下腹部</title>
+  <desc id="d">正面から見た下腹部の臍、正中、恥骨上部の位置。膀胱は骨盤内にある。色付きの区域は下腹部の位置を示し、機器の固定した設置点や角度は指定しない。</desc>
+  <rect width="390" height="420" rx="18" fill="#f2f8f8"/>
+  <g font-family="sans-serif" fill="#304f59">
+    <text x="195" y="30" text-anchor="middle" font-size="17" font-weight="700">下腹部・恥骨上部の位置</text>
+    <path d="M120 66C127 108 119 137 99 176C84 209 80 238 85 272L112 318H166L195 283L224 318H278L305 272C310 238 306 209 291 176C271 137 263 108 270 66" fill="#fff" stroke="#9db7bd" stroke-width="2"/>
+    <path d="M195 73V275" stroke="#a6bcc1" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <circle cx="195" cy="155" r="5" fill="#738f97"/>
+    <ellipse cx="195" cy="229" rx="39" ry="29" fill="#d8edf0" stroke="#5999a6" stroke-width="2"/>
+    <path d="M165 270Q195 284 225 270" fill="none" stroke="#aa9480" stroke-width="4"/>
+    <g stroke="#708b94" stroke-width="1.5" fill="none"><path d="M200 155H287"/><path d="M234 229H316"/><path d="M195 280H308"/><path d="M190 98H98"/></g>
+    <g font-size="15" font-weight="700"><text x="294" y="159">臍</text><text x="318" y="216">恥骨上部</text><text x="315" y="285">恥骨側</text><text x="54" y="102">正中</text></g>
+    <text x="195" y="351" text-anchor="middle" font-size="14">膀胱は骨盤内にある</text>
+    <text x="195" y="377" text-anchor="middle" font-size="13">下腹部から膀胱へ照準を合わせる</text>
+    <text x="195" y="402" text-anchor="middle" font-size="12">当てる位置・角度は機種の説明書に従う。</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 525" role="img" aria-labelledby="t d">
+  <title id="t">心膜減圧症候群</title>
+  <desc id="d">心嚢液の排出で一度循環が改善しても、数時間から数日で肺水腫、心不全、低血圧、ショックが起こることがあるため継続して監視する。</desc>
+  <defs><marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#a64f64"/></marker></defs>
+  <rect width="390" height="525" rx="22" fill="#faf1f3"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#402b32">
+    <text x="195" y="34" font-size="19" font-weight="700">排液後に改善しても</text>
+    <text x="195" y="62" font-size="19" font-weight="700">再び悪化することがある</text>
+  </g>
+  <g fill="#fff"><rect x="28" y="87" width="334" height="104" rx="16"/><rect x="28" y="235" width="334" height="104" rx="16"/><rect x="28" y="383" width="334" height="104" rx="16"/></g>
+  <g stroke="#a64f64" stroke-width="4" fill="none" marker-end="url(#m)"><path d="M195 196V227"/><path d="M195 344V375"/></g>
+  <g fill="#f2dce2"><circle cx="66" cy="139" r="23"/><circle cx="66" cy="287" r="23"/><circle cx="66" cy="435" r="23"/></g>
+  <g font-family="sans-serif" text-anchor="middle" fill="#402b32" font-size="20" font-weight="700"><text x="66" y="146">1</text><text x="66" y="294">2</text><text x="66" y="442">3</text><text x="224" y="129">心嚢液を排出</text><text x="224" y="277">数時間～数日</text><text x="224" y="425">肺水腫・心不全</text></g>
+  <g font-family="sans-serif" text-anchor="middle" fill="#624b53" font-size="16"><text x="224" y="160">循環がいったん改善</text><text x="224" y="308">継続監視</text><text x="224" y="456">低血圧・ショック</text></g>
+</svg>

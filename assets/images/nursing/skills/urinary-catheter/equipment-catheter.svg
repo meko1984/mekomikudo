@@ -1,14 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title desc">
-  <title id="title">二腔式膀胱留置カテーテルの構造図</title>
-  <desc id="desc">先端の側孔、収縮したバルーン、排尿ルーメン、バルーン注入口を示す。</desc>
-  <rect width="240" height="180" rx="20" fill="#f7fbfc"/>
-  <path d="M26 58c74 0 105 9 146 39" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="17"/>
-  <path d="M26 58c74 0 105 9 146 39" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="3"/>
-  <ellipse cx="50" cy="58" rx="5" ry="9" fill="#365b6d"/>
-  <path d="M76 47c12-8 24-7 33 3-8 13-21 17-34 8Z" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
-  <path d="M171 97c17 11 20 24 29 38M171 97c10 2 24 2 37-3" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="15"/>
-  <path d="M171 97c17 11 20 24 29 38M171 97c10 2 24 2 37-3" fill="none" stroke="#365b6d" stroke-linecap="round" stroke-width="2.5"/>
-  <circle cx="205" cy="139" r="8" fill="#edf5f8" stroke="#567789" stroke-width="2"/>
-  <path d="M54 114h130" stroke="#8ba0aa" stroke-dasharray="5 4" stroke-width="2"/>
-  <path d="M57 106v16M181 106v16" stroke="#8ba0aa" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 320" role="img" aria-labelledby="title desc">
+  <title id="title">二腔式膀胱留置カテーテルの主な部位</title>
+  <desc id="desc">先端近くの側孔、シャフト周囲のバルーン、排尿側の接続口、バルーン注入口を示す模式図。バルーンの形状と器具の寸法は実物を再現しない。</desc>
+  <rect width="390" height="320" rx="20" fill="#f7fbfc"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M45 155H242Q265 155 286 155H340" stroke="#5d8fa6" stroke-width="22"/>
+    <path d="M231 155Q267 174 286 210H310V227" stroke="#8c79a8" stroke-width="15"/>
+  </g>
+  <ellipse cx="110" cy="155" rx="28" ry="24" fill="#dceaf0" stroke="#5d8fa6" stroke-width="3"/>
+  <path d="M45 155H82M138 155H242" fill="none" stroke="#edf5f8" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="58" cy="155" rx="4" ry="7" fill="#365b6d"/>
+  <path d="M340 144v22" stroke="#365b6d" stroke-width="4"/>
+  <circle cx="310" cy="227" r="10" fill="#fff" stroke="#6c568c" stroke-width="3"/>
+  <g fill="none" stroke="#738f98" stroke-width="1.5">
+    <path d="M58 87V144"/>
+    <path d="M110 181V238"/>
+    <path d="M302 110V140"/>
+    <path d="M310 240V260"/>
+  </g>
+  <g font-family="sans-serif" fill="#294f63" text-anchor="middle">
+    <text x="195" y="32" font-size="18" font-weight="700">二腔式カテーテルの主な部位</text>
+    <text x="58" y="78" font-size="16">側孔</text>
+    <text x="302" y="100" font-size="16">排尿側の接続口</text>
+    <text x="110" y="260" font-size="16">バルーン</text>
+    <text x="292" y="282" font-size="16">バルーン注入口</text>
+    <text x="195" y="309" font-size="12">形状・寸法・膨張量を示す図ではない。</text>
+  </g>
 </svg>

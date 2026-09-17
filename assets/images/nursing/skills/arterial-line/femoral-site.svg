@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 350" role="img" aria-labelledby="title desc">
+<title id="title">大腿動脈：鼠径部から大腿へ</title><desc id="desc">正面から見た骨盤と大腿上部の模式図。鼠径部の下から大腿へ続く大腿動脈を示す。</desc>
+<style>text{font-family:"Noto Sans JP","Yu Gothic",sans-serif;font-size:17px;fill:#304b5b}.small{font-size:14px}path,circle{fill:#f4e4d9;stroke:#ad9383;stroke-width:2;stroke-linejoin:round}.artery{fill:none;stroke:#c85d58;stroke-width:7;stroke-linecap:round}.region{fill:none;stroke:#c85d58;stroke-width:2;stroke-dasharray:5 4}.leader{fill:none;stroke:#758c98;stroke-width:1.5}.landmark{fill:none;stroke:#ad9383;stroke-dasharray:4 4}</style>
+<rect width="390" height="350" rx="8" fill="#f8fbfc"/>
+<text x="18" y="30">大腿動脈：鼠径部から大腿へ</text>
+<path d="M90 79 Q195 107 300 79 L291 176 L269 304 L212 304 L204 210 Q195 199 186 210 L178 304 L121 304 L99 176 Z"/>
+<path class="landmark" d="M108 127 L183 186 M282 127 L207 186"/><path class="artery" d="M147 172 L154 217 L148 284"/><circle class="region" cx="150" cy="183" r="22"/>
+<path class="leader" d="M172 184 H256 V220"/><text x="233" y="241">大腿動脈</text><text x="233" y="262" class="small">鼠径部の下</text>
+<path class="leader" d="M254 149 H316 V123"/><text x="255" y="107" class="small">鼠径部</text><text x="24" y="326" class="small">正面から見た領域の模式図</text>
+</svg>

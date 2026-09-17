@@ -1846,7 +1846,7 @@ a.card:focus-visible {
   counter-reset: skill-step;
 }
 
-.skill-step-list li {
+.skill-step-list > li {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);
   gap: 12px;
@@ -1854,7 +1854,7 @@ a.card:focus-visible {
   counter-increment: skill-step;
 }
 
-.skill-step-list li::before {
+.skill-step-list > li::before {
   content: counter(skill-step);
   display: grid;
   place-items: center;
@@ -2788,7 +2788,7 @@ a.card:focus-visible {
   counter-reset: skill-visual-step;
 }
 
-.skill-visual-steps li {
+.skill-visual-steps > li {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);
   grid-template-rows: auto auto;
@@ -2797,7 +2797,7 @@ a.card:focus-visible {
   counter-increment: skill-visual-step;
 }
 
-.skill-visual-steps li::before {
+.skill-visual-steps > li::before {
   content: counter(skill-visual-step);
   display: grid;
   grid-column: 1;
@@ -2822,7 +2822,7 @@ a.card:focus-visible {
   object-fit: contain;
 }
 
-.skill-visual-steps li > div {
+.skill-visual-steps > li > div {
   grid-column: 2;
   grid-row: 2;
 }

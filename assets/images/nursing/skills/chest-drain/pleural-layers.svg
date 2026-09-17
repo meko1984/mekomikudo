@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 450" role="img" aria-labelledby="t d">
+  <title id="t">胸壁・胸膜・肺の位置関係</title>
+  <desc id="d">体の外側から胸壁、壁側胸膜、胸膜腔、臓側胸膜、肺の順に並ぶ局所断面模式図。胸膜腔は理解のため拡大している。</desc>
+  <style>.h{font:700 18px sans-serif;fill:#173b44}.s{font:14px sans-serif;fill:#31545c}.l{stroke:#31545c;stroke-width:1.5;fill:none}.b{font:700 15px sans-serif;fill:#173b44}</style>
+  <rect width="390" height="450" rx="18" fill="#eef8f9"/>
+  <text class="h" x="195" y="32" text-anchor="middle">胸膜腔は肺の外側にある</text>
+  <text class="s" x="195" y="58" text-anchor="middle">局所断面：上が体の外側、下が内側</text>
+  <rect x="34" y="92" width="155" height="76" rx="6" fill="#f3d4be"/>
+  <path d="M34 170H189" stroke="#9d697b" stroke-width="7"/>
+  <rect x="34" y="177" width="155" height="53" fill="#c7e9f2"/>
+  <path d="M34 234H189" stroke="#597d9e" stroke-width="7"/>
+  <rect x="34" y="240" width="155" height="95" rx="6" fill="#e8a99e"/>
+  <path class="l" d="M154 122H218"/><text class="b" x="227" y="127">胸壁</text>
+  <path class="l" d="M154 170H218"/><text class="b" x="227" y="175">壁側胸膜</text>
+  <path class="l" d="M154 203H218"/><text class="b" x="227" y="208">胸膜腔</text>
+  <path class="l" d="M154 234H218"/><text class="b" x="227" y="239">臓側胸膜</text>
+  <path class="l" d="M154 284H218"/><text class="b" x="227" y="289">肺</text>
+  <text class="s" x="24" y="370">壁側胸膜は胸壁の内面に沿う。</text>
+  <text class="s" x="24" y="396">臓側胸膜は肺の表面を覆う。</text>
+  <text class="s" x="24" y="422">胸膜腔の幅は実際の縮尺ではない。</text>
+</svg>

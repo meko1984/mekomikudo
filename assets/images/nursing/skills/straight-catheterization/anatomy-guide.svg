@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 350" role="img" aria-labelledby="t d"><title id="t">尿道走行の違い</title><desc id="d">女性の短い尿道と男性の長く屈曲する尿道を比較する。</desc><rect width="880" height="350" rx="24" fill="#f7fafc"/><text x="440" y="42" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#294f63">角度や長さを固定値にしない</text><g font-family="sans-serif" text-anchor="middle"><g transform="translate(55 75)"><rect width="340" height="220" rx="20" fill="#fff1ee"/><path d="M110 42q60-36 120 0v65q-60 43-120 0z" fill="#fff" stroke="#c9655d" stroke-width="4"/><path d="M170 120v48" stroke="#c9655d" stroke-width="10" stroke-linecap="round"/><circle cx="170" cy="178" r="8" fill="#c9655d"/><text x="170" y="202" font-size="20" font-weight="700" fill="#8c3e39">女性</text><text x="170" y="226" font-size="14" fill="#6d6260">尿道口を視認する</text></g><g transform="translate(485 75)"><rect width="340" height="220" rx="20" fill="#edf5ff"/><path d="M110 42q60-36 120 0v65q-60 43-120 0z" fill="#fff" stroke="#598cb5" stroke-width="4"/><path d="M170 118v28q0 28 30 28h45q30 0 30 30" fill="none" stroke="#598cb5" stroke-width="10" stroke-linecap="round"/><circle cx="275" cy="210" r="8" fill="#598cb5"/><text x="170" y="202" font-size="20" font-weight="700" fill="#406c8e">男性</text><text x="170" y="226" font-size="14" fill="#526879">長い走行・抵抗を押さない</text></g></g><path d="M420 100v170" stroke="#c9d6dc" stroke-width="3" stroke-dasharray="8 8"/><text x="440" y="325" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526879">患者の解剖・手術歴・狭窄・製品・院内手順に合わせる</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="t d">
+  <title id="t">尿道の走行と部位</title>
+  <desc id="d">膀胱、尿道、尿道口を示す簡略図。女性と男性では尿道の長さや走行が異なる。図は実際の寸法、挿入角度、挿入長を示さない。</desc>
+  <rect width="880" height="420" rx="22" fill="#f7fafc"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#294f63">
+    <text x="440" y="34" font-size="24" font-weight="700">尿道の走行と部位（模式図）</text>
+    <g transform="translate(55 65)"><rect width="340" height="285" rx="18" fill="#fff1ee"/>
+    <text x="170" y="28" font-size="20" font-weight="700">女性</text>
+    <ellipse cx="170" cy="90" rx="60" ry="40" fill="#fff" stroke="#c9655d" stroke-width="3"/>
+    <text x="170" y="96" font-size="17">膀胱</text>
+    <path d="M170 130v50" fill="none" stroke="#c9655d" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="170" cy="180" r="6" fill="#c9655d"/>
+    <path d="M99 156h64" fill="none" stroke="#738f98" stroke-width="1.5"/>
+    <text x="61" y="161" font-size="16">尿道</text>
+    <path d="M178 180h40" fill="none" stroke="#738f98" stroke-width="1.5"/>
+    <text x="252" y="186" font-size="16">尿道口</text></g>
+    <g transform="translate(485 65)"><rect width="340" height="285" rx="18" fill="#edf5ff"/>
+    <text x="170" y="28" font-size="20" font-weight="700">男性</text>
+    <ellipse cx="170" cy="90" rx="60" ry="40" fill="#fff" stroke="#598cb5" stroke-width="3"/>
+    <text x="170" y="96" font-size="17">膀胱</text>
+    <path d="M170 130v30q0 35 35 35h40q35 0 35 35" fill="none" stroke="#598cb5" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="280" cy="230" r="6" fill="#598cb5"/>
+    <path d="M99 156h64" fill="none" stroke="#738f98" stroke-width="1.5"/>
+    <text x="61" y="161" font-size="16">尿道</text>
+    <path d="M280 237l-14 10" fill="none" stroke="#738f98" stroke-width="1.5"/>
+    <text x="250" y="263" font-size="16">尿道口</text></g>
+    <text x="440" y="376" font-size="16">角度や挿入長を固定して押し込まない</text>
+    <text x="440" y="401" font-size="14">実際の寸法・挿入経路を指示する図ではない。</text>
+  </g>
+</svg>

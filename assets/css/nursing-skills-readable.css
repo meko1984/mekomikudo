@@ -1,0 +1,71 @@
+/* Nursing skill pages: reading lists and non-interactive item labels. */
+.skill-detail-article .skill-reading-list,
+.skill-detail-hero .skill-reading-list,
+.skill-detail-wrap > .notice .skill-reading-list {
+  margin: 10px 0 18px;
+  padding-left: 1.35em;
+}
+.skill-detail-article .skill-reading-list > li + li,
+.skill-detail-hero .skill-reading-list > li + li,
+.skill-detail-wrap > .notice .skill-reading-list > li + li { margin-top: 7px; }
+.skill-step-list .skill-reading-list { margin: 7px 0 0; }
+.skill-step-list li li,
+.skill-visual-steps li li {
+  display: list-item;
+  counter-increment: none;
+}
+.skill-step-list li li::before,
+.skill-visual-steps li li::before { content: none; }
+.skill-margin-note .skill-reading-list { font-size: 14px; }
+.skill-item-group { margin: 14px 0 20px; }
+.skill-definition-list .skill-item-group {
+  display: block;
+  padding: 0;
+}
+.skill-item-group > strong { display: block; margin-bottom: 8px; }
+.skill-detail-article .skill-item-list,
+.skill-detail-hero .skill-item-list,
+.skill-detail-wrap > .notice .skill-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 9px;
+  list-style: none;
+  margin: 7px 0 12px;
+  padding: 0;
+}
+.skill-detail-article .skill-item-list > li,
+.skill-detail-hero .skill-item-list > li,
+.skill-detail-wrap > .notice .skill-item-list > li {
+  max-width: 100%;
+  margin: 0;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 2px;
+  background: #edf3f6;
+  color: #304b5b;
+  font-size: 0.94em;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.skill-item-group > p { margin: 8px 0 0; }
+/* Keep pale item rectangles distinct from the surrounding explanatory note. */
+.skill-detail-article .skill-small-note { background: #f8fafc; }
+.skill-anatomy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 22px 0 30px;
+}
+.skill-anatomy-grid .skill-figure-wide { min-width: 0; margin: 0; }
+.skill-detail-article .skill-anatomy-focus { max-width: 390px; margin-inline: auto; }
+.skill-anatomy-grid figcaption > strong { display: block; color: #304b5b; }
+.skill-anatomy-grid figcaption .skill-reading-list { margin-bottom: 0; }
+@media (max-width: 900px) {
+  .skill-detail-article .skill-responsive-flow { max-width: 390px; margin-inline: auto; }
+}
+@media (max-width: 640px) {
+  .skill-anatomy-grid { grid-template-columns: minmax(0, 1fr); }
+  .skill-detail-article .skill-item-list,
+  .skill-detail-hero .skill-item-list,
+  .skill-detail-wrap > .notice .skill-item-list { gap: 6px 7px; }
+}

@@ -4,8 +4,8 @@
   <rect width="200" height="150" rx="18" fill="#f7fbfc"/>
   <path d="M60 28c-17 9-23 32-12 49 7 11 20 16 32 16s25-5 32-16c11-17 5-40-12-49-8 6-12 8-20 8s-12-2-20-8Z" fill="#f6ddad" stroke="#567789" stroke-width="3"/>
   <path d="M51 63c9 6 49 6 58 0 0 18-12 30-29 30S51 81 51 63Z" fill="#e8c85f" opacity=".8"/>
-  <path d="M80 91v15c0 9 9 11 24 11h27" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="5"/>
-  <rect x="126" y="99" width="38" height="35" rx="5" fill="#fff" stroke="#567789" stroke-width="3"/>
+  <path d="M80 91v10q0 4 24 4h27" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="5"/>
+  <rect x="126" y="105" width="38" height="29" rx="5" fill="#fff" stroke="#567789" stroke-width="3"/>
   <path d="M130 122h30v8h-30Z" fill="#e8c85f" opacity=".8"/>
-  <path d="m114 106 8 6-8 6" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path d="m111 99 8 6-8 6" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
 </svg>

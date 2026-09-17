@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="550" viewBox="0 0 390 550" role="img" aria-labelledby="title desc">
+  <title id="title">上肢の部位と関節の位置</title>
+  <desc id="desc">肩から上腕、肘、前腕、手関節、手へ続く上肢の部位図。静脈の走行や穿刺点を示す図ではない。</desc>
+  <rect width="390" height="550" rx="16" fill="#f4f8fa"/>
+  <g font-family="sans-serif" fill="#304b5b">
+    <text x="24" y="36" font-size="20" font-weight="700">上肢の部位</text>
+    <text x="24" y="64" font-size="15">肩から手までの位置関係</text>
+  </g>
+  <path d="M107 93 C74 92 62 111 67 147 L83 227 C86 247 82 260 85 280 L100 367 L98 390 L79 405 Q71 412 78 418 Q82 422 90 415 L99 412 L94 461 Q94 475 101 471 L107 440 L108 480 Q110 491 116 483 L120 442 L127 479 Q132 489 138 480 L136 438 L148 465 Q155 474 159 464 L147 408 Q140 390 137 369 L132 285 Q132 264 126 248 L132 154 C138 122 136 101 107 93 Z" fill="#f7dfce" stroke="#bc937d" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M85 249 Q105 242 125 249 M99 381 L137 378" fill="none" stroke="#bd9a88" stroke-width="2"/>
+  <g stroke="#7296a8" stroke-width="1.8" fill="none">
+    <path d="M118 113 H192"/><path d="M124 184 H192"/><path d="M120 251 H192"/><path d="M129 324 H192"/><path d="M134 380 H192"/><path d="M143 421 H192"/>
+  </g>
+  <g font-family="sans-serif" font-size="18" fill="#304b5b">
+    <text x="207" y="119">肩</text><text x="207" y="190">上腕</text><text x="207" y="257">肘</text><text x="207" y="330">前腕</text><text x="207" y="386">手関節</text><text x="207" y="427">手</text>
+    <text x="24" y="521" font-size="15">静脈の走行・穿刺点は示していない</text>
+  </g>
+</svg>

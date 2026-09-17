@@ -3,7 +3,8 @@
   <desc id="desc">カテーテル先端とバルーンが膀胱内にあり、表示量の膨張液をシリンジから注入する。</desc>
   <rect width="320" height="200" rx="22" fill="#f7fbfc"/>
   <path d="M82 27c-24 13-32 46-17 69 10 14 28 21 45 21s35-7 45-21c15-23 7-56-17-69-11 8-17 11-28 11S93 35 82 27Z" fill="#f6ddad" stroke="#567789" stroke-width="4"/>
-  <path d="M110 181V83" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <path d="M110 181V58" stroke="#5d8fa6" stroke-linecap="round" stroke-width="8"/>
+  <ellipse cx="110" cy="63" rx="2" ry="4" fill="#fff"/>
   <ellipse cx="110" cy="91" rx="24" ry="16" fill="#dceaf0" stroke="#5d8fa6" stroke-width="4"/>
   <path d="M83 74c10 7 43 7 54 0" fill="none" stroke="#e8c85f" stroke-linecap="round" stroke-width="9" opacity=".8"/>
   <path d="M183 150 250 83" stroke="#567789" stroke-linecap="round" stroke-width="16"/>

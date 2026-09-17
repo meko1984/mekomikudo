@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 470" role="img" aria-labelledby="t d">
+<title id="t">前口蓋弓と周囲の部位</title><desc id="d">口を開けて前から見た模式図。前口蓋弓は軟口蓋から舌の付け根へ向かう左右のひだ。青で示す。軟口蓋と舌を区別し、口蓋垂を中央に示す。刺激の圧や器具の挿入経路は示さない。</desc>
+<rect width="390" height="470" rx="20" fill="#f2f7f8"/>
+<g font-family="sans-serif" fill="#304b5b"><text x="195" y="32" text-anchor="middle" font-size="21" font-weight="700">前口蓋弓と周囲の部位</text><text x="195" y="60" text-anchor="middle" font-size="14">開口して前から見た模式図</text></g>
+<ellipse cx="195" cy="186" rx="126" ry="105" fill="#e8b1b5" stroke="#a97379" stroke-width="3"/>
+<ellipse cx="195" cy="184" rx="105" ry="84" fill="#714d55"/>
+<path d="M113 126Q195 91 277 126L274 141Q195 113 116 141Z" fill="#fffaf0" stroke="#b18b80" stroke-width="2"/>
+<path d="M144 141Q195 120 246 141L239 161Q215 148 207 157L203 181Q195 191 187 181L183 157Q175 148 151 161Z" fill="#edc0b9" stroke="#a97379" stroke-width="2"/>
+<path d="M123 239Q122 211 151 209Q195 197 239 209Q267 211 267 239Q195 278 123 239Z" fill="#dd999f" stroke="#a97379" stroke-width="2"/>
+<path d="M195 216V248" fill="none" stroke="#b97480" stroke-width="2"/>
+<path d="M151 153Q130 175 136 224M239 153Q260 175 254 224" fill="none" stroke="#83c4d7" stroke-width="10" stroke-linecap="round"/>
+<g fill="none" stroke="#607c87" stroke-width="2"><path d="M133 187H68"/><path d="M239 141H321"/><path d="M262 237H321"/></g>
+<g fill="#fff" stroke="#607c87" stroke-width="2"><circle cx="50" cy="187" r="14"/><circle cx="339" cy="141" r="14"/><circle cx="339" cy="237" r="14"/></g>
+<g font-family="sans-serif" fill="#304b5b" font-size="16" font-weight="700" text-anchor="middle"><text x="50" y="193">1</text><text x="339" y="147">2</text><text x="339" y="243">3</text></g>
+<g font-family="sans-serif" fill="#304b5b"><text x="25" y="326" font-size="19" font-weight="700">1　前口蓋弓（青）</text><text x="25" y="354" font-size="16">軟口蓋から舌の付け根へ向かうひだ</text><text x="25" y="387" font-size="18">2　軟口蓋</text><text x="25" y="420" font-size="18">3　舌</text><text x="195" y="454" text-anchor="middle" font-size="14">刺激の圧・器具の挿入方法は示していない</text></g>
+</svg>

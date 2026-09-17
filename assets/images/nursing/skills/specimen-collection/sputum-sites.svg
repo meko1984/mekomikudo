@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 450" role="img" aria-labelledby="title desc">
+  <title id="title">口腔と下気道の位置</title>
+  <desc id="desc">正面から見た口、気管、気管支、肺の模式図。口腔の唾液ではなく、深い咳で下気道から出た喀痰を採取する。採取器具の挿入経路や深さは示さない。</desc>
+  <rect width="390" height="450" rx="18" fill="#f2f8f8"/>
+  <g font-family="sans-serif" fill="#304f59">
+    <text x="195" y="30" text-anchor="middle" font-size="17" font-weight="700">唾液と喀痰の由来を区別</text>
+    <path d="M149 155C126 129 123 86 143 66C161 44 223 44 242 66C262 87 259 129 240 155L231 185L279 203C312 231 319 301 319 355H71C71 301 78 231 111 203L159 185Z" fill="#fff" stroke="#9db7bd" stroke-width="2"/>
+    <path d="M156 90h14M219 90h14" stroke="#526c75" stroke-width="3" stroke-linecap="round"/>
+    <path d="M193 96l-8 24h20" fill="none" stroke="#526c75" stroke-width="2"/>
+    <ellipse cx="195" cy="141" rx="19" ry="10" fill="#f4e4e0" stroke="#bb8176" stroke-width="2"/>
+    <path d="M181 211C149 213 106 245 104 310C102 341 127 347 166 334L181 279Z M209 211C241 213 284 245 286 310C288 341 263 347 224 334L209 279Z" fill="#e1eef1" stroke="#96b6bf" stroke-width="2"/>
+    <path d="M195 183V256M195 256l-38 35M195 256l38 35M157 291l-16 25M157 291l12 23M233 291l-12 23M233 291l16 25" fill="none" stroke="#5599a6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="none" stroke="#6c8790" stroke-width="1.5"><path d="M176 141H98L81 128"/><path d="M202 211H272L292 198"/><path d="M229 287H290L307 278"/><path d="M116 306H74L57 292"/></g>
+    <g font-size="15" font-weight="700"><text x="28" y="116">口腔</text><text x="292" y="195">気管</text><text x="307" y="273">気管支</text><text x="30" y="286">肺</text></g>
+    <text x="28" y="143" font-size="13">唾液</text>
+    <text x="195" y="380" text-anchor="middle" font-size="14">喀痰：深い咳で下気道から出す</text>
+    <text x="195" y="406" text-anchor="middle" font-size="13">唾液だけでは喀痰培養の検体に適さない</text>
+    <text x="195" y="433" text-anchor="middle" font-size="12">位置の模式図。器具の挿入経路・深さは示さない。</text>
+  </g>
+</svg>

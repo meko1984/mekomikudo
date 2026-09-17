@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 350" role="img" aria-labelledby="title desc">
+<title id="title">橈骨動脈：手関節の母指側</title><desc id="desc">手のひら側から見た右手の模式図。母指側の手関節を通る橈骨動脈を示す。</desc>
+<style>text{font-family:"Noto Sans JP","Yu Gothic",sans-serif;font-size:17px;fill:#304b5b}.small{font-size:14px}path,circle{fill:#f4e4d9;stroke:#ad9383;stroke-width:2;stroke-linejoin:round}.artery{fill:none;stroke:#c85d58;stroke-width:7;stroke-linecap:round}.region{fill:none;stroke:#c85d58;stroke-width:2;stroke-dasharray:5 4}.leader{fill:none;stroke:#758c98;stroke-width:1.5}.landmark{fill:none;stroke:#ad9383;stroke-dasharray:4 4}</style>
+<rect width="390" height="350" rx="8" fill="#f8fbfc"/>
+<text x="18" y="30">橈骨動脈：手関節の母指側</text>
+<path d="M162 300 L156 199 C137 192 115 176 102 154 Q94 136 108 132 Q122 131 140 149 L146 153 L140 85 Q141 68 151 70 Q162 71 162 88 L166 127 L166 66 Q168 47 180 49 Q190 50 190 69 L190 126 L194 71 Q196 57 207 60 Q219 61 218 79 L217 134 L226 91 Q229 78 239 83 Q249 86 247 102 L237 172 Q232 194 218 204 L222 300 Z"/>
+<path class="artery" d="M174 293 L174 221 Q170 201 164 183"/><circle class="region" cx="173" cy="219" r="21"/>
+<path class="leader" d="M152 219 H74 V239"/><text x="26" y="259">橈骨動脈</text><text x="26" y="287" class="small">手関節の母指側</text>
+<path class="leader" d="M111 147 H51"/><text x="22" y="125" class="small">母指</text><text x="273" y="199" class="small">手のひら側</text>
+</svg>

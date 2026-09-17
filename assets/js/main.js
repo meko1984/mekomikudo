@@ -42,6 +42,12 @@ if (navToggle && siteNav) {
 
     toggle.addEventListener("click", (event) => {
       event.stopPropagation();
+
+      if (!event.target.closest(".nav-chevron") && firstLink) {
+        window.location.assign(firstLink.href);
+        return;
+      }
+
       const willOpen = !dropdown.classList.contains("is-open");
       closeDropdowns(dropdown);
       setDropdownState(dropdown, willOpen);

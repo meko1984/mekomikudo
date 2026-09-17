@@ -1,4 +1,5 @@
 window.NURSING_SKILLS = [
+  { name: "ストマ（ストーマ）ケア", category: "排泄援助技術", summary: "種類別の観察、装具交換、漏れと皮膚障害、脱水、セルフケア支援", href: "stoma/" },
   { name: "膀胱留置カテーテル", category: "排泄援助技術", summary: "適応、無菌的挿入、閉鎖式回路の管理、抜去後の観察", href: "urinary-catheter/" },
   { name: "中心静脈カテーテル（CVC）", category: "与薬の技術", summary: "挿入目的、管理、消毒、ルート交換と観察", href: "central-venous-catheter/" },
   { name: "洗髪", category: "清潔・衣生活援助技術", summary: "洗髪に必要な準備と実施手順", href: "hair-washing/" },

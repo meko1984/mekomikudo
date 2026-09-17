@@ -6,7 +6,7 @@
   <circle cx="73" cy="71" r="21" fill="#f2c7b8" stroke="#8d6f66" stroke-width="2.5"/>
   <path d="M95 78h97c14 0 25 8 30 21H92Z" fill="#c9dfe8" stroke="#567789" stroke-width="3"/>
   <rect x="144" y="91" width="36" height="14" rx="6" fill="#fff" stroke="#6f9b83" stroke-width="3"/>
-  <path d="M164 103c1 29 23 27 45 34 14 5 21 13 23 27" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
+  <path d="M164 103C175 112 198 115 215 121Q232 124 232 130" fill="none" stroke="#5d8fa6" stroke-linecap="round" stroke-width="6"/>
   <rect x="224" y="130" width="59" height="55" rx="7" fill="#fff" stroke="#567789" stroke-width="3"/>
   <path d="M230 161h47v18h-47Z" fill="#e8c85f" opacity=".75"/>
   <path d="M35 119v58M212 119v58" stroke="#567789" stroke-width="5"/>

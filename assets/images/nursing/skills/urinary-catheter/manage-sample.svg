@@ -9,7 +9,8 @@
   <circle cx="73" cy="39" r="17" fill="#fff" stroke="#7aa4bd" stroke-width="3"/>
   <path d="M185 40 147 76" stroke="#567789" stroke-linecap="round" stroke-width="14"/>
   <path d="m180 31 20 21M174 35l-38 36" stroke="#365b6d" stroke-linecap="round" stroke-width="3"/>
-  <path d="M146 77c15 15 23 25 23 36" fill="none" stroke="#e8c85f" stroke-linecap="round" stroke-width="5"/>
+  <path d="M149 69 163 56" stroke="#6f9b83" stroke-width="3"/>
+  <path d="m155 56 8 0 0 8" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
   <rect x="211" y="39" width="66" height="48" rx="7" fill="#fff" stroke="#567789" stroke-width="3"/>
   <path d="M218 69h52v12h-52Z" fill="#e8c85f" opacity=".75"/>
   <path d="m215 147 10 10 21-27" fill="none" stroke="#6f9b83" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>

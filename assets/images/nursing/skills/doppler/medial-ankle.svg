@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 450" role="img" aria-labelledby="t d">
+<title id="t">後脛骨動脈と内果の位置関係</title><desc id="d">足関節を内側から見た模式図。後脛骨動脈の確認領域は内果の後方、アキレス腱との間にある。</desc>
+<style>.h{font:700 18px sans-serif;fill:#243f46}.s{font:14px sans-serif;fill:#48636a}.b{font:700 15px sans-serif;fill:#243f46}.l{fill:none;stroke:#48636a;stroke-width:1.5}</style>
+<rect width="390" height="450" rx="18" fill="#edf7f7"/><text class="h" x="195" y="32" text-anchor="middle">後脛骨動脈の目印</text><text class="s" x="195" y="59" text-anchor="middle">足関節を内側から見る</text><text class="s" x="30" y="94">前方（つま先）</text><text class="s" x="259" y="94">後方（踵）</text>
+<path d="M193 120H285L283 221Q289 248 294 271Q301 292 281 300H61Q35 296 41 279L104 259Q167 234 191 207Z" fill="#f2d5c5" stroke="#9c7665" stroke-width="2"/>
+<ellipse cx="211" cy="211" rx="19" ry="23" fill="#fff3df" stroke="#9c7665" stroke-width="2"/><path d="M275 124L270 228L281 274" stroke="#ac8647" stroke-width="6" fill="none"/><circle cx="242" cy="226" r="9" fill="#b35368"/>
+<path class="l" d="M198 194L154 170H103"/><text class="b" x="61" y="157">内果</text>
+<path d="M28 348H50" stroke="#ac8647" stroke-width="5"/><text class="s" x="61" y="353">アキレス腱</text><circle cx="39" cy="380" r="7" fill="#b35368"/><text class="s" x="61" y="385">後脛骨動脈（内果の後方）</text>
+<text class="s" x="24" y="418">位置・縮尺は模式的に示している。</text>
+</svg>
