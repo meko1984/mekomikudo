@@ -355,6 +355,19 @@ def enrich(page, root, slug, category):
                 effect='血流不足 → 意識・尿量・冷感の変化'
                 observe='血圧だけでなく臓器の反応を確認'
             return f'''<svg viewBox="0 0 350 245" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">{e(v['name'])}と観察の関係</title><g font-family="sans-serif" text-anchor="middle" fill="#17252d">{body}<text x="175" y="202" font-size="13">{effect}</text><text x="175" y="231" font-size="12">{observe}</text></g></svg>'''
+        if v['mode'] in ('ileus-simple','ileus-strangulated','ileus-paralytic'):
+            mode=v['mode']; strangulated=mode=='ileus-strangulated'; paralytic=mode=='ileus-paralytic'
+            bowel='<path d="M31 58H293Q329 58 310 91H67Q38 91 56 122H295Q326 122 307 155H52Q25 155 43 188H319" stroke="#d9a76f" stroke-width="19" fill="none"/>'
+            if paralytic:
+                mark='<path d="M70 74L91 95M91 74L70 95M173 137L194 158M194 137L173 158M272 72L293 93M293 72L272 93" stroke="#925e6d" stroke-width="4"/>'
+                heading='機械的閉塞なし：腸管運動が低下'; lower='原因・薬剤・電解質を評価'
+            elif strangulated:
+                mark='<path d="M158 105L191 105M158 118L191 118" stroke="#925e6d" stroke-width="8"/><path d="M175 49V94L168 83M175 94L182 83" stroke="#b95731" stroke-width="4" fill="none"/><text x="175" y="36" font-size="12">血流も締め付け</text>'
+                heading='閉塞＋血流障害：絞扼'; lower='虚血・壊死・穿孔を緊急評価'
+            else:
+                mark='<rect x="158" y="98" width="34" height="28" rx="5" fill="#925e6d"/><path d="M112 112H151L142 105M151 112L142 119M200 112H237L228 105M237 112L228 119" stroke="#6b818f" stroke-width="3" fill="none"/>'
+                heading='物理的な閉塞：腸閉塞'; lower='部位・完全性・原因を評価'
+            return f'''<svg viewBox="0 0 350 245" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">{e(v['name'])}の通過障害</title><g font-family="sans-serif" text-anchor="middle" fill="#17252d"><text x="175" y="22" font-size="14">{heading}</text>{bowel}{mark}<text x="175" y="221" font-size="13">{lower}</text></g></svg>'''
         if v['mode'] in ('af-conduction','af-embolism'):
             embolism=v['mode']=='af-embolism'
             if embolism:

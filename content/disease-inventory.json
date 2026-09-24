@@ -443,5 +443,21 @@
     ],
     "sourceCount": 1,
     "status": "implemented-source-checked"
+  },
+  {
+    "name": "ADHF（急性非代償性心不全）",
+    "systems": [
+      "循環器"
+    ],
+    "sourceCount": 3,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "イレウス／腸閉塞",
+    "systems": [
+      "消化器"
+    ],
+    "sourceCount": 3,
+    "status": "implemented-source-checked"
   }
 ]

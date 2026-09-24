@@ -148,3 +148,16 @@
 .diagram-dialog-scroll { overflow:auto; max-height:65dvh; overscroll-behavior:contain; }
 .diagram-dialog-scroll svg { display:block; width:100%; min-width:700px; max-width:none; height:auto; }
 body.diagram-dialog-open { overflow:hidden; }
+/* Low-emphasis navigation and inline, keyboard/touch-accessible glossary. */
+.disease-toc-disclosure { margin: 1rem 0; color: #52616b; font-size: .9rem; }
+.disease-toc-disclosure > summary { cursor: pointer; padding: .35rem 0; }
+.disease-toc-disclosure .disease-toc { margin: .5rem 0; gap: .4rem 1rem; }
+.disease-toc-disclosure .disease-toc a { border: 0; padding: .2rem 0; background: none; color: inherit; text-decoration: underline; }
+.practice-points { margin: .4rem 0; padding-left: 1.25rem; }
+.practice-points li + li { margin-top: .35rem; }
+.treatment-overview { padding: .7rem 1rem; margin: 0 0 1rem; background: var(--system-soft, #eef6f8); border-left: 3px solid var(--system-color, #52616b); }
+.disease-abbreviation { font: inherit; color: inherit; display: inline; padding: 0; border: 0; border-bottom: 1px dotted currentColor; background: transparent; cursor: help; }
+.disease-abbreviation:focus-visible { outline: 2px solid #386b91; outline-offset: 3px; }
+.disease-glossary-popup { position: fixed; z-index: 1000; max-width: min(360px, calc(100vw - 32px)); padding: .7rem .9rem; border: 1px solid #bccbd3; border-radius: 8px; color: #17252d; background: #fff; box-shadow: 0 4px 18px #17252d26; font-size: .9rem; overflow-wrap: anywhere; pointer-events: none; }
+.disease-glossary-popup[hidden] { display: none; }
+.disease-glossary-popup div + div { margin-top: .3rem; }

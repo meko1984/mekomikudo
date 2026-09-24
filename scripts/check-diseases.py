@@ -57,9 +57,10 @@ assert not has_embedded_media(Page('<path style="marker-end:url(\'#arrow\')"/>')
 inventory=json.loads((ROOT/'content/disease-inventory.json').read_text(encoding='utf-8-sig'))
 manifest=json.loads((ROOT/'content/disease-page-manifest.json').read_text(encoding='utf-8'))
 catalog=json.loads((ROOT/'data/disease-catalog.js').read_text(encoding='utf-8').split('=',1)[1].strip().removesuffix(';'))
-assert len(inventory)==len(manifest)==len(catalog['rows'])==55
+expected=len(inventory)
+assert len(manifest)==len(catalog['rows'])==expected
 assert {x['name'] for x in inventory}=={x['sourceName'] for x in manifest}
-assert len({x['slug'] for x in manifest})==55
+assert len({x['slug'] for x in manifest})==expected
 assert len(catalog['systems'])==10
 system_order=list(catalog['systems'])
 assert system_order==['救急','呼吸器','循環器','消化器','腎・泌尿器','内分泌・代謝','脳神経','精神','皮膚・熱傷','運動器']
@@ -112,4 +113,5 @@ for p in pages:
         with urlopen(url) as response:
             assert response.status==200,url
             assert response.read().decode('utf-8').replace('\r\n','\n')==source,url
-print(f'PASS: 55/55 source entries; 56 HTML pages; 10 systems; {link_count} local links/anchors; original SVGs; no raw-source markers'+('; HTTP 56/56' if '--http' in sys.argv else ''))
+page_total=expected+1
+print(f'PASS: {expected}/{expected} source entries; {page_total} HTML pages; 10 systems; {link_count} local links/anchors; original SVGs; no raw-source markers'+(f'; HTTP {page_total}/{page_total}' if '--http' in sys.argv else ''))

@@ -553,5 +553,25 @@
     ],
     "diagram": "skin-pressure",
     "reference": "https://www.nhs.uk/conditions/pressure-sores/"
+  },
+  {
+    "sourceName": "ADHF（急性非代償性心不全）",
+    "name": "ADHF（急性非代償性心不全）",
+    "slug": "adhf",
+    "systems": [
+      "循環器"
+    ],
+    "diagram": "pump",
+    "reference": "https://www.j-circ.or.jp/cms/wp-content/uploads/2025/03/JCS2025_Kato.pdf"
+  },
+  {
+    "sourceName": "イレウス／腸閉塞",
+    "name": "イレウス／腸閉塞",
+    "slug": "ileus-bowel-obstruction",
+    "systems": [
+      "消化器"
+    ],
+    "diagram": "transit",
+    "reference": "https://www.jstage.jst.go.jp/article/jaem/43/1/43_29/_pdf/-char/ja"
   }
 ]

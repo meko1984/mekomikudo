@@ -719,6 +719,50 @@ window.NURSING_DATABASE = {
       "system": "respiratory"
     },
     {
+      "疾患名": "ADHF（急性非代償性心不全）",
+      "領域": [
+        "循環器"
+      ],
+      "主な症状": [
+        "急な息切れ",
+        "うっ血",
+        "低灌流"
+      ],
+      "検査値UP": [
+        "BNP",
+        "Cr"
+      ],
+      "検査値DOWN": [
+        "PaO₂",
+        "Na"
+      ],
+      "関連薬剤": [
+        "ループ利尿薬",
+        "血管拡張薬"
+      ],
+      "_categories": {
+        "主な症状": [
+          "breathing",
+          "general",
+          "circulation"
+        ],
+        "検査値UP": [
+          "cardiac-lab",
+          "renal-lab"
+        ],
+        "検査値DOWN": [
+          "blood-gas",
+          "electrolyte"
+        ],
+        "関連薬剤": [
+          "fluid-drug",
+          "cardiovascular-drug"
+        ]
+      },
+      "href": "adhf/",
+      "system": "cardiovascular"
+    },
+    {
       "疾患名": "SSS（洞不全症候群）",
       "領域": [
         "循環器"
@@ -1107,6 +1151,58 @@ window.NURSING_DATABASE = {
       },
       "href": "hypertension/",
       "system": "cardiovascular"
+    },
+    {
+      "疾患名": "イレウス／腸閉塞",
+      "領域": [
+        "消化器"
+      ],
+      "主な症状": [
+        "腹痛",
+        "膨満",
+        "嘔吐",
+        "排便",
+        "排ガス停止"
+      ],
+      "検査値UP": [
+        "WBC",
+        "CRP",
+        "乳酸"
+      ],
+      "検査値DOWN": [
+        "Cl",
+        "K"
+      ],
+      "関連薬剤": [
+        "電解質補正",
+        "鎮痛",
+        "制吐薬"
+      ],
+      "_categories": {
+        "主な症状": [
+          "pain",
+          "general",
+          "digestive",
+          "digestive",
+          "general"
+        ],
+        "検査値UP": [
+          "inflammation",
+          "inflammation",
+          "general-lab"
+        ],
+        "検査値DOWN": [
+          "electrolyte",
+          "electrolyte"
+        ],
+        "関連薬剤": [
+          "fluid-drug",
+          "analgesic",
+          "general-drug"
+        ]
+      },
+      "href": "ileus-bowel-obstruction/",
+      "system": "digestive"
     },
     {
       "疾患名": "ダンピング症候群",

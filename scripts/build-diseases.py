@@ -4,6 +4,7 @@ Never reads or copies the private Notion export or its images.
 from pathlib import Path
 import json, html, re
 from disease_practice import enrich
+from disease_readability import apply_readability
 from disease_categories import item_category, symptom_parts
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +36,8 @@ REFS = {k: ('NHS：' + title, NHS + path + '/') for k,title,path in [
  ('diabetes','Diabetes','diabetes')
 ]}
 REFS.update({
+ 'adhf':('日本循環器学会／日本心不全学会：2025年改訂版 心不全診療ガイドライン','https://www.j-circ.or.jp/cms/wp-content/uploads/2025/03/JCS2025_Kato.pdf'),
+ 'ileus':('日本腹部救急医学会雑誌：イレウスという用語の問題点','https://www.jstage.jst.go.jp/article/jaem/43/1/43_29/_pdf/-char/ja'),
  'shock':('MedlinePlus：Shock','https://medlineplus.gov/shock.html'),
  'copd':('日本呼吸器学会：慢性閉塞性肺疾患','https://www.jrs.or.jp/citizen/disease/b/b-01.html'),
  'nephrotic':('NIDDK：Nephrotic Syndrome in Adults','https://www.niddk.nih.gov/health-information/kidney-disease/nephrotic-syndrome-adults'),
@@ -231,7 +234,7 @@ for line in (ROOT/'content/disease-notes.txt').read_text(encoding='utf-8').split
     notes.append(dict(index=int(i),slug=slug,motif=motif,flow=flow.split('~'),obs=[x.split('>') for x in obs.split('~')],up=up.split(';'),down=down.split(';'),drugs=drugs.split(';'),treat=[x.split('>') for x in treat.split('~')],note=note,skills=skills.split(','),related=related.split(','),ref=ref))
 
 by_slug={x['slug']:x for x in notes}
-assert len(notes)==len(inventory)==55
+assert len(notes)==len(inventory),(len(notes),len(inventory))
 for n in notes:
     item=inventory[n['index']]; n['name']=item['name']; n['systems']=item['systems']; n['system']=SYSTEMS[item['systems'][0]]
     if n['slug']=='hhs': n['name']='HHS（高浸透圧高血糖状態）'
@@ -300,6 +303,7 @@ for n in notes:
 <p class="disease-lab-note">看護学習用の概念図。実際の形・大きさ・診断所見を再現した図ではない。</p><a class="disease-back" href="../">疾患・病態の一覧に戻る</a></div></main>{footer}<script src="../../../assets/js/main.js"></script><script src="../../../assets/js/disease-diagrams.js?v=20260916-1"></script></body></html>'''
     page=page.replace('diseases.css?v=20260915-7','diseases.css?v=20260916-3')
     page=enrich(page,ROOT,slug,item_category)
+    page=apply_readability(page, slug, name, n['treat'])
     dest=ROOT/f'nursing/diseases/{slug}/index.html'; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_text(page,encoding='utf-8')
     rows.append({'疾患名':name,'領域':[DISPLAY_SYSTEM.get(s,s) for s in n['systems']],'主な症状':symptoms, '検査値UP':lab_up,'検査値DOWN':lab_down,'関連薬剤':drugs,
       '_categories':{'主な症状':[item_category(v,'symptom') for v in symptoms],'検査値UP':[item_category(v,'lab') for v in lab_up],'検査値DOWN':[item_category(v,'lab') for v in lab_down],'関連薬剤':[item_category(v,'drug') for v in drugs]},

@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlsplit,parse_qs,quote
 ROOT=Path(__file__).resolve().parents[1]
+compact=lambda value: re.sub(r'\s+','',value)
 manifest=json.loads((ROOT/'content/disease-page-manifest.json').read_text(encoding='utf-8'))
 lab_names=set()
 for row in csv.DictReader((ROOT/'data/lab-values.csv').open(encoding='utf-8-sig',newline='')):
@@ -45,14 +46,14 @@ for item in manifest:
         for card in d[collection]:
             for key,value in card.items():
                 if key=='drug' or not value: continue
-                assert value in clinical_text, f'{path}: unrendered {collection}.{key}'
+                assert compact(value) in compact(clinical_text), f'{path}: unrendered {collection}.{key}'
     report_html=clinical.split('<section id="report"',1)[1].split('</section>',1)[0]
     assert report_html.count('<ul class="practice-report-list">')==4, f'{path}: report is not four bullet lists'
     for heading,report in d['sbar']:
         assert heading in clinical_text and report in clinical_text, f'{path}: report content lost'
     for variant in d['variants']:
         assert variant.get('mode') and len(variant.get('chain',[]))>=3, f'{path}: incomplete mechanism'
-        assert html.escape(variant['watch']) in clinical, f'{path}: missing mechanism observation'
+        assert compact(variant['watch']) in compact(clinical_text), f'{path}: missing mechanism observation'
     # Check the reader-facing section, not an accidental match elsewhere on the page.
     for source_key, section_id in (('actions','actions'), ('education','education'),
                                    ('labs','tests'), ('references','references')):
@@ -61,7 +62,7 @@ for item in manifest:
         for card in d[source_key]:
             values=card[:3] if source_key=='labs' else (card[0],card[2]) if source_key=='references' else card
             for value in values:
-                assert value and value in section_text, f'{path}: missing {section_id} content: {value}'
+                assert value and compact(value) in compact(section_text), f'{path}: missing {section_id} content: {value}'
     mechanism_html=clinical.split('<section id="mechanism"',1)[1].split('</section>',1)[0]
     mechanism_text=html.unescape(re.sub(r'<[^>]+>','',mechanism_html))
     mechanism_cards=re.findall(r'<article\b[^>]*>(.*?)</article>',mechanism_html,re.S)
@@ -70,7 +71,7 @@ for item in manifest:
     for variant,card_html in zip(d['variants'],mechanism_cards):
         card_text=html.unescape(re.sub(r'<[^>]+>','',card_html))
         for value in [variant['name'], *variant['chain'], variant['watch']]:
-            assert value in card_text, f'{path}: wrong mechanism card: {value}'
+            assert compact(value) in compact(card_text), f'{path}: wrong mechanism card: {value}'
         chains=re.findall(r'<ol class="practice-chain">(.*?)</ol>',card_html,re.S)
         assert len(chains)==1, f'{path}: missing causal chain'
         steps=[html.unescape(re.sub(r'<[^>]+>','',value)) for value in re.findall(r'<li>(.*?)</li>',chains[0],re.S)]
@@ -96,7 +97,7 @@ for item in manifest:
             assert q['lab'][0] in lab_names,q
             direct_links+=1
     ready.append(item['slug'])
-print(f'Practice content structured and linked: {len(ready)}/55; verified direct detail targets: {direct_links}')
+print(f'Practice content structured and linked: {len(ready)}/{len(manifest)}; verified direct detail targets: {direct_links}')
 print(f'Mechanism cards with ordered chains, observations and labelled SVGs: {verified_diagrams}; clinical meaning requires separate review')
 print('Ready for visual/clinical review: '+', '.join(ready))
 print('Still missing practice content: '+', '.join(missing))
