@@ -9,8 +9,21 @@ def enrich(page, root, slug, category):
     d=json.loads(source.read_text(encoding='utf-8')); e=html.escape
     def section(key,title,body):
         return f'<section id="{key}" class="disease-section"><h2>{title}</h2>{body}</section>'
+    def points(value, extra_class=''):
+        """Make authored prose scan as action-sized bullets without changing its claims."""
+        items=[]
+        for sentence in re.findall(r'[^。]+。?', value):
+            sentence=sentence.strip()
+            # A long Japanese enumeration is more useful as separate things to check.
+            fragments=[part.strip() for part in sentence.rstrip('。').split('、') if part.strip()]
+            if len(fragments) >= 3:
+                items.extend(fragments)
+            elif sentence:
+                items.append(sentence)
+        classes='practice-points'+((' '+extra_class) if extra_class else '')
+        return '<ul class="'+classes+'">'+''.join('<li>'+e(item)+'</li>' for item in items)+'</ul>'
     def cards(pairs):
-        return '<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{e(a)}</h3><p>{e(b)}</p></article>' for a,b in pairs)+'</div>'
+        return '<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{e(a)}</h3>{points(b)}</article>' for a,b in pairs)+'</div>'
     def symptom_badges(value):
         return '・'.join(f'<span class="disease-tag" data-category="{category(part,"symptom")}">{e(part)}</span>' for part in symptom_parts(value))
     def lab_badges(value):
@@ -22,7 +35,7 @@ def enrich(page, root, slug, category):
             body.append(f'<article class="practice-card"><h3>{e(heading)}</h3><ul class="practice-report-list">'+''.join(f'<li>{e(point.strip())}</li>' for point in points if point.strip())+'</ul></article>')
         return '<div class="practice-grid">'+''.join(body)+'</div>'
     def fields(item,labels):
-        return '<dl class="practice-fields">'+''.join(f'<div><dt>{label}</dt><dd>{e(item[key])}</dd></div>' for key,label in labels)+'</dl>'
+        return '<dl class="practice-fields">'+''.join(f'<div><dt>{label}</dt><dd>{points(item[key])}</dd></div>' for key,label in labels)+'</dl>'
     def diagram(v,i):
         if v['mode']=='as-pressure':
             return f'''<svg viewBox="0 0 340 350" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">大動脈弁が開きにくく、左室に圧負荷がかかる。左室肥大や拡張の障害と労作時の症状につながる。</title><g font-family="sans-serif" text-anchor="middle" fill="#17252d"><text x="170" y="23" font-size="14">石灰化など → 弁が開きにくい</text><path d="M122 45H218V111H122Z" fill="#eee0e8"/><text x="170" y="65" font-size="13">大動脈</text><path d="M113 122Q57 232 170 249Q283 232 227 122" fill="#f7e9ed" stroke="#bc93a5" stroke-width="18"/><path d="M110 121L157 106M230 121L183 106" fill="none" stroke="#7c829d" stroke-width="8"/><path d="M170 197V83L164 94M170 83L176 94" stroke="#a17b92" stroke-width="4" fill="none"/><text x="252" y="97" font-size="12">狭い出口</text><text x="170" y="226" font-size="13">左室：高い圧で駆出</text><text x="170" y="278" font-size="13">圧負荷 → 肥大・広がりにくさ</text><path d="M170 287V302L164 295M170 302L176 295" stroke="#8c91ab" stroke-width="2" fill="none"/><text x="170" y="323" font-size="13">労作時の息切れ・胸痛・失神に注意</text><text x="170" y="345" font-size="11">症状を試すための無理な歩行はしない</text></g></svg>'''
@@ -537,9 +550,9 @@ def enrich(page, root, slug, category):
         narrow=v['mode']=='stenosis'; mid='M144 51L165 89M196 51L175 89M144 139L165 101M196 139L175 101' if narrow else 'M156 51L168 76M184 139L172 114'
         caption='狭い弁を通る順方向の血流' if narrow else '閉じきらない弁を通る逆流'
         return f'''<svg viewBox="0 0 340 180" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">{e(v['from'])}から{e(v['to'])}：{caption}</title><rect x="12" y="52" width="110" height="87" rx="16" fill="#e9f3f9"/><rect x="218" y="52" width="110" height="87" rx="16" fill="#faeaf3"/><path d="{mid}" stroke="#17252d" stroke-width="7" fill="none"/><path d="M114 96H222L210 88M222 96L210 104" stroke="#386b91" stroke-width="4" fill="none"/><g font-family="sans-serif" font-size="18" text-anchor="middle" fill="#17252d"><text x="67" y="101">{e(v['from'])}</text><text x="273" y="101">{e(v['to'])}</text><text x="170" y="28">{'狭窄' if narrow else '逆流'}</text><text x="170" y="169" font-size="13">{caption}</text></g></svg>'''
-    variants='<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{e(v["name"])}</h3>{diagram(v,i)}<ol class="practice-chain">'+''.join(f'<li>{e(x)}</li>' for x in v['chain'])+f'</ol><p class="practice-watch"><b>観察へ：</b>{e(v["watch"])}</p></article>' for i,v in enumerate(d['variants']))+'</div><p class="disease-lab-note">'+e(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</p>'
+    variants='<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{e(v["name"])}</h3>{diagram(v,i)}<ol class="practice-chain">'+''.join(f'<li>{e(x)}</li>' for x in v['chain'])+f'</ol><div class="practice-watch"><b>観察へ</b>{points(v["watch"])}</div></article>' for i,v in enumerate(d['variants']))+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
     observations='<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{symptom_badges(x["symptom"])}</h3>'+fields(x,[('how','見る・聞く'),('meaning','何を反映するか'),('compare','普段と比較'),('worse','悪化を疑う変化'),('recheck','再確認')])+'</article>' for x in d['observations'])+'</div>'
-    judgment='<div class="practice-grid judgment-grid">'+''.join(f'<article class="practice-card judgment-{i}"><h3>{e(x["level"])}</h3><p>{e(x["condition"])}</p><p><b>次の行動：</b>{e(x["action"])}</p></article>' for i,x in enumerate(d['judgment']))+'</div><p class="disease-lab-note">緊急度の目安。施設の急変対応基準・個別指示を優先し、数値だけで経過観察を決めない。</p>'
+    judgment='<div class="practice-grid judgment-grid">'+''.join(f'<article class="practice-card judgment-{i}"><h3>{e(x["level"])}</h3>{points(x["condition"])}<b>次の行動</b>{points(x["action"])}</article>' for i,x in enumerate(d['judgment']))+'</div><div class="disease-lab-note">'+points('緊急度の目安。施設の急変対応基準・個別指示を優先し、数値だけで経過観察を決めない。')+'</div>'
     treatments='<div class="practice-grid">'
     for x in d['treatments']:
         treatments+=f'<article class="practice-card"><h3><span class="disease-tag" data-category="{category(x["name"],"drug")}">{e(x["name"])}</span></h3>'+fields(x,[('aim','目的'),('before','前に確認'),('during','中に観察'),('response','反応・再評価'),('condition','適応・注意')])
@@ -548,7 +561,7 @@ def enrich(page, root, slug, category):
     treatments+='</div>'
     labs='<div class="practice-grid">'
     for name,meaning,interpretation,target in d['labs']:
-        labs+=f'<article class="practice-card"><h3>{lab_badges(name)}</h3><p>{e(meaning)}</p><p><b>組み合わせ・推移：</b>{e(interpretation)}</p>'
+        labs+=f'<article class="practice-card"><h3>{lab_badges(name)}</h3>{points(meaning)}<b>組み合わせ・推移</b>{points(interpretation)}'
         targets = target if isinstance(target, list) else ([target] if target else [])
         for detail in targets:
             label = detail if isinstance(target, list) else name
@@ -556,7 +569,7 @@ def enrich(page, root, slug, category):
         labs+='</article>'
     labs+='</div>'
     links='<ul class="disease-related">'+''.join(f'<li><a href="{e(url)}">{e(label)}</a></li>' for label,url in d['links'])+'</ul>'
-    references='<ol>'+''.join(f'<li><a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(title)}</a><p>{e(note)}</p></li>' for title,url,note in d['references'])+f'</ol><p class="disease-lab-note">資料確認：{e(d.get("reviewed_on", "2026年9月15日"))}。看護観察・報告は資料の病態とリスクを基に学習用へ整理したもの。施設の手順・個別指示に合わせて使う。</p>'
+    references='<ol>'+''.join(f'<li><a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(title)}</a>{points(note)}</li>' for title,url,note in d['references'])+f'</ol><div class="disease-lab-note">{points("資料確認："+d.get("reviewed_on", "2026年9月15日")+"。看護観察・報告は資料の病態とリスクを基に学習用へ整理したもの。施設の手順・個別指示に合わせて使う。")}</div>'
     parts=[('mechanism','病型と病態のつながり',variants),('observations','症状から観察・再確認へ',observations),('judgment','看護判断：変化の緊急度',judgment),('actions','看護行動：優先順位',cards(d['actions'])),('treatment','治療前・中・後の看護',treatments),('tests','検査の意味と読み方',labs),('report','報告：SBARで情報をそろえる',report_cards(d['sbar'])),('education','患者・家族への説明',cards(d['education'])),('related','実践につながるリンク',links),('references','参考文献',references)]
     page=re.sub(r'<p class="disease-lead">.*?</p>',f'<p class="disease-lead">{e(d["lead"])}</p>',page,flags=re.S)
     start=page.index('<nav class="disease-toc"'); end=page.index('<p class="disease-lab-note">看護学習用の概念図',start)

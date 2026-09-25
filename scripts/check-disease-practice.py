@@ -4,7 +4,9 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlsplit,parse_qs,quote
 ROOT=Path(__file__).resolve().parents[1]
-compact=lambda value: re.sub(r'\s+','',value)
+# Rendering may split Japanese sentence punctuation into separate bullets.  Compare
+# the substantive authored text, not formatting punctuation.
+compact=lambda value: re.sub(r'[\s、。]+','',value)
 manifest=json.loads((ROOT/'content/disease-page-manifest.json').read_text(encoding='utf-8'))
 lab_names=set()
 for row in csv.DictReader((ROOT/'data/lab-values.csv').open(encoding='utf-8-sig',newline='')):

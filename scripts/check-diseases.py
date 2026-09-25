@@ -57,6 +57,10 @@ assert not has_embedded_media(Page('<path style="marker-end:url(\'#arrow\')"/>')
 inventory=json.loads((ROOT/'content/disease-inventory.json').read_text(encoding='utf-8-sig'))
 manifest=json.loads((ROOT/'content/disease-page-manifest.json').read_text(encoding='utf-8'))
 catalog=json.loads((ROOT/'data/disease-catalog.js').read_text(encoding='utf-8').split('=',1)[1].strip().removesuffix(';'))
+catalog_ui=(ROOT/'assets/js/diseases.js').read_text(encoding='utf-8')
+assert 'disease-color-legend' not in catalog_ui, 'the catalog must not show a color legend'
+assert 'disease-row-link' in catalog_ui and 'data-href' in catalog_ui, 'catalog rows must be clickable'
+assert "addEventListener('keydown'" in catalog_ui, 'catalog rows must support keyboard activation'
 expected=len(inventory)
 assert len(manifest)==len(catalog['rows'])==expected
 assert {x['name'] for x in inventory}=={x['sourceName'] for x in manifest}
@@ -92,6 +96,14 @@ for p in pages:
             data=json.loads(practice.read_text(encoding='utf-8'))
             assert len([t for t,a in parsed.tags if t=='svg'])==len(data['variants']),p
             assert {'judgment','actions','tests','report','education'} <= set(parsed.ids),p
+            # Bedside explanations are consistently rendered as explicit bullets.
+            practice_fields = re.findall(r'<dl class="practice-fields">(.*?)</dl>', source, re.S)
+            assert practice_fields, p
+            assert all(
+                not re.search(r'<dd>(?!\s*<ul class="practice-points")', fields)
+                for fields in practice_fields
+            ), p
+            assert not '<li><ul' in source,p
         else:
             assert len([t for t,a in parsed.tags if t=='svg'])==1,p
             assert {'diagram-title','diagram-desc'} <= set(parsed.ids),p

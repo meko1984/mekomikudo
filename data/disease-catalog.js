@@ -301,7 +301,7 @@ window.NURSING_DATABASE = {
       "system": "emergency"
     },
     {
-      "疾患名": "COPD（慢性閉塞性肺疾患）",
+      "疾患名": "COPD/慢性閉塞性肺疾患",
       "領域": [
         "呼吸器"
       ],
@@ -342,6 +342,50 @@ window.NURSING_DATABASE = {
         ]
       },
       "href": "copd/",
+      "system": "respiratory"
+    },
+    {
+      "疾患名": "PTE/PE/肺血栓塞栓症",
+      "領域": [
+        "呼吸器"
+      ],
+      "主な症状": [
+        "急な息切れ",
+        "胸痛",
+        "失神",
+        "脚の腫れ"
+      ],
+      "検査値UP": [
+        "Dダイマー",
+        "トロポニン"
+      ],
+      "検査値DOWN": [
+        "PaO₂"
+      ],
+      "関連薬剤": [
+        "抗凝固薬",
+        "血栓溶解薬"
+      ],
+      "_categories": {
+        "主な症状": [
+          "breathing",
+          "pain",
+          "circulation",
+          "skin"
+        ],
+        "検査値UP": [
+          "coagulation",
+          "cardiac-lab"
+        ],
+        "検査値DOWN": [
+          "blood-gas"
+        ],
+        "関連薬剤": [
+          "antithrombotic",
+          "antithrombotic"
+        ]
+      },
+      "href": "pulmonary-embolism/",
       "system": "respiratory"
     },
     {
@@ -590,50 +634,6 @@ window.NURSING_DATABASE = {
       "system": "respiratory"
     },
     {
-      "疾患名": "肺血栓塞栓症（PTE/PE）",
-      "領域": [
-        "呼吸器"
-      ],
-      "主な症状": [
-        "急な息切れ",
-        "胸痛",
-        "失神",
-        "脚の腫れ"
-      ],
-      "検査値UP": [
-        "Dダイマー",
-        "トロポニン"
-      ],
-      "検査値DOWN": [
-        "PaO₂"
-      ],
-      "関連薬剤": [
-        "抗凝固薬",
-        "血栓溶解薬"
-      ],
-      "_categories": {
-        "主な症状": [
-          "breathing",
-          "pain",
-          "circulation",
-          "skin"
-        ],
-        "検査値UP": [
-          "coagulation",
-          "cardiac-lab"
-        ],
-        "検査値DOWN": [
-          "blood-gas"
-        ],
-        "関連薬剤": [
-          "antithrombotic",
-          "antithrombotic"
-        ]
-      },
-      "href": "pulmonary-embolism/",
-      "system": "respiratory"
-    },
-    {
       "疾患名": "肺高血圧症",
       "領域": [
         "呼吸器",
@@ -719,7 +719,7 @@ window.NURSING_DATABASE = {
       "system": "respiratory"
     },
     {
-      "疾患名": "ADHF（急性非代償性心不全）",
+      "疾患名": "ADHF/急性非代償性心不全",
       "領域": [
         "循環器"
       ],
@@ -763,39 +763,7 @@ window.NURSING_DATABASE = {
       "system": "cardiovascular"
     },
     {
-      "疾患名": "SSS（洞不全症候群）",
-      "領域": [
-        "循環器"
-      ],
-      "主な症状": [
-        "めまい",
-        "失神",
-        "疲労",
-        "頻脈との交代"
-      ],
-      "検査値UP": [],
-      "検査値DOWN": [],
-      "関連薬剤": [
-        "アトロピン"
-      ],
-      "_categories": {
-        "主な症状": [
-          "neurologic",
-          "circulation",
-          "general",
-          "circulation"
-        ],
-        "検査値UP": [],
-        "検査値DOWN": [],
-        "関連薬剤": [
-          "cardiovascular-drug"
-        ]
-      },
-      "href": "sick-sinus/",
-      "system": "cardiovascular"
-    },
-    {
-      "疾患名": "不整脈／心房細動",
+      "疾患名": "AF/心房細動",
       "領域": [
         "循環器"
       ],
@@ -828,6 +796,122 @@ window.NURSING_DATABASE = {
         ]
       },
       "href": "atrial-fibrillation/",
+      "system": "cardiovascular"
+    },
+    {
+      "疾患名": "ASO/閉塞性動脈硬化症",
+      "領域": [
+        "循環器"
+      ],
+      "主な症状": [
+        "歩行時痛",
+        "冷感",
+        "色調変化",
+        "安静時痛",
+        "創"
+      ],
+      "検査値UP": [
+        "LDL"
+      ],
+      "検査値DOWN": [
+        "ABI"
+      ],
+      "関連薬剤": [
+        "抗血小板薬",
+        "スタチン"
+      ],
+      "_categories": {
+        "主な症状": [
+          "pain",
+          "circulation",
+          "skin",
+          "pain",
+          "skin"
+        ],
+        "検査値UP": [
+          "lipid-lab"
+        ],
+        "検査値DOWN": [
+          "cardiac-lab"
+        ],
+        "関連薬剤": [
+          "antithrombotic",
+          "cardiovascular-drug"
+        ]
+      },
+      "href": "aso/",
+      "system": "cardiovascular"
+    },
+    {
+      "疾患名": "SSS/洞不全症候群",
+      "領域": [
+        "循環器"
+      ],
+      "主な症状": [
+        "めまい",
+        "失神",
+        "疲労",
+        "頻脈との交代"
+      ],
+      "検査値UP": [],
+      "検査値DOWN": [],
+      "関連薬剤": [
+        "アトロピン"
+      ],
+      "_categories": {
+        "主な症状": [
+          "neurologic",
+          "circulation",
+          "general",
+          "circulation"
+        ],
+        "検査値UP": [],
+        "検査値DOWN": [],
+        "関連薬剤": [
+          "cardiovascular-drug"
+        ]
+      },
+      "href": "sick-sinus/",
+      "system": "cardiovascular"
+    },
+    {
+      "疾患名": "VTE/DVT/静脈血栓塞栓症・深部静脈血栓症",
+      "領域": [
+        "循環器"
+      ],
+      "主な症状": [
+        "片脚の腫れ",
+        "痛み",
+        "熱感",
+        "胸痛",
+        "息切れ"
+      ],
+      "検査値UP": [
+        "Dダイマー"
+      ],
+      "検査値DOWN": [],
+      "関連薬剤": [
+        "DOAC",
+        "ヘパリン"
+      ],
+      "_categories": {
+        "主な症状": [
+          "skin",
+          "pain",
+          "skin",
+          "pain",
+          "breathing"
+        ],
+        "検査値UP": [
+          "coagulation"
+        ],
+        "検査値DOWN": [],
+        "関連薬剤": [
+          "antithrombotic",
+          "antithrombotic"
+        ]
+      },
+      "href": "dvt/",
       "system": "cardiovascular"
     },
     {
@@ -1028,90 +1112,6 @@ window.NURSING_DATABASE = {
         ]
       },
       "href": "myocardial-infarction/",
-      "system": "cardiovascular"
-    },
-    {
-      "疾患名": "閉塞性動脈硬化症（ASO）",
-      "領域": [
-        "循環器"
-      ],
-      "主な症状": [
-        "歩行時痛",
-        "冷感",
-        "色調変化",
-        "安静時痛",
-        "創"
-      ],
-      "検査値UP": [
-        "LDL"
-      ],
-      "検査値DOWN": [
-        "ABI"
-      ],
-      "関連薬剤": [
-        "抗血小板薬",
-        "スタチン"
-      ],
-      "_categories": {
-        "主な症状": [
-          "pain",
-          "circulation",
-          "skin",
-          "pain",
-          "skin"
-        ],
-        "検査値UP": [
-          "lipid-lab"
-        ],
-        "検査値DOWN": [
-          "cardiac-lab"
-        ],
-        "関連薬剤": [
-          "antithrombotic",
-          "cardiovascular-drug"
-        ]
-      },
-      "href": "aso/",
-      "system": "cardiovascular"
-    },
-    {
-      "疾患名": "静脈血栓塞栓症（VTE）/DVT",
-      "領域": [
-        "循環器"
-      ],
-      "主な症状": [
-        "片脚の腫れ",
-        "痛み",
-        "熱感",
-        "胸痛",
-        "息切れ"
-      ],
-      "検査値UP": [
-        "Dダイマー"
-      ],
-      "検査値DOWN": [],
-      "関連薬剤": [
-        "DOAC",
-        "ヘパリン"
-      ],
-      "_categories": {
-        "主な症状": [
-          "skin",
-          "pain",
-          "skin",
-          "pain",
-          "breathing"
-        ],
-        "検査値UP": [
-          "coagulation"
-        ],
-        "検査値DOWN": [],
-        "関連薬剤": [
-          "antithrombotic",
-          "antithrombotic"
-        ]
-      },
-      "href": "dvt/",
       "system": "cardiovascular"
     },
     {
@@ -1345,7 +1345,53 @@ window.NURSING_DATABASE = {
       "system": "digestive"
     },
     {
-      "疾患名": "CKD（慢性腎臓病）",
+      "疾患名": "AKI/急性腎障害",
+      "領域": [
+        "腎・泌尿器"
+      ],
+      "主な症状": [
+        "尿量変化",
+        "むくみ",
+        "息切れ",
+        "だるさ",
+        "動悸"
+      ],
+      "検査値UP": [
+        "Cr",
+        "K",
+        "BUN"
+      ],
+      "検査値DOWN": [
+        "HCO₃⁻"
+      ],
+      "関連薬剤": [
+        "高K血症治療薬"
+      ],
+      "_categories": {
+        "主な症状": [
+          "urinary",
+          "circulation",
+          "breathing",
+          "general",
+          "circulation"
+        ],
+        "検査値UP": [
+          "renal-lab",
+          "electrolyte",
+          "renal-lab"
+        ],
+        "検査値DOWN": [
+          "blood-gas"
+        ],
+        "関連薬剤": [
+          "fluid-drug"
+        ]
+      },
+      "href": "aki/",
+      "system": "renal"
+    },
+    {
+      "疾患名": "CKD/慢性腎臓病",
       "領域": [
         "腎・泌尿器"
       ],
@@ -1390,6 +1436,44 @@ window.NURSING_DATABASE = {
         ]
       },
       "href": "ckd/",
+      "system": "renal"
+    },
+    {
+      "疾患名": "UTI/尿路感染症",
+      "領域": [
+        "腎・泌尿器"
+      ],
+      "主な症状": [
+        "排尿痛",
+        "尿の変化",
+        "発熱",
+        "腰痛"
+      ],
+      "検査値UP": [
+        "尿中白血球",
+        "CRP"
+      ],
+      "検査値DOWN": [],
+      "関連薬剤": [
+        "抗菌薬"
+      ],
+      "_categories": {
+        "主な症状": [
+          "pain",
+          "urinary",
+          "infection",
+          "pain"
+        ],
+        "検査値UP": [
+          "renal-lab",
+          "inflammation"
+        ],
+        "検査値DOWN": [],
+        "関連薬剤": [
+          "anti-infective"
+        ]
+      },
+      "href": "uti/",
       "system": "renal"
     },
     {
@@ -1439,7 +1523,7 @@ window.NURSING_DATABASE = {
       "system": "renal"
     },
     {
-      "疾患名": "前立腺肥大症",
+      "疾患名": "前立腺肥大",
       "領域": [
         "腎・泌尿器"
       ],
@@ -1476,90 +1560,6 @@ window.NURSING_DATABASE = {
         ]
       },
       "href": "bph/",
-      "system": "renal"
-    },
-    {
-      "疾患名": "尿路感染症",
-      "領域": [
-        "腎・泌尿器"
-      ],
-      "主な症状": [
-        "排尿痛",
-        "尿の変化",
-        "発熱",
-        "腰痛"
-      ],
-      "検査値UP": [
-        "尿中白血球",
-        "CRP"
-      ],
-      "検査値DOWN": [],
-      "関連薬剤": [
-        "抗菌薬"
-      ],
-      "_categories": {
-        "主な症状": [
-          "pain",
-          "urinary",
-          "infection",
-          "pain"
-        ],
-        "検査値UP": [
-          "renal-lab",
-          "inflammation"
-        ],
-        "検査値DOWN": [],
-        "関連薬剤": [
-          "anti-infective"
-        ]
-      },
-      "href": "uti/",
-      "system": "renal"
-    },
-    {
-      "疾患名": "急性腎障害（AKI）",
-      "領域": [
-        "腎・泌尿器"
-      ],
-      "主な症状": [
-        "尿量変化",
-        "むくみ",
-        "息切れ",
-        "だるさ",
-        "動悸"
-      ],
-      "検査値UP": [
-        "Cr",
-        "K",
-        "BUN"
-      ],
-      "検査値DOWN": [
-        "HCO₃⁻"
-      ],
-      "関連薬剤": [
-        "高K血症治療薬"
-      ],
-      "_categories": {
-        "主な症状": [
-          "urinary",
-          "circulation",
-          "breathing",
-          "general",
-          "circulation"
-        ],
-        "検査値UP": [
-          "renal-lab",
-          "electrolyte",
-          "renal-lab"
-        ],
-        "検査値DOWN": [
-          "blood-gas"
-        ],
-        "関連薬剤": [
-          "fluid-drug"
-        ]
-      },
-      "href": "aki/",
       "system": "renal"
     },
     {
@@ -1703,7 +1703,7 @@ window.NURSING_DATABASE = {
       "system": "renal"
     },
     {
-      "疾患名": "HHS（高浸透圧高血糖状態）",
+      "疾患名": "HHS/高浸透圧高血糖状態",
       "領域": [
         "内分泌・代謝",
         "救急"
@@ -1907,7 +1907,35 @@ window.NURSING_DATABASE = {
       "system": "endocrine"
     },
     {
-      "疾患名": "SAH（くも膜下出血）",
+      "疾患名": "NPH/正常圧水頭症",
+      "領域": [
+        "脳神経"
+      ],
+      "主な症状": [
+        "歩きにくさ",
+        "認知変化",
+        "尿意",
+        "失禁"
+      ],
+      "検査値UP": [],
+      "検査値DOWN": [],
+      "関連薬剤": [],
+      "_categories": {
+        "主な症状": [
+          "mobility",
+          "neurologic",
+          "urinary",
+          "urinary"
+        ],
+        "検査値UP": [],
+        "検査値DOWN": [],
+        "関連薬剤": []
+      },
+      "href": "nph/",
+      "system": "neurological"
+    },
+    {
+      "疾患名": "SAH/くも膜下出血",
       "領域": [
         "脳神経"
       ],
@@ -1945,35 +1973,7 @@ window.NURSING_DATABASE = {
       "system": "neurological"
     },
     {
-      "疾患名": "正常圧水頭症/NPH",
-      "領域": [
-        "脳神経"
-      ],
-      "主な症状": [
-        "歩きにくさ",
-        "認知変化",
-        "尿意",
-        "失禁"
-      ],
-      "検査値UP": [],
-      "検査値DOWN": [],
-      "関連薬剤": [],
-      "_categories": {
-        "主な症状": [
-          "mobility",
-          "neurologic",
-          "urinary",
-          "urinary"
-        ],
-        "検査値UP": [],
-        "検査値DOWN": [],
-        "関連薬剤": []
-      },
-      "href": "nph/",
-      "system": "neurological"
-    },
-    {
-      "疾患名": "硬膜下血腫（慢性/急性）",
+      "疾患名": "SDH/硬膜下血腫",
       "領域": [
         "脳神経"
       ],
@@ -2141,7 +2141,7 @@ window.NURSING_DATABASE = {
       "system": "mental"
     },
     {
-      "疾患名": "IAD（失禁関連皮膚炎）",
+      "疾患名": "IAD/失禁関連皮膚炎",
       "領域": [
         "皮膚・熱傷"
       ],

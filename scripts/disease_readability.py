@@ -70,9 +70,10 @@ def apply_readability(page, slug, name, treatments):
     page = re.sub(r'(<nav class="disease-toc".*?</nav>)', r'<details class="disease-toc-disclosure"><summary>ページ内の目次</summary>\1</details>', page, flags=re.S)
     # Split complete sentences, not commas: keep qualifications attached to their claims.
     page = re.sub(r'<p(?=[ >])([^>]*)>(.*?)</p>', lambda m:'<div'+m[1]+'>'+points(m[2])+'</div>' if m[2].count('。')>1 and '<a ' not in m[2] else m[0], page, flags=re.S)
-    page = re.sub(r'<dd>(.*?)</dd>', lambda m:'<dd>'+points(m[1])+'</dd>' if m[1].count('。')>1 else m[0], page, flags=re.S)
+    page = re.sub(r'<dd>(.*?)</dd>', lambda m:'<dd>'+points(m[1])+'</dd>' if m[1].count('。')>1 and '<ul' not in m[1] else m[0], page, flags=re.S)
     summary = '治療の基本：'+ '、'.join(b for _,b in treatments)+'。'
     if slug=='heart-failure':
         summary='HFrEFの基本的な薬物治療は、ARNI（またはACE阻害薬・ARB）、β遮断薬、MRA、SGLT2阻害薬の4系統。病型・血圧・腎機能などで適応を判断する。'
     page = re.sub(r'(<section id="treatment"[^>]*><h2>.*?</h2>)', lambda m:m[1]+'<div class="treatment-overview">'+points(html.escape(summary))+'</div>',page)
-    return page.replace('</body>', '<script src="../../../assets/js/disease-glossary.js?v=20260916-1"></script></body>').replace('diseases.css?v=20260915-7','diseases.css?v=20260916-1')
+    page = re.sub(r'diseases\.css\?v=[^"\']+', 'diseases.css?v=20260926-1', page)
+    return page.replace('</body>', '<script src="../../../assets/js/disease-glossary.js?v=20260916-1"></script></body>')
