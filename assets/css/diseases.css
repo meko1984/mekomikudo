@@ -29,6 +29,9 @@
 .disease-table tbody th a { color: #17252d; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .disease-table td .disease-tag { white-space: normal; overflow-wrap: anywhere; }
 .disease-table tbody tr:last-child > * { border-bottom: 0; }
+.disease-row-link { cursor: pointer; }
+.disease-row-link:hover > *, .disease-row-link:focus > * { background: #f5f9fb; }
+.disease-row-link:focus { outline: 3px solid #216598; outline-offset: -3px; }
 .disease-tag, .concept-label { display: inline-block; white-space: nowrap; border: 0; border-radius: 5px; padding: 3px 6px; margin: 1px 0; color: #17252d; background: var(--chip-bg, #f3f6f7); font-size: .88em; }
 .disease-tag[data-system] { --chip-border: var(--system-color); --chip-bg: var(--system-soft); }
 [data-category="breathing"], [data-category="blood-gas"], [data-category="respiratory-drug"] { --chip-border:#62a7d3; --chip-bg:#e8f5fd; }
@@ -73,9 +76,9 @@
 .disease-figure { background: var(--system-soft); border-radius: 16px; padding: 24px; }
 .disease-detail { max-width: 1100px; padding-block: 32px 56px; }
 .disease-summary { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.disease-summary > div { background: var(--system-soft); border-left: 3px solid var(--system-color); padding: 12px 16px; }
+.disease-summary > div { min-width: 0; background: var(--system-soft); border-left: 3px solid var(--system-color); padding: 12px 16px; }
 .disease-summary dt { color: var(--system-color); font-weight: 700; }
-.disease-summary dd { margin: 6px 0 0; }
+.disease-summary dd { margin: 6px 0 0; overflow-wrap: anywhere; }
 .disease-toc { display: flex; flex-wrap: wrap; gap: 12px; padding-block: 20px; }
 .disease-toc a { color: var(--system-color); border: 1px solid currentColor; border-radius: 8px; padding: 10px 14px; }
 .disease-figure svg, .disease-figure img { display: block; max-width: 100%; height: auto; margin-inline: auto; }
@@ -155,6 +158,8 @@ body.diagram-dialog-open { overflow:hidden; }
 .disease-toc-disclosure .disease-toc a { border: 0; padding: .2rem 0; background: none; color: inherit; text-decoration: underline; }
 .practice-points { margin: .4rem 0; padding-left: 1.25rem; }
 .practice-points li + li { margin-top: .35rem; }
+.practice-card .practice-points { margin-block: .25rem; }
+.practice-fields dd > .practice-points { padding-left: 1.2rem; }
 .treatment-overview { padding: .7rem 1rem; margin: 0 0 1rem; background: var(--system-soft, #eef6f8); border-left: 3px solid var(--system-color, #52616b); }
 .disease-abbreviation { font: inherit; color: inherit; display: inline; padding: 0; border: 0; border-bottom: 1px dotted currentColor; background: transparent; cursor: help; }
 .disease-abbreviation:focus-visible { outline: 2px solid #386b91; outline-offset: 3px; }

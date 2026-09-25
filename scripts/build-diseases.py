@@ -235,12 +235,26 @@ for line in (ROOT/'content/disease-notes.txt').read_text(encoding='utf-8').split
 
 by_slug={x['slug']:x for x in notes}
 assert len(notes)==len(inventory),(len(notes),len(inventory))
+DISPLAY_NAMES={
+ 'adhf':'ADHF/急性非代償性心不全',
+ 'aki':'AKI/急性腎障害',
+ 'aso':'ASO/閉塞性動脈硬化症',
+ 'atrial-fibrillation':'AF/心房細動',
+ 'ckd':'CKD/慢性腎臓病',
+ 'copd':'COPD/慢性閉塞性肺疾患',
+ 'dvt':'VTE/DVT/静脈血栓塞栓症・深部静脈血栓症',
+ 'hhs':'HHS/高浸透圧高血糖状態',
+ 'iad':'IAD/失禁関連皮膚炎',
+ 'nph':'NPH/正常圧水頭症',
+ 'pulmonary-embolism':'PTE/PE/肺血栓塞栓症',
+ 'sah':'SAH/くも膜下出血',
+ 'sick-sinus':'SSS/洞不全症候群',
+ 'subdural-hematoma':'SDH/硬膜下血腫',
+ 'uti':'UTI/尿路感染症',
+}
 for n in notes:
     item=inventory[n['index']]; n['name']=item['name']; n['systems']=item['systems']; n['system']=SYSTEMS[item['systems'][0]]
-    if n['slug']=='hhs': n['name']='HHS（高浸透圧高血糖状態）'
-    if n['slug']=='bph': n['name']='前立腺肥大症'
-    if n['slug']=='sah': n['name']='SAH（くも膜下出血）'
-    if n['slug']=='atrial-fibrillation': n['name']='不整脈／心房細動'
+    if n['slug'] in DISPLAY_NAMES: n['name']=DISPLAY_NAMES[n['slug']]
 
 entry=(ROOT/'nursing/diseases/index.html').read_text(encoding='utf-8')
 header=re.search(r'<header class="site-header">.*?</header>',entry,re.S).group()
@@ -290,7 +304,7 @@ for n in notes:
         links.append(f'<li><a href="../{other}/">{E(by_slug[other]["name"])}</a><small>関連する疾患・病態</small></li>')
     page=f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(name)}｜疾患・病態｜永遠の新人看護師備忘録</title><meta name="description" content="{E(name)}の病態生理・症状と観察・治療を、短い説明とオリジナル図でつなぐ学習ノート。">
-<link rel="canonical" href="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="robots" content="index,follow"><meta name="theme-color" content="#eef6f8"><meta property="og:title" content="{E(name)}｜疾患・病態"><meta property="og:description" content="{E(name)}を図で理解する看護学習ノート。"><meta property="og:site_name" content="永遠の新人看護師備忘録"><meta property="og:type" content="article"><meta property="og:locale" content="ja_JP"><meta property="og:url" content="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="twitter:card" content="summary"><link rel="icon" href="../../../favicon.ico"><link rel="stylesheet" href="../../../assets/css/styles.css?v=20260726-1"><link rel="stylesheet" href="../../../assets/css/diseases.css?v=20260915-7"></head>
+<link rel="canonical" href="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="robots" content="index,follow"><meta name="theme-color" content="#eef6f8"><meta property="og:title" content="{E(name)}｜疾患・病態"><meta property="og:description" content="{E(name)}を図で理解する看護学習ノート。"><meta property="og:site_name" content="永遠の新人看護師備忘録"><meta property="og:type" content="article"><meta property="og:locale" content="ja_JP"><meta property="og:url" content="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="twitter:card" content="summary"><link rel="icon" href="../../../favicon.ico"><link rel="stylesheet" href="../../../assets/css/styles.css?v=20260726-1"><link rel="stylesheet" href="../../../assets/css/diseases.css?v=20260926-1"></head>
 <body data-page="nursing" data-section="diseases">{header}<main id="main-content" data-system="{system}"><div class="wrap disease-detail">
 <nav aria-label="パンくず"><a href="../">疾患・病態</a> / {E(name)}</nav><header class="disease-detail-hero"><p>{region}</p><h1 class="disease-heading">{E(name)}</h1><p class="disease-lead">{E(n['flow'][0])}。{E(n['flow'][2])}につながる。</p><dl class="disease-summary">{summaries}</dl></header>
 <p class="disease-lab-note">検査値は代表的な変化。全例に共通する診断基準ではなく、病期・治療・併存症で変わる。</p>
@@ -301,7 +315,6 @@ for n in notes:
 <section id="related" class="disease-section"><h2>関連リンク</h2><ul class="disease-related">{''.join(links)}<li><a href="../../medications/">薬剤一覧</a><small>{E('・'.join(drugs)) if drugs else '代表薬なし'}</small></li><li><a href="../../labs/">検査値一覧</a><small>検査の意味と関連所見</small></li></ul></section>
 <section id="references" class="disease-section"><h2>参考文献</h2><ul><li><a href="{E(source[1])}" rel="noopener noreferrer" target="_blank">{E(source[0])}</a> — 疾患の概要・評価・治療の参照資料。</li>{extra_ref}</ul><p class="disease-lab-note">内容確認：<time datetime="2026-09-15">2026年9月15日</time>。海外資料の推奨は国内の薬剤適応・施設手順と区別して読む。</p></section>
 <p class="disease-lab-note">看護学習用の概念図。実際の形・大きさ・診断所見を再現した図ではない。</p><a class="disease-back" href="../">疾患・病態の一覧に戻る</a></div></main>{footer}<script src="../../../assets/js/main.js"></script><script src="../../../assets/js/disease-diagrams.js?v=20260916-1"></script></body></html>'''
-    page=page.replace('diseases.css?v=20260915-7','diseases.css?v=20260916-3')
     page=enrich(page,ROOT,slug,item_category)
     page=apply_readability(page, slug, name, n['treat'])
     dest=ROOT/f'nursing/diseases/{slug}/index.html'; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_text(page,encoding='utf-8')

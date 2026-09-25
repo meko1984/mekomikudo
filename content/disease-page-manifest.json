@@ -1,7 +1,7 @@
 [
   {
     "sourceName": "CKD（慢性腎臓病）",
-    "name": "CKD（慢性腎臓病）",
+    "name": "CKD/慢性腎臓病",
     "slug": "ckd",
     "systems": [
       "腎・泌尿・生殖器（男性）"
@@ -11,7 +11,7 @@
   },
   {
     "sourceName": "COPD（慢性閉塞性肺疾患）",
-    "name": "COPD（慢性閉塞性肺疾患）",
+    "name": "COPD/慢性閉塞性肺疾患",
     "slug": "copd",
     "systems": [
       "呼吸器"
@@ -21,7 +21,7 @@
   },
   {
     "sourceName": "HHS（非ケトン性高浸透圧昏睡）",
-    "name": "HHS（高浸透圧高血糖状態）",
+    "name": "HHS/高浸透圧高血糖状態",
     "slug": "hhs",
     "systems": [
       "内分泌代謝",
@@ -32,7 +32,7 @@
   },
   {
     "sourceName": "IAD（失禁関連皮膚炎）",
-    "name": "IAD（失禁関連皮膚炎）",
+    "name": "IAD/失禁関連皮膚炎",
     "slug": "iad",
     "systems": [
       "皮膚・熱傷"
@@ -42,7 +42,7 @@
   },
   {
     "sourceName": "SAH(クモ膜下出血)",
-    "name": "SAH（くも膜下出血）",
+    "name": "SAH/くも膜下出血",
     "slug": "sah",
     "systems": [
       "脳神経"
@@ -52,7 +52,7 @@
   },
   {
     "sourceName": "SSS（洞不全症候群）",
-    "name": "SSS（洞不全症候群）",
+    "name": "SSS/洞不全症候群",
     "slug": "sick-sinus",
     "systems": [
       "循環器"
@@ -173,7 +173,7 @@
   },
   {
     "sourceName": "急性腎障害（AKI）",
-    "name": "急性腎障害（AKI）",
+    "name": "AKI/急性腎障害",
     "slug": "aki",
     "systems": [
       "腎・泌尿・生殖器（男性）"
@@ -193,7 +193,7 @@
   },
   {
     "sourceName": "硬膜下血腫（慢性/急性）",
-    "name": "硬膜下血腫（慢性/急性）",
+    "name": "SDH/硬膜下血腫",
     "slug": "subdural-hematoma",
     "systems": [
       "脳神経"
@@ -273,7 +273,7 @@
   },
   {
     "sourceName": "正常圧水頭症/NPH",
-    "name": "正常圧水頭症/NPH",
+    "name": "NPH/正常圧水頭症",
     "slug": "nph",
     "systems": [
       "脳神経"
@@ -293,7 +293,7 @@
   },
   {
     "sourceName": "静脈血栓塞栓症（VTE）/DVT",
-    "name": "静脈血栓塞栓症（VTE）/DVT",
+    "name": "VTE/DVT/静脈血栓塞栓症・深部静脈血栓症",
     "slug": "dvt",
     "systems": [
       "循環器"
@@ -303,7 +303,7 @@
   },
   {
     "sourceName": "前立腺肥大",
-    "name": "前立腺肥大症",
+    "name": "前立腺肥大",
     "slug": "bph",
     "systems": [
       "腎・泌尿・生殖器（男性）"
@@ -364,7 +364,7 @@
   },
   {
     "sourceName": "尿路感染症",
-    "name": "尿路感染症",
+    "name": "UTI/尿路感染症",
     "slug": "uti",
     "systems": [
       "腎・泌尿・生殖器（男性）"
@@ -454,7 +454,7 @@
   },
   {
     "sourceName": "肺血栓塞栓症（PTE/PE）",
-    "name": "肺血栓塞栓症（PTE/PE）",
+    "name": "PTE/PE/肺血栓塞栓症",
     "slug": "pulmonary-embolism",
     "systems": [
       "呼吸器"
@@ -486,7 +486,7 @@
   },
   {
     "sourceName": "不整脈/心房細動",
-    "name": "不整脈／心房細動",
+    "name": "AF/心房細動",
     "slug": "atrial-fibrillation",
     "systems": [
       "循環器"
@@ -496,7 +496,7 @@
   },
   {
     "sourceName": "閉塞性動脈硬化症（ASO）",
-    "name": "閉塞性動脈硬化症（ASO）",
+    "name": "ASO/閉塞性動脈硬化症",
     "slug": "aso",
     "systems": [
       "循環器"
@@ -556,7 +556,7 @@
   },
   {
     "sourceName": "ADHF（急性非代償性心不全）",
-    "name": "ADHF（急性非代償性心不全）",
+    "name": "ADHF/急性非代償性心不全",
     "slug": "adhf",
     "systems": [
       "循環器"
