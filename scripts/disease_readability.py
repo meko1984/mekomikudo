@@ -73,7 +73,8 @@ def apply_readability(page, slug, name, treatments):
     page = re.sub(r'<dd>(.*?)</dd>', lambda m:'<dd>'+points(m[1])+'</dd>' if m[1].count('。')>1 and '<ul' not in m[1] else m[0], page, flags=re.S)
     summary = '治療の基本：'+ '、'.join(b for _,b in treatments)+'。'
     if slug=='heart-failure':
-        summary='HFrEFの基本的な薬物治療は、ARNI（またはACE阻害薬・ARB）、β遮断薬、MRA、SGLT2阻害薬の4系統。病型・血圧・腎機能などで適応を判断する。'
+        summary='治療の基本：ADHFでは呼吸・循環の安定化、うっ血解除、誘因治療を優先する。安定後のHFrEFではARNI（またはACE阻害薬・ARB）、β遮断薬、MRA、SGLT2阻害薬の4系統を基本に、病型・血圧・腎機能などで個別化する。'
     page = re.sub(r'(<section id="treatment"[^>]*><h2>.*?</h2>)', lambda m:m[1]+'<div class="treatment-overview">'+points(html.escape(summary))+'</div>',page)
     page = re.sub(r'diseases\.css\?v=[^"\']+', 'diseases.css?v=20260926-1', page)
-    return page.replace('</body>', '<script src="../../../assets/js/disease-glossary.js?v=20260916-1"></script></body>')
+    glossary_version = '20260926-2' if slug == 'heart-failure' else '20260916-1'
+    return page.replace('</body>', f'<script src="../../../assets/js/disease-glossary.js?v={glossary_version}"></script></body>')

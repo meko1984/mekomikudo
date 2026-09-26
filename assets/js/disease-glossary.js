@@ -2,6 +2,9 @@
   const root = document.querySelector('.disease-detail');
   if (!root) return;
   const glossary = Object.fromEntries(`ADHF|Acute decompensated heart failure|急性非代償性心不全
+CHF|Chronic heart failure|慢性心不全
+CHDF|Continuous hemodiafiltration|持続血液濾過透析
+CS|Clinical scenario|クリニカルシナリオ（急性心不全の初期像を整理する枠組み）
 ACS|Acute coronary syndrome|急性冠症候群
 NSAIDs|Nonsteroidal anti-inflammatory drugs|非ステロイド性抗炎症薬
 RAAS|Renin-angiotensin-aldosterone system|レニン・アンジオテンシン・アルドステロン系
@@ -9,6 +12,7 @@ SCAD|Spontaneous coronary artery dissection|特発性冠動脈解離
 HFrEF|Heart failure with reduced ejection fraction|左室駆出率が低下した心不全
 HFpEF|Heart failure with preserved ejection fraction|左室駆出率が保たれた心不全
 HFmrEF|Heart failure with mildly reduced ejection fraction|左室駆出率が軽度低下した心不全
+HFimpEF|Heart failure with improved ejection fraction|左室駆出率が改善した心不全
 STEMI|ST-elevation myocardial infarction|ST上昇型心筋梗塞
 NSTEMI|Non-ST-elevation myocardial infarction|非ST上昇型心筋梗塞
 PCI|Percutaneous coronary intervention|経皮的冠動脈インターベンション

@@ -21,10 +21,10 @@
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'diagram-expand';
-    button.textContent = '図を拡大';
-    button.setAttribute('aria-label', `${name}の図を拡大`);
+    button.setAttribute('aria-label', `${name}の図を拡大して表示`);
     button.setAttribute('aria-haspopup', 'dialog');
-    svg.after(button);
+    svg.replaceWith(button);
+    button.append(svg);
     button.addEventListener('click', () => {
       opener = button;
       title.textContent = name;

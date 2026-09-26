@@ -107,6 +107,7 @@ for p in pages:
         else:
             assert len([t for t,a in parsed.tags if t=='svg'])==1,p
             assert {'diagram-title','diagram-desc'} <= set(parsed.ids),p
+
         assert not has_embedded_media(parsed), f'{p}: imported or embedded media'
         row=next(x for x in catalog['rows'] if x['href']==p.parent.name+'/')
         assert row['疾患名'] in source,p
@@ -125,5 +126,20 @@ for p in pages:
         with urlopen(url) as response:
             assert response.status==200,url
             assert response.read().decode('utf-8').replace('\r\n','\n')==source,url
+heart_failure=(ROOT/'nursing/diseases/heart-failure/index.html').read_text(encoding='utf-8')
+for required in (
+    'ADHF：急性非代償性心不全', 'CHF：慢性心不全',
+    'HFrEF：EFが低下した心不全', 'HFmrEF：EFが軽度低下した心不全',
+    'HFpEF：EFが保たれた心不全', 'CS1：', 'CS2：', 'CS3：', 'CS4：',
+    '治療の基本：ADHFでは呼吸・循環の安定化',
+):
+    assert required in heart_failure, f'heart-failure integration missing: {required}'
+assert 'CHDFは持続血液濾過透析を指し、急性心不全の略称ではない' in heart_failure
+for required in ('classification-course', 'classification-ef', 'classification-cs', 'classification-relation', '3つの分類の関係'):
+    assert required in heart_failure, f'heart-failure classification layout missing: {required}'
+styles=(ROOT/'assets/css/diseases.css').read_text(encoding='utf-8')
+assert '.classification-ef .practice-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }' in styles
+assert '.classification-cs .practice-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }' in styles
+assert '.practice-grid-count-3 { grid-template-columns: repeat(3,minmax(0,1fr)); }' in styles
 page_total=expected+1
 print(f'PASS: {expected}/{expected} source entries; {page_total} HTML pages; 10 systems; {link_count} local links/anchors; original SVGs; no raw-source markers'+(f'; HTTP {page_total}/{page_total}' if '--http' in sys.argv else ''))

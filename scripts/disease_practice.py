@@ -23,7 +23,8 @@ def enrich(page, root, slug, category):
         classes='practice-points'+((' '+extra_class) if extra_class else '')
         return '<ul class="'+classes+'">'+''.join('<li>'+e(item)+'</li>' for item in items)+'</ul>'
     def cards(pairs):
-        return '<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{e(a)}</h3>{points(b)}</article>' for a,b in pairs)+'</div>'
+        count_class=' practice-grid-count-3' if len(pairs)==3 else ''
+        return '<div class="practice-grid'+count_class+'">'+''.join(f'<article class="practice-card"><h3>{e(a)}</h3>{points(b)}</article>' for a,b in pairs)+'</div>'
     def symptom_badges(value):
         return '・'.join(f'<span class="disease-tag" data-category="{category(part,"symptom")}">{e(part)}</span>' for part in symptom_parts(value))
     def lab_badges(value):
@@ -33,7 +34,11 @@ def enrich(page, root, slug, category):
         for heading,report in pairs:
             points=re.findall(r'[^。]+。?',report)
             body.append(f'<article class="practice-card"><h3>{e(heading)}</h3><ul class="practice-report-list">'+''.join(f'<li>{e(point.strip())}</li>' for point in points if point.strip())+'</ul></article>')
-        return '<div class="practice-grid">'+''.join(body)+'</div>'
+        guide='<ol class="practice-flow-guide" aria-label="SBARの順番">'+''.join(f'<li>{e(heading.split('｜',1)[0])}</li>' for heading,_ in pairs)+'</ol>'
+        return guide+'<div class="practice-grid practice-flow-grid">'+''.join(body)+'</div>'
+    def flow_cards(pairs):
+        guide='<ol class="practice-flow-guide" aria-label="看護行動の順番">'+''.join(f'<li>{e(heading.split('｜',1)[0])}</li>' for heading,_ in pairs)+'</ol>'
+        return guide+'<div class="practice-grid practice-flow-grid">'+''.join(f'<article class="practice-card"><h3>{e(heading)}</h3>{points(body)}</article>' for heading,body in pairs)+'</div>'
     def fields(item,labels):
         return '<dl class="practice-fields">'+''.join(f'<div><dt>{label}</dt><dd>{points(item[key])}</dd></div>' for key,label in labels)+'</dl>'
     def diagram(v,i):
@@ -550,7 +555,22 @@ def enrich(page, root, slug, category):
         narrow=v['mode']=='stenosis'; mid='M144 51L165 89M196 51L175 89M144 139L165 101M196 139L175 101' if narrow else 'M156 51L168 76M184 139L172 114'
         caption='狭い弁を通る順方向の血流' if narrow else '閉じきらない弁を通る逆流'
         return f'''<svg viewBox="0 0 340 180" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">{e(v['from'])}から{e(v['to'])}：{caption}</title><rect x="12" y="52" width="110" height="87" rx="16" fill="#e9f3f9"/><rect x="218" y="52" width="110" height="87" rx="16" fill="#faeaf3"/><path d="{mid}" stroke="#17252d" stroke-width="7" fill="none"/><path d="M114 96H222L210 88M222 96L210 104" stroke="#386b91" stroke-width="4" fill="none"/><g font-family="sans-serif" font-size="18" text-anchor="middle" fill="#17252d"><text x="67" y="101">{e(v['from'])}</text><text x="273" y="101">{e(v['to'])}</text><text x="170" y="28">{'狭窄' if narrow else '逆流'}</text><text x="170" y="169" font-size="13">{caption}</text></g></svg>'''
-    variants='<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{e(v["name"])}</h3>{diagram(v,i)}<ol class="practice-chain">'+''.join(f'<li>{e(x)}</li>' for x in v['chain'])+f'</ol><div class="practice-watch"><b>観察へ</b>{points(v["watch"])}</div></article>' for i,v in enumerate(d['variants']))+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
+    def variant_card(v,i):
+        return f'<article class="practice-card" data-variant-index="{i}"><h3>{e(v["name"])}</h3>{diagram(v,i)}<ol class="practice-chain">'+''.join(f'<li>{e(x)}</li>' for x in v['chain'])+f'</ol><div class="practice-watch"><b>観察へ</b>{points(v["watch"])}</div></article>'
+    if d.get('classification_groups'):
+        groups=[]
+        for group in d['classification_groups']:
+            entries=[(i,v) for i,v in enumerate(d['variants']) if v.get('group')==group['key']]
+            if not entries:
+                continue
+            body=''.join(variant_card(v,i) for i,v in entries)
+            groups.append(f'<section class="classification-group classification-{e(group["key"])}"><h3>{e(group["title"])}</h3>{points(group["description"], "classification-description")}<div class="practice-grid">{body}</div></section>')
+        relation=''
+        if d.get('classification_relation'):
+            relation='<section class="classification-relation"><h3>3つの分類の関係</h3>'+cards(d['classification_relation'])+'</section>'
+        variants='<div class="classification-overview">'+relation+''.join(groups)+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
+    else:
+        variants='<div class="practice-grid">'+''.join(variant_card(v,i) for i,v in enumerate(d['variants']))+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
     observations='<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{symptom_badges(x["symptom"])}</h3>'+fields(x,[('how','見る・聞く'),('meaning','何を反映するか'),('compare','普段と比較'),('worse','悪化を疑う変化'),('recheck','再確認')])+'</article>' for x in d['observations'])+'</div>'
     judgment='<div class="practice-grid judgment-grid">'+''.join(f'<article class="practice-card judgment-{i}"><h3>{e(x["level"])}</h3>{points(x["condition"])}<b>次の行動</b>{points(x["action"])}</article>' for i,x in enumerate(d['judgment']))+'</div><div class="disease-lab-note">'+points('緊急度の目安。施設の急変対応基準・個別指示を優先し、数値だけで経過観察を決めない。')+'</div>'
     treatments='<div class="practice-grid">'
@@ -570,7 +590,7 @@ def enrich(page, root, slug, category):
     labs+='</div>'
     links='<ul class="disease-related">'+''.join(f'<li><a href="{e(url)}">{e(label)}</a></li>' for label,url in d['links'])+'</ul>'
     references='<ol>'+''.join(f'<li><a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(title)}</a>{points(note)}</li>' for title,url,note in d['references'])+f'</ol><div class="disease-lab-note">{points("資料確認："+d.get("reviewed_on", "2026年9月15日")+"。看護観察・報告は資料の病態とリスクを基に学習用へ整理したもの。施設の手順・個別指示に合わせて使う。")}</div>'
-    parts=[('mechanism','病型と病態のつながり',variants),('observations','症状から観察・再確認へ',observations),('judgment','看護判断：変化の緊急度',judgment),('actions','看護行動：優先順位',cards(d['actions'])),('treatment','治療前・中・後の看護',treatments),('tests','検査の意味と読み方',labs),('report','報告：SBARで情報をそろえる',report_cards(d['sbar'])),('education','患者・家族への説明',cards(d['education'])),('related','実践につながるリンク',links),('references','参考文献',references)]
+    parts=[('mechanism','病型と病態のつながり',variants),('observations','症状から観察・再確認へ',observations),('judgment','看護判断：変化の緊急度',judgment),('actions','看護行動：優先順位',flow_cards(d['actions'])),('treatment','治療前・中・後の看護',treatments),('tests','検査の意味と読み方',labs),('report','報告：SBARで情報をそろえる',report_cards(d['sbar'])),('education','患者・家族への説明',cards(d['education'])),('related','実践につながるリンク',links),('references','参考文献',references)]
     page=re.sub(r'<p class="disease-lead">.*?</p>',f'<p class="disease-lead">{e(d["lead"])}</p>',page,flags=re.S)
     start=page.index('<nav class="disease-toc"'); end=page.index('<p class="disease-lab-note">看護学習用の概念図',start)
     nav='<nav class="disease-toc" aria-label="このページの内容">'+''.join(f'<a href="#{key}">{title.split("：")[0]}</a>' for key,title,_ in parts)+'</nav>'

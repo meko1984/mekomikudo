@@ -119,9 +119,32 @@
 .practice-chain li { position: relative; padding: 9px 12px; background: #edf4f8; border-radius: 6px; font-size: .94rem; }
 .practice-chain li+li::before { content: '↓'; position: absolute; top:-20px; left:50%; }
 .practice-watch { padding: 12px; background:#fff5df; border-radius:6px; }
+.practice-grid-count-3 { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.practice-flow-guide { display:flex; flex-wrap:wrap; align-items:center; gap:.4rem; margin:0 0 1rem; padding:0; list-style:none; color:#17252d; font-weight:700; }
+.practice-flow-guide li { display:flex; align-items:center; gap:.4rem; padding:.35rem .6rem; background:var(--system-soft); border-radius:999px; }
+.practice-flow-guide li:not(:last-child)::after { content:'→'; margin-left:.35rem; color:var(--system-color); font-size:1.25rem; line-height:1; }
+.practice-flow-grid { position:relative; }
+.classification-overview { display: grid; gap: 28px; }
+.classification-group, .classification-relation { display: grid; gap: 14px; }
+.classification-group > h3, .classification-relation > h3 { margin: 0; color: #17252d; font-size: 1.18rem; }
+.classification-description { margin: 0; color: #465763; }
+.classification-description li { margin-bottom: 0; }
+.classification-relation { padding: 20px; border: 2px solid var(--system-color); border-radius: 14px; background: var(--system-soft); }
+.classification-relation .practice-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; }
+.classification-relation .practice-card { padding: 16px; box-shadow: none; border: 1px solid #d6e1e7; }
+.classification-course .practice-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.classification-ef .practice-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.classification-cs .practice-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.classification-ef .practice-card, .classification-cs .practice-card { padding: 16px; }
+.classification-ef .practice-card h3, .classification-cs .practice-card h3 { font-size: 1.02rem; }
+.classification-cs .practice-chain { gap: 12px; }
+.classification-cs .practice-chain li { padding: 8px 10px; font-size: .88rem; }
+.classification-cs .practice-watch { padding: 10px; font-size: .9rem; }
 .judgment-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
 .judgment-0 { background:#edf5ee; }.judgment-1 { background:#fff5df; }.judgment-2 { background:#fcebed; }
-@media(max-width:760px) { .practice-grid,.judgment-grid { grid-template-columns:1fr; } .practice-card { padding:16px; } }
+@media(max-width:1080px) { .classification-cs .practice-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:900px) { .classification-ef .practice-grid, .classification-relation .practice-grid, .practice-grid-count-3 { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:760px) { .practice-grid,.judgment-grid,.classification-course .practice-grid,.classification-ef .practice-grid,.classification-cs .practice-grid,.classification-relation .practice-grid,.practice-grid-count-3 { grid-template-columns:1fr; } .practice-card { padding:16px; } .classification-relation { padding:16px; } .practice-flow-guide { gap:.25rem; } }
 @media (max-width: 680px) { .disease-mechanism { grid-template-columns: 1fr; padding: 14px; gap: 20px; } .anatomy-panel { padding: 4px; } .disease-related { grid-template-columns: 1fr; } .observation-links li, .treatment-links li { grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1.5fr); padding: 13px; gap: 8px; } }
 @media (max-width: 760px) { #disease-scroll-hint { display: block; } .disease-table-scroll { overflow-x: auto; } .disease-table { min-width: 920px; font-size: .88rem; } }
 .disease-heading small { display: block; font-size: .6em; margin-block: 12px; }
@@ -140,7 +163,8 @@
 .practice-report-list { padding-inline-start: 1.25rem; margin: 0; font-size: .94rem; line-height: 1.75; overflow-wrap: anywhere; }
 .practice-report-list li + li { margin-top: .65rem; }
 
-.diagram-expand { display:block; margin:8px 0 16px; padding:10px 16px; background:#e8f1f7; color:#17252d; border:0; border-radius:8px; cursor:pointer; font:inherit; }
+.diagram-expand { display:block; width:100%; margin:8px 0 16px; padding:0; color:#17252d; background:transparent; border:0; border-radius:8px; cursor:zoom-in; font:inherit; }
+.diagram-expand svg { display:block; width:100%; height:auto; }
 .diagram-expand:focus-visible,.diagram-dialog button:focus-visible,.diagram-dialog-scroll:focus-visible { outline:3px solid #216598; outline-offset:3px; }
 .diagram-dialog { width:min(940px,calc(100vw - 24px)); max-width:calc(100vw - 24px); max-height:90dvh; box-sizing:border-box; padding:16px; border:0; border-radius:12px; color:#17252d; background:white; }
 .diagram-dialog::backdrop { background:rgb(15 25 35 / .65); }

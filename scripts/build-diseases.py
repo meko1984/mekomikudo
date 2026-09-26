@@ -314,7 +314,7 @@ for n in notes:
 <section id="treatment" class="disease-section"><h2>治療</h2><p class="section-guide">治療の対象と、主な方法。</p><ul class="treatment-links" aria-label="病態に対する治療">{treatment}</ul><p class="disease-lab-note">代表的な治療の整理。病型・重症度・禁忌・国内の適応に応じて選択する。</p></section>
 <section id="related" class="disease-section"><h2>関連リンク</h2><ul class="disease-related">{''.join(links)}<li><a href="../../medications/">薬剤一覧</a><small>{E('・'.join(drugs)) if drugs else '代表薬なし'}</small></li><li><a href="../../labs/">検査値一覧</a><small>検査の意味と関連所見</small></li></ul></section>
 <section id="references" class="disease-section"><h2>参考文献</h2><ul><li><a href="{E(source[1])}" rel="noopener noreferrer" target="_blank">{E(source[0])}</a> — 疾患の概要・評価・治療の参照資料。</li>{extra_ref}</ul><p class="disease-lab-note">内容確認：<time datetime="2026-09-15">2026年9月15日</time>。海外資料の推奨は国内の薬剤適応・施設手順と区別して読む。</p></section>
-<p class="disease-lab-note">看護学習用の概念図。実際の形・大きさ・診断所見を再現した図ではない。</p><a class="disease-back" href="../">疾患・病態の一覧に戻る</a></div></main>{footer}<script src="../../../assets/js/main.js"></script><script src="../../../assets/js/disease-diagrams.js?v=20260916-1"></script></body></html>'''
+<p class="disease-lab-note">看護学習用の概念図。実際の形・大きさ・診断所見を再現した図ではない。</p><a class="disease-back" href="../">疾患・病態の一覧に戻る</a></div></main>{footer}<script src="../../../assets/js/main.js"></script><script src="../../../assets/js/disease-diagrams.js?v=20260926-1"></script></body></html>'''
     page=enrich(page,ROOT,slug,item_category)
     page=apply_readability(page, slug, name, n['treat'])
     dest=ROOT/f'nursing/diseases/{slug}/index.html'; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_text(page,encoding='utf-8')

@@ -51,6 +51,7 @@ for item in manifest:
                 assert compact(value) in compact(clinical_text), f'{path}: unrendered {collection}.{key}'
     report_html=clinical.split('<section id="report"',1)[1].split('</section>',1)[0]
     assert report_html.count('<ul class="practice-report-list">')==4, f'{path}: report is not four bullet lists'
+    assert 'practice-flow-guide' in report_html, f'{path}: report order guide missing'
     for heading,report in d['sbar']:
         assert heading in clinical_text and report in clinical_text, f'{path}: report content lost'
     for variant in d['variants']:
@@ -65,10 +66,20 @@ for item in manifest:
             values=card[:3] if source_key=='labs' else (card[0],card[2]) if source_key=='references' else card
             for value in values:
                 assert value and compact(value) in compact(section_text), f'{path}: missing {section_id} content: {value}'
-    mechanism_html=clinical.split('<section id="mechanism"',1)[1].split('</section>',1)[0]
+    actions_html=clinical.split('<section id="actions"',1)[1].split('</section>',1)[0]
+    assert 'practice-flow-guide' in actions_html, f'{path}: action order guide missing'
+    # The mechanism section may contain semantic subsections for comparisons.
+    # Its next top-level section is the stable boundary.
+    mechanism_html=clinical.split('<section id="mechanism"',1)[1].split('<section id="observations"',1)[0]
     mechanism_text=html.unescape(re.sub(r'<[^>]+>','',mechanism_html))
-    mechanism_cards=re.findall(r'<article\b[^>]*>(.*?)</article>',mechanism_html,re.S)
-    assert len(mechanism_cards)==len(d['variants']), f'{path}: mechanism card count differs'
+    # Some pages add comparison cards before the causal diagrams.  Match each
+    # authored variant by its own heading: a flat regular-expression scan of
+    # every article cannot represent the comparison card group and its cards.
+    mechanism_cards=[]
+    for index,variant in enumerate(d['variants']):
+        match=re.search(r'<article\b[^>]*data-variant-index="'+str(index)+r'"[^>]*>(.*?)</article>',mechanism_html,re.S)
+        assert match, f'{path}: missing mechanism card: {variant["name"]}'
+        mechanism_cards.append(match.group(0))
     diagram_ids=set()
     for variant,card_html in zip(d['variants'],mechanism_cards):
         card_text=html.unescape(re.sub(r'<[^>]+>','',card_html))
