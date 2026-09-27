@@ -400,6 +400,27 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.assessment-scale-list {
+  display: grid;
+  gap: 8px;
+}
+
+.assessment-scale-group + .assessment-scale-group {
+  padding-top: 7px;
+  border-top: 1px solid #dce8e9;
+}
+
+.assessment-scale-group h4 {
+  margin: 0 0 8px;
+  color: #315f67;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.assessment-scale-group ul {
+  margin: 0;
+}
+
 .assessment-abcde-list {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));

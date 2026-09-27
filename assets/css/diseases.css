@@ -120,6 +120,8 @@
 .practice-chain li+li::before { content: '↓'; position: absolute; top:-20px; left:50%; }
 .practice-watch { padding: 12px; background:#fff5df; border-radius:6px; }
 .practice-grid-count-3 { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.practice-grid-count-3 { gap: 16px; }
+.practice-grid-count-3 .practice-card { padding: 18px; }
 .practice-flow-grid,
 .sbar-flow-grid { position:relative; gap:38px 52px; isolation:isolate; }
 .practice-flow-grid { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-flow:row; }
@@ -148,7 +150,7 @@
 .judgment-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
 .judgment-0 { background:#edf5ee; }.judgment-1 { background:#fff5df; }.judgment-2 { background:#fcebed; }
 @media(max-width:1080px) { .classification-cs .practice-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
-@media(max-width:900px) { .classification-ef .practice-grid, .classification-relation .practice-grid, .practice-grid-count-3 { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:900px) { .classification-ef .practice-grid, .classification-relation .practice-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:760px) { .practice-grid,.judgment-grid,.classification-course .practice-grid,.classification-ef .practice-grid,.classification-cs .practice-grid,.classification-relation .practice-grid,.practice-grid-count-3,.practice-flow-grid,.sbar-flow-grid { grid-template-columns:1fr; grid-template-rows:none; grid-auto-flow:row; } .practice-card { padding:16px; } .classification-relation { padding:16px; } .practice-flow-grid,.sbar-flow-grid { gap:38px; } }
 @media(orientation:portrait) { .sbar-flow-grid { grid-template-columns:1fr; grid-template-rows:none; grid-auto-flow:row; gap:38px; } }
 @media (max-width: 680px) { .disease-mechanism { grid-template-columns: 1fr; padding: 14px; gap: 20px; } .anatomy-panel { padding: 4px; } .disease-related { grid-template-columns: 1fr; } .observation-links li, .treatment-links li { grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1.5fr); padding: 13px; gap: 8px; } }

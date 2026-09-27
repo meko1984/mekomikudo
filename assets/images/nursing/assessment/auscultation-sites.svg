@@ -1,36 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" role="img" aria-labelledby="title desc">
   <title id="title">呼吸音の聴診位置</title>
-  <desc id="desc">胸郭内の肺の大きさに合わせ、前胸部と背部の左右同じ高さを交互に聴診する位置を示す。</desc>
+  <desc id="desc">前面と背面の胸郭に肺野を重ね、左右同じ高さを交互に聴診する位置を示す模式図。</desc>
   <rect width="420" height="340" rx="24" fill="#f5fafb"/>
-  <g fill="#e4f1f3" stroke="#5c9097" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6">
-    <circle cx="112" cy="39" r="18"/>
-    <path d="M75 77Q112 58 149 77l17 84-15 8v126H73V169l-15-8Z"/>
-    <circle cx="308" cy="39" r="18"/>
-    <path d="M271 77q37-19 74 0l17 84-15 8v126h-78V169l-15-8Z"/>
-  </g>
-  <g fill="none" stroke="#9dbbc0" stroke-linecap="round" stroke-width="2">
-    <path d="M83 86q29 14 58 0M112 80v116"/>
-    <path d="M279 86q29 14 58 0M308 80v139"/>
-    <path d="M286 101q15 18 0 41M330 101q-15 18 0 41" opacity=".7"/>
-  </g>
-  <g fill="#fff" stroke="#78aeb4" stroke-width="2">
-    <path d="M108 91C91 94 83 112 84 143c1 34 10 55 23 55 7 0 10-7 10-16V92Z"/>
-    <path d="M119 92v91c0 9 3 15 10 15 13 0 22-21 23-55 1-31-7-49-24-52Z"/>
-    <path d="M304 91c-17 3-25 22-24 57 1 39 10 66 23 66 7 0 10-8 10-18V92Z"/>
-    <path d="M315 92v104c0 10 3 18 10 18 13 0 22-27 23-66 1-35-7-54-24-57Z"/>
-  </g>
-  <g fill="#df8278" stroke="#fff" stroke-width="2.4">
-    <circle cx="100" cy="109" r="5.5"/><circle cx="132" cy="109" r="5.5"/>
-    <circle cx="94" cy="139" r="5.5"/><circle cx="138" cy="139" r="5.5"/>
-    <circle cx="95" cy="169" r="5.5"/><circle cx="137" cy="169" r="5.5"/>
-    <circle cx="292" cy="107" r="5.5"/><circle cx="324" cy="107" r="5.5"/>
-    <circle cx="286" cy="141" r="5.5"/><circle cx="330" cy="141" r="5.5"/>
-    <circle cx="286" cy="176" r="5.5"/><circle cx="330" cy="176" r="5.5"/>
-    <circle cx="292" cy="207" r="5.5"/><circle cx="324" cy="207" r="5.5"/>
-  </g>
-  <path d="M178 143h64m-12-10 13 10-13 10" fill="none" stroke="#a7bec1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
   <g font-family="Arial,'Noto Sans JP',sans-serif" text-anchor="middle">
-    <g fill="#365d64" font-size="15" font-weight="700"><text x="112" y="320">前面</text><text x="308" y="320">背面</text></g>
-    <g fill="#74898d" font-size="11"><text x="112" y="216">肺底部まで</text><text x="308" y="233">背面はより下方まで</text></g>
+    <g fill="#365d64" font-size="15" font-weight="700">
+      <text x="110" y="28">前面</text><text x="310" y="28">背面</text>
+    </g>
+    <g fill="#e7f2f3" stroke="#5c9097" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="110" cy="54" r="15"/>
+      <path d="M98 67v13L69 88C51 94 42 108 40 130l-5 69 18 3 8-55 3 111h92l3-111 8 55 18-3-5-69c-2-22-11-36-29-42l-29-8V67Z"/>
+      <circle cx="310" cy="54" r="15"/>
+      <path d="M298 67v13l-29 8c-18 6-27 20-29 42l-5 69 18 3 8-55 3 111h92l3-111 8 55 18-3-5-69c-2-22-11-36-29-42l-29-8V67Z"/>
+    </g>
+    <g fill="none" stroke="#9dbbc0" stroke-width="1.8" stroke-linecap="round">
+      <path d="M71 96Q92 87 110 99Q128 87 149 96M110 82v151M64 238Q110 252 156 238"/>
+      <path d="M271 96Q291 87 310 99Q329 87 349 96M310 82v166M264 238Q310 252 356 238"/>
+      <path d="M73 125Q110 112 147 125M69 153Q110 139 151 153M67 181Q110 167 153 181M65 209Q110 195 155 209" opacity=".55"/>
+      <path d="M273 125Q310 112 347 125M269 153Q310 139 351 153M267 181Q310 167 353 181M265 209Q310 195 355 209" opacity=".55"/>
+    </g>
+    <g fill="#fff" fill-opacity=".92" stroke="#6fa6ad" stroke-width="2.3" stroke-linejoin="round">
+      <path d="M104 91C85 96 72 113 70 145c-3 43 5 75 25 87 10 6 15-3 15-17V96c0-5-2-7-6-5Z"/>
+      <path d="M116 91c19 5 32 22 34 54 3 43-5 75-25 87-10 6-15-3-15-17V96c0-5 2-7 6-5Z"/>
+      <path d="M304 90c-20 6-33 25-35 61-3 48 6 82 26 96 10 7 15-3 15-18V95c0-5-2-7-6-5Z"/>
+      <path d="M316 90c20 6 33 25 35 61 3 48-6 82-26 96-10 7-15-3-15-18V95c0-5 2-7 6-5Z"/>
+    </g>
+    <g fill="#df8278" stroke="#fff" stroke-width="2.2">
+      <circle cx="91" cy="116" r="5"/><circle cx="129" cy="116" r="5"/>
+      <circle cx="82" cy="149" r="5"/><circle cx="138" cy="149" r="5"/>
+      <circle cx="82" cy="182" r="5"/><circle cx="138" cy="182" r="5"/>
+      <circle cx="91" cy="215" r="5"/><circle cx="129" cy="215" r="5"/>
+      <circle cx="291" cy="116" r="5"/><circle cx="329" cy="116" r="5"/>
+      <circle cx="281" cy="153" r="5"/><circle cx="339" cy="153" r="5"/>
+      <circle cx="281" cy="190" r="5"/><circle cx="339" cy="190" r="5"/>
+      <circle cx="291" cy="228" r="5"/><circle cx="329" cy="228" r="5"/>
+    </g>
+    <g fill="#c6655d" font-size="10.5" font-weight="700">
+      <text x="110" y="279">左右を同じ高さで比較</text>
+      <text x="310" y="279">肩甲骨を避けて聴取</text>
+    </g>
+    <g fill="#74898d" font-size="10.5">
+      <text x="110" y="309">鎖骨付近から肺底部へ</text>
+      <text x="310" y="309">上肺野から下肺野へ</text>
+    </g>
   </g>
 </svg>

@@ -582,7 +582,8 @@ def enrich(page, root, slug, category):
             relation='<section class="classification-relation"><h3>3つの分類の関係</h3>'+cards(d['classification_relation'])+'</section>'
         variants='<div class="classification-overview">'+relation+''.join(groups)+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
     else:
-        variants='<div class="practice-grid">'+''.join(variant_card(v,i) for i,v in enumerate(d['variants']))+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
+        variant_count_class=' practice-grid-count-3' if len(d['variants'])==3 else ''
+        variants='<div class="practice-grid'+variant_count_class+'">'+''.join(variant_card(v,i) for i,v in enumerate(d['variants']))+'</div><div class="disease-lab-note">'+points(d.get('diagram_note','血流と負荷の関係を表す模式図。解剖学的な位置・大きさや診断画像は再現していない。'))+'</div>'
     observations='<div class="practice-grid">'+''.join(f'<article class="practice-card"><h3>{symptom_badges(x["symptom"])}</h3>'+fields(x,[('how','見る・聞く'),('meaning','何を反映するか'),('compare','普段と比較'),('worse','悪化を疑う変化'),('recheck','再確認')])+'</article>' for x in d['observations'])+'</div>'
     judgment='<div class="practice-grid judgment-grid">'+''.join(f'<article class="practice-card judgment-{i}"><h3>{e(x["level"])}</h3>{points(x["condition"])}<b>次の行動</b>{points(x["action"])}</article>' for i,x in enumerate(d['judgment']))+'</div><div class="disease-lab-note">'+points('緊急度の目安。施設の急変対応基準・個別指示を優先し、数値だけで経過観察を決めない。')+'</div>'
     treatments='<div class="practice-grid">'
