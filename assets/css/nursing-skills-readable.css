@@ -124,11 +124,13 @@
 }
 .ecg-modified-grid > section {
   min-width: 0;
+  margin-top: 0;
   padding: 16px 17px;
   border: 1px solid #d8e5e9;
   border-radius: 12px;
   background: #f7fbfc;
 }
+.skill-detail-article .ecg-modified-grid > section + section { margin-top: 0; }
 .ecg-modified-grid h4 { margin: 0 0 8px; color: #17677a; font-size: 1.05rem; }
 .ecg-modified-grid .skill-reading-list { margin-bottom: 0; }
 /* Keep pale item rectangles distinct from the surrounding explanatory note. */

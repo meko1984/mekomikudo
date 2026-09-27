@@ -1,12 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="470" viewBox="0 0 880 470" role="img" aria-labelledby="title desc">
   <title id="title">MCL1・MCL5・NASA誘導の電極位置</title>
-  <desc id="desc">正面から見た胸部に、MCL1は左鎖骨下窩の陰極とV1位置の陽極、MCL5は左鎖骨下窩の陰極とV5位置の陽極、NASA誘導は胸骨上端の陰極と胸骨下端の陽極を示す。</desc>
+  <desc id="desc">患者を正面から見た胸部に、鎖骨、胸骨、前腋窩線を目印として各修正胸部誘導の陽極と陰極を示す。</desc>
+  <defs>
+    <g id="body" fill="none" stroke="#76a3ad" stroke-width="2.2">
+      <circle cx="69" cy="25" r="21"/>
+      <path d="M57 46V62C27 68 13 88 10 121L1 206 25 210 33 145V280H105V145L113 210 137 206 128 121C125 88 111 68 81 62V46"/>
+      <path d="M31 83Q50 73 66 86M72 86Q88 73 107 83"/>
+      <path d="M69 87V205" stroke="#b5cbd0" stroke-width="6"/>
+      <path d="M31 83Q69 104 107 83"/>
+    </g>
+  </defs>
   <rect width="880" height="470" rx="24" fill="#f7fbfc"/>
   <g font-family="system-ui,'Noto Sans JP',sans-serif" fill="#173b47">
-    <text x="440" y="35" text-anchor="middle" font-size="21" font-weight="700">陽極（＋）と陰極（−）の位置を先に確認</text>
-    <g transform="translate(32 62)"><rect width="252" height="354" rx="18" fill="#fff"/><text x="126" y="31" text-anchor="middle" font-size="19" font-weight="800" fill="#17677a">MCL1</text><g transform="translate(57 49)" fill="none" stroke="#76a3ad" stroke-width="2.2"><circle cx="69" cy="25" r="21"/><path d="M57 46 V62 C27 68 13 88 10 121 L1 206 L25 210 L33 145 V280 H105 V145 L113 210 L137 206 L128 121 C125 88 111 68 81 62 V46"/><path d="M69 63 V257"/><path d="M31 83 Q69 104 107 83"/></g><circle cx="155" cy="134" r="11" fill="#d64045"/><text x="155" y="139" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">−</text><path d="M166 134 H222" stroke="#d64045" stroke-width="2"/><text x="224" y="130" font-size="13" fill="#7e3840">左鎖骨下</text><text x="224" y="148" font-size="12" fill="#7e3840">陰極</text><circle cx="116" cy="191" r="11" fill="#246f82"/><text x="116" y="196" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">＋</text><path d="M105 191 H51" stroke="#246f82" stroke-width="2"/><text x="12" y="187" font-size="13" fill="#246f82">V1位置</text><text x="12" y="205" font-size="12" fill="#246f82">陽極</text><text x="126" y="331" text-anchor="middle" font-size="13">第4肋間・胸骨右縁</text></g>
-    <g transform="translate(314 62)"><rect width="252" height="354" rx="18" fill="#fff"/><text x="126" y="31" text-anchor="middle" font-size="19" font-weight="800" fill="#17677a">MCL5</text><g transform="translate(57 49)" fill="none" stroke="#76a3ad" stroke-width="2.2"><circle cx="69" cy="25" r="21"/><path d="M57 46 V62 C27 68 13 88 10 121 L1 206 L25 210 L33 145 V280 H105 V145 L113 210 L137 206 L128 121 C125 88 111 68 81 62 V46"/><path d="M69 63 V257"/><path d="M31 83 Q69 104 107 83"/></g><circle cx="155" cy="134" r="11" fill="#d64045"/><text x="155" y="139" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">−</text><path d="M166 134 H222" stroke="#d64045" stroke-width="2"/><text x="224" y="130" font-size="13" fill="#7e3840">左鎖骨下</text><text x="224" y="148" font-size="12" fill="#7e3840">陰極</text><circle cx="174" cy="225" r="11" fill="#246f82"/><text x="174" y="230" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">＋</text><path d="M185 225 H232" stroke="#246f82" stroke-width="2"/><text x="193" y="247" font-size="13" fill="#246f82">V5位置・陽極</text><text x="126" y="331" text-anchor="middle" font-size="13">V4と同じ高さ・左前腋窩線</text></g>
-    <g transform="translate(596 62)"><rect width="252" height="354" rx="18" fill="#fff"/><text x="126" y="31" text-anchor="middle" font-size="19" font-weight="800" fill="#17677a">NASA</text><g transform="translate(57 49)" fill="none" stroke="#76a3ad" stroke-width="2.2"><circle cx="69" cy="25" r="21"/><path d="M57 46 V62 C27 68 13 88 10 121 L1 206 L25 210 L33 145 V280 H105 V145 L113 210 L137 206 L128 121 C125 88 111 68 81 62 V46"/><path d="M69 63 V257"/><path d="M31 83 Q69 104 107 83"/></g><circle cx="126" cy="142" r="11" fill="#d64045"/><text x="126" y="147" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">−</text><path d="M115 142 H47" stroke="#d64045" stroke-width="2"/><text x="12" y="126" font-size="13" fill="#7e3840">胸骨上端</text><text x="12" y="144" font-size="12" fill="#7e3840">陰極</text><circle cx="126" cy="270" r="11" fill="#246f82"/><text x="126" y="275" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">＋</text><path d="M137 270 H218" stroke="#246f82" stroke-width="2"/><text x="166" y="250" font-size="13" fill="#246f82">胸骨下端</text><text x="166" y="268" font-size="12" fill="#246f82">陽極</text><text x="126" y="331" text-anchor="middle" font-size="13">基準電極は機器手順で確認</text></g>
-    <g transform="translate(287 437)"><circle cx="0" cy="0" r="7" fill="#246f82"/><text x="13" y="5" font-size="13">陽極（＋）</text><circle cx="122" cy="0" r="7" fill="#d64045"/><text x="135" y="5" font-size="13">陰極（−）</text><text x="232" y="5" font-size="13" fill="#58717a">左右は患者本人から見た側</text></g>
+    <text x="440" y="35" text-anchor="middle" font-size="21" font-weight="700">骨の目印から、陽極（＋）と陰極（−）を確認</text>
+
+    <g transform="translate(32 62)">
+      <rect width="252" height="354" rx="18" fill="#fff"/>
+      <text x="126" y="31" text-anchor="middle" font-size="19" font-weight="800" fill="#17677a">MCL1</text>
+      <use href="#body" transform="translate(57 49)"/>
+      <circle cx="155" cy="134" r="11" fill="#d64045"/><text x="155" y="139" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">−</text>
+      <path d="M166 134H222" stroke="#d64045" stroke-width="2"/><text x="224" y="130" font-size="13" fill="#7e3840">左鎖骨下</text><text x="224" y="148" font-size="12" fill="#7e3840">陰極</text>
+      <circle cx="116" cy="191" r="11" fill="#246f82"/><text x="116" y="196" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">＋</text>
+      <path d="M105 191H51" stroke="#246f82" stroke-width="2"/><text x="12" y="187" font-size="13" fill="#246f82">V1位置</text><text x="12" y="205" font-size="12" fill="#246f82">陽極</text>
+      <text x="126" y="345" text-anchor="middle" font-size="13">第4肋間・胸骨右縁</text>
+    </g>
+
+    <g transform="translate(314 62)">
+      <rect width="252" height="354" rx="18" fill="#fff"/>
+      <text x="126" y="31" text-anchor="middle" font-size="19" font-weight="800" fill="#17677a">MCL5</text>
+      <use href="#body" transform="translate(57 49)"/>
+      <circle cx="155" cy="134" r="11" fill="#d64045"/><text x="155" y="139" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">−</text>
+      <path d="M166 134H222" stroke="#d64045" stroke-width="2"/><text x="224" y="130" font-size="13" fill="#7e3840">左鎖骨下</text><text x="224" y="148" font-size="12" fill="#7e3840">陰極</text>
+      <path d="M126 225H180" stroke="#7faab4" stroke-width="1.5" stroke-dasharray="5 4"/>
+      <circle cx="180" cy="225" r="11" fill="#246f82"/><text x="180" y="230" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">＋</text>
+      <path d="M191 225H232" stroke="#246f82" stroke-width="2"/><text x="188" y="248" font-size="12" fill="#246f82">V5位置・陽極</text>
+      <text x="126" y="345" text-anchor="middle" font-size="13">V4と同じ高さ・左前腋窩線</text>
+    </g>
+
+    <g transform="translate(596 62)">
+      <rect width="252" height="354" rx="18" fill="#fff"/>
+      <text x="126" y="31" text-anchor="middle" font-size="19" font-weight="800" fill="#17677a">NASA</text>
+      <use href="#body" transform="translate(57 49)"/>
+      <circle cx="126" cy="142" r="11" fill="#d64045"/><text x="126" y="147" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">−</text>
+      <path d="M115 142H47" stroke="#d64045" stroke-width="2"/><text x="12" y="126" font-size="13" fill="#7e3840">胸骨上端</text><text x="12" y="144" font-size="12" fill="#7e3840">陰極</text>
+      <path d="M126 154V224" stroke="#9dbbc2" stroke-width="2" stroke-dasharray="5 4"/>
+      <circle cx="126" cy="235" r="11" fill="#246f82"/><text x="126" y="240" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">＋</text>
+      <path d="M137 235H218" stroke="#246f82" stroke-width="2"/><text x="166" y="216" font-size="13" fill="#246f82">胸骨下端</text><text x="166" y="234" font-size="12" fill="#246f82">陽極</text>
+      <text x="126" y="345" text-anchor="middle" font-size="13">胸骨内に上下2電極を配置</text>
+    </g>
+
+    <g transform="translate(287 437)">
+      <circle r="7" fill="#246f82"/><text x="13" y="5" font-size="13">陽極（＋）</text>
+      <circle cx="122" r="7" fill="#d64045"/><text x="135" y="5" font-size="13">陰極（−）</text>
+      <text x="232" y="5" font-size="13" fill="#58717a">左右は患者本人から見た側</text>
+    </g>
   </g>
 </svg>

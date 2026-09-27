@@ -52,7 +52,7 @@ function renderNursingSkillCategory(category) {
 function renderNursingSkillsTable() {
   const mount = document.querySelector("[data-nursing-skills]");
   const skills = Array.isArray(window.NURSING_SKILLS) ? window.NURSING_SKILLS : [];
-  const sortState = { key: null, direction: "asc" };
+  const sortState = { key: "category", direction: "asc" };
   if (!mount) return;
 
   mount.innerHTML = `
