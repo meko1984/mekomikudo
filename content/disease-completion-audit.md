@@ -34,7 +34,6 @@
 | [HHS（高浸透圧高血糖状態）](../nursing/diseases/hhs/index.html) | 高血糖から脱水・高浸透圧へ／治療中：細胞内外の水分とKが変化 | 2 | 5 | 5 | 2 | 3 |
 | [IAD（失禁関連皮膚炎）](../nursing/diseases/iad/index.html) | IAD：皮膚の表面からバリアが傷む／褥瘡との違い：圧迫・ずれで組織が傷む | 2 | 4 | 3 | 1 | 3 |
 | [SAH（くも膜下出血）](../nursing/diseases/sah/index.html) | 動脈瘤破裂：髄液の空間へ出血／遅発性脳虚血：術後も神経所見を比較／水頭症：髄液が循環しにくい | 3 | 6 | 10 | 2 | 8 |
-| [SSS（洞不全症候群）](../nursing/diseases/sick-sinus/index.html) | 徐脈・洞停止：必要な心拍を保ちにくい／徐脈頻脈症候群：頻脈の終了時にも注目 | 2 | 4 | 4 | 1 | 5 |
 | [ショック](../nursing/diseases/shock/index.html) | 循環血液量減少性：戻る血液が不足／心原性：心臓が送り出せない／血液分布異常性：血管の広がりと漏出／閉塞性① 肺塞栓：右心から肺へ送りにくい／閉塞性② 緊張性気胸：胸腔内の圧が上がる／閉塞性③ 心タンポナーデ：心臓が広がれない | 6 | 6 | 8 | 2 | 6 |
 | [ダンピング症候群](../nursing/diseases/dumping/index.html) | 早期：食後まもない体液移動／後期：糖吸収の後に血糖が下がる | 2 | 4 | 4 | 0 | 5 |
 | [ネフローゼ症候群](../nursing/diseases/nephrotic/index.html) | 糸球体の障害：蛋白が尿へ漏れる／浮腫：血管と組織の水分を分けて考える | 2 | 4 | 4 | 1 | 4 |
@@ -77,7 +76,7 @@
 | [肺血栓塞栓症（PTE/PE）](../nursing/diseases/pulmonary-embolism/index.html) | 肺血流が妨げられる段階／右心が耐えられず循環が不安定 | 2 | 4 | 4 | 2 | 5 |
 | [肺高血圧症](../nursing/diseases/pulmonary-hypertension/index.html) | 第1群：PAH・小さな肺動脈の病変／第2群：左心疾患から圧が伝わる／第3群：肺疾患・低酸素に伴う変化／第4群：慢性血栓塞栓性肺高血圧症／各群で注意：右心不全と低心拍出 | 5 | 6 | 8 | 2 | 4 |
 | [肺水腫](../nursing/diseases/pulmonary-edema/index.html) | 心原性：肺毛細血管の圧が上がる／非心原性：血管と肺胞の壁が傷む | 2 | 5 | 5 | 1 | 4 |
-| [不整脈／心房細動](../nursing/diseases/atrial-fibrillation/index.html) | 電気の乱れと循環への負担／血流停滞と塞栓 | 2 | 5 | 5 | 3 | 6 |
+| [不整脈](../nursing/diseases/arrhythmia/index.html) | AF／SSS／上室性頻拍／期外収縮／房室ブロック／VT・VF | 6 | 8 | 9 | 3 | 11 |
 | [閉塞性動脈硬化症（ASO）](../nursing/diseases/aso/index.html) | 慢性狭窄：歩行時の需要に血流が足りない／慢性の高度虚血：皮膚・組織が保てない／急性虚血：血流が急に途絶える | 3 | 5 | 5 | 1 | 4 |
 | [弁膜症](../nursing/diseases/valvular-disease/index.html) | 大動脈弁狭窄（AS）／大動脈弁逆流：急性AR／大動脈弁逆流：慢性AR／僧帽弁狭窄：リウマチ性／僧帽弁狭窄：変性・石灰化／僧帽弁逆流：一次性MR／僧帽弁逆流：二次性MR（左室由来）／僧帽弁逆流：二次性MR（左房由来）／三尖弁逆流：一次性TR／三尖弁逆流：二次性TR | 10 | 6 | 8 | 2 | 12 |
 | [蜂窩織炎](../nursing/diseases/cellulitis/index.html) | 真皮・皮下組織に広がる感染／鑑別：皮膚膿瘍（膿がたまる）／緊急鑑別：壊死性軟部組織感染症 | 3 | 3 | 4 | 1 | 5 |

@@ -51,7 +51,8 @@ for item in manifest:
                 assert compact(value) in compact(clinical_text), f'{path}: unrendered {collection}.{key}'
     report_html=clinical.split('<section id="report"',1)[1].split('</section>',1)[0]
     assert report_html.count('<ul class="practice-report-list">')==4, f'{path}: report is not four bullet lists'
-    assert 'practice-flow-guide' in report_html, f'{path}: report order guide missing'
+    assert 'sbar-flow-grid' in report_html and 'data-card-flow="sbar"' in report_html, f'{path}: SBAR flow grid missing'
+    assert 'practice-flow-guide' not in report_html, f'{path}: duplicate SBAR number guide remains'
     for heading,report in d['sbar']:
         assert heading in clinical_text and report in clinical_text, f'{path}: report content lost'
     for variant in d['variants']:
@@ -67,7 +68,8 @@ for item in manifest:
             for value in values:
                 assert value and compact(value) in compact(section_text), f'{path}: missing {section_id} content: {value}'
     actions_html=clinical.split('<section id="actions"',1)[1].split('</section>',1)[0]
-    assert 'practice-flow-guide' in actions_html, f'{path}: action order guide missing'
+    assert 'practice-flow-grid' in actions_html and 'data-card-flow="actions"' in actions_html, f'{path}: action flow grid missing'
+    assert 'practice-flow-guide' not in actions_html, f'{path}: duplicate action number guide remains'
     # The mechanism section may contain semantic subsections for comparisons.
     # Its next top-level section is the stable boundary.
     mechanism_html=clinical.split('<section id="mechanism"',1)[1].split('<section id="observations"',1)[0]

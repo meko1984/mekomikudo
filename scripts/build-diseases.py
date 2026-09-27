@@ -47,6 +47,7 @@ REFS.update({
  'rhabdo':('CDC：Treatment of Rhabdomyolysis','https://www.cdc.gov/niosh/rhabdo/treatment/index.html'),
  'respiratory':('NHLBI：Respiratory Failure','https://www.nhlbi.nih.gov/health/respiratory-failure'),
  'sss':('NHLBI：Conduction Disorders','https://www.nhlbi.nih.gov/health/conduction-disorders'),
+ 'arrhythmia':('日本循環器学会／日本不整脈心電学会：不整脈診療ガイドライン','https://www.j-circ.or.jp/cms/wp-content/uploads/2020/01/JCS2019_Ono.pdf'),
  'vertebral':('日本整形外科学会：脊椎椎体骨折','https://www.joa.or.jp/public/sick/condition/vertebral_compression_fracture.html'),
  'pneumothorax':('NHS Gloucestershire：Spontaneous primary pneumothorax','https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/spontaneous-primary-pneumothorax/'),
  'disuse':('NHS Sussex：How and why to stay active in hospital','https://www.uhsussex.nhs.uk/resources/how-and-why-to-stay-active-in-hospital/'),
@@ -239,7 +240,7 @@ DISPLAY_NAMES={
  'adhf':'ADHF/急性非代償性心不全',
  'aki':'AKI/急性腎障害',
  'aso':'ASO/閉塞性動脈硬化症',
- 'atrial-fibrillation':'AF/心房細動',
+ 'arrhythmia':'不整脈',
  'ckd':'CKD/慢性腎臓病',
  'copd':'COPD/慢性閉塞性肺疾患',
  'dvt':'VTE/DVT/静脈血栓塞栓症・深部静脈血栓症',
@@ -248,7 +249,6 @@ DISPLAY_NAMES={
  'nph':'NPH/正常圧水頭症',
  'pulmonary-embolism':'PTE/PE/肺血栓塞栓症',
  'sah':'SAH/くも膜下出血',
- 'sick-sinus':'SSS/洞不全症候群',
  'subdural-hematoma':'SDH/硬膜下血腫',
  'uti':'UTI/尿路感染症',
 }
@@ -304,7 +304,7 @@ for n in notes:
         links.append(f'<li><a href="../{other}/">{E(by_slug[other]["name"])}</a><small>関連する疾患・病態</small></li>')
     page=f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(name)}｜疾患・病態｜永遠の新人看護師備忘録</title><meta name="description" content="{E(name)}の病態生理・症状と観察・治療を、短い説明とオリジナル図でつなぐ学習ノート。">
-<link rel="canonical" href="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="robots" content="index,follow"><meta name="theme-color" content="#eef6f8"><meta property="og:title" content="{E(name)}｜疾患・病態"><meta property="og:description" content="{E(name)}を図で理解する看護学習ノート。"><meta property="og:site_name" content="永遠の新人看護師備忘録"><meta property="og:type" content="article"><meta property="og:locale" content="ja_JP"><meta property="og:url" content="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="twitter:card" content="summary"><link rel="icon" href="../../../favicon.ico"><link rel="stylesheet" href="../../../assets/css/styles.css?v=20260726-1"><link rel="stylesheet" href="../../../assets/css/diseases.css?v=20260926-1"></head>
+<link rel="canonical" href="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="robots" content="index,follow"><meta name="theme-color" content="#eef6f8"><meta property="og:title" content="{E(name)}｜疾患・病態"><meta property="og:description" content="{E(name)}を図で理解する看護学習ノート。"><meta property="og:site_name" content="永遠の新人看護師備忘録"><meta property="og:type" content="article"><meta property="og:locale" content="ja_JP"><meta property="og:url" content="https://mekomikudo.jp/nursing/diseases/{slug}/"><meta name="twitter:card" content="summary"><link rel="icon" href="../../../favicon.ico"><link rel="stylesheet" href="../../../assets/css/styles.css?v=20260927-1"><link rel="stylesheet" href="../../../assets/css/diseases.css?v=20260926-1"></head>
 <body data-page="nursing" data-section="diseases">{header}<main id="main-content" data-system="{system}"><div class="wrap disease-detail">
 <nav aria-label="パンくず"><a href="../">疾患・病態</a> / {E(name)}</nav><header class="disease-detail-hero"><p>{region}</p><h1 class="disease-heading">{E(name)}</h1><p class="disease-lead">{E(n['flow'][0])}。{E(n['flow'][2])}につながる。</p><dl class="disease-summary">{summaries}</dl></header>
 <p class="disease-lab-note">検査値は代表的な変化。全例に共通する診断基準ではなく、病期・治療・併存症で変わる。</p>

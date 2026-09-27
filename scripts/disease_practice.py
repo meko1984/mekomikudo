@@ -34,11 +34,10 @@ def enrich(page, root, slug, category):
         for heading,report in pairs:
             points=re.findall(r'[^。]+。?',report)
             body.append(f'<article class="practice-card"><h3>{e(heading)}</h3><ul class="practice-report-list">'+''.join(f'<li>{e(point.strip())}</li>' for point in points if point.strip())+'</ul></article>')
-        guide='<ol class="practice-flow-guide" aria-label="SBARの順番">'+''.join(f'<li>{e(heading.split('｜',1)[0])}</li>' for heading,_ in pairs)+'</ol>'
-        return guide+'<div class="practice-grid practice-flow-grid">'+''.join(body)+'</div>'
+        return '<div class="practice-grid sbar-flow-grid" data-card-flow="sbar" aria-label="SBARの順番">'+''.join(body)+'</div>'
     def flow_cards(pairs):
-        guide='<ol class="practice-flow-guide" aria-label="看護行動の順番">'+''.join(f'<li>{e(heading.split('｜',1)[0])}</li>' for heading,_ in pairs)+'</ol>'
-        return guide+'<div class="practice-grid practice-flow-grid">'+''.join(f'<article class="practice-card"><h3>{e(heading)}</h3>{points(body)}</article>' for heading,body in pairs)+'</div>'
+        cards=''.join(f'<article class="practice-card"><h3>{e(heading)}</h3>{points(body)}</article>' for heading,body in pairs)
+        return f'<div class="practice-grid practice-flow-grid" data-card-flow="actions" aria-label="看護行動の順番">{cards}</div>'
     def fields(item,labels):
         return '<dl class="practice-fields">'+''.join(f'<div><dt>{label}</dt><dd>{points(item[key])}</dd></div>' for key,label in labels)+'</dl>'
     def diagram(v,i):
@@ -386,6 +385,19 @@ def enrich(page, root, slug, category):
                 mark='<rect x="158" y="98" width="34" height="28" rx="5" fill="#925e6d"/><path d="M112 112H151L142 105M151 112L142 119M200 112H237L228 105M237 112L228 119" stroke="#6b818f" stroke-width="3" fill="none"/>'
                 heading='物理的な閉塞：腸閉塞'; lower='部位・完全性・原因を評価'
             return f'''<svg viewBox="0 0 350 245" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">{e(v['name'])}の通過障害</title><g font-family="sans-serif" text-anchor="middle" fill="#17252d"><text x="175" y="22" font-size="14">{heading}</text>{bowel}{mark}<text x="175" y="221" font-size="13">{lower}</text></g></svg>'''
+        if v['mode'] in ('rhythm-fast','rhythm-ectopy','rhythm-block','rhythm-ventricular'):
+            mode=v['mode']
+            labels={
+                'rhythm-fast':('速い刺激が続く','規則的な頻脈','動悸・低灌流'),
+                'rhythm-ectopy':('早い刺激が混じる','期外収縮','頻度・連続性を確認'),
+                'rhythm-block':('伝導が遅れる・途切れる','房室ブロック','症状と伝導の型を確認'),
+                'rhythm-ventricular':('心室由来の速い活動','VT・VF','反応・呼吸・脈を確認')
+            }
+            upper,middle,lower=labels[mode]
+            urgent=mode=='rhythm-ventricular'
+            beats={'rhythm-fast':[42,72,102,132,162,192,222,252,282,312], 'rhythm-ectopy':[42,92,128,188,238,288], 'rhythm-block':[42,92,192,242,292], 'rhythm-ventricular':[37,63,91,116,145,171,198,224,253,278,307]}[mode]
+            line=''.join(f'<path d="M{x} 116V{67 if urgent else 78}" stroke="{("#a9596e" if urgent else "#718da8")}" stroke-width="{4 if urgent else 3}"/>' for x in beats)
+            return f'''<svg viewBox="0 0 350 245" role="img" aria-labelledby="variant-{i}" xmlns="http://www.w3.org/2000/svg"><title id="variant-{i}">{e(v['name'])}の概要</title><g font-family="sans-serif" text-anchor="middle" fill="#17252d"><text x="175" y="25" font-size="14">{upper}</text><path d="M25 116H325" stroke="#b8c7cf" stroke-width="2"/>{line}<text x="175" y="151" font-size="15">{middle}</text><path d="M175 164V183L168 175M175 183L182 175" stroke="#6b818f" stroke-width="3" fill="none"/><text x="175" y="207" font-size="13">{lower}</text><text x="175" y="232" font-size="11">実際の心電図波形を再現した図ではない</text></g></svg>'''
         if v['mode'] in ('af-conduction','af-embolism'):
             embolism=v['mode']=='af-embolism'
             if embolism:
@@ -588,7 +600,7 @@ def enrich(page, root, slug, category):
             labs+=f'<p><a href="../../labs/?lab={quote(detail)}">{e(label)}の検査詳細</a></p>'
         labs+='</article>'
     labs+='</div>'
-    links='<ul class="disease-related">'+''.join(f'<li><a href="{e(url)}">{e(label)}</a></li>' for label,url in d['links'])+'</ul>'
+    links='<ul class="disease-related">'+''.join(f'<li><a href="{e(url)}"'+(' target="_blank" rel="noopener noreferrer"' if url.startswith('https://') else '')+f'>{e(label)}</a></li>' for label,url in d['links'])+'</ul>'
     references='<ol>'+''.join(f'<li><a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(title)}</a>{points(note)}</li>' for title,url,note in d['references'])+f'</ol><div class="disease-lab-note">{points("資料確認："+d.get("reviewed_on", "2026年9月15日")+"。看護観察・報告は資料の病態とリスクを基に学習用へ整理したもの。施設の手順・個別指示に合わせて使う。")}</div>'
     parts=[('mechanism','病型と病態のつながり',variants),('observations','症状から観察・再確認へ',observations),('judgment','看護判断：変化の緊急度',judgment),('actions','看護行動：優先順位',flow_cards(d['actions'])),('treatment','治療前・中・後の看護',treatments),('tests','検査の意味と読み方',labs),('report','報告：SBARで情報をそろえる',report_cards(d['sbar'])),('education','患者・家族への説明',cards(d['education'])),('related','実践につながるリンク',links),('references','参考文献',references)]
     page=re.sub(r'<p class="disease-lead">.*?</p>',f'<p class="disease-lead">{e(d["lead"])}</p>',page,flags=re.S)

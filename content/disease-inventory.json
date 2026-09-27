@@ -41,11 +41,11 @@
     "status": "implemented-source-checked"
   },
   {
-    "name": "SSS（洞不全症候群）",
+    "name": "不整脈",
     "systems": [
       "循環器"
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "status": "implemented-source-checked"
   },
   {
@@ -383,14 +383,6 @@
     "name": "肺水腫",
     "systems": [
       "呼吸器",
-      "循環器"
-    ],
-    "sourceCount": 1,
-    "status": "implemented-source-checked"
-  },
-  {
-    "name": "不整脈/心房細動",
-    "systems": [
       "循環器"
     ],
     "sourceCount": 1,

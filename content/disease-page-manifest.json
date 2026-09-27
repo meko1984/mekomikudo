@@ -51,14 +51,14 @@
     "reference": "https://www.nhs.uk/conditions/subarachnoid-haemorrhage/"
   },
   {
-    "sourceName": "SSS（洞不全症候群）",
-    "name": "SSS/洞不全症候群",
-    "slug": "sick-sinus",
+    "sourceName": "不整脈",
+    "name": "不整脈",
+    "slug": "arrhythmia",
     "systems": [
       "循環器"
     ],
     "diagram": "rhythm",
-    "reference": "https://www.nhlbi.nih.gov/health/conduction-disorders"
+    "reference": "https://www.j-circ.or.jp/cms/wp-content/uploads/2020/01/JCS2019_Ono.pdf"
   },
   {
     "sourceName": "ショック",
@@ -483,16 +483,6 @@
     ],
     "diagram": "alveolar-fill",
     "reference": "https://medlineplus.gov/ency/article/000140.htm"
-  },
-  {
-    "sourceName": "不整脈/心房細動",
-    "name": "AF/心房細動",
-    "slug": "atrial-fibrillation",
-    "systems": [
-      "循環器"
-    ],
-    "diagram": "rhythm",
-    "reference": "https://www.nhs.uk/conditions/atrial-fibrillation/"
   },
   {
     "sourceName": "閉塞性動脈硬化症（ASO）",

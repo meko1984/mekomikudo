@@ -1,14 +1,14 @@
 """Authored concise definitions and shared, semantic readability transforms."""
 import html, re
 
-DEFINITIONS = dict(line.split('|', 1) for line in '''ckd|腎臓の障害、または腎機能の低下が3か月以上続く状態
+DEFINITIONS = dict(line.split('|', 1) for line in '''ckd|腎臓の障害、または腎機能の低下が≥3か月続く状態
 adhf|心臓の働きが急に悪化し、うっ血や全身への血流不足による症状が新たに現れる、または増悪する状態
 ileus-bowel-obstruction|腸閉塞は物理的な障害で腸内容が進めない状態、イレウスは機械的な閉塞がなく腸管運動が低下した状態
 copd|気道や肺胞の障害により、息を吐くときの空気の流れが持続的に制限される病気
 hhs|著しい高血糖に重い脱水と血液の高浸透圧を伴う状態
 iad|尿や便の接触による湿潤・刺激で皮膚が炎症を起こす状態
 sah|脳を覆うくも膜の下の空間に出血する病気
-sick-sinus|心拍の起点となる洞結節の働きが障害され、徐脈や心拍の停止などが起こる状態
+arrhythmia|心拍の速さ・遅さ・規則性や、心臓内での電気刺激の伝わり方が乱れた状態の総称
 shock|組織への血流や酸素供給が不足し、臓器の働きを保てなくなる危険な状態
 dumping|胃の手術後などに食べ物が小腸へ急速に流れ、食後の腹部症状や低血糖などが起こる状態
 nephrotic|尿に大量の蛋白が失われ、血液中のアルブミン低下やむくみを生じる状態
@@ -51,7 +51,6 @@ emphysema|肺胞の壁が壊れ、空気を吐き出す力やガス交換の面�
 pulmonary-embolism|主に静脈でできた血栓が肺動脈に流れ込み、血流を妨げる病気
 pulmonary-hypertension|肺の血管を流れる血液の圧力が高くなる状態
 pulmonary-edema|肺の間質や肺胞に水分がたまり、酸素を取り込みにくくなる状態
-atrial-fibrillation|心房細動は心房の電気活動が乱れ、有効な収縮が失われて脈が不規則になる不整脈
 aso|主に脚の動脈が動脈硬化で狭くなったり詰まったりして、血流が不足する病気
 valvular-disease|心臓の弁が開きにくくなる、または閉じきらず血液が逆流する病気
 cellulitis|細菌が真皮や皮下組織に感染し、赤み・腫れ・熱感・痛みを起こす病気
@@ -65,7 +64,7 @@ def points(text):
 
 def apply_readability(page, slug, name, treatments):
     definition = DEFINITIONS[slug]
-    lead = definition if slug in ('tamponade','dvt','cerebral-edema','atrial-fibrillation') else name+'とは、'+definition
+    lead = definition if slug in ('tamponade','dvt','cerebral-edema') else name+'とは、'+definition
     page = re.sub(r'(<p class="disease-lead">).*?</p>', lambda m:m[1]+html.escape(lead)+'。</p>', page, flags=re.S)
     page = re.sub(r'(<nav class="disease-toc".*?</nav>)', r'<details class="disease-toc-disclosure"><summary>ページ内の目次</summary>\1</details>', page, flags=re.S)
     # Split complete sentences, not commas: keep qualifications attached to their claims.
@@ -75,6 +74,6 @@ def apply_readability(page, slug, name, treatments):
     if slug=='heart-failure':
         summary='治療の基本：ADHFでは呼吸・循環の安定化、うっ血解除、誘因治療を優先する。安定後のHFrEFではARNI（またはACE阻害薬・ARB）、β遮断薬、MRA、SGLT2阻害薬の4系統を基本に、病型・血圧・腎機能などで個別化する。'
     page = re.sub(r'(<section id="treatment"[^>]*><h2>.*?</h2>)', lambda m:m[1]+'<div class="treatment-overview">'+points(html.escape(summary))+'</div>',page)
-    page = re.sub(r'diseases\.css\?v=[^"\']+', 'diseases.css?v=20260926-1', page)
+    page = re.sub(r'diseases\.css\?v=[^"\']+', 'diseases.css?v=20260927-1', page)
     glossary_version = '20260926-2' if slug == 'heart-failure' else '20260916-1'
-    return page.replace('</body>', f'<script src="../../../assets/js/disease-glossary.js?v={glossary_version}"></script></body>')
+    return page.replace('</body>', f'<script src="../../../assets/js/disease-flow.js?v=20260927-2"></script><script src="../../../assets/js/disease-glossary.js?v={glossary_version}"></script></body>')

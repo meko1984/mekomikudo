@@ -763,42 +763,6 @@ window.NURSING_DATABASE = {
       "system": "cardiovascular"
     },
     {
-      "疾患名": "AF/心房細動",
-      "領域": [
-        "循環器"
-      ],
-      "主な症状": [
-        "動悸",
-        "息切れ",
-        "塞栓",
-        "出血"
-      ],
-      "検査値UP": [],
-      "検査値DOWN": [],
-      "関連薬剤": [
-        "抗凝固薬",
-        "心拍数",
-        "リズム調節薬"
-      ],
-      "_categories": {
-        "主な症状": [
-          "circulation",
-          "breathing",
-          "general",
-          "hematology"
-        ],
-        "検査値UP": [],
-        "検査値DOWN": [],
-        "関連薬剤": [
-          "antithrombotic",
-          "cardiovascular-drug",
-          "cardiovascular-drug"
-        ]
-      },
-      "href": "atrial-fibrillation/",
-      "system": "cardiovascular"
-    },
-    {
       "疾患名": "ASO/閉塞性動脈硬化症",
       "領域": [
         "循環器"
@@ -843,38 +807,6 @@ window.NURSING_DATABASE = {
       "system": "cardiovascular"
     },
     {
-      "疾患名": "SSS/洞不全症候群",
-      "領域": [
-        "循環器"
-      ],
-      "主な症状": [
-        "めまい",
-        "失神",
-        "疲労",
-        "頻脈との交代"
-      ],
-      "検査値UP": [],
-      "検査値DOWN": [],
-      "関連薬剤": [
-        "アトロピン"
-      ],
-      "_categories": {
-        "主な症状": [
-          "neurologic",
-          "circulation",
-          "general",
-          "circulation"
-        ],
-        "検査値UP": [],
-        "検査値DOWN": [],
-        "関連薬剤": [
-          "cardiovascular-drug"
-        ]
-      },
-      "href": "sick-sinus/",
-      "system": "cardiovascular"
-    },
-    {
       "疾患名": "VTE/DVT/静脈血栓塞栓症・深部静脈血栓症",
       "領域": [
         "循環器"
@@ -912,6 +844,52 @@ window.NURSING_DATABASE = {
         ]
       },
       "href": "dvt/",
+      "system": "cardiovascular"
+    },
+    {
+      "疾患名": "不整脈",
+      "領域": [
+        "循環器"
+      ],
+      "主な症状": [
+        "動悸",
+        "脈の不整",
+        "めまい",
+        "失神",
+        "息切れ",
+        "胸痛",
+        "神経症状",
+        "出血"
+      ],
+      "検査値UP": [],
+      "検査値DOWN": [],
+      "関連薬剤": [
+        "抗凝固薬",
+        "心拍数調節薬",
+        "リズム調節薬",
+        "アトロピン"
+      ],
+      "_categories": {
+        "主な症状": [
+          "circulation",
+          "circulation",
+          "neurologic",
+          "circulation",
+          "breathing",
+          "pain",
+          "neurologic",
+          "hematology"
+        ],
+        "検査値UP": [],
+        "検査値DOWN": [],
+        "関連薬剤": [
+          "antithrombotic",
+          "cardiovascular-drug",
+          "cardiovascular-drug",
+          "cardiovascular-drug"
+        ]
+      },
+      "href": "arrhythmia/",
       "system": "cardiovascular"
     },
     {
