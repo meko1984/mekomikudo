@@ -25,8 +25,31 @@ if (navToggle && siteNav) {
   };
 
   const setDropdownState = (dropdown, isOpen) => {
+    if (isOpen) positionDropdown(dropdown);
     dropdown.classList.toggle("is-open", isOpen);
     dropdown.querySelector(".nav-dropdown-toggle")?.setAttribute("aria-expanded", String(isOpen));
+  };
+
+  const positionDropdown = (dropdown) => {
+    const menu = dropdown.querySelector(".nav-dropdown-menu");
+    if (!menu || window.innerWidth <= 900) {
+      menu?.style.removeProperty("--nav-dropdown-shift-x");
+      return;
+    }
+
+    menu.style.setProperty("--nav-dropdown-shift-x", "0px");
+    const viewportPadding = 32;
+    const dropdownRect = dropdown.getBoundingClientRect();
+    const menuLeft = dropdownRect.left + menu.offsetLeft;
+    const menuRight = menuLeft + menu.offsetWidth;
+    const overflowRight = menuRight - (window.innerWidth - viewportPadding);
+    const shiftLeft = Math.max(0, overflowRight);
+    const availableShift = Math.max(0, menuLeft - viewportPadding);
+
+    menu.style.setProperty(
+      "--nav-dropdown-shift-x",
+      `${-Math.min(shiftLeft, availableShift)}px`,
+    );
   };
 
   const closeDropdowns = (except = null) => {
@@ -39,6 +62,9 @@ if (navToggle && siteNav) {
     const toggle = dropdown.querySelector(".nav-dropdown-toggle");
     const firstLink = dropdown.querySelector(".nav-dropdown-menu a");
     if (!toggle) return;
+
+    dropdown.addEventListener("mouseenter", () => positionDropdown(dropdown));
+    dropdown.addEventListener("focusin", () => positionDropdown(dropdown));
 
     toggle.addEventListener("click", (event) => {
       event.stopPropagation();
