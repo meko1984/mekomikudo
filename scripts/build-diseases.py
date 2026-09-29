@@ -8,6 +8,7 @@ from disease_readability import apply_readability
 from disease_categories import item_category, symptom_parts
 
 ROOT = Path(__file__).resolve().parents[1]
+CATALOG_VERSION = '20260929-1'
 E = html.escape
 SYSTEMS = {
  '呼吸器': 'respiratory', '循環器': 'cardiovascular', '消化器': 'digestive',
@@ -332,5 +333,9 @@ rows.sort(key=lambda row: (SYSTEM_RANK[row['領域'][0]], row['疾患名'].casef
 sorted_systems=sorted(((DISPLAY_SYSTEM.get(k,k),v) for k,v in SYSTEMS.items()),key=lambda x:SYSTEM_RANK[x[0]])
 catalog={'countLabel':'疾患・病態','columns':['疾患名','領域','主な症状','検査値UP','検査値DOWN','代表的な薬'],'systems':dict(sorted_systems),'rows':rows}
 (ROOT/'data/disease-catalog.js').write_text('window.NURSING_DATABASE = '+json.dumps(catalog,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
+index_path=ROOT/'nursing/diseases/index.html'
+index_html=index_path.read_text(encoding='utf-8')
+index_html=re.sub(r'disease-catalog\.js\?v=[^"\']+', f'disease-catalog.js?v={CATALOG_VERSION}', index_html)
+index_path.write_text(index_html,encoding='utf-8')
 (ROOT/'content/disease-page-manifest.json').write_text(json.dumps([{'sourceName':inventory[n['index']]['name'],'name':n['name'],'slug':n['slug'],'systems':n['systems'],'diagram':n['motif'],'reference':REFS[n['ref']][1]} for n in notes],ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Built {len(notes)} static disease pages, {len(SYSTEMS)} systems, {len(set(n["motif"] for n in notes))} explanatory diagram motifs.')
