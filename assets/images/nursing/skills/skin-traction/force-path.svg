@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img" aria-labelledby="title desc">
+  <title id="title">介達牽引の力の伝わり方と確認点</title>
+  <desc id="desc">重錘からロープ、牽引具、皮膚と軟部組織を介して骨へ力が伝わる。重錘の浮遊、滑車内のロープ、皮膚と包帯、末梢神経血管を確認する図。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#9b5f5f"/></marker></defs>
+  <rect width="880" height="360" rx="24" fill="#fbf8f4"/>
+  <text x="48" y="47" font-family="sans-serif" font-size="22" font-weight="700" fill="#213b4a">重錘から患肢まで、力の道を一本ずつたどる</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(48 88)"><rect width="138" height="112" rx="16" fill="#fff" stroke="#b99090" stroke-width="3"/><path d="M45 35h48v43H45z" fill="#e7c9c3" stroke="#805252" stroke-width="3"/><path d="M69 12v23" stroke="#805252" stroke-width="4"/><text x="69" y="101" font-size="16" fill="#243b48">重錘</text></g>
+    <path d="M190 144h88" stroke="#9b5f5f" stroke-width="5" marker-end="url(#arrow)"/>
+    <g transform="translate(286 88)"><rect width="138" height="112" rx="16" fill="#fff" stroke="#b99090" stroke-width="3"/><circle cx="69" cy="45" r="24" fill="#e9eef0" stroke="#476b7c" stroke-width="4"/><path d="M12 45h33m48 0h33" stroke="#476b7c" stroke-width="5"/><text x="69" y="101" font-size="16" fill="#243b48">滑車・ロープ</text></g>
+    <path d="M428 144h88" stroke="#9b5f5f" stroke-width="5" marker-end="url(#arrow)"/>
+    <g transform="translate(524 88)"><rect width="138" height="112" rx="16" fill="#fff" stroke="#b99090" stroke-width="3"/><rect x="28" y="28" width="82" height="42" rx="18" fill="#f1d8bb" stroke="#9b6a43" stroke-width="3"/><path d="M37 30v38m16-40v42m32-42v42m16-40v38" stroke="#c19069" stroke-width="4"/><text x="69" y="101" font-size="16" fill="#243b48">皮膚・包帯</text></g>
+    <path d="M666 144h88" stroke="#9b5f5f" stroke-width="5" marker-end="url(#arrow)"/>
+    <g transform="translate(762 88)"><rect width="70" height="112" rx="16" fill="#fff" stroke="#b99090" stroke-width="3"/><path d="M35 20v65" stroke="#e2c194" stroke-width="14" stroke-linecap="round"/><text x="35" y="103" font-size="16" fill="#243b48">骨</text></g>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#243b48">
+    <rect x="48" y="236" width="234" height="82" rx="14" fill="#eef5f6"/><text x="67" y="263" font-weight="700">装置</text><text x="67" y="289">重錘が床・ベッドに触れない</text><text x="67" y="311">ロープが滑車の溝を通る</text>
+    <rect x="323" y="236" width="234" height="82" rx="14" fill="#f6ede9"/><text x="342" y="263" font-weight="700">皮膚・固定</text><text x="342" y="289">ずれ・しわ・食い込み・発赤</text><text x="342" y="311">腓骨頭・踵・足関節の圧迫</text>
+    <rect x="598" y="236" width="234" height="82" rx="14" fill="#eef5f6"/><text x="617" y="263" font-weight="700">患肢の先</text><text x="617" y="289">痛み・感覚・運動・色・温度</text><text x="617" y="311">毛細血管再充満・腫脹</text>
+  </g>
+</svg>

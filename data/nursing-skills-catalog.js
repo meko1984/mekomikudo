@@ -18,6 +18,8 @@ window.NURSING_SKILLS = [
   { name: "心電図", category: "症状・生体機能管理技術", summary: "モニター・12誘導の装着、基本波形、アーチファクトと緊急時対応", href: "ecg/" },
   { name: "透析", category: "症状・生体機能管理技術", summary: "血液透析の仕組み、透析前・中・後の観察、シャント・カテーテル管理", href: "dialysis/" },
   { name: "包帯法", category: "創傷管理技術", summary: "包帯の選び方、巻き方、末梢神経血管の観察と異常時対応", href: "bandaging/" },
+  { name: "介達牽引（皮膚牽引）", category: "症状・生体機能管理技術", summary: "牽引の仕組み、装置の確認、皮膚・末梢神経血管の観察、異常時対応", href: "skin-traction/" },
+  { name: "直達牽引（骨牽引）", category: "症状・生体機能管理技術", summary: "牽引の仕組み、装置と刺入部の管理、末梢神経血管の観察、感染徴候", href: "skeletal-traction/" },
   { name: "注射", category: "与薬の技術", summary: "注射の種類、部位・角度、実施手順", href: "injection/" },
   { name: "ドップラーによる血流確認", category: "呼吸・循環を整える技術", summary: "末梢動脈の確認部位、プローブの当て方、左右比較と異常時対応", href: "doppler/" },
   { name: "吸引", category: "呼吸・循環を整える技術", summary: "口腔・鼻腔・人工気道の圧、深さ、手順と観察", href: "suction/" },

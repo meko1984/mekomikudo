@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 820" role="img" aria-labelledby="title desc">
+  <title id="title">直達牽引の力の伝わり方と確認点</title><desc id="desc">重錘、ロープと滑車、牽引弓とピン、骨の順に力が直接伝わる。装置、刺入部、患肢の先を確認する縦長図。</desc>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0l9 4.5L0 9z" fill="#7c5d8f"/></marker></defs>
+  <rect width="420" height="820" rx="22" fill="#f8f7fb"/><text x="24" y="38" font-family="sans-serif" font-size="19" font-weight="700" fill="#213b4a">ピンから骨へ直接伝わる力</text>
+  <g font-family="sans-serif" text-anchor="middle" fill="#243b48">
+    <g transform="translate(60 64)"><rect width="300" height="88" rx="15" fill="#fff" stroke="#a894b5" stroke-width="3"/><path d="M55 26h48v36H55z" fill="#d9cde2" stroke="#6c527e" stroke-width="3"/><path d="M79 8v18" stroke="#6c527e" stroke-width="4"/><text x="194" y="39" font-size="18" font-weight="700">重錘</text><text x="194" y="64" font-size="14">床・ベッドに触れない</text></g>
+    <path d="M210 158v37" stroke="#7c5d8f" stroke-width="5" marker-end="url(#a)"/>
+    <g transform="translate(60 205)"><rect width="300" height="88" rx="15" fill="#fff" stroke="#a894b5" stroke-width="3"/><circle cx="79" cy="39" r="22" fill="#e9eef0" stroke="#476b7c" stroke-width="4"/><path d="M30 39h27m44 0h27" stroke="#476b7c" stroke-width="5"/><text x="205" y="35" font-size="18" font-weight="700">滑車・ロープ</text><text x="205" y="61" font-size="14">溝・接触・結び目を確認</text></g>
+    <path d="M210 299v37" stroke="#7c5d8f" stroke-width="5" marker-end="url(#a)"/>
+    <g transform="translate(60 346)"><rect width="300" height="88" rx="15" fill="#fff" stroke="#a894b5" stroke-width="3"/><path d="M35 65q44-64 88 0" fill="none" stroke="#6c527e" stroke-width="6"/><path d="M45 58h68" stroke="#526d78" stroke-width="5"/><circle cx="45" cy="58" r="6" fill="#b46d62"/><circle cx="113" cy="58" r="6" fill="#b46d62"/><text x="213" y="35" font-size="18" font-weight="700">牽引弓・ピン</text><text x="213" y="61" font-size="14">ゆるみ・変形・皮膚の張力</text></g>
+    <path d="M210 440v37" stroke="#7c5d8f" stroke-width="5" marker-end="url(#a)"/>
+    <g transform="translate(60 487)"><rect width="300" height="88" rx="15" fill="#fff" stroke="#a894b5" stroke-width="3"/><path d="M79 17v53" stroke="#e2c194" stroke-width="20" stroke-linecap="round"/><path d="M38 44h82" stroke="#526d78" stroke-width="6"/><text x="208" y="35" font-size="18" font-weight="700">骨</text><text x="208" y="61" font-size="14">ピンから直接牽引</text></g>
+  </g>
+  <g font-family="sans-serif" fill="#243b48"><rect x="24" y="610" width="372" height="80" rx="14" fill="#f1edf4"/><text x="42" y="638" font-size="16" font-weight="700">ピン刺入部</text><text x="42" y="663" font-size="14">発赤・熱感・腫脹・疼痛</text><text x="42" y="684" font-size="14">排液・出血・ゆるみ・発熱</text><rect x="24" y="706" width="372" height="88" rx="14" fill="#eef5f6"/><text x="42" y="734" font-size="16" font-weight="700">患肢の先</text><text x="42" y="759" font-size="14">痛み・感覚・運動・色・温度</text><text x="42" y="780" font-size="14">毛細血管再充満・腫脹</text></g>
+</svg>
