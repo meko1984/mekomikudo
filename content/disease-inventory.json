@@ -451,5 +451,30 @@
     ],
     "sourceCount": 3,
     "status": "implemented-source-checked"
+  },
+  {
+    "name": "1型糖尿病",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "sourceCount": 3,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "2型糖尿病",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "sourceCount": 3,
+    "status": "implemented-source-checked"
+  },
+  {
+    "name": "糖尿病性ケトアシドーシス",
+    "systems": [
+      "内分泌代謝",
+      "救急"
+    ],
+    "sourceCount": 3,
+    "status": "implemented-source-checked"
   }
 ]

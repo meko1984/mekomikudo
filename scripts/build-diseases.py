@@ -58,7 +58,10 @@ REFS.update({
  'infection':('CDC：About Infections','https://www.cdc.gov/infection-control/about/index.html'),
  'electrolytes':('MedlinePlus：Fluid and Electrolyte Balance','https://medlineplus.gov/fluidandelectrolytebalance.html'),
  'edema':('Neurocritical Care Society：Acute Treatment of Cerebral Edema（2020）','https://www.neurocriticalcare.org/Portals/0/Docs/Resources/Cook2020_Article_GuidelinesForTheAcuteTreatment.pdf'),
- 'pulmonary-edema':('MedlinePlus：Pulmonary edema','https://medlineplus.gov/ency/article/000140.htm')
+ 'pulmonary-edema':('MedlinePlus：Pulmonary edema','https://medlineplus.gov/ency/article/000140.htm'),
+ 'diabetes-type1':('糖尿病情報センター：1型糖尿病ってどんな病気？','https://dmic.jihs.go.jp/general/about-dm/050/010/01.html'),
+ 'diabetes-type2':('糖尿病情報センター：糖尿病とは','https://dmic.jihs.go.jp/general/about-dm/010/010/01.html'),
+ 'dka':('日本糖尿病学会：糖尿病診療ガイドライン2024 第20章','https://www.jds.or.jp/uploads/files/publications/gl2024/20.pdf')
 })
 
 def text(x,y,s,size=16):
@@ -251,6 +254,10 @@ DISPLAY_NAMES={
  'sah':'SAH/くも膜下出血',
  'subdural-hematoma':'SDH/硬膜下血腫',
  'uti':'UTI/尿路感染症',
+ 'diabetes':'糖尿病（全体像）',
+ 'diabetes-type1':'1型糖尿病',
+ 'diabetes-type2':'2型糖尿病',
+ 'dka':'DKA/糖尿病性ケトアシドーシス',
 }
 for n in notes:
     item=inventory[n['index']]; n['name']=item['name']; n['systems']=item['systems']; n['system']=SYSTEMS[item['systems'][0]]

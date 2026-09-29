@@ -1681,6 +1681,149 @@ window.NURSING_DATABASE = {
       "system": "renal"
     },
     {
+      "疾患名": "1型糖尿病",
+      "領域": [
+        "内分泌・代謝"
+      ],
+      "主な症状": [
+        "口渇",
+        "多尿",
+        "嘔吐",
+        "腹痛",
+        "冷汗",
+        "意識変化"
+      ],
+      "検査値UP": [
+        "血糖",
+        "ケトン体"
+      ],
+      "検査値DOWN": [
+        "血糖"
+      ],
+      "関連薬剤": [
+        "インスリン"
+      ],
+      "_categories": {
+        "主な症状": [
+          "metabolic",
+          "urinary",
+          "digestive",
+          "pain",
+          "circulation",
+          "neurologic"
+        ],
+        "検査値UP": [
+          "glucose-lab",
+          "general-lab"
+        ],
+        "検査値DOWN": [
+          "glucose-lab"
+        ],
+        "関連薬剤": [
+          "metabolic-drug"
+        ]
+      },
+      "href": "diabetes-type1/",
+      "system": "endocrine"
+    },
+    {
+      "疾患名": "2型糖尿病",
+      "領域": [
+        "内分泌・代謝"
+      ],
+      "主な症状": [
+        "口渇",
+        "多尿",
+        "感染",
+        "摂取低下",
+        "足の傷"
+      ],
+      "検査値UP": [
+        "血糖",
+        "HbA1c"
+      ],
+      "検査値DOWN": [
+        "血糖"
+      ],
+      "関連薬剤": [
+        "病態",
+        "併存症に応じた血糖降下薬",
+        "インスリン"
+      ],
+      "_categories": {
+        "主な症状": [
+          "metabolic",
+          "urinary",
+          "infection",
+          "digestive",
+          "general"
+        ],
+        "検査値UP": [
+          "glucose-lab",
+          "glucose-lab"
+        ],
+        "検査値DOWN": [
+          "glucose-lab"
+        ],
+        "関連薬剤": [
+          "general-drug",
+          "metabolic-drug",
+          "metabolic-drug"
+        ]
+      },
+      "href": "diabetes-type2/",
+      "system": "endocrine"
+    },
+    {
+      "疾患名": "DKA/糖尿病性ケトアシドーシス",
+      "領域": [
+        "内分泌・代謝",
+        "救急"
+      ],
+      "主な症状": [
+        "嘔吐",
+        "腹痛",
+        "深い呼吸",
+        "脱水"
+      ],
+      "検査値UP": [
+        "血糖",
+        "ケトン体",
+        "アニオンギャップ"
+      ],
+      "検査値DOWN": [
+        "HCO3-",
+        "K"
+      ],
+      "関連薬剤": [
+        "速効型インスリン",
+        "電解質製剤"
+      ],
+      "_categories": {
+        "主な症状": [
+          "digestive",
+          "pain",
+          "breathing",
+          "general"
+        ],
+        "検査値UP": [
+          "glucose-lab",
+          "general-lab",
+          "general-lab"
+        ],
+        "検査値DOWN": [
+          "blood-gas",
+          "electrolyte"
+        ],
+        "関連薬剤": [
+          "metabolic-drug",
+          "fluid-drug"
+        ]
+      },
+      "href": "dka/",
+      "system": "endocrine"
+    },
+    {
       "疾患名": "HHS/高浸透圧高血糖状態",
       "領域": [
         "内分泌・代謝",
@@ -1776,7 +1919,7 @@ window.NURSING_DATABASE = {
       "system": "endocrine"
     },
     {
-      "疾患名": "糖尿病",
+      "疾患名": "糖尿病（全体像）",
       "領域": [
         "内分泌・代謝"
       ],

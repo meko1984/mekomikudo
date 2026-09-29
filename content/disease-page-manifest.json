@@ -354,7 +354,7 @@
   },
   {
     "sourceName": "糖尿病",
-    "name": "糖尿病",
+    "name": "糖尿病（全体像）",
     "slug": "diabetes",
     "systems": [
       "内分泌代謝"
@@ -563,5 +563,36 @@
     ],
     "diagram": "transit",
     "reference": "https://www.jstage.jst.go.jp/article/jaem/43/1/43_29/_pdf/-char/ja"
+  },
+  {
+    "sourceName": "1型糖尿病",
+    "name": "1型糖尿病",
+    "slug": "diabetes-type1",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "diagram": "glucose",
+    "reference": "https://dmic.jihs.go.jp/general/about-dm/050/010/01.html"
+  },
+  {
+    "sourceName": "2型糖尿病",
+    "name": "2型糖尿病",
+    "slug": "diabetes-type2",
+    "systems": [
+      "内分泌代謝"
+    ],
+    "diagram": "glucose",
+    "reference": "https://dmic.jihs.go.jp/general/about-dm/010/010/01.html"
+  },
+  {
+    "sourceName": "糖尿病性ケトアシドーシス",
+    "name": "DKA/糖尿病性ケトアシドーシス",
+    "slug": "dka",
+    "systems": [
+      "内分泌代謝",
+      "救急"
+    ],
+    "diagram": "depletion",
+    "reference": "https://www.jds.or.jp/uploads/files/publications/gl2024/20.pdf"
   }
 ]
